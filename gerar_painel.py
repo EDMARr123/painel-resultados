@@ -53,18 +53,22 @@ TEMPLATE = r"""<!doctype html>
 <title>Painel de Resultados — Equipe GYN</title>
 <style>
 :root {
-  --bg: #0B0D12; --surface: #12151C; --surface-2: #191D26; --border: #262B36;
-  --ink: #F2F3F5; --ink-soft: #9AA1AE; --ink-faint: #6B7280;
-  --accent: #4F8CFF; --good: #2FBF71; --warn: #E0A72E; --bad: #E2685F;
-  --gold: #E7B23B;
+  /* Paleta extraída do PowerPoint original (tema + slides): fundo branco,
+     vermelho T&T (BF2B24) nos títulos, dourado (F3C500) nos destaques de
+     troféu, creme (FFECB3) nos cartões de vitrine. */
+  --bg: #FFFFFF; --surface: #FFFFFF; --surface-2: #F7F4EE; --border: #E6E1D6;
+  --ink: #1A1A1A; --ink-soft: #55524C; --ink-faint: #8A867C;
+  --accent: #BF2B24; --good: #196B24; --warn: #E97132; --bad: #BF2B24;
+  --gold: #F3C500; --creme: #FFECB3;
 }
 * { box-sizing: border-box; }
 html, body { height: 100%; }
 body {
   margin: 0; background: var(--bg); color: var(--ink); overflow: hidden;
-  font-family: ui-sans-serif, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family: "Georgia", "Times New Roman", ui-serif, serif;
   -webkit-font-smoothing: antialiased;
 }
+h1, h2, .eyebrow, .destaque-nome { font-family: Georgia, "Times New Roman", ui-serif, serif; }
 
 .slides { height: 100vh; width: 100vw; position: relative; }
 .slide {
@@ -89,8 +93,9 @@ body {
 .rank-row {
   display: grid; grid-template-columns: 34px 1fr 120px; align-items: center; gap: 16px;
   background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 14px 20px;
-  text-align: left;
+  text-align: left; box-shadow: 0 2px 10px rgba(26,26,26,0.06);
 }
+.rank-row.n1 { border-color: var(--gold); background: var(--creme); }
 .rank-row .pos { font-size: 20px; font-weight: 800; color: var(--ink-faint); text-align: center; }
 .rank-row.n1 .pos { color: var(--gold); }
 .rank-row .nome { font-size: 17px; font-weight: 800; }
@@ -117,7 +122,8 @@ body {
 .destaque-sub { color: var(--ink-soft); font-size: 16px; margin-top: -8px; }
 .destaque-motivo {
   max-width: 640px; font-size: 18px; color: var(--ink-soft); line-height: 1.5;
-  background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 20px 26px; margin-top: 10px;
+  background: var(--creme); border: 1px solid var(--gold); border-radius: 16px; padding: 20px 26px; margin-top: 10px;
+  box-shadow: 0 2px 10px rgba(26,26,26,0.06);
 }
 .trofeu { font-size: 44px; margin-bottom: -6px; }
 
@@ -129,7 +135,7 @@ body {
   position: fixed; top: 50%; transform: translateY(-50%); z-index: 20;
   width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--border);
   background: var(--surface); color: var(--ink-soft); display: flex; align-items: center; justify-content: center;
-  cursor: pointer; font-size: 20px;
+  cursor: pointer; font-size: 20px; box-shadow: 0 2px 10px rgba(26,26,26,0.08);
 }
 .nav-arrow:hover { color: var(--ink); border-color: var(--accent); }
 .nav-arrow.prev { left: 20px; }
