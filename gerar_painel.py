@@ -103,13 +103,11 @@ h1, h2, .eyebrow, .destaque-nome, .capa-linha {
 .capa-titulo { margin: 0 0 40px; line-height: 1.15; }
 .capa-linha { display: block; font-size: clamp(30px, 5.2vw, 56px); font-weight: 900; color: var(--accent); letter-spacing: 0.01em; }
 .capa-linha.ano { font-size: clamp(22px, 3.6vw, 38px); }
-.capa .logo-anel {
-  width: 260px; height: 220px; border-radius: 50%; padding: 10px;
-  background: linear-gradient(180deg, #FFFFFF 0%, #C8C6BD 100%);
-  box-shadow: 0 18px 30px -12px rgba(26,26,26,0.35);
-  display: flex; align-items: center; justify-content: center;
+.capa .logo-anel { display: flex; align-items: center; justify-content: center; }
+.capa .logo-anel img {
+  width: 320px; height: auto; max-width: 70vw;
+  filter: drop-shadow(0 14px 24px rgba(26,26,26,0.3));
 }
-.capa .logo-anel img { width: 100%; height: 100%; object-fit: contain; border-radius: 50%; background: #fff; }
 
 /* Ranking */
 .ranking { width: 100%; max-width: 900px; display: flex; flex-direction: column; gap: 12px; }
