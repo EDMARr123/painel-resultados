@@ -13,9 +13,17 @@ PASTA_BASE = os.path.dirname(os.path.abspath(__file__))
 CAMINHO_DADOS = os.path.join(PASTA_BASE, "dados.json")
 CAMINHO_SAIDA = os.path.join(PASTA_BASE, "painel.html")
 
-# Reaproveita as fotos já cadastradas no painel_pilares.
+# Reaproveita as fotos e o logo já cadastrados no painel_pilares.
 PASTA_FOTOS_SUPERVISORES = os.path.join(PASTA_BASE, "..", "painel_pilares", "fotos_supervisores")
 PASTA_FOTOS_RCAS = os.path.join(PASTA_BASE, "..", "painel_pilares", "fotos_rcas")
+CAMINHO_LOGO = os.path.join(PASTA_BASE, "..", "painel_pilares", "logo_tet.png")
+
+
+def _logo_data_uri():
+    if not os.path.exists(CAMINHO_LOGO):
+        return ""
+    with open(CAMINHO_LOGO, "rb") as f:
+        return "data:image/png;base64," + base64.b64encode(f.read()).decode("ascii")
 
 
 def _fotos_json(pasta, com_subpastas):
@@ -44,6 +52,7 @@ def _fotos_json(pasta, com_subpastas):
 
 _FOTOS_SUPERVISORES_JSON = _fotos_json(PASTA_FOTOS_SUPERVISORES, com_subpastas=False)
 _FOTOS_RCAS_JSON = _fotos_json(PASTA_FOTOS_RCAS, com_subpastas=True)
+_LOGO_URI = _logo_data_uri()
 
 TEMPLATE = r"""<!doctype html>
 <html lang="pt-BR">
@@ -51,6 +60,9 @@ TEMPLATE = r"""<!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Painel de Resultados — Equipe GYN</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700;900&display=swap" rel="stylesheet">
 <style>
 :root {
   /* Paleta extraída do PowerPoint original (tema + slides): fundo branco,
@@ -65,10 +77,12 @@ TEMPLATE = r"""<!doctype html>
 html, body { height: 100%; }
 body {
   margin: 0; background: var(--bg); color: var(--ink); overflow: hidden;
-  font-family: "Georgia", "Times New Roman", ui-serif, serif;
+  font-family: ui-sans-serif, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
-h1, h2, .eyebrow, .destaque-nome { font-family: Georgia, "Times New Roman", ui-serif, serif; }
+h1, h2, .eyebrow, .destaque-nome, .capa-linha {
+  font-family: "Roboto Slab", Georgia, "Times New Roman", ui-serif, serif;
+}
 
 .slides { height: 100vh; width: 100vw; position: relative; }
 .slide {
@@ -84,9 +98,18 @@ h1, h2, .eyebrow, .destaque-nome { font-family: Georgia, "Times New Roman", ui-s
 .slide h2 { font-size: clamp(24px, 3.4vw, 38px); font-weight: 800; margin: 0 0 28px; }
 .slide .sub { color: var(--ink-soft); font-size: clamp(15px, 1.6vw, 19px); margin: 0 0 8px; }
 
-/* Capa */
-.capa .logo { width: 72px; height: 72px; border-radius: 18px; background: var(--surface-2); display: flex; align-items: center; justify-content: center; font-size: 34px; margin-bottom: 22px; }
-.capa .mes-pill { margin-top: 22px; background: var(--surface-2); border: 1px solid var(--border); border-radius: 999px; padding: 8px 22px; font-size: 16px; font-weight: 700; color: var(--accent); }
+/* Capa — replica o slide 1 do PowerPoint: título vermelho em 3 linhas
+   (evento / mês / ano) + logo T&T dentro de um anel prateado com sombra. */
+.capa-titulo { margin: 0 0 40px; line-height: 1.15; }
+.capa-linha { display: block; font-size: clamp(30px, 5.2vw, 56px); font-weight: 900; color: var(--accent); letter-spacing: 0.01em; }
+.capa-linha.ano { font-size: clamp(22px, 3.6vw, 38px); }
+.capa .logo-anel {
+  width: 260px; height: 220px; border-radius: 50%; padding: 10px;
+  background: linear-gradient(180deg, #FFFFFF 0%, #C8C6BD 100%);
+  box-shadow: 0 18px 30px -12px rgba(26,26,26,0.35);
+  display: flex; align-items: center; justify-content: center;
+}
+.capa .logo-anel img { width: 100%; height: 100%; object-fit: contain; border-radius: 50%; background: #fff; }
 
 /* Ranking */
 .ranking { width: 100%; max-width: 900px; display: flex; flex-direction: column; gap: 12px; }
@@ -171,13 +194,17 @@ function iniciais(nome) {
 }
 
 function slideCapa() {
+  const partesMes = (DADOS.mes || "").split(" ");
+  const mesNome = (partesMes[0] || "").toUpperCase();
+  const ano = partesMes[1] || "";
   return `
     <div class="slide capa active">
-      <div class="logo">🍗</div>
-      <div class="eyebrow">T&amp;T Alimentos</div>
-      <h1>Reunião de Fechamento</h1>
-      <p class="sub">Resultado do mês, time por time</p>
-      <div class="mes-pill">${DADOS.mes || ""}</div>
+      <h1 class="capa-titulo">
+        <span class="capa-linha">REUNIÃO DE FECHAMENTO</span>
+        <span class="capa-linha">${mesNome}</span>
+        <span class="capa-linha ano">${ano}</span>
+      </h1>
+      <div class="logo-anel"><img src="__LOGO_URI__" alt="T&amp;T Alimentos"></div>
     </div>`;
 }
 
@@ -303,6 +330,7 @@ def gerar_html(dados):
     html = TEMPLATE.replace("__DADOS_JSON__", json.dumps(dados, ensure_ascii=False))
     html = html.replace("__FOTOS_SUPERVISORES_JSON__", _FOTOS_SUPERVISORES_JSON)
     html = html.replace("__FOTOS_RCAS_JSON__", _FOTOS_RCAS_JSON)
+    html = html.replace("__LOGO_URI__", _LOGO_URI)
     return html
 
 
