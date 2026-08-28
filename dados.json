@@ -1,0 +1,136 @@
+{
+  "mes": "Julho 2026",
+  "vendedor_destaque": {
+    "codigo": "",
+    "nome": "",
+    "supervisor": "",
+    "motivo": ""
+  },
+  "supervisor_destaque": {
+    "nome": "",
+    "motivo": ""
+  },
+  "pilares_por_supervisor": [
+    {
+      "supervisor": "LEANDRO",
+      "rcas": 7,
+      "pilares_media": 2.142857142857143,
+      "financeiro_pct": 0.8131696076742699,
+      "positivacao_pct": 0.995202291442893,
+      "margem_pct": 1.0441135933197063,
+      "mix_pct": 1.0247095378159083,
+      "recompra_pct": 0.2915885512636742
+    },
+    {
+      "supervisor": "RICHARD",
+      "rcas": 8,
+      "pilares_media": 1.875,
+      "financeiro_pct": 0.8750991949064718,
+      "positivacao_pct": 0.9908801164976926,
+      "margem_pct": 1.0370534203766995,
+      "mix_pct": 1.0116279069767442,
+      "recompra_pct": 0.23465734743033193
+    },
+    {
+      "supervisor": "IDEGLAN",
+      "rcas": 7,
+      "pilares_media": 1.7142857142857142,
+      "financeiro_pct": 0.879018582099194,
+      "positivacao_pct": 1.043423178646557,
+      "margem_pct": 0.9781426647043153,
+      "mix_pct": 1.0548282633808241,
+      "recompra_pct": 0.3016275136043437
+    },
+    {
+      "supervisor": "RODRIGO",
+      "rcas": 7,
+      "pilares_media": 1.7142857142857142,
+      "financeiro_pct": 0.7662839784056941,
+      "positivacao_pct": 0.9787454089311675,
+      "margem_pct": 0.9784024596897634,
+      "mix_pct": 1.0479138900040146,
+      "recompra_pct": 0.2563528960290314
+    },
+    {
+      "supervisor": "RICARDO",
+      "rcas": 7,
+      "pilares_media": 1.5714285714285714,
+      "financeiro_pct": 0.817334819886497,
+      "positivacao_pct": 0.9993409355136434,
+      "margem_pct": 0.9673792408262917,
+      "mix_pct": 1.0048469387755101,
+      "recompra_pct": 0.3669081213509738
+    },
+    {
+      "supervisor": "FLAVIANE",
+      "rcas": 7,
+      "pilares_media": 1.4285714285714286,
+      "financeiro_pct": 0.7184816601647773,
+      "positivacao_pct": 0.8904672228997167,
+      "margem_pct": 0.9921696093608113,
+      "mix_pct": 0.9849670329670329,
+      "recompra_pct": 0.3341174417659879
+    },
+    {
+      "supervisor": "EDMAR",
+      "rcas": 2,
+      "pilares_media": 1.0,
+      "financeiro_pct": 0.6926162134096613,
+      "positivacao_pct": 0.9626262626262626,
+      "margem_pct": 0.40126010252983313,
+      "mix_pct": 1.0165064102564103,
+      "recompra_pct": 0.20614035087719296
+    }
+  ],
+  "departamentos_por_supervisor": [
+    {
+      "supervisor": "RODRIGO",
+      "categorias_media": 2.5714285714285716,
+      "total_categorias": 9,
+      "bateram": 0,
+      "rcas": 7
+    },
+    {
+      "supervisor": "LEANDRO",
+      "categorias_media": 2.4285714285714284,
+      "total_categorias": 9,
+      "bateram": 0,
+      "rcas": 7
+    },
+    {
+      "supervisor": "IDEGLAN",
+      "categorias_media": 2.142857142857143,
+      "total_categorias": 9,
+      "bateram": 0,
+      "rcas": 7
+    },
+    {
+      "supervisor": "FLAVIANE",
+      "categorias_media": 1.2857142857142858,
+      "total_categorias": 9,
+      "bateram": 0,
+      "rcas": 7
+    },
+    {
+      "supervisor": "EDMAR",
+      "categorias_media": 1.0,
+      "total_categorias": 9,
+      "bateram": 0,
+      "rcas": 2
+    },
+    {
+      "supervisor": "RICHARD",
+      "categorias_media": 0.7142857142857143,
+      "total_categorias": 9,
+      "bateram": 0,
+      "rcas": 7
+    },
+    {
+      "supervisor": "RICARDO",
+      "categorias_media": 0.42857142857142855,
+      "total_categorias": 9,
+      "bateram": 0,
+      "rcas": 7
+    }
+  ]
+}

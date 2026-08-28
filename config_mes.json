@@ -1,0 +1,13 @@
+{
+  "mes": "Julho 2026",
+  "vendedor_destaque": {
+    "codigo": "",
+    "nome": "",
+    "supervisor": "",
+    "motivo": ""
+  },
+  "supervisor_destaque": {
+    "nome": "",
+    "motivo": ""
+  }
+}
