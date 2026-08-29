@@ -1,5 +1,5 @@
 {
-  "mes": "Julho 2026",
+  "mes": "Agosto 2026",
   "vendedor_destaque": {
     "codigo": "",
     "nome": "",
@@ -19,7 +19,7 @@
       "positivacao_pct": 0.995202291442893,
       "margem_pct": 1.0441135933197063,
       "mix_pct": 1.0247095378159083,
-      "recompra_pct": 0.2915885512636742
+      "recompra_pct": 0.2897883060171845
     },
     {
       "supervisor": "RICHARD",
@@ -29,7 +29,7 @@
       "positivacao_pct": 0.9908801164976926,
       "margem_pct": 1.0370534203766995,
       "mix_pct": 1.0116279069767442,
-      "recompra_pct": 0.23465734743033193
+      "recompra_pct": 0.23969331657654103
     },
     {
       "supervisor": "IDEGLAN",
@@ -39,7 +39,7 @@
       "positivacao_pct": 1.043423178646557,
       "margem_pct": 0.9781426647043153,
       "mix_pct": 1.0548282633808241,
-      "recompra_pct": 0.3016275136043437
+      "recompra_pct": 0.2884968145161978
     },
     {
       "supervisor": "RODRIGO",
@@ -49,7 +49,7 @@
       "positivacao_pct": 0.9787454089311675,
       "margem_pct": 0.9784024596897634,
       "mix_pct": 1.0479138900040146,
-      "recompra_pct": 0.2563528960290314
+      "recompra_pct": 0.25052967653304303
     },
     {
       "supervisor": "RICARDO",
@@ -59,7 +59,7 @@
       "positivacao_pct": 0.9993409355136434,
       "margem_pct": 0.9673792408262917,
       "mix_pct": 1.0048469387755101,
-      "recompra_pct": 0.3669081213509738
+      "recompra_pct": 0.35176506499655974
     },
     {
       "supervisor": "FLAVIANE",
@@ -69,7 +69,7 @@
       "positivacao_pct": 0.8904672228997167,
       "margem_pct": 0.9921696093608113,
       "mix_pct": 0.9849670329670329,
-      "recompra_pct": 0.3341174417659879
+      "recompra_pct": 0.3206906231648872
     },
     {
       "supervisor": "EDMAR",
@@ -91,15 +91,15 @@
       "rcas": 7
     },
     {
-      "supervisor": "LEANDRO",
+      "supervisor": "IDEGLAN",
       "categorias_media": 2.4285714285714284,
       "total_categorias": 9,
       "bateram": 0,
       "rcas": 7
     },
     {
-      "supervisor": "IDEGLAN",
-      "categorias_media": 2.142857142857143,
+      "supervisor": "LEANDRO",
+      "categorias_media": 2.4285714285714284,
       "total_categorias": 9,
       "bateram": 0,
       "rcas": 7
@@ -132,5 +132,6002 @@
       "bateram": 0,
       "rcas": 7
     }
-  ]
+  ],
+  "rcas_pilares": [
+    {
+      "codigo": "23",
+      "nome": "FABIO L.",
+      "rota": "GYN",
+      "supervisor": "EDMAR",
+      "pilares": {
+        "positivacao": {
+          "meta": 55,
+          "real": 57,
+          "pct": 1.0363636363636364
+        },
+        "margem": {
+          "meta": 11.3,
+          "real": 6.538720780636006,
+          "pct": 0.5786478566934519
+        },
+        "mix": {
+          "meta": 2.4,
+          "real": 2.23,
+          "pct": 0.9291666666666667
+        },
+        "financeiro": {
+          "meta": 1640000,
+          "real": 1170637.5284025,
+          "pct": 0.7138033709771342
+        }
+      },
+      "pilares_atingidos": 1,
+      "tendencia": {
+        "pct": 0.7732869852252288,
+        "projetado": 1268190.6557693752,
+        "meta": 1640000,
+        "meta_dia": 234681.23579874996
+      },
+      "industrializado": {
+        "meta": 410000,
+        "real": 174473.52,
+        "participacao_pct": 0.14904145456373136,
+        "margem_pct": 0.16341415500873707,
+        "premio": 0
+      },
+      "thermo": {
+        "meta": 49200,
+        "real": 812.92,
+        "participacao_pct": 0.0006944250293336691,
+        "margem_pct": 0,
+        "premio": 0
+      },
+      "recompra_pct": 0.24561403508771928,
+      "media_pedidos": 14.958333333333334,
+      "sku": {
+        "meta": 120,
+        "real": 78
+      },
+      "positivacao_dia15": {
+        "resultado": 46,
+        "premio": 0
+      },
+      "positivacao_dia30": {
+        "resultado": 51,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "33",
+      "nome": "ARTHUR",
+      "rota": "GYN RT",
+      "supervisor": "EDMAR",
+      "pilares": {
+        "positivacao": {
+          "meta": 54,
+          "real": 48,
+          "pct": 0.8888888888888888
+        },
+        "margem": {
+          "meta": 14,
+          "real": 3.1342128771270015,
+          "pct": 0.2238723483662144
+        },
+        "mix": {
+          "meta": 2.6,
+          "real": 2.87,
+          "pct": 1.103846153846154
+        },
+        "financeiro": {
+          "meta": 1645000,
+          "real": 1104500.7968604,
+          "pct": 0.6714290558421884
+        }
+      },
+      "pilares_atingidos": 1,
+      "tendencia": {
+        "pct": 0.7273814771623708,
+        "projetado": 1196542.5299320999,
+        "meta": 1645000,
+        "meta_dia": 270249.60156980006
+      },
+      "industrializado": {
+        "meta": 411250,
+        "real": 274468.03,
+        "participacao_pct": 0.2484996215305498,
+        "margem_pct": 0.11278147178161346,
+        "premio": 0
+      },
+      "thermo": {
+        "meta": 49350,
+        "real": 90538.63,
+        "participacao_pct": 0.08197244425478072,
+        "margem_pct": 0,
+        "premio": 0
+      },
+      "recompra_pct": 0.16666666666666666,
+      "media_pedidos": 14.541666666666666,
+      "sku": {
+        "meta": 120,
+        "real": 63
+      },
+      "positivacao_dia15": {
+        "resultado": 43,
+        "premio": 0
+      },
+      "positivacao_dia30": {
+        "resultado": 40,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "15",
+      "nome": "WESLEY",
+      "rota": "GYN RT",
+      "supervisor": "LEANDRO",
+      "pilares": {
+        "positivacao": {
+          "meta": 105,
+          "real": 107,
+          "pct": 1.019047619047619
+        },
+        "margem": {
+          "meta": 13.7,
+          "real": 14.377633023403924,
+          "pct": 1.0494622644820382
+        },
+        "mix": {
+          "meta": 2.6,
+          "real": 2.49,
+          "pct": 0.9576923076923077
+        },
+        "financeiro": {
+          "meta": 326000,
+          "real": 243022.105632,
+          "pct": 0.7454665816932515
+        }
+      },
+      "pilares_atingidos": 2,
+      "tendencia": {
+        "pct": 0.8075887968343559,
+        "projetado": 263273.947768,
+        "meta": 326000,
+        "meta_dia": 41488.947184000004
+      },
+      "industrializado": {
+        "meta": 81500,
+        "real": 89933.99,
+        "participacao_pct": 0.37006505958015173,
+        "margem_pct": 0.2325574683409466,
+        "premio": 899.3399000000001
+      },
+      "thermo": {
+        "meta": 9780,
+        "real": 6487.52,
+        "participacao_pct": 0.02669518471633946,
+        "margem_pct": 0.16505009668779444,
+        "premio": 0
+      },
+      "recompra_pct": 0.2523364485981308,
+      "media_pedidos": 16.791666666666668,
+      "sku": {
+        "meta": 120,
+        "real": 85
+      },
+      "positivacao_dia15": {
+        "resultado": 101,
+        "premio": 0
+      },
+      "positivacao_dia30": {
+        "resultado": 78,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "85",
+      "nome": "CARLOS HENRIQUE",
+      "rota": "",
+      "supervisor": "LEANDRO",
+      "pilares": {
+        "positivacao": {
+          "meta": 97,
+          "real": 97,
+          "pct": 1
+        },
+        "margem": {
+          "meta": 12.9,
+          "real": 13.507015594406699,
+          "pct": 1.0470554724346277
+        },
+        "mix": {
+          "meta": 3.3,
+          "real": 3.62,
+          "pct": 1.0969696969696972
+        },
+        "financeiro": {
+          "meta": 367000,
+          "real": 345918.042024,
+          "pct": 0.9425559728174387
+        }
+      },
+      "pilares_atingidos": 3,
+      "tendencia": {
+        "pct": 1.0211023038855587,
+        "projetado": 374744.54552600003,
+        "meta": 367000,
+        "meta_dia": 10540.978987999988
+      },
+      "industrializado": {
+        "meta": 91750,
+        "real": 91137.3,
+        "participacao_pct": 0.2634650088406688,
+        "margem_pct": 0.2412623995158953,
+        "premio": 911.373
+      },
+      "thermo": {
+        "meta": 11010,
+        "real": 14517.68,
+        "participacao_pct": 0.04196855392409036,
+        "margem_pct": 0.1765374456177571,
+        "premio": 290.35360000000003
+      },
+      "recompra_pct": 0.1958762886597938,
+      "media_pedidos": 15.666666666666666,
+      "sku": {
+        "meta": 120,
+        "real": 114
+      },
+      "positivacao_dia15": {
+        "resultado": 97,
+        "premio": 150
+      },
+      "positivacao_dia30": {
+        "resultado": 73,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "81",
+      "nome": "LOIOLA",
+      "rota": "GYN RT",
+      "supervisor": "LEANDRO",
+      "pilares": {
+        "positivacao": {
+          "meta": 100,
+          "real": 100,
+          "pct": 1
+        },
+        "margem": {
+          "meta": 13.3,
+          "real": 13.259137352940058,
+          "pct": 0.9969276205218088
+        },
+        "mix": {
+          "meta": 2.9,
+          "real": 2.7,
+          "pct": 0.9310344827586208
+        },
+        "financeiro": {
+          "meta": 331000,
+          "real": 240573.7551368,
+          "pct": 0.7268089279057401
+        }
+      },
+      "pilares_atingidos": 1,
+      "tendencia": {
+        "pct": 0.7873763385645518,
+        "projetado": 260621.56806486665,
+        "meta": 331000,
+        "meta_dia": 45213.1224316
+      },
+      "industrializado": {
+        "meta": 82750,
+        "real": 67771.97,
+        "participacao_pct": 0.2817097399567218,
+        "margem_pct": 0.2315476255404705,
+        "premio": 677.7197
+      },
+      "thermo": {
+        "meta": 9930,
+        "real": 9593.11,
+        "participacao_pct": 0.03987596234071738,
+        "margem_pct": 0.11624532932740267,
+        "premio": 0
+      },
+      "recompra_pct": 0.34,
+      "media_pedidos": 12.708333333333334,
+      "sku": {
+        "meta": 120,
+        "real": 98
+      },
+      "positivacao_dia15": {
+        "resultado": 71,
+        "premio": 0
+      },
+      "positivacao_dia30": {
+        "resultado": 77,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "83",
+      "nome": "MARCOS SILVA -",
+      "rota": "",
+      "supervisor": "LEANDRO",
+      "pilares": {
+        "positivacao": {
+          "meta": 99,
+          "real": 99,
+          "pct": 1
+        },
+        "margem": {
+          "meta": 13,
+          "real": 13.506332819670781,
+          "pct": 1.0389486784362139
+        },
+        "mix": {
+          "meta": 2.7,
+          "real": 2.73,
+          "pct": 1.011111111111111
+        },
+        "financeiro": {
+          "meta": 375000,
+          "real": 303434.964265,
+          "pct": 0.8091599047066668
+        }
+      },
+      "pilares_atingidos": 3,
+      "tendencia": {
+        "pct": 0.8765898967655555,
+        "projetado": 328721.21128708334,
+        "meta": 375000,
+        "meta_dia": 35782.51786749999
+      },
+      "industrializado": {
+        "meta": 93750,
+        "real": 48075.56,
+        "participacao_pct": 0.1584377730379614,
+        "margem_pct": 0.22973632017598963,
+        "premio": 0
+      },
+      "thermo": {
+        "meta": 11250,
+        "real": 5549.61,
+        "participacao_pct": 0.01828928981023208,
+        "margem_pct": 0.1669623188007806,
+        "premio": 0
+      },
+      "recompra_pct": 0.25252525252525254,
+      "media_pedidos": 12.583333333333334,
+      "sku": {
+        "meta": 120,
+        "real": 107
+      },
+      "positivacao_dia15": {
+        "resultado": 87,
+        "premio": 0
+      },
+      "positivacao_dia30": {
+        "resultado": 71,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "192",
+      "nome": "LUCAS LEAL",
+      "rota": "G",
+      "supervisor": "LEANDRO",
+      "pilares": {
+        "positivacao": {
+          "meta": 77,
+          "real": 77,
+          "pct": 1
+        },
+        "margem": {
+          "meta": 13.5,
+          "real": 14.646036267844872,
+          "pct": 1.0848915753959165
+        },
+        "mix": {
+          "meta": 2.9,
+          "real": 2.76,
+          "pct": 0.9517241379310344
+        },
+        "financeiro": {
+          "meta": 242000,
+          "real": 174441.57,
+          "pct": 0.7208329338842976
+        }
+      },
+      "pilares_atingidos": 2,
+      "tendencia": {
+        "pct": 0.7809023450413223,
+        "projetado": 188978.3675,
+        "meta": 242000,
+        "meta_dia": 33779.215
+      },
+      "industrializado": {
+        "meta": 60500,
+        "real": 52601.18,
+        "participacao_pct": 0.3015403954458791,
+        "margem_pct": 0.23548729031173832,
+        "premio": 526.0118
+      },
+      "thermo": {
+        "meta": 7260,
+        "real": 6149.01,
+        "participacao_pct": 0.03524968274477236,
+        "margem_pct": 0.16578020668693016,
+        "premio": 122.98020000000001
+      },
+      "recompra_pct": 0.35064935064935066,
+      "media_pedidos": 11.416666666666666,
+      "sku": {
+        "meta": 120,
+        "real": 84
+      },
+      "positivacao_dia15": {
+        "resultado": 66,
+        "premio": 0
+      },
+      "positivacao_dia30": {
+        "resultado": 60,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "649",
+      "nome": "WALLACE SOUSA",
+      "rota": "",
+      "supervisor": "LEANDRO",
+      "pilares": {
+        "positivacao": {
+          "meta": 79,
+          "real": 79,
+          "pct": 1
+        },
+        "margem": {
+          "meta": 12.85,
+          "real": 12.202379190826122,
+          "pct": 0.9496014934495036
+        },
+        "mix": {
+          "meta": 2.4,
+          "real": 2.54,
+          "pct": 1.0583333333333333
+        },
+        "financeiro": {
+          "meta": 232000,
+          "real": 215993.428,
+          "pct": 0.9310061551724138
+        }
+      },
+      "pilares_atingidos": 2,
+      "tendencia": {
+        "pct": 1.0085900014367817,
+        "projetado": 233992.88033333333,
+        "meta": 232000,
+        "meta_dia": 8003.285999999993
+      },
+      "industrializado": {
+        "meta": 58000,
+        "real": 41894.02,
+        "participacao_pct": 0.1939596976996911,
+        "margem_pct": 0.24145136558869254,
+        "premio": 0
+      },
+      "thermo": {
+        "meta": 6960,
+        "real": 10520.1,
+        "participacao_pct": 0.04870564858112257,
+        "margem_pct": 0.15927227522095802,
+        "premio": 210.40200000000002
+      },
+      "recompra_pct": 0.3037974683544304,
+      "media_pedidos": 9.916666666666666,
+      "sku": {
+        "meta": 120,
+        "real": 94
+      },
+      "positivacao_dia15": {
+        "resultado": 71,
+        "premio": 0
+      },
+      "positivacao_dia30": {
+        "resultado": 57,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "650",
+      "nome": "ANDRE WILKER -",
+      "rota": "",
+      "supervisor": "LEANDRO",
+      "pilares": {
+        "positivacao": {
+          "meta": 95,
+          "real": 90,
+          "pct": 0.9473684210526315
+        },
+        "margem": {
+          "meta": 13.5,
+          "real": 15.41575865499078,
+          "pct": 1.1419080485178357
+        },
+        "mix": {
+          "meta": 2.95,
+          "real": 3.44,
+          "pct": 1.166101694915254
+        },
+        "financeiro": {
+          "meta": 247000,
+          "real": 201640.1240524,
+          "pct": 0.816356777540081
+        }
+      },
+      "pilares_atingidos": 2,
+      "tendencia": {
+        "pct": 0.8843865090017544,
+        "projetado": 218443.46772343334,
+        "meta": 247000,
+        "meta_dia": 22679.9379738
+      },
+      "industrializado": {
+        "meta": 61750,
+        "real": 40925.74,
+        "participacao_pct": 0.20296426711860518,
+        "margem_pct": 0.2588462850494578,
+        "premio": 0
+      },
+      "thermo": {
+        "meta": 7410,
+        "real": 7072.31,
+        "participacao_pct": 0.03507392208389103,
+        "margem_pct": 0.19379696046921022,
+        "premio": 141.4462
+      },
+      "recompra_pct": 0.3333333333333333,
+      "media_pedidos": 8.458333333333334,
+      "sku": {
+        "meta": 120,
+        "real": 123
+      },
+      "positivacao_dia15": {
+        "resultado": 64,
+        "premio": 0
+      },
+      "positivacao_dia30": {
+        "resultado": 77,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "12",
+      "nome": "FABIANO",
+      "rota": "GYN R",
+      "supervisor": "FLAVIANE",
+      "pilares": {
+        "positivacao": {
+          "meta": 97,
+          "real": 98,
+          "pct": 1.0103092783505154
+        },
+        "margem": {
+          "meta": 12.85,
+          "real": 12.402360218574517,
+          "pct": 0.9651642193443204
+        },
+        "mix": {
+          "meta": 2.5,
+          "real": 2.42,
+          "pct": 0.968
+        },
+        "financeiro": {
+          "meta": 260000,
+          "real": 178744.356796,
+          "pct": 0.6874782953692308
+        }
+      },
+      "pilares_atingidos": 1,
+      "tendencia": {
+        "pct": 0.7447681533166667,
+        "projetado": 193639.71986233332,
+        "meta": 260000,
+        "meta_dia": 40627.821601999996
+      },
+      "industrializado": {
+        "meta": 65000,
+        "real": 46085.55,
+        "participacao_pct": 0.2578293985112895,
+        "margem_pct": 0.23448626639369605,
+        "premio": 460.85550000000006
+      },
+      "thermo": {
+        "meta": 7800,
+        "real": 5067.86,
+        "participacao_pct": 0.02835255943651369,
+        "margem_pct": 0.19252273055372476,
+        "premio": 0
+      },
+      "recompra_pct": 0.3877551020408163,
+      "media_pedidos": 10,
+      "sku": {
+        "meta": 120,
+        "real": 80
+      },
+      "positivacao_dia15": {
+        "resultado": 75,
+        "premio": 0
+      },
+      "positivacao_dia30": {
+        "resultado": 76,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "471",
+      "nome": "ANTONIO EDVALD",
+      "rota": "",
+      "supervisor": "FLAVIANE",
+      "pilares": {
+        "positivacao": {
+          "meta": 97,
+          "real": 98,
+          "pct": 1.0103092783505154
+        },
+        "margem": {
+          "meta": 12.85,
+          "real": 12.979030464218473,
+          "pct": 1.010041281262138
+        },
+        "mix": {
+          "meta": 2.5,
+          "real": 2.57,
+          "pct": 1.028
+        },
+        "financeiro": {
+          "meta": 250000,
+          "real": 231870.3894,
+          "pct": 0.9274815576
+        }
+      },
+      "pilares_atingidos": 3,
+      "tendencia": {
+        "pct": 1.0047716874,
+        "projetado": 251192.92184999998,
+        "meta": 250000,
+        "meta_dia": 9064.805300000007
+      },
+      "industrializado": {
+        "meta": 62500,
+        "real": 30434.14,
+        "participacao_pct": 0.13125496566747044,
+        "margem_pct": 0.2613654082027617,
+        "premio": 0
+      },
+      "thermo": {
+        "meta": 7500,
+        "real": 6028.84,
+        "participacao_pct": 0.026000905141879235,
+        "margem_pct": 0.1804085718911101,
+        "premio": 0
+      },
+      "recompra_pct": 0.30612244897959184,
+      "media_pedidos": 12.708333333333334,
+      "sku": {
+        "meta": 120,
+        "real": 109
+      },
+      "positivacao_dia15": {
+        "resultado": 84,
+        "premio": 0
+      },
+      "positivacao_dia30": {
+        "resultado": 75,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "383",
+      "nome": "GABRIEL LOUREN",
+      "rota": "",
+      "supervisor": "FLAVIANE",
+      "pilares": {
+        "positivacao": {
+          "meta": 97,
+          "real": 99,
+          "pct": 1.0206185567010309
+        },
+        "margem": {
+          "meta": 12.85,
+          "real": 12.20185198365289,
+          "pct": 0.9495604656539215
+        },
+        "mix": {
+          "meta": 2.5,
+          "real": 2.67,
+          "pct": 1.068
+        },
+        "financeiro": {
+          "meta": 450000,
+          "real": 460348.33956,
+          "pct": 1.0229963101333333
+        }
+      },
+      "pilares_atingidos": 2,
+      "tendencia": {
+        "pct": 1.1082460026444445,
+        "projetado": 498710.70119,
+        "meta": 450000,
+        "meta_dia": 5174.1697799999965
+      },
+      "industrializado": {
+        "meta": 112500,
+        "real": 57648.44,
+        "participacao_pct": 0.12522786560955182,
+        "margem_pct": 0.2736106179560106,
+        "premio": 0
+      },
+      "thermo": {
+        "meta": 13500,
+        "real": 7670.24,
+        "participacao_pct": 0.01666181745617069,
+        "margem_pct": 0.1809049957341621,
+        "premio": 0
+      },
+      "recompra_pct": 0.32323232323232326,
+      "media_pedidos": 13.625,
+      "sku": {
+        "meta": 120,
+        "real": 107
+      },
+      "positivacao_dia15": {
+        "resultado": 95,
+        "premio": 0
+      },
+      "positivacao_dia30": {
+        "resultado": 58,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "377",
+      "nome": "CELISMAR",
+      "rota": "GYN",
+      "supervisor": "FLAVIANE",
+      "pilares": {
+        "positivacao": {
+          "meta": 115,
+          "real": 113,
+          "pct": 0.9826086956521739
+        },
+        "margem": {
+          "meta": 13,
+          "real": 13.104038763163912,
+          "pct": 1.0080029817818394
+        },
+        "mix": {
+          "meta": 2.5,
+          "real": 2.6,
+          "pct": 1.04
+        },
+        "financeiro": {
+          "meta": 210000,
+          "real": 164899.7,
+          "pct": 0.7852366666666667
+        }
+      },
+      "pilares_atingidos": 2,
+      "tendencia": {
+        "pct": 0.8506730555555556,
+        "projetado": 178641.34166666667,
+        "meta": 210000,
+        "meta_dia": 22550.149999999994
+      },
+      "industrializado": {
+        "meta": 52500,
+        "real": 46793.03,
+        "participacao_pct": 0.28376661691925453,
+        "margem_pct": 0.22713888063243612,
+        "premio": 467.9303
+      },
+      "thermo": {
+        "meta": 6300,
+        "real": 8668.94,
+        "participacao_pct": 0.052570987090940734,
+        "margem_pct": 0.16066961620682577,
+        "premio": 173.3788
+      },
+      "recompra_pct": 0.26548672566371684,
+      "media_pedidos": 13.541666666666666,
+      "sku": {
+        "meta": 120,
+        "real": 96
+      },
+      "positivacao_dia15": {
+        "resultado": 92,
+        "premio": 0
+      },
+      "positivacao_dia30": {
+        "resultado": 92,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "657",
+      "nome": "YURI ENRIQUE -",
+      "rota": "",
+      "supervisor": "FLAVIANE",
+      "pilares": {
+        "positivacao": {
+          "meta": 64,
+          "real": 55,
+          "pct": 0.859375
+        },
+        "margem": {
+          "meta": 13,
+          "real": 12.907197892598269,
+          "pct": 0.992861376353713
+        },
+        "mix": {
+          "meta": 2.6,
+          "real": 2.94,
+          "pct": 1.1307692307692307
+        },
+        "financeiro": {
+          "meta": 260000,
+          "real": 211730.89002,
+          "pct": 0.814349577
+        }
+      },
+      "pilares_atingidos": 1,
+      "tendencia": {
+        "pct": 0.88221204175,
+        "projetado": 229375.130855,
+        "meta": 260000,
+        "meta_dia": 24134.554990000004
+      },
+      "industrializado": {
+        "meta": 65000,
+        "real": 46996.66,
+        "participacao_pct": 0.22196411678787503,
+        "margem_pct": 0.23612947415837646,
+        "premio": 0
+      },
+      "thermo": {
+        "meta": 7800,
+        "real": 5003.63,
+        "participacao_pct": 0.023632026481952444,
+        "margem_pct": 0.06769116030881585,
+        "premio": 0
+      },
+      "recompra_pct": 0.2909090909090909,
+      "media_pedidos": 7.875,
+      "sku": {
+        "meta": 120,
+        "real": 93
+      },
+      "positivacao_dia15": {
+        "resultado": 43,
+        "premio": 0
+      },
+      "positivacao_dia30": {
+        "resultado": 43,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "796",
+      "nome": "HAMAURY SENA",
+      "rota": "",
+      "supervisor": "FLAVIANE",
+      "pilares": {
+        "positivacao": {
+          "meta": 67,
+          "real": 44,
+          "pct": 0.6567164179104478
+        },
+        "margem": {
+          "meta": 13.5,
+          "real": 13.07449705908579,
+          "pct": 0.9684812636359844
+        },
+        "mix": {
+          "meta": 2.5,
+          "real": 2.21,
+          "pct": 0.884
+        },
+        "financeiro": {
+          "meta": 190000,
+          "real": 75386.720793,
+          "pct": 0.3967722147
+        }
+      },
+      "pilares_atingidos": 0,
+      "tendencia": {
+        "pct": 0.429836565925,
+        "projetado": 81668.94752575,
+        "meta": 190000,
+        "meta_dia": 57306.6396035
+      },
+      "industrializado": {
+        "meta": 47500,
+        "real": 8782.87,
+        "participacao_pct": 0.11650420535091811,
+        "margem_pct": 0.2478810612248617,
+        "premio": 0
+      },
+      "thermo": {
+        "meta": 5700,
+        "real": 2234.22,
+        "participacao_pct": 0.02963678452249985,
+        "margem_pct": 0.18691983355264916,
+        "premio": 0
+      },
+      "recompra_pct": 0.36363636363636365,
+      "media_pedidos": 4.958333333333333,
+      "sku": {
+        "meta": 120,
+        "real": 71
+      },
+      "positivacao_dia15": {
+        "resultado": 32,
+        "premio": 0
+      },
+      "positivacao_dia30": {
+        "resultado": 34,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "791",
+      "nome": "LEANDRO GOMES",
+      "rota": "",
+      "supervisor": "FLAVIANE",
+      "pilares": {
+        "positivacao": {
+          "meta": 75,
+          "real": 52,
+          "pct": 0.6933333333333334
+        },
+        "margem": {
+          "meta": 13.5,
+          "real": 14.189521646165801,
+          "pct": 1.051075677493763
+        },
+        "mix": {
+          "meta": 2.5,
+          "real": 1.94,
+          "pct": 0.776
+        },
+        "financeiro": {
+          "meta": 190000,
+          "real": 75060.82994,
+          "pct": 0.3950569996842105
+        }
+      },
+      "pilares_atingidos": 1,
+      "tendencia": {
+        "pct": 0.4279784163245614,
+        "projetado": 81315.89910166667,
+        "meta": 190000,
+        "meta_dia": 57469.58503
+      },
+      "industrializado": {
+        "meta": 47500,
+        "real": 17948.26,
+        "participacao_pct": 0.23911619434992887,
+        "margem_pct": 0.2336898371764171,
+        "premio": 0
+      },
+      "thermo": {
+        "meta": 5700,
+        "real": 1169.86,
+        "participacao_pct": 0.015585492472373801,
+        "margem_pct": 0.22353153976715157,
+        "premio": 0
+      },
+      "recompra_pct": 0.3076923076923077,
+      "media_pedidos": 5.75,
+      "sku": {
+        "meta": 120,
+        "real": 70
+      },
+      "positivacao_dia15": {
+        "resultado": 42,
+        "premio": 0
+      },
+      "positivacao_dia30": {
+        "resultado": 35,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "738",
+      "nome": "MARCEL HENRIQU",
+      "rota": "",
+      "supervisor": "IDEGLAN",
+      "pilares": {
+        "positivacao": {
+          "meta": 84,
+          "real": 90,
+          "pct": 1.0714285714285714
+        },
+        "margem": {
+          "meta": 13,
+          "real": 12.286189031399962,
+          "pct": 0.9450914639538432
+        },
+        "mix": {
+          "meta": 2.65,
+          "real": 2.64,
+          "pct": 0.9962264150943397
+        },
+        "financeiro": {
+          "meta": 300000,
+          "real": 253279.020024,
+          "pct": 0.84426340008
+        }
+      },
+      "pilares_atingidos": 1,
+      "tendencia": {
+        "pct": 0.91461868342,
+        "projetado": 274385.605026,
+        "meta": 300000,
+        "meta_dia": 23360.489988
+      },
+      "industrializado": {
+        "meta": 75000,
+        "real": 62864.63,
+        "participacao_pct": 0.2482030686712351,
+        "margem_pct": 0.2160878197374263,
+        "premio": 0
+      },
+      "thermo": {
+        "meta": 9000,
+        "real": 14816.42,
+        "participacao_pct": 0.05849841016676406,
+        "margem_pct": 0.13695647614632958,
+        "premio": 0
+      },
+      "recompra_pct": 0.17777777777777778,
+      "media_pedidos": 16,
+      "sku": {
+        "meta": 120,
+        "real": 102
+      },
+      "positivacao_dia15": {
+        "resultado": 87,
+        "premio": 150
+      },
+      "positivacao_dia30": {
+        "resultado": 69,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "164",
+      "nome": "JOAO VITOR",
+      "rota": "G",
+      "supervisor": "IDEGLAN",
+      "pilares": {
+        "positivacao": {
+          "meta": 97,
+          "real": 104,
+          "pct": 1.0721649484536082
+        },
+        "margem": {
+          "meta": 13,
+          "real": 13.035364560156411,
+          "pct": 1.0027203507812623
+        },
+        "mix": {
+          "meta": 3,
+          "real": 3.23,
+          "pct": 1.0766666666666667
+        },
+        "financeiro": {
+          "meta": 480000,
+          "real": 439879.24566,
+          "pct": 0.9164150951250001
+        }
+      },
+      "pilares_atingidos": 3,
+      "tendencia": {
+        "pct": 0.9927830197187499,
+        "projetado": 476535.849465,
+        "meta": 480000,
+        "meta_dia": 20060.377169999992
+      },
+      "industrializado": {
+        "meta": 120000,
+        "real": 89699.93,
+        "participacao_pct": 0.20391944126714404,
+        "margem_pct": 0.22098540553197746,
+        "premio": 0
+      },
+      "thermo": {
+        "meta": 14400,
+        "real": 17451.81,
+        "participacao_pct": 0.03967409277019901,
+        "margem_pct": 0.12325532868991822,
+        "premio": 0
+      },
+      "recompra_pct": 0.2403846153846154,
+      "media_pedidos": 18.125,
+      "sku": {
+        "meta": 120,
+        "real": 117
+      },
+      "positivacao_dia15": {
+        "resultado": 97,
+        "premio": 150
+      },
+      "positivacao_dia30": {
+        "resultado": 80,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "45",
+      "nome": "TIAGO",
+      "rota": "GYN RT",
+      "supervisor": "IDEGLAN",
+      "pilares": {
+        "positivacao": {
+          "meta": 97,
+          "real": 97,
+          "pct": 1
+        },
+        "margem": {
+          "meta": 13,
+          "real": 12.176276271924765,
+          "pct": 0.936636636301905
+        },
+        "mix": {
+          "meta": 2.8,
+          "real": 3.37,
+          "pct": 1.2035714285714287
+        },
+        "financeiro": {
+          "meta": 380000,
+          "real": 414643,
+          "pct": 1.0911657894736841
+        }
+      },
+      "pilares_atingidos": 2,
+      "tendencia": {
+        "pct": 1.1820962719298247,
+        "projetado": 449196.5833333334,
+        "meta": 380000,
+        "meta_dia": 17321.5
+      },
+      "industrializado": {
+        "meta": 95000,
+        "real": 74258.93,
+        "participacao_pct": 0.17909124234582519,
+        "margem_pct": 0.22681230353628848,
+        "premio": 0
+      },
+      "thermo": {
+        "meta": 11400,
+        "real": 11007.63,
+        "participacao_pct": 0.026547246667615272,
+        "margem_pct": 0.16423143434726625,
+        "premio": 0
+      },
+      "recompra_pct": 0.4020618556701031,
+      "media_pedidos": 9.541666666666666,
+      "sku": {
+        "meta": 120,
+        "real": 107
+      },
+      "positivacao_dia15": {
+        "resultado": 63,
+        "premio": 0
+      },
+      "positivacao_dia30": {
+        "resultado": 78,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "428",
+      "nome": "TAUA F.",
+      "rota": "GYN",
+      "supervisor": "IDEGLAN",
+      "pilares": {
+        "positivacao": {
+          "meta": 87,
+          "real": 95,
+          "pct": 1.0919540229885059
+        },
+        "margem": {
+          "meta": 13,
+          "real": 12.941339648895624,
+          "pct": 0.9954876652996634
+        },
+        "mix": {
+          "meta": 3,
+          "real": 3.31,
+          "pct": 1.1033333333333333
+        },
+        "financeiro": {
+          "meta": 300000,
+          "real": 283867.44,
+          "pct": 0.9462248
+        }
+      },
+      "pilares_atingidos": 2,
+      "tendencia": {
+        "pct": 1.0250768666666668,
+        "projetado": 307523.06,
+        "meta": 300000,
+        "meta_dia": 8066.279999999999
+      },
+      "industrializado": {
+        "meta": 75000,
+        "real": 80036.71,
+        "participacao_pct": 0.28195100501839876,
+        "margem_pct": 0.22186960733518415,
+        "premio": 800.3671
+      },
+      "thermo": {
+        "meta": 9000,
+        "real": 11429.27,
+        "participacao_pct": 0.040262701491935816,
+        "margem_pct": 0.15848485407939436,
+        "premio": 228.58540000000002
+      },
+      "recompra_pct": 0.3368421052631579,
+      "media_pedidos": 9.333333333333334,
+      "sku": {
+        "meta": 120,
+        "real": 106
+      },
+      "positivacao_dia15": {
+        "resultado": 86,
+        "premio": 0
+      },
+      "positivacao_dia30": {
+        "resultado": 63,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "439",
+      "nome": "GUILHERME AUGU",
+      "rota": "",
+      "supervisor": "IDEGLAN",
+      "pilares": {
+        "positivacao": {
+          "meta": 94,
+          "real": 94,
+          "pct": 1
+        },
+        "margem": {
+          "meta": 13,
+          "real": 12.768800181356559,
+          "pct": 0.9822153985658891
+        },
+        "mix": {
+          "meta": 2.5,
+          "real": 2.53,
+          "pct": 1.012
+        },
+        "financeiro": {
+          "meta": 330000,
+          "real": 264191.8236,
+          "pct": 0.8005812836363636
+        }
+      },
+      "pilares_atingidos": 2,
+      "tendencia": {
+        "pct": 0.8672963906060606,
+        "projetado": 286207.8089,
+        "meta": 330000,
+        "meta_dia": 32904.0882
+      },
+      "industrializado": {
+        "meta": 82500,
+        "real": 57884.22,
+        "participacao_pct": 0.2190992106085754,
+        "margem_pct": 0.23022174850762436,
+        "premio": 0
+      },
+      "thermo": {
+        "meta": 9900,
+        "real": 24672.24,
+        "participacao_pct": 0.09338759869175603,
+        "margem_pct": 0.14480691512242108,
+        "premio": 0
+      },
+      "recompra_pct": 0.2872340425531915,
+      "media_pedidos": 14.791666666666666,
+      "sku": {
+        "meta": 120,
+        "real": 91
+      },
+      "positivacao_dia15": {
+        "resultado": 77,
+        "premio": 0
+      },
+      "positivacao_dia30": {
+        "resultado": 75,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "622",
+      "nome": "HAMBER",
+      "rota": "GYN R",
+      "supervisor": "IDEGLAN",
+      "pilares": {
+        "positivacao": {
+          "meta": 79,
+          "real": 75,
+          "pct": 0.9493670886075949
+        },
+        "margem": {
+          "meta": 13,
+          "real": 12.438970379953476,
+          "pct": 0.9568438753810367
+        },
+        "mix": {
+          "meta": 2.5,
+          "real": 2.49,
+          "pct": 0.9960000000000001
+        },
+        "financeiro": {
+          "meta": 290000,
+          "real": 236722.14,
+          "pct": 0.8162832413793104
+        }
+      },
+      "pilares_atingidos": 0,
+      "tendencia": {
+        "pct": 0.8843068448275863,
+        "projetado": 256448.98500000002,
+        "meta": 290000,
+        "meta_dia": 26638.929999999993
+      },
+      "industrializado": {
+        "meta": 72500,
+        "real": 42768.51,
+        "participacao_pct": 0.18066966613262284,
+        "margem_pct": 0.22590546353847724,
+        "premio": 0
+      },
+      "thermo": {
+        "meta": 8700,
+        "real": 8780.21,
+        "participacao_pct": 0.037090785002197084,
+        "margem_pct": 0.1297673941138081,
+        "premio": 0
+      },
+      "recompra_pct": 0.26666666666666666,
+      "media_pedidos": 11.541666666666666,
+      "sku": {
+        "meta": 120,
+        "real": 108
+      },
+      "positivacao_dia15": {
+        "resultado": 66,
+        "premio": 0
+      },
+      "positivacao_dia30": {
+        "resultado": 53,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "735",
+      "nome": "CARLOS RAFAEL",
+      "rota": "",
+      "supervisor": "IDEGLAN",
+      "pilares": {
+        "positivacao": {
+          "meta": 84,
+          "real": 94,
+          "pct": 1.119047619047619
+        },
+        "margem": {
+          "meta": 13,
+          "real": 13.3640424144059,
+          "pct": 1.0280032626466076
+        },
+        "mix": {
+          "meta": 2.5,
+          "real": 2.49,
+          "pct": 0.9960000000000001
+        },
+        "financeiro": {
+          "meta": 200000,
+          "real": 147639.293,
+          "pct": 0.738196465
+        }
+      },
+      "pilares_atingidos": 2,
+      "tendencia": {
+        "pct": 0.7997128370833333,
+        "projetado": 159942.56741666666,
+        "meta": 200000,
+        "meta_dia": 26180.353499999997
+      },
+      "industrializado": {
+        "meta": 50000,
+        "real": 33717.22,
+        "participacao_pct": 0.2283756533567253,
+        "margem_pct": 0.219133415871178,
+        "premio": 0
+      },
+      "thermo": {
+        "meta": 6000,
+        "real": 5874.35,
+        "participacao_pct": 0.03978852702850589,
+        "margem_pct": 0.14517276956667552,
+        "premio": 0
+      },
+      "recompra_pct": 0.30851063829787234,
+      "media_pedidos": 11.666666666666666,
+      "sku": {
+        "meta": 120,
+        "real": 97
+      },
+      "positivacao_dia15": {
+        "resultado": 85,
+        "premio": 150
+      },
+      "positivacao_dia30": {
+        "resultado": 69,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "16",
+      "nome": "BERALDO",
+      "rota": "GYN R",
+      "supervisor": "RICARDO",
+      "pilares": {
+        "positivacao": {
+          "meta": 84,
+          "real": 79,
+          "pct": 0.9404761904761905
+        },
+        "margem": {
+          "meta": 13.3,
+          "real": 12.113851070921,
+          "pct": 0.9108158699940601
+        },
+        "mix": {
+          "meta": 2.4,
+          "real": 2.34,
+          "pct": 0.975
+        },
+        "financeiro": {
+          "meta": 265000,
+          "real": 168298.93536,
+          "pct": 0.6350903221132076
+        }
+      },
+      "pilares_atingidos": 0,
+      "tendencia": {
+        "pct": 0.6880145156226415,
+        "projetado": 182323.84664,
+        "meta": 265000,
+        "meta_dia": 48350.53232
+      },
+      "industrializado": {
+        "meta": 66250,
+        "real": 44147.13,
+        "participacao_pct": 0.262313780568885,
+        "margem_pct": 0.24978360526267507,
+        "premio": 441.4713
+      },
+      "thermo": {
+        "meta": 7950,
+        "real": 3378.53,
+        "participacao_pct": 0.02007457737491418,
+        "margem_pct": 0.12343244426658936,
+        "premio": 0
+      },
+      "recompra_pct": 0.31645569620253167,
+      "media_pedidos": 11,
+      "sku": {
+        "meta": 120,
+        "real": 79
+      },
+      "positivacao_dia15": {
+        "resultado": 67,
+        "premio": 0
+      },
+      "positivacao_dia30": {
+        "resultado": 62,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "398",
+      "nome": "UCLEIBSON",
+      "rota": "GY",
+      "supervisor": "RICARDO",
+      "pilares": {
+        "positivacao": {
+          "meta": 72,
+          "real": 71,
+          "pct": 0.9861111111111112
+        },
+        "margem": {
+          "meta": 13.5,
+          "real": 13.54548147348354,
+          "pct": 1.0033689980358178
+        },
+        "mix": {
+          "meta": 2.4,
+          "real": 2.42,
+          "pct": 1.0083333333333333
+        },
+        "financeiro": {
+          "meta": 265000,
+          "real": 200933.795985824,
+          "pct": 0.7582407395691472
+        }
+      },
+      "pilares_atingidos": 2,
+      "tendencia": {
+        "pct": 0.821427467866576,
+        "projetado": 217678.27898464265,
+        "meta": 265000,
+        "meta_dia": 32033.102007088004
+      },
+      "industrializado": {
+        "meta": 66250,
+        "real": 17464.91,
+        "participacao_pct": 0.08691872820255762,
+        "margem_pct": 0.19525566493042337,
+        "premio": 0
+      },
+      "thermo": {
+        "meta": 7950,
+        "real": 1345.11,
+        "participacao_pct": 0.0066942944734637785,
+        "margem_pct": 0.15289641496085818,
+        "premio": 0
+      },
+      "recompra_pct": 0.49295774647887325,
+      "media_pedidos": 10.666666666666666,
+      "sku": {
+        "meta": 120,
+        "real": 68
+      },
+      "positivacao_dia15": {
+        "resultado": 54,
+        "premio": 0
+      },
+      "positivacao_dia30": {
+        "resultado": 48,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "723",
+      "nome": "JEAN PIERRE -",
+      "rota": "",
+      "supervisor": "RICARDO",
+      "pilares": {
+        "positivacao": {
+          "meta": 67,
+          "real": 68,
+          "pct": 1.0149253731343284
+        },
+        "margem": {
+          "meta": 12.85,
+          "real": 14.382190294661996,
+          "pct": 1.119236598806381
+        },
+        "mix": {
+          "meta": 2.4,
+          "real": 2.43,
+          "pct": 1.0125000000000002
+        },
+        "financeiro": {
+          "meta": 225000,
+          "real": 212078.79038112,
+          "pct": 0.9425724016938667
+        }
+      },
+      "pilares_atingidos": 3,
+      "tendencia": {
+        "pct": 1.0211201018350222,
+        "projetado": 229752.02291288,
+        "meta": 225000,
+        "meta_dia": 6460.604809440003
+      },
+      "industrializado": {
+        "meta": 56250,
+        "real": 45821.27,
+        "participacao_pct": 0.2160577675761733,
+        "margem_pct": 0.260765303004478,
+        "premio": 0
+      },
+      "thermo": {
+        "meta": 6750,
+        "real": 4238.77,
+        "participacao_pct": 0.019986769975359833,
+        "margem_pct": 0.2144049232867082,
+        "premio": 0
+      },
+      "recompra_pct": 0.38235294117647056,
+      "media_pedidos": 8,
+      "sku": {
+        "meta": 120,
+        "real": 78
+      },
+      "positivacao_dia15": {
+        "resultado": 50,
+        "premio": 0
+      },
+      "positivacao_dia30": {
+        "resultado": 49,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "729",
+      "nome": "MARCELO ALVES",
+      "rota": "",
+      "supervisor": "RICARDO",
+      "pilares": {
+        "positivacao": {
+          "meta": 74,
+          "real": 77,
+          "pct": 1.0405405405405406
+        },
+        "margem": {
+          "meta": 12.85,
+          "real": 12.55552880552908,
+          "pct": 0.9770839537376717
+        },
+        "mix": {
+          "meta": 2.4,
+          "real": 2.45,
+          "pct": 1.0208333333333335
+        },
+        "financeiro": {
+          "meta": 245000,
+          "real": 205557.068,
+          "pct": 0.8390084408163265
+        }
+      },
+      "pilares_atingidos": 2,
+      "tendencia": {
+        "pct": 0.9089258108843539,
+        "projetado": 222686.8236666667,
+        "meta": 245000,
+        "meta_dia": 19721.466
+      },
+      "industrializado": {
+        "meta": 61250,
+        "real": 20410.33,
+        "participacao_pct": 0.09929276671722133,
+        "margem_pct": 0.2037998224232534,
+        "premio": 0
+      },
+      "thermo": {
+        "meta": 7350,
+        "real": 3984.06,
+        "participacao_pct": 0.01938177090558618,
+        "margem_pct": 0.1686175560769667,
+        "premio": 0
+      },
+      "recompra_pct": 0.2987012987012987,
+      "media_pedidos": 11.75,
+      "sku": {
+        "meta": 120,
+        "real": 73
+      },
+      "positivacao_dia15": {
+        "resultado": 74,
+        "premio": 150
+      },
+      "positivacao_dia30": {
+        "resultado": 48,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "467",
+      "nome": "IGOR SA",
+      "rota": "GYN",
+      "supervisor": "RICARDO",
+      "pilares": {
+        "positivacao": {
+          "meta": 75,
+          "real": 76,
+          "pct": 1.0133333333333334
+        },
+        "margem": {
+          "meta": 12.85,
+          "real": 12.450096380919408,
+          "pct": 0.9688790957913936
+        },
+        "mix": {
+          "meta": 2.45,
+          "real": 2.38,
+          "pct": 0.9714285714285713
+        },
+        "financeiro": {
+          "meta": 270000,
+          "real": 209824.4829376,
+          "pct": 0.7771277145837037
+        }
+      },
+      "pilares_atingidos": 1,
+      "tendencia": {
+        "pct": 0.841888357465679,
+        "projetado": 227309.85651573335,
+        "meta": 270000,
+        "meta_dia": 30087.7585312
+      },
+      "industrializado": {
+        "meta": 67500,
+        "real": 30955.44,
+        "participacao_pct": 0.1475301621937316,
+        "margem_pct": 0.2618406064006843,
+        "premio": 0
+      },
+      "thermo": {
+        "meta": 8100,
+        "real": 4503.92,
+        "participacao_pct": 0.021465178595671448,
+        "margem_pct": 0.16926926926410768,
+        "premio": 0
+      },
+      "recompra_pct": 0.35526315789473684,
+      "media_pedidos": 9.291666666666666,
+      "sku": {
+        "meta": 120,
+        "real": 87
+      },
+      "positivacao_dia15": {
+        "resultado": 75,
+        "premio": 150
+      },
+      "positivacao_dia30": {
+        "resultado": 42,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "644",
+      "nome": "ALBERTO SANTOS",
+      "rota": "",
+      "supervisor": "RICARDO",
+      "pilares": {
+        "positivacao": {
+          "meta": 82,
+          "real": 82,
+          "pct": 1
+        },
+        "margem": {
+          "meta": 12.85,
+          "real": 11.730533770540918,
+          "pct": 0.9128820054895656
+        },
+        "mix": {
+          "meta": 2.4,
+          "real": 2.56,
+          "pct": 1.0666666666666667
+        },
+        "financeiro": {
+          "meta": 310000,
+          "real": 306972.848592,
+          "pct": 0.9902349954580646
+        }
+      },
+      "pilares_atingidos": 2,
+      "tendencia": {
+        "pct": 1.0727545784129033,
+        "projetado": 332553.919308,
+        "meta": 310000,
+        "meta_dia": 1513.575703999988
+      },
+      "industrializado": {
+        "meta": 77500,
+        "real": 52095.83,
+        "participacao_pct": 0.1697082665093973,
+        "margem_pct": 0.2272742060161054,
+        "premio": 0
+      },
+      "thermo": {
+        "meta": 9300,
+        "real": 6570.57,
+        "participacao_pct": 0.02140440117143062,
+        "margem_pct": 0.12400662800213672,
+        "premio": 0
+      },
+      "recompra_pct": 0.32926829268292684,
+      "media_pedidos": 12.75,
+      "sku": {
+        "meta": 120,
+        "real": 86
+      },
+      "positivacao_dia15": {
+        "resultado": 68,
+        "premio": 0
+      },
+      "positivacao_dia30": {
+        "resultado": 54,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "698",
+      "nome": "FERNANDO OLIVE",
+      "rota": "",
+      "supervisor": "RICARDO",
+      "pilares": {
+        "positivacao": {
+          "meta": 87,
+          "real": 87,
+          "pct": 1
+        },
+        "margem": {
+          "meta": 12.85,
+          "real": 11.300137906489606,
+          "pct": 0.8793881639291523
+        },
+        "mix": {
+          "meta": 2.4,
+          "real": 2.35,
+          "pct": 0.9791666666666667
+        },
+        "financeiro": {
+          "meta": 215000,
+          "real": 167499.8618688,
+          "pct": 0.7790691249711629
+        }
+      },
+      "pilares_atingidos": 1,
+      "tendencia": {
+        "pct": 0.8439915520520931,
+        "projetado": 181458.1836912,
+        "meta": 215000,
+        "meta_dia": 23750.069065599993
+      },
+      "industrializado": {
+        "meta": 53750,
+        "real": 18083.44,
+        "participacao_pct": 0.10796092485237074,
+        "margem_pct": 0.225631555854417,
+        "premio": 0
+      },
+      "thermo": {
+        "meta": 6450,
+        "real": 5276.6,
+        "participacao_pct": 0.031502115530895644,
+        "margem_pct": 0.1709490947185689,
+        "premio": 105.53200000000001
+      },
+      "recompra_pct": 0.28735632183908044,
+      "media_pedidos": 11.875,
+      "sku": {
+        "meta": 120,
+        "real": 82
+      },
+      "positivacao_dia15": {
+        "resultado": 86,
+        "premio": 0
+      },
+      "positivacao_dia30": {
+        "resultado": 60,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "42",
+      "nome": "PAULO RONAN",
+      "rota": "G",
+      "supervisor": "RICHARD",
+      "pilares": {
+        "positivacao": {
+          "meta": 74,
+          "real": 75,
+          "pct": 1.0135135135135136
+        },
+        "margem": {
+          "meta": 13,
+          "real": 12.786408032744315,
+          "pct": 0.9835698486726396
+        },
+        "mix": {
+          "meta": 2.15,
+          "real": 2.1,
+          "pct": 0.9767441860465117
+        },
+        "financeiro": {
+          "meta": 306000,
+          "real": 278403.745,
+          "pct": 0.909816160130719
+        }
+      },
+      "pilares_atingidos": 1,
+      "tendencia": {
+        "pct": 0.9856341734749455,
+        "projetado": 301604.0570833333,
+        "meta": 306000,
+        "meta_dia": 13798.127500000002
+      },
+      "industrializado": {
+        "meta": 76500,
+        "real": 28687.61,
+        "participacao_pct": 0.10304319002605371,
+        "margem_pct": 0.2048392266835752,
+        "premio": 0
+      },
+      "thermo": {
+        "meta": 9180,
+        "real": 10009.42,
+        "participacao_pct": 0.03595289280322002,
+        "margem_pct": 0.17926601444719065,
+        "premio": 200.1884
+      },
+      "recompra_pct": 0.10666666666666667,
+      "media_pedidos": 15.416666666666666,
+      "sku": {
+        "meta": 120,
+        "real": 61
+      },
+      "positivacao_dia15": {
+        "resultado": 74,
+        "premio": 150
+      },
+      "positivacao_dia30": {
+        "resultado": 62,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "334",
+      "nome": "JOAO GABRIEL -",
+      "rota": "",
+      "supervisor": "RICHARD",
+      "pilares": {
+        "positivacao": {
+          "meta": 64,
+          "real": 66,
+          "pct": 1.03125
+        },
+        "margem": {
+          "meta": 13,
+          "real": 12.926672657520996,
+          "pct": 0.9943594351939228
+        },
+        "mix": {
+          "meta": 2.15,
+          "real": 2.18,
+          "pct": 1.013953488372093
+        },
+        "financeiro": {
+          "meta": 216000,
+          "real": 208908.4585765,
+          "pct": 0.9671687897060186
+        }
+      },
+      "pilares_atingidos": 2,
+      "tendencia": {
+        "pct": 1.0477661888481868,
+        "projetado": 226317.49679120834,
+        "meta": 216000,
+        "meta_dia": 3545.770711749996
+      },
+      "industrializado": {
+        "meta": 54000,
+        "real": 11076.75,
+        "participacao_pct": 0.05302202732946696,
+        "margem_pct": 0.19393467074728601,
+        "premio": 0
+      },
+      "thermo": {
+        "meta": 6480,
+        "real": 26032.56,
+        "participacao_pct": 0.12461228318559041,
+        "margem_pct": 0.1676725090640336,
+        "premio": 520.6512
+      },
+      "recompra_pct": 0.3333333333333333,
+      "media_pedidos": 8.708333333333334,
+      "sku": {
+        "meta": 120,
+        "real": 61
+      },
+      "positivacao_dia15": {
+        "resultado": 63,
+        "premio": 0
+      },
+      "positivacao_dia30": {
+        "resultado": 40,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "793",
+      "nome": "IRON OLIVEIRA",
+      "rota": "",
+      "supervisor": "RICHARD",
+      "pilares": {
+        "positivacao": {
+          "meta": 59,
+          "real": 57,
+          "pct": 0.9661016949152542
+        },
+        "margem": {
+          "meta": 13,
+          "real": 12.83313969981277,
+          "pct": 0.98716459229329
+        },
+        "mix": {
+          "meta": 2.15,
+          "real": 1.89,
+          "pct": 0.8790697674418605
+        },
+        "financeiro": {
+          "meta": 180000,
+          "real": 126187.313,
+          "pct": 0.7010406277777778
+        }
+      },
+      "pilares_atingidos": 0,
+      "tendencia": {
+        "pct": 0.7594606800925926,
+        "projetado": 136702.92241666667,
+        "meta": 180000,
+        "meta_dia": 26906.343500000003
+      },
+      "industrializado": {
+        "meta": 45000,
+        "real": 13183.51,
+        "participacao_pct": 0.10447571698432156,
+        "margem_pct": 0.21929342117539263,
+        "premio": 0
+      },
+      "thermo": {
+        "meta": 5400,
+        "real": 3228.4,
+        "participacao_pct": 0.025584188483354108,
+        "margem_pct": 0.20642582061206788,
+        "premio": 0
+      },
+      "recompra_pct": 0.19298245614035087,
+      "media_pedidos": 8.25,
+      "sku": {
+        "meta": 120,
+        "real": 68
+      },
+      "positivacao_dia15": {
+        "resultado": 46,
+        "premio": 0
+      },
+      "positivacao_dia30": {
+        "resultado": 52,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "381",
+      "nome": "RODRIGO T",
+      "rota": "GY",
+      "supervisor": "RICHARD",
+      "pilares": {
+        "positivacao": {
+          "meta": 42,
+          "real": 29,
+          "pct": 0.6904761904761905
+        },
+        "margem": {
+          "meta": 13,
+          "real": 15.05953470883148,
+          "pct": 1.1584257468331907
+        },
+        "mix": {
+          "meta": 2.15,
+          "real": 2.39,
+          "pct": 1.1116279069767443
+        },
+        "financeiro": {
+          "meta": 175000,
+          "real": 96676.66,
+          "pct": 0.5524380571428572
+        }
+      },
+      "pilares_atingidos": 2,
+      "tendencia": {
+        "pct": 0.5984745619047619,
+        "projetado": 104733.04833333334,
+        "meta": 175000,
+        "meta_dia": 39161.67
+      },
+      "industrializado": {
+        "meta": 43750,
+        "real": 5460.69,
+        "participacao_pct": 0.0564840572688382,
+        "margem_pct": 0.23247662551802054,
+        "premio": 0
+      },
+      "thermo": {
+        "meta": 5250,
+        "real": 482.08,
+        "participacao_pct": 0.00498651897986546,
+        "margem_pct": 0.14596475066379017,
+        "premio": 0
+      },
+      "recompra_pct": 0.3793103448275862,
+      "media_pedidos": 3.4583333333333335,
+      "sku": {
+        "meta": 120,
+        "real": 59
+      },
+      "positivacao_dia15": {
+        "resultado": 23,
+        "premio": 0
+      },
+      "positivacao_dia30": {
+        "resultado": 22,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "473",
+      "nome": "KAIKY DIAS",
+      "rota": "G",
+      "supervisor": "RICHARD",
+      "pilares": {
+        "positivacao": {
+          "meta": 87,
+          "real": 87,
+          "pct": 1
+        },
+        "margem": {
+          "meta": 13,
+          "real": 13.919258980726353,
+          "pct": 1.0707122292866424
+        },
+        "mix": {
+          "meta": 2.15,
+          "real": 2.2,
+          "pct": 1.0232558139534884
+        },
+        "financeiro": {
+          "meta": 206000,
+          "real": 216997.0593995,
+          "pct": 1.0533837834927184
+        }
+      },
+      "pilares_atingidos": 3,
+      "tendencia": {
+        "pct": 1.1411657654504448,
+        "projetado": 235080.14768279163,
+        "meta": 206000,
+        "meta_dia": 5498.529699749997
+      },
+      "industrializado": {
+        "meta": 51500,
+        "real": 26983.36,
+        "participacao_pct": 0.1243489661780282,
+        "margem_pct": 0.22654128175290256,
+        "premio": 0
+      },
+      "thermo": {
+        "meta": 6180,
+        "real": 5080.21,
+        "participacao_pct": 0.023411423242593977,
+        "margem_pct": 0.20881795540105627,
+        "premio": 0
+      },
+      "recompra_pct": 0.3218390804597701,
+      "media_pedidos": 14.333333333333334,
+      "sku": {
+        "meta": 120,
+        "real": 79
+      },
+      "positivacao_dia15": {
+        "resultado": 87,
+        "premio": 150
+      },
+      "positivacao_dia30": {
+        "resultado": 54,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "751",
+      "nome": "JULIO CESAR -",
+      "rota": "",
+      "supervisor": "RICHARD",
+      "pilares": {
+        "positivacao": {
+          "meta": 52,
+          "real": 53,
+          "pct": 1.0192307692307692
+        },
+        "margem": {
+          "meta": 13,
+          "real": 12.721207867004106,
+          "pct": 0.9785544513080081
+        },
+        "mix": {
+          "meta": 2.15,
+          "real": 2.14,
+          "pct": 0.9953488372093025
+        },
+        "financeiro": {
+          "meta": 165000,
+          "real": 138632.85,
+          "pct": 0.840199090909091
+        }
+      },
+      "pilares_atingidos": 1,
+      "tendencia": {
+        "pct": 0.9102156818181819,
+        "projetado": 150185.58750000002,
+        "meta": 165000,
+        "meta_dia": 13183.574999999997
+      },
+      "industrializado": {
+        "meta": 41250,
+        "real": 22030.64,
+        "participacao_pct": 0.1589135619732264,
+        "margem_pct": 0.21300987992178164,
+        "premio": 0
+      },
+      "thermo": {
+        "meta": 4950,
+        "real": 13029.91,
+        "participacao_pct": 0.0939886181377646,
+        "margem_pct": 0.1918291106600122,
+        "premio": 260.5982
+      },
+      "recompra_pct": 0.11320754716981132,
+      "media_pedidos": 11.458333333333334,
+      "sku": {
+        "meta": 120,
+        "real": 58
+      },
+      "positivacao_dia15": {
+        "resultado": 52,
+        "premio": 150
+      },
+      "positivacao_dia30": {
+        "resultado": 43,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "679",
+      "nome": "RAFAEL COSTA -",
+      "rota": "",
+      "supervisor": "RICHARD",
+      "pilares": {
+        "positivacao": {
+          "meta": 61,
+          "real": 67,
+          "pct": 1.098360655737705
+        },
+        "margem": {
+          "meta": 13,
+          "real": 13.206421777161282,
+          "pct": 1.0158785982431755
+        },
+        "mix": {
+          "meta": 2.15,
+          "real": 2.27,
+          "pct": 1.0558139534883721
+        },
+        "financeiro": {
+          "meta": 216000,
+          "real": 191029.37,
+          "pct": 0.8843952314814815
+        }
+      },
+      "pilares_atingidos": 3,
+      "tendencia": {
+        "pct": 0.9580948341049382,
+        "projetado": 206948.48416666666,
+        "meta": 216000,
+        "meta_dia": 12485.315000000002
+      },
+      "industrializado": {
+        "meta": 54000,
+        "real": 17033.16,
+        "participacao_pct": 0.08916513727705849,
+        "margem_pct": 0.2352375566718096,
+        "premio": 0
+      },
+      "thermo": {
+        "meta": 6480,
+        "real": 23186.33,
+        "participacao_pct": 0.1213757340036247,
+        "margem_pct": 0.168376760521911,
+        "premio": 463.7266
+      },
+      "recompra_pct": 0.26865671641791045,
+      "media_pedidos": 11.666666666666666,
+      "sku": {
+        "meta": 120,
+        "real": 82
+      },
+      "positivacao_dia15": {
+        "resultado": 61,
+        "premio": 150
+      },
+      "positivacao_dia30": {
+        "resultado": 52,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "687",
+      "nome": "EDREY MARTINS",
+      "rota": "",
+      "supervisor": "RICHARD",
+      "pilares": {
+        "positivacao": {
+          "meta": 74,
+          "real": 82,
+          "pct": 1.1081081081081081
+        },
+        "margem": {
+          "meta": 13,
+          "real": 14.400911995375456,
+          "pct": 1.1077624611827273
+        },
+        "mix": {
+          "meta": 2.15,
+          "real": 2.23,
+          "pct": 1.0372093023255815
+        },
+        "financeiro": {
+          "meta": 216000,
+          "real": 235947.99282,
+          "pct": 1.0923518186111112
+        }
+      },
+      "pilares_atingidos": 3,
+      "tendencia": {
+        "pct": 1.1833811368287037,
+        "projetado": 255610.325555,
+        "meta": 216000,
+        "meta_dia": 9973.996410000007
+      },
+      "industrializado": {
+        "meta": 54000,
+        "real": 23369.3,
+        "participacao_pct": 0.0990442839572192,
+        "margem_pct": 0.21939240245107897,
+        "premio": 0
+      },
+      "thermo": {
+        "meta": 6480,
+        "real": 7976.34,
+        "participacao_pct": 0.03380550054555874,
+        "margem_pct": 0.20242047016250564,
+        "premio": 159.5268
+      },
+      "recompra_pct": 0.20155038759689922,
+      "media_pedidos": 12.875,
+      "sku": {
+        "meta": 120,
+        "real": 82
+      },
+      "positivacao_dia15": {
+        "resultado": 75,
+        "premio": 150
+      },
+      "positivacao_dia30": {
+        "resultado": 60,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "47",
+      "nome": "MARCELO",
+      "rota": "GYN R",
+      "supervisor": "RODRIGO",
+      "pilares": {
+        "positivacao": {
+          "meta": 108,
+          "real": 110,
+          "pct": 1.0185185185185186
+        },
+        "margem": {
+          "meta": 12.85,
+          "real": 13.018828513889456,
+          "pct": 1.0131384057501522
+        },
+        "mix": {
+          "meta": 3,
+          "real": 3.61,
+          "pct": 1.2033333333333334
+        },
+        "financeiro": {
+          "meta": 405000,
+          "real": 323162.22232,
+          "pct": 0.7979314131358025
+        }
+      },
+      "pilares_atingidos": 3,
+      "tendencia": {
+        "pct": 0.8644256975637861,
+        "projetado": 350092.40751333337,
+        "meta": 405000,
+        "meta_dia": 40918.88884
+      },
+      "industrializado": {
+        "meta": 101250,
+        "real": 72132.63,
+        "participacao_pct": 0.2232087323888162,
+        "margem_pct": 0.249511868861568,
+        "premio": 0
+      },
+      "thermo": {
+        "meta": 12150,
+        "real": 18131.17,
+        "participacao_pct": 0.056105475045428566,
+        "margem_pct": 0.16469457378073218,
+        "premio": 362.62339999999995
+      },
+      "recompra_pct": 0.15454545454545454,
+      "media_pedidos": 14.208333333333334,
+      "sku": {
+        "meta": 120,
+        "real": 103
+      },
+      "positivacao_dia15": {
+        "resultado": 97,
+        "premio": 0
+      },
+      "positivacao_dia30": {
+        "resultado": 91,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "347",
+      "nome": "MATIAS",
+      "rota": "GYN R",
+      "supervisor": "RODRIGO",
+      "pilares": {
+        "positivacao": {
+          "meta": 76,
+          "real": 76,
+          "pct": 1
+        },
+        "margem": {
+          "meta": 12.9,
+          "real": 12.067625128146329,
+          "pct": 0.9354748161353743
+        },
+        "mix": {
+          "meta": 3,
+          "real": 2.94,
+          "pct": 0.98
+        },
+        "financeiro": {
+          "meta": 335000,
+          "real": 265176.93,
+          "pct": 0.7915729253731343
+        }
+      },
+      "pilares_atingidos": 1,
+      "tendencia": {
+        "pct": 0.8575373358208955,
+        "projetado": 287275.0075,
+        "meta": 335000,
+        "meta_dia": 34911.535
+      },
+      "industrializado": {
+        "meta": 83750,
+        "real": 54164.59,
+        "participacao_pct": 0.20425830406890977,
+        "margem_pct": 0.22815283486129953,
+        "premio": 0
+      },
+      "thermo": {
+        "meta": 10050,
+        "real": 25536.69,
+        "participacao_pct": 0.09630057184838817,
+        "margem_pct": 0.15647037819983717,
+        "premio": 510.7338
+      },
+      "recompra_pct": 0.23684210526315788,
+      "media_pedidos": 12.5,
+      "sku": {
+        "meta": 120,
+        "real": 97
+      },
+      "positivacao_dia15": {
+        "resultado": 70,
+        "premio": 0
+      },
+      "positivacao_dia30": {
+        "resultado": 57,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "357",
+      "nome": "LUCIANO",
+      "rota": "GYN",
+      "supervisor": "RODRIGO",
+      "pilares": {
+        "positivacao": {
+          "meta": 85,
+          "real": 88,
+          "pct": 1.035294117647059
+        },
+        "margem": {
+          "meta": 13.4,
+          "real": 13.820492901630733,
+          "pct": 1.0313800672858755
+        },
+        "mix": {
+          "meta": 2.65,
+          "real": 2.85,
+          "pct": 1.0754716981132075
+        },
+        "financeiro": {
+          "meta": 205000,
+          "real": 159094.71,
+          "pct": 0.776071756097561
+        }
+      },
+      "pilares_atingidos": 3,
+      "tendencia": {
+        "pct": 0.8407444024390245,
+        "projetado": 172352.6025,
+        "meta": 205000,
+        "meta_dia": 22952.645000000004
+      },
+      "industrializado": {
+        "meta": 51250,
+        "real": 36943.07,
+        "participacao_pct": 0.23220803507545915,
+        "margem_pct": 0.23413485203043496,
+        "premio": 0
+      },
+      "thermo": {
+        "meta": 6150,
+        "real": 13786.14,
+        "participacao_pct": 0.08665366686296483,
+        "margem_pct": 0.1629178055177155,
+        "premio": 275.7228
+      },
+      "recompra_pct": 0.2727272727272727,
+      "media_pedidos": 10.208333333333334,
+      "sku": {
+        "meta": 120,
+        "real": 84
+      },
+      "positivacao_dia15": {
+        "resultado": 84,
+        "premio": 0
+      },
+      "positivacao_dia30": {
+        "resultado": 61,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "405",
+      "nome": "WILLIAN",
+      "rota": "GYN",
+      "supervisor": "RODRIGO",
+      "pilares": {
+        "positivacao": {
+          "meta": 110,
+          "real": 104,
+          "pct": 0.9454545454545454
+        },
+        "margem": {
+          "meta": 13.3,
+          "real": 12.091113458794522,
+          "pct": 0.9091062750973324
+        },
+        "mix": {
+          "meta": 2.35,
+          "real": 2.21,
+          "pct": 0.9404255319148935
+        },
+        "financeiro": {
+          "meta": 445000,
+          "real": 324181.826257,
+          "pct": 0.7284984859707865
+        }
+      },
+      "pilares_atingidos": 0,
+      "tendencia": {
+        "pct": 0.7892066931350187,
+        "projetado": 351196.9784450833,
+        "meta": 445000,
+        "meta_dia": 60409.08687150001
+      },
+      "industrializado": {
+        "meta": 111250,
+        "real": 66680.11,
+        "participacao_pct": 0.20568737849955335,
+        "margem_pct": 0.17182819362655516,
+        "premio": 0
+      },
+      "thermo": {
+        "meta": 13350,
+        "real": 23118.44,
+        "participacao_pct": 0.07131318947433071,
+        "margem_pct": 0,
+        "premio": 0
+      },
+      "recompra_pct": 0.46153846153846156,
+      "media_pedidos": 12.958333333333334,
+      "sku": {
+        "meta": 120,
+        "real": 99
+      },
+      "positivacao_dia15": {
+        "resultado": 72,
+        "premio": 0
+      },
+      "positivacao_dia30": {
+        "resultado": 76,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "561",
+      "nome": "THALLES VIEIRA",
+      "rota": "",
+      "supervisor": "RODRIGO",
+      "pilares": {
+        "positivacao": {
+          "meta": 77,
+          "real": 71,
+          "pct": 0.922077922077922
+        },
+        "margem": {
+          "meta": 12.85,
+          "real": 13.31373367380585,
+          "pct": 1.0360882236424787
+        },
+        "mix": {
+          "meta": 2.5,
+          "real": 2.63,
+          "pct": 1.052
+        },
+        "financeiro": {
+          "meta": 230000,
+          "real": 148814.4789,
+          "pct": 0.6470194734782608
+        }
+      },
+      "pilares_atingidos": 2,
+      "tendencia": {
+        "pct": 0.7009377629347825,
+        "projetado": 161215.68547499998,
+        "meta": 230000,
+        "meta_dia": 40592.760550000006
+      },
+      "industrializado": {
+        "meta": 57500,
+        "real": 39993.68,
+        "participacao_pct": 0.2687485807538584,
+        "margem_pct": 0.2127395122779399,
+        "premio": 399.9368
+      },
+      "thermo": {
+        "meta": 6900,
+        "real": 7594.97,
+        "participacao_pct": 0.05103649897604151,
+        "margem_pct": 0.15054995351502384,
+        "premio": 151.8994
+      },
+      "recompra_pct": 0.2676056338028169,
+      "media_pedidos": 10.416666666666666,
+      "sku": {
+        "meta": 120,
+        "real": 89
+      },
+      "positivacao_dia15": {
+        "resultado": 63,
+        "premio": 0
+      },
+      "positivacao_dia30": {
+        "resultado": 51,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "660",
+      "nome": "LUCAS",
+      "rota": "GYN RT",
+      "supervisor": "RODRIGO",
+      "pilares": {
+        "positivacao": {
+          "meta": 76,
+          "real": 69,
+          "pct": 0.9078947368421053
+        },
+        "margem": {
+          "meta": 12.85,
+          "real": 12.808800500290443,
+          "pct": 0.9967938132521746
+        },
+        "mix": {
+          "meta": 2.5,
+          "real": 2.7,
+          "pct": 1.08
+        },
+        "financeiro": {
+          "meta": 170000,
+          "real": 132985.95,
+          "pct": 0.7822702941176471
+        }
+      },
+      "pilares_atingidos": 1,
+      "tendencia": {
+        "pct": 0.8474594852941177,
+        "projetado": 144068.11250000002,
+        "meta": 170000,
+        "meta_dia": 18507.024999999994
+      },
+      "industrializado": {
+        "meta": 42500,
+        "real": 30471.94,
+        "participacao_pct": 0.22913653660405475,
+        "margem_pct": 0.2206527656722873,
+        "premio": 0
+      },
+      "thermo": {
+        "meta": 5100,
+        "real": 5992.84,
+        "participacao_pct": 0.045063707857860166,
+        "margem_pct": 0.16804735809265725,
+        "premio": 119.8568
+      },
+      "recompra_pct": 0.18840579710144928,
+      "media_pedidos": 8.666666666666666,
+      "sku": {
+        "meta": 120,
+        "real": 87
+      },
+      "positivacao_dia15": {
+        "resultado": 58,
+        "premio": 0
+      },
+      "positivacao_dia30": {
+        "resultado": 59,
+        "premio": 0
+      }
+    },
+    {
+      "codigo": "722",
+      "nome": "LUIZ GUSTAVO -",
+      "rota": "",
+      "supervisor": "RODRIGO",
+      "pilares": {
+        "positivacao": {
+          "meta": 91,
+          "real": 93,
+          "pct": 1.021978021978022
+        },
+        "margem": {
+          "meta": 12.85,
+          "real": 11.909837674144677,
+          "pct": 0.9268356166649555
+        },
+        "mix": {
+          "meta": 2.4,
+          "real": 2.41,
+          "pct": 1.0041666666666669
+        },
+        "financeiro": {
+          "meta": 240000,
+          "real": 201749.64016,
+          "pct": 0.8406235006666667
+        }
+      },
+      "pilares_atingidos": 2,
+      "tendencia": {
+        "pct": 0.9106754590555556,
+        "projetado": 218562.11017333335,
+        "meta": 240000,
+        "meta_dia": 19125.179919999995
+      },
+      "industrializado": {
+        "meta": 60000,
+        "real": 30280.77,
+        "participacao_pct": 0.15009082532184675,
+        "margem_pct": 0.24521553215456543,
+        "premio": 0
+      },
+      "thermo": {
+        "meta": 7200,
+        "real": 5555.02,
+        "participacao_pct": 0.02753422507021338,
+        "margem_pct": 0.1503408347836732,
+        "premio": 0
+      },
+      "recompra_pct": 0.17204301075268819,
+      "media_pedidos": 15.291666666666666,
+      "sku": {
+        "meta": 120,
+        "real": 107
+      },
+      "positivacao_dia15": {
+        "resultado": 91,
+        "premio": 150
+      },
+      "positivacao_dia30": {
+        "resultado": 66,
+        "premio": 0
+      }
+    }
+  ],
+  "rcas_departamentos": [
+    {
+      "codigo": "23",
+      "nome": "FABIO L.",
+      "rota": "GYN RT 21 - SEG 01",
+      "supervisor": "EDMAR",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 4,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 0,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 1,
+          "bateu": false
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 1,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 8,
+          "bateu": false
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 5,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 1,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 13,
+          "bateu": false
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 5,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 0,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 14.958333333333334
+    },
+    {
+      "codigo": "33",
+      "nome": "ARTHUR",
+      "rota": "GYN RT 19 - SEG 02",
+      "supervisor": "EDMAR",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 1,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 1,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 1,
+          "bateu": false
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 1,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 25,
+          "bateu": true
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 16,
+          "bateu": true
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 1,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 14,
+          "bateu": false
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 20,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 2,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 14.541666666666666
+    },
+    {
+      "codigo": "15",
+      "nome": "WESLEY",
+      "rota": "GYN RT 11 - JD T",
+      "supervisor": "LEANDRO",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 2,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 4,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 16,
+          "bateu": true
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 2,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 20,
+          "bateu": true
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 19,
+          "bateu": true
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 11,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 29,
+          "bateu": true
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 42,
+          "bateu": true
+        }
+      },
+      "categorias_atingidas": 5,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 16.791666666666668
+    },
+    {
+      "codigo": "81",
+      "nome": "LOIOLA",
+      "rota": "GYN RT 57 - AP. GYN",
+      "supervisor": "LEANDRO",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 1,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 6,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 8,
+          "bateu": false
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 1,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 12,
+          "bateu": false
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 3,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 21,
+          "bateu": true
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 14,
+          "bateu": false
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 24,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 1,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 12.708333333333334
+    },
+    {
+      "codigo": "83",
+      "nome": "MARCOS SILVA",
+      "rota": "GYN",
+      "supervisor": "LEANDRO",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 2,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 4,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 14,
+          "bateu": false
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 7,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 20,
+          "bateu": true
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 7,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 24,
+          "bateu": true
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 19,
+          "bateu": true
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 38,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 3,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 12.583333333333334
+    },
+    {
+      "codigo": "85",
+      "nome": "CARLOS HENRIQUE",
+      "rota": "GYN RT 61",
+      "supervisor": "LEANDRO",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 7,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 2,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 13,
+          "bateu": false
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 3,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 27,
+          "bateu": true
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 11,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 19,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 31,
+          "bateu": true
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 46,
+          "bateu": true
+        }
+      },
+      "categorias_atingidas": 3,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 15.666666666666666
+    },
+    {
+      "codigo": "192",
+      "nome": "LUCAS LEAL",
+      "rota": "GYN RT 83 -",
+      "supervisor": "LEANDRO",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 3,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 2,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 10,
+          "bateu": false
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 2,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 19,
+          "bateu": true
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 13,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 20,
+          "bateu": true
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 11,
+          "bateu": false
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 25,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 2,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 11.416666666666666
+    },
+    {
+      "codigo": "649",
+      "nome": "WALLACE SOUSA",
+      "rota": "GYN RT 14 - A",
+      "supervisor": "LEANDRO",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 2,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 3,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 8,
+          "bateu": false
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 1,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 14,
+          "bateu": false
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 6,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 9,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 11,
+          "bateu": false
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 31,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 0,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 9.916666666666666
+    },
+    {
+      "codigo": "650",
+      "nome": "ANDRE WILKER",
+      "rota": "GYN RT 96",
+      "supervisor": "LEANDRO",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 7,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 7,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 17,
+          "bateu": true
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 9,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 15,
+          "bateu": true
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 14,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 19,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 15,
+          "bateu": true
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 32,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 3,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 8.458333333333334
+    },
+    {
+      "codigo": "12",
+      "nome": "FABIANO",
+      "rota": "GYN RT 08 - VL PEDR",
+      "supervisor": "FLAVIANE",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 4,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 3,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 4,
+          "bateu": false
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 3,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 9,
+          "bateu": false
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 9,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 9,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 20,
+          "bateu": true
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 33,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 1,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 10
+    },
+    {
+      "codigo": "377",
+      "nome": "CELISMAR",
+      "rota": "GYN RT 103 - S.",
+      "supervisor": "FLAVIANE",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 3,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 15,
+          "bateu": true
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 8,
+          "bateu": false
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 6,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 17,
+          "bateu": true
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 13,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 16,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 20,
+          "bateu": true
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 43,
+          "bateu": true
+        }
+      },
+      "categorias_atingidas": 4,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 13.541666666666666
+    },
+    {
+      "codigo": "383",
+      "nome": "GABRIEL LOURENÇO",
+      "rota": "GYN RT 10",
+      "supervisor": "FLAVIANE",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 8,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 3,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 11,
+          "bateu": false
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 4,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 15,
+          "bateu": true
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 7,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 18,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 22,
+          "bateu": true
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 36,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 2,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 13.625
+    },
+    {
+      "codigo": "471",
+      "nome": "ANTONIO EDVALDO",
+      "rota": "GY",
+      "supervisor": "FLAVIANE",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 5,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 2,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 10,
+          "bateu": false
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 5,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 11,
+          "bateu": false
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 8,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 11,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 15,
+          "bateu": true
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 20,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 1,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 12.708333333333334
+    },
+    {
+      "codigo": "657",
+      "nome": "YURI ENRIQUE",
+      "rota": "GYN RT 10",
+      "supervisor": "FLAVIANE",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 1,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 1,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 2,
+          "bateu": false
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 2,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 13,
+          "bateu": false
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 7,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 8,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 15,
+          "bateu": true
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 15,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 1,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 7.875
+    },
+    {
+      "codigo": "781",
+      "nome": "JOAO LUCAS-PQ ATHENEU",
+      "rota": "",
+      "supervisor": "FLAVIANE",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 0,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 0,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 1,
+          "bateu": false
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 2,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 0,
+          "bateu": false
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 0,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 2,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 1,
+          "bateu": false
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 0,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 0,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 0
+    },
+    {
+      "codigo": "791",
+      "nome": "LEANDRO GOMES -NV MUNDO",
+      "rota": "",
+      "supervisor": "FLAVIANE",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 3,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 1,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 6,
+          "bateu": false
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 1,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 4,
+          "bateu": false
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 2,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 8,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 3,
+          "bateu": false
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 6,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 0,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 5.75
+    },
+    {
+      "codigo": "45",
+      "nome": "TIAGO",
+      "rota": "GYN RT 40 - PALMEIRAS",
+      "supervisor": "IDEGLAN",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 4,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 3,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 5,
+          "bateu": false
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 4,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 15,
+          "bateu": true
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 20,
+          "bateu": true
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 10,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 18,
+          "bateu": true
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 21,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 3,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 9.541666666666666
+    },
+    {
+      "codigo": "738",
+      "nome": "MARCEL-TRINDADE",
+      "rota": "",
+      "supervisor": "IDEGLAN",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 2,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 3,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 15,
+          "bateu": true
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 5,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 14,
+          "bateu": false
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 11,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 12,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 23,
+          "bateu": true
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 39,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 2,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 16
+    },
+    {
+      "codigo": "164",
+      "nome": "JOAO VITOR",
+      "rota": "GYN RT 13 - B",
+      "supervisor": "IDEGLAN",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 11,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 5,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 15,
+          "bateu": true
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 7,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 26,
+          "bateu": true
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 15,
+          "bateu": true
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 9,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 22,
+          "bateu": true
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 42,
+          "bateu": true
+        }
+      },
+      "categorias_atingidas": 5,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 18.125
+    },
+    {
+      "codigo": "428",
+      "nome": "TAUA F.",
+      "rota": "GYN RT 45 - NOVA V",
+      "supervisor": "IDEGLAN",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 7,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 8,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 10,
+          "bateu": false
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 5,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 21,
+          "bateu": true
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 14,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 7,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 23,
+          "bateu": true
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 43,
+          "bateu": true
+        }
+      },
+      "categorias_atingidas": 3,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 9.333333333333334
+    },
+    {
+      "codigo": "439",
+      "nome": "GUILHERME AUGUSTO",
+      "rota": "GYN",
+      "supervisor": "IDEGLAN",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 2,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 1,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 15,
+          "bateu": true
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 6,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 14,
+          "bateu": false
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 14,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 10,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 13,
+          "bateu": false
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 29,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 1,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 14.791666666666666
+    },
+    {
+      "codigo": "735",
+      "nome": "carlos rafael",
+      "rota": "",
+      "supervisor": "IDEGLAN",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 7,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 8,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 13,
+          "bateu": false
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 5,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 8,
+          "bateu": false
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 11,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 17,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 24,
+          "bateu": true
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 26,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 1,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 11.666666666666666
+    },
+    {
+      "codigo": "622",
+      "nome": "HAMBER",
+      "rota": "GYN RT 65 - P",
+      "supervisor": "IDEGLAN",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 5,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 6,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 15,
+          "bateu": true
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 8,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 17,
+          "bateu": true
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 8,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 11,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 13,
+          "bateu": false
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 20,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 2,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 11.541666666666666
+    },
+    {
+      "codigo": "16",
+      "nome": "BERALDO",
+      "rota": "GYN RT 12 - ST G",
+      "supervisor": "RICARDO",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 2,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 1,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 9,
+          "bateu": false
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 1,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 18,
+          "bateu": true
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 4,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 6,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 11,
+          "bateu": false
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 25,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 1,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 11
+    },
+    {
+      "codigo": "398",
+      "nome": "UCLEIBSON",
+      "rota": "GYN RT 110",
+      "supervisor": "RICARDO",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 1,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 1,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 3,
+          "bateu": false
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 1,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 5,
+          "bateu": false
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 5,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 5,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 7,
+          "bateu": false
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 9,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 0,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 10.666666666666666
+    },
+    {
+      "codigo": "723",
+      "nome": "JEAN PIERRE",
+      "rota": "GYN RT 97 -",
+      "supervisor": "RICARDO",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 1,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 2,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 3,
+          "bateu": false
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 1,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 15,
+          "bateu": true
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 7,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 4,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 7,
+          "bateu": false
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 16,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 1,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 8
+    },
+    {
+      "codigo": "729",
+      "nome": "MARCELO ALVES",
+      "rota": "GYN RT",
+      "supervisor": "RICARDO",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 2,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 4,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 5,
+          "bateu": false
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 3,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 7,
+          "bateu": false
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 8,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 2,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 11,
+          "bateu": false
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 12,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 0,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 11.75
+    },
+    {
+      "codigo": "467",
+      "nome": "IGOR SA",
+      "rota": "GYN RT 50 - C",
+      "supervisor": "RICARDO",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 8,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 2,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 4,
+          "bateu": false
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 3,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 8,
+          "bateu": false
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 2,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 4,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 11,
+          "bateu": false
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 16,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 0,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 9.291666666666666
+    },
+    {
+      "codigo": "729",
+      "nome": "MARCELO ALVES",
+      "rota": "GYN RT",
+      "supervisor": "RICARDO",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 2,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 4,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 5,
+          "bateu": false
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 3,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 7,
+          "bateu": false
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 8,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 2,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 11,
+          "bateu": false
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 12,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 0,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 11.75
+    },
+    {
+      "codigo": "698",
+      "nome": "FERNANDO OLIVEIRA",
+      "rota": "RT 24",
+      "supervisor": "RICARDO",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 5,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 0,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 9,
+          "bateu": false
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 2,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 6,
+          "bateu": false
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 17,
+          "bateu": true
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 4,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 8,
+          "bateu": false
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 30,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 1,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 11.875
+    },
+    {
+      "codigo": "42",
+      "nome": "PAULO RONAN",
+      "rota": "GYN",
+      "supervisor": "RICHARD",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 2,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 2,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 17,
+          "bateu": true
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 7,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 13,
+          "bateu": false
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 4,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 11,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 5,
+          "bateu": false
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 16,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 1,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 15.416666666666666
+    },
+    {
+      "codigo": "334",
+      "nome": "JOAO GABRIEL",
+      "rota": "GYN RT",
+      "supervisor": "RICHARD",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 5,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 1,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 6,
+          "bateu": false
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 7,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 6,
+          "bateu": false
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 1,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 10,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 1,
+          "bateu": false
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 10,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 0,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 8.708333333333334
+    },
+    {
+      "codigo": "352",
+      "nome": "DOUGLAS",
+      "rota": "GYN RT 34 - ST",
+      "supervisor": "RICHARD",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 0,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 0,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 0,
+          "bateu": false
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 0,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 0,
+          "bateu": false
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 0,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 0,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 0,
+          "bateu": false
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 0,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 0,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 0
+    },
+    {
+      "codigo": "473",
+      "nome": "KAIKY DIAS",
+      "rota": "GYN RT 03",
+      "supervisor": "RICHARD",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 6,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 4,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 15,
+          "bateu": true
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 7,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 12,
+          "bateu": false
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 5,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 18,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 10,
+          "bateu": false
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 15,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 1,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 14.333333333333334
+    },
+    {
+      "codigo": "751",
+      "nome": "JULIO CAMPINAS",
+      "rota": "",
+      "supervisor": "RICHARD",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 3,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 4,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 8,
+          "bateu": false
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 11,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 14,
+          "bateu": false
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 2,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 18,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 7,
+          "bateu": false
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 21,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 0,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 11.458333333333334
+    },
+    {
+      "codigo": "687",
+      "nome": "EDREY MARTINS",
+      "rota": "GYN",
+      "supervisor": "RICHARD",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 4,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 6,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 11,
+          "bateu": false
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 16,
+          "bateu": true
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 11,
+          "bateu": false
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 4,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 16,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 7,
+          "bateu": false
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 9,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 1,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 12.875
+    },
+    {
+      "codigo": "679",
+      "nome": "RAFAEL COSTA",
+      "rota": "GYN RT 15",
+      "supervisor": "RICHARD",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 11,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 7,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 16,
+          "bateu": true
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 6,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 17,
+          "bateu": true
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 8,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 12,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 12,
+          "bateu": false
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 28,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 2,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 11.666666666666666
+    },
+    {
+      "codigo": "722",
+      "nome": "LUIZ GUSTAVO",
+      "rota": "GYN RT",
+      "supervisor": "RODRIGO",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 5,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 7,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 16,
+          "bateu": true
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 4,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 12,
+          "bateu": false
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 15,
+          "bateu": true
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 10,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 23,
+          "bateu": true
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 21,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 3,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 15.291666666666666
+    },
+    {
+      "codigo": "47",
+      "nome": "MARCELO",
+      "rota": "GYN RT",
+      "supervisor": "RODRIGO",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 11,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 4,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 21,
+          "bateu": true
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 5,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 18,
+          "bateu": true
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 25,
+          "bateu": true
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 14,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 27,
+          "bateu": true
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 47,
+          "bateu": true
+        }
+      },
+      "categorias_atingidas": 5,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 14.208333333333334
+    },
+    {
+      "codigo": "347",
+      "nome": "MATIAS",
+      "rota": "GYN RT 98 - BR",
+      "supervisor": "RODRIGO",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 6,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 3,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 12,
+          "bateu": false
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 4,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 10,
+          "bateu": false
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 15,
+          "bateu": true
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 6,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 19,
+          "bateu": true
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 37,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 2,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 12.5
+    },
+    {
+      "codigo": "357",
+      "nome": "LUCIANO",
+      "rota": "GYN RT 95 -",
+      "supervisor": "RODRIGO",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 4,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 4,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 20,
+          "bateu": true
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 3,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 11,
+          "bateu": false
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 9,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 7,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 24,
+          "bateu": true
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 44,
+          "bateu": true
+        }
+      },
+      "categorias_atingidas": 3,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 10.208333333333334
+    },
+    {
+      "codigo": "405",
+      "nome": "WILLIAN",
+      "rota": "GYN RT 77 - TLMK",
+      "supervisor": "RODRIGO",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 3,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 3,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 7,
+          "bateu": false
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 6,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 12,
+          "bateu": false
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 2,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 21,
+          "bateu": true
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 12,
+          "bateu": false
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 11,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 1,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 12.958333333333334
+    },
+    {
+      "codigo": "660",
+      "nome": "LUCAS",
+      "rota": "GYN RT 04 - J",
+      "supervisor": "RODRIGO",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 8,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 4,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 12,
+          "bateu": false
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 2,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 15,
+          "bateu": true
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 7,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 13,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 17,
+          "bateu": true
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 24,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 2,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 8.666666666666666
+    },
+    {
+      "codigo": "561",
+      "nome": "THALLES VIEIRA",
+      "rota": "GY",
+      "supervisor": "RODRIGO",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 3,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 0,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 13,
+          "bateu": false
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 1,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 16,
+          "bateu": true
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 14,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 2,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 21,
+          "bateu": true
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 26,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 2,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 10.416666666666666
+    }
+  ],
+  "evolucao_faturamento": [
+    {
+      "mes": "Janeiro",
+      "meta": 14000000.0,
+      "faturamento": 12343000.0,
+      "pct_meta": -0.1184,
+      "saldo_meta": -1657000.0
+    },
+    {
+      "mes": "Fevereiro",
+      "meta": 14000000.0,
+      "faturamento": 12682618.93,
+      "pct_meta": -0.0941,
+      "saldo_meta": -1317381.07
+    },
+    {
+      "mes": "Março",
+      "meta": 15000000.0,
+      "faturamento": 13788652.26,
+      "pct_meta": -0.0808,
+      "saldo_meta": -1211347.74
+    },
+    {
+      "mes": "Abril",
+      "meta": 15000000.0,
+      "faturamento": 13890000.0,
+      "pct_meta": -0.074,
+      "saldo_meta": -1110000.0
+    },
+    {
+      "mes": "Maio",
+      "meta": 15000000.0,
+      "faturamento": 13851000.0,
+      "pct_meta": -0.0766,
+      "saldo_meta": -1149000.0
+    },
+    {
+      "mes": "Junho",
+      "meta": 15000000.0,
+      "faturamento": 12754000.0,
+      "pct_meta": -0.1497,
+      "saldo_meta": -2246000.0
+    },
+    {
+      "mes": "Julho",
+      "meta": 15000000.0,
+      "faturamento": 12902000.0,
+      "pct_meta": -0.1399,
+      "saldo_meta": -2098000.0
+    },
+    {
+      "mes": "Agosto",
+      "meta": 15000000,
+      "faturamento": 11957540.492724445,
+      "pct_meta": -0.2028306338183703,
+      "saldo_meta": -3042459.5072755553
+    },
+    {
+      "mes": "Setembro",
+      "meta": 15500000.0,
+      "faturamento": null,
+      "pct_meta": null,
+      "saldo_meta": null
+    },
+    {
+      "mes": "Outubro",
+      "meta": 15500000.0,
+      "faturamento": null,
+      "pct_meta": null,
+      "saldo_meta": null
+    },
+    {
+      "mes": "Novembro",
+      "meta": 16000000.0,
+      "faturamento": null,
+      "pct_meta": null,
+      "saldo_meta": null
+    },
+    {
+      "mes": "Dezembro",
+      "meta": 17000000.0,
+      "faturamento": null,
+      "pct_meta": null,
+      "saldo_meta": null
+    }
+  ],
+  "evolucao_total_faturamento": {
+    "meta": 182000000.0,
+    "faturamento": 92211271.19,
+    "pct_meta": -0.4303,
+    "saldo_meta": -72788728.81
+  },
+  "evolucao_operacional": [
+    {
+      "mes": "Janeiro",
+      "margem_pct": 0.1219,
+      "peso": 1170000,
+      "preco_medio": 10.55,
+      "variacao_pct": 0.0,
+      "cli_atendidos": 3570,
+      "cresc_mensal": 0
+    },
+    {
+      "mes": "Fevereiro",
+      "margem_pct": 0.1192,
+      "peso": 1218700,
+      "preco_medio": 10.41,
+      "variacao_pct": -0.0133,
+      "cli_atendidos": 3558,
+      "cresc_mensal": -12
+    },
+    {
+      "mes": "Março",
+      "margem_pct": 0.1152,
+      "peso": 1338000,
+      "preco_medio": 10.31,
+      "variacao_pct": -0.0096,
+      "cli_atendidos": 3560,
+      "cresc_mensal": 0
+    },
+    {
+      "mes": "Abril",
+      "margem_pct": 0.122,
+      "peso": 1262000,
+      "preco_medio": 11.0,
+      "variacao_pct": 0.0669,
+      "cli_atendidos": 3621,
+      "cresc_mensal": 61
+    },
+    {
+      "mes": "Maio",
+      "margem_pct": 0.1252,
+      "peso": 1343000,
+      "preco_medio": 10.31,
+      "variacao_pct": -0.0627,
+      "cli_atendidos": 3597,
+      "cresc_mensal": -24
+    },
+    {
+      "mes": "Junho",
+      "margem_pct": 0.1208,
+      "peso": 1151000,
+      "preco_medio": 11.07,
+      "variacao_pct": 0.0737,
+      "cli_atendidos": 3621,
+      "cresc_mensal": 24
+    },
+    {
+      "mes": "Julho",
+      "margem_pct": 0.1129,
+      "peso": 1650000,
+      "preco_medio": 11.06,
+      "variacao_pct": -0.0009,
+      "cli_atendidos": 3633,
+      "cresc_mensal": 12
+    },
+    {
+      "mes": "Agosto",
+      "margem_pct": 0.11879982735292517,
+      "peso": null,
+      "preco_medio": null,
+      "variacao_pct": null,
+      "cli_atendidos": 3629,
+      "cresc_mensal": -4
+    },
+    {
+      "mes": "Setembro",
+      "margem_pct": null,
+      "peso": null,
+      "preco_medio": null,
+      "variacao_pct": null,
+      "cli_atendidos": null,
+      "cresc_mensal": null
+    },
+    {
+      "mes": "Outubro",
+      "margem_pct": null,
+      "peso": null,
+      "preco_medio": null,
+      "variacao_pct": null,
+      "cli_atendidos": null,
+      "cresc_mensal": null
+    },
+    {
+      "mes": "Novembro",
+      "margem_pct": null,
+      "peso": null,
+      "preco_medio": null,
+      "variacao_pct": null,
+      "cli_atendidos": null,
+      "cresc_mensal": null
+    },
+    {
+      "mes": "Dezembro",
+      "margem_pct": null,
+      "peso": null,
+      "preco_medio": null,
+      "variacao_pct": null,
+      "cli_atendidos": null,
+      "cresc_mensal": null
+    }
+  ],
+  "evolucao_total_operacional": {
+    "margem_pct": 0.1196,
+    "peso": 9132711,
+    "preco_medio": 10.67,
+    "variacao_pct": 0.0077,
+    "cli_atendidos": 3594,
+    "cresc_mensal": 61
+  }
 }
