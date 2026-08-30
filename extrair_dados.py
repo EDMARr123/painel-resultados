@@ -129,7 +129,8 @@ def _ler_historico():
 def _dados_painel_gerente():
     """Le o Painel do Gerente (painel_pilares) — a mesma fonte que o
     gerente ja usa pra acompanhar o mes. Financeiro e somado RCA a RCA
-    (dados.json); Margem e Cli. Atendidos vem prontos do totais_gerais.json."""
+    (dados.json); Margem, Cli. Atendidos, Peso e Preço Médio vem prontos
+    do totais_gerais.json (Peso/Preço Médio adicionados 30/08)."""
     with open(CAMINHO_PILARES, "r", encoding="utf-8") as f:
         rcas = json.load(f)
     meta_financeiro = sum(r["pilares"]["financeiro"]["meta"] for r in rcas)
@@ -137,17 +138,23 @@ def _dados_painel_gerente():
 
     margem_pct = None
     cli_atendidos = None
+    peso = None
+    preco_medio = None
     if os.path.exists(CAMINHO_TOTAIS_GERENTE):
         with open(CAMINHO_TOTAIS_GERENTE, "r", encoding="utf-8") as f:
             totais = json.load(f)
         margem_pct = totais.get("margem", {}).get("real")
         cli_atendidos = totais.get("realizado_clientes")
+        peso = totais.get("peso", {}).get("real")
+        preco_medio = totais.get("preco_medio", {}).get("real")
 
     return {
         "meta_financeiro": meta_financeiro,
         "real_financeiro": real_financeiro,
         "margem_pct": margem_pct,
         "cli_atendidos": cli_atendidos,
+        "peso": peso,
+        "preco_medio": preco_medio,
     }
 
 
@@ -170,8 +177,8 @@ def _preencher_mes_com_gerente(historico):
     — nao mexe. O mes vigente (o mes seguinte, ainda em andamento) sempre
     mostra o realizado PARCIAL de hoje, direto do Painel do Gerente — por
     isso é sobrescrito a cada execução, nunca só 'se estiver em branco'.
-    Peso/Preco Medio/Variacao/Cresc. Mensal continuam manuais (o gerente
-    nao acompanha isso em painel nenhum)."""
+    Peso e Preço Médio vêm do totais_gerais.json (30/08); Variação e
+    Cresc. Mensal são calculados automaticamente a partir deles."""
     mes_vigente = _mes_vigente()
     gerente = _dados_painel_gerente()
     mudou = False
@@ -198,12 +205,24 @@ def _preencher_mes_com_gerente(historico):
             if gerente["cli_atendidos"] is not None and linha.get("cli_atendidos") != gerente["cli_atendidos"]:
                 linha["cli_atendidos"] = gerente["cli_atendidos"]
                 mudou = True
-            # Cresc. Mensal = Cli. Atendidos do mes vigente - do mes anterior
+            if gerente["peso"] is not None and linha.get("peso") != gerente["peso"]:
+                linha["peso"] = gerente["peso"]
+                mudou = True
+            if gerente["preco_medio"] is not None and linha.get("preco_medio") != gerente["preco_medio"]:
+                linha["preco_medio"] = gerente["preco_medio"]
+                mudou = True
+            # Cresc. Mensal = Cli. Atendidos do mes vigente - do mes anterior;
+            # Variação = Preço Médio do mes vigente vs do mes anterior
             # (mesma conta que o resto da tabela já usa).
             if i > 0 and linha.get("cli_atendidos") is not None and operacional[i - 1].get("cli_atendidos") is not None:
                 novo_cresc = linha["cli_atendidos"] - operacional[i - 1]["cli_atendidos"]
                 if linha.get("cresc_mensal") != novo_cresc:
                     linha["cresc_mensal"] = novo_cresc
+                    mudou = True
+            if i > 0 and linha.get("preco_medio") is not None and operacional[i - 1].get("preco_medio"):
+                nova_variacao = linha["preco_medio"] / operacional[i - 1]["preco_medio"] - 1
+                if linha.get("variacao_pct") != nova_variacao:
+                    linha["variacao_pct"] = nova_variacao
                     mudou = True
 
     if mudou:

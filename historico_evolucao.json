@@ -159,9 +159,9 @@
     {
       "mes": "Agosto",
       "margem_pct": 0.11901278060218756,
-      "peso": null,
-      "preco_medio": null,
-      "variacao_pct": null,
+      "peso": 1105007.179,
+      "preco_medio": 11.351080443976011,
+      "variacao_pct": 0.026318304156963013,
       "cli_atendidos": 3653,
       "cresc_mensal": 20
     },
