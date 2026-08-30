@@ -1315,15 +1315,19 @@ function renderizarSlides(partesHtml) {
   window.scrollTo(0, 0);
 }
 
+let atualAntesDoModoEquipe = 0;
+
 function entrarModoEquipe(chave) {
   const sup = SUPERVISORES.find(s => s.chave === chave);
   if (!sup) return;
+  atualAntesDoModoEquipe = atual;
   renderizarSlides(slidesBlocoSupervisor(sup));
   btnVoltarEl.classList.add("visivel");
 }
 
 function sairModoEquipe() {
   renderizarSlides(SLIDES_COMPLETOS);
+  ir(atualAntesDoModoEquipe);
   btnVoltarEl.classList.remove("visivel");
 }
 
