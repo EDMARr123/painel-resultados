@@ -79,6 +79,43 @@ def _resumo_departamentos():
     return resumo
 
 
+def _melhor_vendedor(rcas):
+    """Vendedor Destaque = mesma regra da coluna 'VENDEDOR DESTAQUE' que o
+    Edmar mantém na planilha SOMA NAO SALVA ENCIMA.xlsx (aba SOMAR 4
+    PILARES): bateu Positivação, Margem e Mix (real/meta) E a Tendência de
+    fechamento do Financeiro >= 100% — não o financeiro realizado até
+    agora, que só bate perto do fim do mês (a coluna 'PILAR' da planilha
+    não conta o financeiro do mesmo jeito, por isso não usamos ela aqui).
+    Entre quem bate os 4, pega a maior média dos 4 percentuais."""
+    def bateu_tudo(r):
+        p = r["pilares"]
+        return (
+            p["positivacao"]["pct"] >= 1
+            and p["margem"]["pct"] >= 1
+            and p["mix"]["pct"] >= 1
+            and r["tendencia"]["pct"] >= 1
+        )
+
+    elegiveis = [r for r in rcas if bateu_tudo(r)]
+    if not elegiveis:
+        return None
+
+    def media_4(r):
+        p = r["pilares"]
+        return (r["tendencia"]["pct"] + p["margem"]["pct"] + p["mix"]["pct"] + p["positivacao"]["pct"]) / 4
+
+    melhor = max(elegiveis, key=media_4)
+    return {
+        "codigo": melhor["codigo"],
+        "nome": melhor["nome"],
+        "rota": melhor.get("rota", ""),
+        "supervisor": melhor["supervisor"],
+        "pilares": melhor["pilares"],
+        "tendencia": melhor["tendencia"],
+        "media_4_pilares": media_4(melhor),
+    }
+
+
 def _ler_config():
     with open(CAMINHO_CONFIG, "r", encoding="utf-8") as f:
         return json.load(f)
@@ -180,14 +217,16 @@ def main():
     config = _ler_config()
     historico = _ler_historico()
     historico = _preencher_mes_com_gerente(historico)
+    rcas_pilares = _ler_rcas_pilares()
 
     saida = {
         "mes": config.get("mes", ""),
         "vendedor_destaque": config.get("vendedor_destaque", {}),
+        "vendedor_destaque_auto": _melhor_vendedor(rcas_pilares),
         "supervisor_destaque": config.get("supervisor_destaque", {}),
         "pilares_por_supervisor": _resumo_pilares(),
         "departamentos_por_supervisor": _resumo_departamentos(),
-        "rcas_pilares": _ler_rcas_pilares(),
+        "rcas_pilares": rcas_pilares,
         "rcas_departamentos": _ler_rcas_departamentos(),
         "evolucao_faturamento": historico.get("faturamento", []),
         "evolucao_total_faturamento": historico.get("total_faturamento", {}),

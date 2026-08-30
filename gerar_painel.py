@@ -25,6 +25,8 @@ NOMES_EMBLEMAS = ["gladiadores", "vencedores", "imperadores", "aguia", "invictus
 CAMINHO_PRODUTOS_FRIATO = os.path.join(PASTA_BASE, "imagens", "produtos_friato.png")
 CAMINHO_VENDEDOR_TROFEU = os.path.join(PASTA_BASE, "imagens", "vendedor_trofeu.png")
 CAMINHO_GRAMADO = os.path.join(PASTA_BASE, "imagens", "gramado_churrascaria.png")
+CAMINHO_RESTAURANTE_INTERIOR = os.path.join(PASTA_BASE, "imagens", "restaurante_interior.png")
+CAMINHO_RESTAURANTE_BUFFET = os.path.join(PASTA_BASE, "imagens", "restaurante_buffet.png")
 
 
 def _logo_data_uri():
@@ -76,6 +78,8 @@ _EMBLEMAS_JSON = json.dumps(
 _PRODUTOS_FRIATO_URI = _imagem_data_uri(CAMINHO_PRODUTOS_FRIATO)
 _VENDEDOR_TROFEU_URI = _imagem_data_uri(CAMINHO_VENDEDOR_TROFEU)
 _GRAMADO_URI = _imagem_data_uri(CAMINHO_GRAMADO)
+_RESTAURANTE_INTERIOR_URI = _imagem_data_uri(CAMINHO_RESTAURANTE_INTERIOR)
+_RESTAURANTE_BUFFET_URI = _imagem_data_uri(CAMINHO_RESTAURANTE_BUFFET)
 
 TEMPLATE = r"""<!doctype html>
 <html lang="pt-BR">
@@ -412,6 +416,72 @@ h1, h2, .eyebrow, .destaque-nome, .capa-linha {
   text-shadow: 2px 3px 3px rgba(26,26,26,0.35);
 }
 .premio-logo { max-width: 380px; width: 44%; height: auto; filter: drop-shadow(0 10px 20px rgba(26,26,26,0.15)); }
+
+/* Grade 2x2 do prêmio (ambiente do restaurante): fotos reais extraídas do
+   PowerPoint, logos nos quadrantes brancos. O quadrante do buffet corta a
+   faixa de marca d'água do rodapé da foto original. */
+.slide.premio-grade { padding: 0; }
+.premio-grid { width: 100%; height: 100%; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; }
+.premio-grid .quadro { display: flex; align-items: center; justify-content: center; overflow: hidden; background: #fff; position: relative; }
+.premio-grid .quadro img.foto { width: 100%; height: 100%; object-fit: cover; }
+.premio-grid .quadro.buffet img.foto { object-position: 50% 8%; transform: scale(1.1); }
+.premio-grid .quadro img.marca { max-width: 62%; max-height: 55%; object-fit: contain; }
+
+/* Sequência "Resultado / Vendedor Destaque" — cabeçalho com logo T&T à
+   esquerda e Friato à direita, título preto, e uma onda vermelha cobrindo
+   a parte de baixo do slide (réplica do PowerPoint). */
+.slide.resultado-onda-slide { padding: 0; }
+.resultado-onda-inner {
+  position: relative; overflow: hidden; width: 100%; height: 100%;
+  display: flex; flex-direction: column; align-items: center; justify-content: flex-start;
+}
+.resultado-onda { position: absolute; left: -20%; width: 140%; top: 27vh; height: 100vh; border-radius: 50%; background: var(--accent); }
+.resultado-cabecalho { position: relative; z-index: 2; width: 100%; display: flex; align-items: center; justify-content: center; padding: 14px 6vw 0; flex: 0 0 auto; }
+.resultado-cabecalho .logo-tt { position: absolute; left: 22px; top: 10px; height: 92px; width: auto; }
+.resultado-cabecalho .logo-friato { position: absolute; right: 22px; top: 10px; height: 86px; width: auto; }
+.resultado-cabecalho h1 { color: #1A1A1A; font-weight: 800; text-transform: uppercase; font-size: clamp(28px, 3.6vw, 44px); margin: 0; }
+.resultado-subtitulo {
+  position: relative; z-index: 2; text-align: center; font-family: "Roboto Slab", Georgia, serif;
+  font-style: italic; font-weight: 800; color: var(--accent); text-decoration: underline;
+  text-decoration-color: var(--accent); font-size: clamp(22px, 3.2vw, 36px); margin: 8px 0 20px;
+}
+.resultado-corpo { position: relative; z-index: 2; width: 100%; display: flex; align-items: center; justify-content: center; gap: 34px; flex-wrap: wrap; padding: 0 5vw; margin-top: 10px; }
+.tabela-resultado { border-collapse: collapse; background: #fff; border-radius: 10px; overflow: hidden; font-size: clamp(16px, 1.7vw, 22px); box-shadow: 0 10px 26px rgba(0,0,0,0.25); }
+.tabela-resultado th { background: #111; color: #fff; padding: 14px 26px; text-transform: uppercase; font-weight: 800; }
+.tabela-resultado td { padding: 13px 26px; text-align: center; border: 1px solid #ddd; font-weight: 700; }
+.tabela-resultado td.pct { background: #A9E8B4; font-weight: 800; }
+.tabela-resultado tr.media td { background: var(--good); color: #fff; font-weight: 800; }
+.tabela-resultado tr.media td.pct { background: #111; color: #fff; }
+.resultado-vazio {
+  position: relative; z-index: 2; background: #fff; border-radius: 16px; padding: 30px 44px;
+  font-weight: 800; text-transform: uppercase; color: var(--ink-soft); text-align: center;
+  font-size: clamp(16px, 2vw, 22px); box-shadow: 0 10px 26px rgba(0,0,0,0.2);
+}
+.badge-vendedor { display: flex; flex-direction: column; align-items: center; gap: 12px; }
+.badge-vendedor .anel {
+  width: 190px; height: 190px; border-radius: 50%; background: var(--gold);
+  display: flex; align-items: center; justify-content: center; box-shadow: 0 10px 26px rgba(0,0,0,0.25); position: relative;
+}
+.badge-vendedor .anel img.foto-vendedor { width: 76%; height: 76%; border-radius: 50%; object-fit: cover; border: 4px solid #fff; }
+.badge-vendedor .anel .foto-fallback {
+  width: 76%; height: 76%; border-radius: 50%; border: 4px solid #fff; background: #fff;
+  display: flex; align-items: center; justify-content: center; font-size: 44px; font-weight: 800; color: var(--ink-soft);
+}
+.badge-vendedor .anel .logo-mini { position: absolute; top: 4px; left: 4px; height: 30px; width: auto; background: #fff; border-radius: 50%; padding: 3px; }
+.badge-vendedor .legenda {
+  background: #fff; border-radius: 999px; padding: 6px 18px; font-weight: 800; font-size: 12px;
+  text-transform: uppercase; color: var(--ink); box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.estrategia-alvo { position: relative; width: 220px; height: 220px; display: flex; align-items: center; justify-content: center; }
+.estrategia-alvo .anel-alvo { position: absolute; border-radius: 50%; border: 10px solid rgba(255,255,255,0.9); }
+.estrategia-alvo .anel-1 { width: 220px; height: 220px; }
+.estrategia-alvo .anel-2 { width: 150px; height: 150px; border-color: rgba(255,255,255,0.7); }
+.estrategia-alvo .anel-3 { width: 80px; height: 80px; background: #fff; border: none; }
+.estrategia-alvo .dardo { position: absolute; width: 90px; top: 50%; left: 50%; transform: translate(-20%, -50%) rotate(-8deg); filter: drop-shadow(0 4px 8px rgba(0,0,0,0.4)); }
+.resultado-banner {
+  position: relative; z-index: 2; width: 100%; text-align: center; color: #fff; font-weight: 800;
+  text-transform: uppercase; font-size: clamp(18px, 2.6vw, 30px); padding: 18px 0 30px;
+}
 
 /* Positivação Dia 15 e Dia 30 — slide de regras (texto fixo, sem dados
    variáveis): título verde, logos T&T nos cantos, 3 linhas com ícone +
@@ -1038,6 +1108,124 @@ function slideJantarExclusivo() {
     </div>`;
 }
 
+function slidePremioAmbiente() {
+  return `
+    <div class="slide premio-grade">
+      <div class="premio-grid">
+        <div class="quadro"><img class="marca" src="__LOGO_FRIATO_URI__" alt="Friato Alimentos"></div>
+        <div class="quadro"><img class="foto" src="__RESTAURANTE_INTERIOR_URI__" alt="Ambiente do restaurante"></div>
+        <div class="quadro buffet"><img class="foto" src="__RESTAURANTE_BUFFET_URI__" alt="Buffet do restaurante"></div>
+        <div class="quadro"><img class="marca" src="__LOGO_URI__" alt="T&amp;T Alimentos"></div>
+      </div>
+    </div>`;
+}
+
+function fmtPctResultado(v) {
+  return (v * 100).toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + "%";
+}
+
+function linhaResultado(label, valorMeta, valorReal, pct) {
+  return `<tr><td>${label}</td><td>${valorMeta}</td><td>${valorReal}</td><td class="pct">${fmtPctResultado(pct)}</td></tr>`;
+}
+
+function tabelaResultado(vendedor) {
+  const p = vendedor.pilares;
+  const t = vendedor.tendencia;
+  const linhas = [
+    linhaResultado("Positivação", Math.round(p.positivacao.meta), Math.round(p.positivacao.real), p.positivacao.pct),
+    linhaResultado("Margem", p.margem.meta.toFixed(2) + "%", p.margem.real.toFixed(2) + "%", p.margem.pct),
+    linhaResultado("Mix", p.mix.meta.toFixed(2), p.mix.real.toFixed(2), p.mix.pct),
+    linhaResultado("Faturamento R$ (Tendência)", fmtMoedaSimples(t.meta), fmtMoedaSimples(t.projetado), t.pct),
+  ].join("");
+  return `
+    <table class="tabela-resultado">
+      <thead><tr><th>Indicadores</th><th>Meta</th><th>Realizado</th><th>%</th></tr></thead>
+      <tbody>
+        ${linhas}
+        <tr class="media"><td colspan="3">Média 04 Pilares</td><td class="pct">${fmtPctResultado(vendedor.media_4_pilares)}</td></tr>
+      </tbody>
+    </table>`;
+}
+
+function badgeVendedor(vendedor) {
+  const foto = FOTOS_RCAS[normalizarNomeFoto(vendedor.nome)];
+  const fotoHtml = foto
+    ? `<img class="foto-vendedor" src="${foto}" alt="${vendedor.nome}">`
+    : `<div class="foto-fallback">${iniciais(vendedor.nome)}</div>`;
+  return `
+    <div class="badge-vendedor">
+      <div class="anel">
+        <img class="logo-mini" src="__LOGO_URI__" alt="T&amp;T">
+        ${fotoHtml}
+      </div>
+      <div class="legenda">Vendedor ${vendedor.nome} · RCA ${vendedor.codigo}</div>
+    </div>`;
+}
+
+function resultadoCabecalho(titulo) {
+  return `
+    <div class="resultado-cabecalho">
+      <img class="logo-tt" src="__LOGO_URI__" alt="T&amp;T Alimentos">
+      <img class="logo-friato" src="__LOGO_FRIATO_URI__" alt="Friato Alimentos">
+      <h1>${titulo}</h1>
+    </div>`;
+}
+
+function slideResultadoDivisor() {
+  return `
+    <div class="slide resultado-onda-slide"><div class="resultado-onda-inner">
+      ${resultadoCabecalho("Resultado")}
+      <div class="resultado-onda"></div>
+    </div></div>`;
+}
+
+function slideResultadoReveal(vendedor) {
+  const corpo = vendedor
+    ? tabelaResultado(vendedor)
+    : `<div class="resultado-vazio">Ninguém bateu os 4 pilares ainda este mês</div>`;
+  return `
+    <div class="slide resultado-onda-slide"><div class="resultado-onda-inner">
+      ${resultadoCabecalho("Resultado")}
+      <div class="resultado-subtitulo">Vendedor Destaque Foi........</div>
+      <div class="resultado-corpo">${corpo}</div>
+      <div class="resultado-onda"></div>
+    </div></div>`;
+}
+
+function slideVendedorDestaqueTabela(vendedor) {
+  if (!vendedor) return "";
+  return `
+    <div class="slide resultado-onda-slide"><div class="resultado-onda-inner">
+      ${resultadoCabecalho("Vendedor Destaque")}
+      <div class="resultado-subtitulo">${vendedor.nome}</div>
+      <div class="resultado-corpo">${tabelaResultado(vendedor)}${badgeVendedor(vendedor)}</div>
+      <div class="resultado-onda"></div>
+    </div></div>`;
+}
+
+function slideVendedorDestaqueEstrategia(vendedor) {
+  if (!vendedor) return "";
+  const alvo = `
+    <div class="estrategia-alvo">
+      <div class="anel-alvo anel-1"></div>
+      <div class="anel-alvo anel-2"></div>
+      <div class="anel-alvo anel-3"></div>
+      <svg class="dardo" viewBox="0 0 100 30">
+        <polygon points="0,15 70,8 70,22" fill="var(--accent)"/>
+        <rect x="68" y="12" width="20" height="6" fill="#333"/>
+        <polygon points="88,6 100,15 88,24" fill="#333"/>
+      </svg>
+    </div>`;
+  return `
+    <div class="slide resultado-onda-slide"><div class="resultado-onda-inner">
+      ${resultadoCabecalho("Vendedor Destaque")}
+      <div class="resultado-subtitulo">${vendedor.nome}</div>
+      <div class="resultado-corpo">${badgeVendedor(vendedor)}${alvo}</div>
+      <div class="resultado-onda"></div>
+      <div class="resultado-banner">Estratégia do Campeão</div>
+    </div></div>`;
+}
+
 function slideDestaque(chave, titulo, eImagemRca) {
   const d = DADOS[chave];
   if (!d || !d.nome) return "";
@@ -1076,8 +1264,12 @@ function montar() {
     slideDepartamentosCapa(),
     ...SUPERVISORES.map(sup => slideEquipeDepartamentos(sup.chave, sup.nome)),
     slideVendedorDestaqueCapa(),
-    slideDestaque("vendedor_destaque", "Vendedor Destaque", true),
     slideJantarExclusivo(),
+    slidePremioAmbiente(),
+    slideResultadoDivisor(),
+    slideResultadoReveal(DADOS.vendedor_destaque_auto),
+    slideVendedorDestaqueTabela(DADOS.vendedor_destaque_auto),
+    slideVendedorDestaqueEstrategia(DADOS.vendedor_destaque_auto),
     slideDestaque("supervisor_destaque", "Supervisor Destaque", false),
   ].filter(Boolean);
 
@@ -1139,6 +1331,8 @@ def gerar_html(dados):
     html = html.replace("__PRODUTOS_FRIATO_URI__", _PRODUTOS_FRIATO_URI)
     html = html.replace("__VENDEDOR_TROFEU_URI__", _VENDEDOR_TROFEU_URI)
     html = html.replace("__GRAMADO_URI__", _GRAMADO_URI)
+    html = html.replace("__RESTAURANTE_INTERIOR_URI__", _RESTAURANTE_INTERIOR_URI)
+    html = html.replace("__RESTAURANTE_BUFFET_URI__", _RESTAURANTE_BUFFET_URI)
     return html
 
 
