@@ -1177,15 +1177,25 @@ function slideDestaque(chave, titulo, eImagemRca) {
     </div>`;
 }
 
+let INDEX_DEPOIS_TIMES = 0;
+
 function montarSlidesCompletos() {
-  return [
+  const antesDosTimes = [
     slideCapa(),
     slideCronograma(),
     slideNovosColaboradores(),
     slideEvolucaoFaturamento(),
     slideEvolucaoOperacional(),
     slideResultado4PilaresCapa(),
-    ...SUPERVISORES.flatMap(slidesBlocoSupervisor),
+  ];
+  const blocosTimes = SUPERVISORES.flatMap(slidesBlocoSupervisor);
+  // Onde a apresentação continua quando alguém sai do "modo equipe" pelo
+  // botão avançar (em vez de "Painel completo") — pula direto pro que vem
+  // depois de TODOS os times, sem passar pelos outros times de novo.
+  INDEX_DEPOIS_TIMES = antesDosTimes.length + blocosTimes.length;
+  return [
+    ...antesDosTimes,
+    ...blocosTimes,
     slideComissaoThermo(),
     slidePositivacaoDiaRegras(),
     slideGanhadoresPositivacao("positivacao_dia15", "Ganhadores Dia 15"),
@@ -1211,9 +1221,14 @@ const btnVoltarEl = document.getElementById("btnVoltarCompleto");
 let SLIDES_COMPLETOS = null;
 let slidesAtuais = [];
 let atual = 0;
+let emModoEquipe = false;
 
 function ir(i) {
-  if (i < 0 || i >= slidesAtuais.length) return;
+  if (i >= slidesAtuais.length) {
+    if (emModoEquipe) continuarAposEquipe();
+    return;
+  }
+  if (i < 0) return;
   slidesAtuais[atual].classList.remove("active");
   dotsEl.children[atual].classList.remove("active");
   atual = i;
@@ -1239,12 +1254,25 @@ function entrarModoEquipe(chave) {
   if (!sup) return;
   atualAntesDoModoEquipe = atual;
   renderizarSlides(slidesBlocoSupervisor(sup));
+  emModoEquipe = true;
   btnVoltarEl.classList.add("visivel");
 }
 
+// Botão "Painel completo": volta pro mesmo slide de onde saiu (Time T&T GYN).
 function sairModoEquipe() {
+  emModoEquipe = false;
   renderizarSlides(SLIDES_COMPLETOS);
   ir(atualAntesDoModoEquipe);
+  btnVoltarEl.classList.remove("visivel");
+}
+
+// Seta "avançar" no último slide do time: continua a apresentação a partir
+// de onde os times terminam (Comissão Thermo em diante), pulando os outros
+// times em vez de voltar pro divisor "Time T&T GYN".
+function continuarAposEquipe() {
+  emModoEquipe = false;
+  renderizarSlides(SLIDES_COMPLETOS);
+  ir(INDEX_DEPOIS_TIMES);
   btnVoltarEl.classList.remove("visivel");
 }
 
