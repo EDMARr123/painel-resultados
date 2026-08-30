@@ -234,8 +234,19 @@ h1, h2, .eyebrow, .destaque-nome, .capa-linha {
   width: clamp(90px, 12vw, 150px); height: clamp(90px, 12vw, 150px); border-radius: 14px; background: #fff;
   box-shadow: 0 4px 14px rgba(26,26,26,0.2); border: 1px solid var(--border);
   display: flex; align-items: center; justify-content: center; overflow: hidden;
+  padding: 0; font: inherit; -webkit-tap-highlight-color: transparent;
 }
 .emblemas-row .emblema img { width: 100%; height: 100%; object-fit: contain; }
+.emblemas-row button.emblema { cursor: pointer; transition: transform 0.15s ease, box-shadow 0.15s ease; }
+.emblemas-row button.emblema:hover { transform: translateY(-4px) scale(1.04); box-shadow: 0 8px 20px rgba(26,26,26,0.28); border-color: var(--gold); }
+.voltar-completo {
+  position: fixed; top: 20px; left: 24px; z-index: 30; display: none;
+  align-items: center; gap: 8px; background: var(--accent); color: #fff; border: none;
+  border-radius: 999px; padding: 10px 18px; font-weight: 800; font-size: 13px; cursor: pointer;
+  box-shadow: 0 4px 14px rgba(26,26,26,0.25);
+}
+.voltar-completo.visivel { display: inline-flex; }
+.voltar-completo:hover { background: #9e211c; }
 
 /* Divisor de cada supervisor (réplica dos slides "SUPERVISOR X"): fundo
    escuro gradiente (era um degradê preto->teal gerado pelo Designer do
@@ -546,6 +557,7 @@ h1, h2, .eyebrow, .destaque-nome, .capa-linha {
 <button class="nav-arrow next" id="btnNext">&rarr;</button>
 <div class="nav-dots" id="dots"></div>
 <div class="slide-counter" id="counter"></div>
+<button class="voltar-completo" id="btnVoltarCompleto">&larr; Painel completo</button>
 
 <script>
 const DADOS = __DADOS_JSON__;
@@ -696,8 +708,10 @@ function slideEvolucaoOperacional() {
 }
 
 function slideResultado4PilaresCapa() {
-  const ordem = ["gladiadores", "vencedores", "imperadores", "aguia", "invictus", "veteranos"];
-  const emblemasHtml = ordem.map(nome => `<div class="emblema"><img src="${EMBLEMAS[nome]}" alt="${nome}"></div>`).join("");
+  const emblemasHtml = SUPERVISORES.map(sup => `
+    <button type="button" class="emblema emblema-clicavel" data-sup="${sup.chave}" title="Ver só a equipe ${sup.nome}">
+      <img src="${EMBLEMAS[sup.emblema]}" alt="${sup.nome}">
+    </button>`).join("");
   return `
     <div class="slide pilares-capa">
       <div class="logo-topo esq"><img src="__LOGO_FRIATO_URI__" alt="Friato Alimentos"></div>
@@ -1246,8 +1260,8 @@ function slideDestaque(chave, titulo, eImagemRca) {
     </div>`;
 }
 
-function montar() {
-  const partes = [
+function montarSlidesCompletos() {
+  return [
     slideCapa(),
     slideCronograma(),
     slideNovosColaboradores(),
@@ -1272,25 +1286,50 @@ function montar() {
     slideVendedorDestaqueEstrategia(DADOS.vendedor_destaque_auto),
     slideDestaque("supervisor_destaque", "Supervisor Destaque", false),
   ].filter(Boolean);
+}
 
-  document.getElementById("slides").innerHTML = partes.join("");
-  const slides = document.querySelectorAll(".slide");
-  slides[0].classList.add("active");
+const dotsEl = document.getElementById("dots");
+const counterEl = document.getElementById("counter");
+const btnVoltarEl = document.getElementById("btnVoltarCompleto");
+let SLIDES_COMPLETOS = null;
+let slidesAtuais = [];
+let atual = 0;
 
-  const dotsEl = document.getElementById("dots");
-  dotsEl.innerHTML = Array.from(slides).map((_, i) => `<div class="dot ${i === 0 ? "active" : ""}" data-i="${i}"></div>`).join("");
+function ir(i) {
+  if (i < 0 || i >= slidesAtuais.length) return;
+  slidesAtuais[atual].classList.remove("active");
+  dotsEl.children[atual].classList.remove("active");
+  atual = i;
+  slidesAtuais[atual].classList.add("active");
+  dotsEl.children[atual].classList.add("active");
+  counterEl.textContent = `${atual + 1} / ${slidesAtuais.length}`;
+}
 
-  let atual = 0;
-  function ir(i) {
-    if (i < 0 || i >= slides.length) return;
-    slides[atual].classList.remove("active");
-    dotsEl.children[atual].classList.remove("active");
-    atual = i;
-    slides[atual].classList.add("active");
-    dotsEl.children[atual].classList.add("active");
-    document.getElementById("counter").textContent = `${atual + 1} / ${slides.length}`;
-  }
-  document.getElementById("counter").textContent = `1 / ${slides.length}`;
+function renderizarSlides(partesHtml) {
+  document.getElementById("slides").innerHTML = partesHtml.join("");
+  slidesAtuais = Array.from(document.querySelectorAll(".slide"));
+  atual = 0;
+  slidesAtuais[0].classList.add("active");
+  dotsEl.innerHTML = slidesAtuais.map((_, i) => `<div class="dot ${i === 0 ? "active" : ""}" data-i="${i}"></div>`).join("");
+  counterEl.textContent = `1 / ${slidesAtuais.length}`;
+  window.scrollTo(0, 0);
+}
+
+function entrarModoEquipe(chave) {
+  const sup = SUPERVISORES.find(s => s.chave === chave);
+  if (!sup) return;
+  renderizarSlides(slidesBlocoSupervisor(sup));
+  btnVoltarEl.classList.add("visivel");
+}
+
+function sairModoEquipe() {
+  renderizarSlides(SLIDES_COMPLETOS);
+  btnVoltarEl.classList.remove("visivel");
+}
+
+function montar() {
+  SLIDES_COMPLETOS = montarSlidesCompletos();
+  renderizarSlides(SLIDES_COMPLETOS);
 
   document.getElementById("btnPrev").addEventListener("click", () => ir(atual - 1));
   document.getElementById("btnNext").addEventListener("click", () => ir(atual + 1));
@@ -1301,7 +1340,13 @@ function montar() {
   document.addEventListener("keydown", (e) => {
     if (e.key === "ArrowRight" || e.key === " ") ir(atual + 1);
     if (e.key === "ArrowLeft") ir(atual - 1);
+    if (e.key === "Escape") sairModoEquipe();
   });
+  document.getElementById("slides").addEventListener("click", (e) => {
+    const btn = e.target.closest(".emblema-clicavel");
+    if (btn) entrarModoEquipe(btn.dataset.sup);
+  });
+  btnVoltarEl.addEventListener("click", sairModoEquipe);
 
   let touchX = null;
   document.addEventListener("touchstart", (e) => { touchX = e.touches[0].clientX; });
