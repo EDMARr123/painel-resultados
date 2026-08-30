@@ -1262,7 +1262,7 @@ function slideDestaque(chave, titulo, eImagemRca) {
 
 let INDEX_DEPOIS_TIMES = 0;
 
-function montarSlidesCompletos() {
+function montarSlidesCompletos(chaveEscolhida) {
   const antesDosTimes = [
     slideCapa(),
     slideCronograma(),
@@ -1276,6 +1276,14 @@ function montarSlidesCompletos() {
   // botão avançar (em vez de "Painel completo") — pula direto pro que vem
   // depois de TODOS os times, sem passar pelos outros times de novo.
   INDEX_DEPOIS_TIMES = antesDosTimes.length + blocosTimes.length;
+
+  // Se uma equipe foi escolhida (veio do modo equipe), as seções que
+  // normalmente mostram um slide por supervisor (Recompra, Departamentos)
+  // também obedecem a escolha — só a equipe clicada aparece, as outras não.
+  const supervisoresParaListas = chaveEscolhida
+    ? SUPERVISORES.filter(sup => sup.chave === chaveEscolhida)
+    : SUPERVISORES;
+
   return [
     ...antesDosTimes,
     ...blocosTimes,
@@ -1284,9 +1292,9 @@ function montarSlidesCompletos() {
     slideGanhadoresPositivacao("positivacao_dia15", "Ganhadores Dia 15"),
     slideGanhadoresPositivacao("positivacao_dia30", "Ganhadores Dia 30"),
     slideRecompraLegenda(),
-    ...SUPERVISORES.map(sup => slideRecompraEquipe(sup.chave, sup.nome)),
+    ...supervisoresParaListas.map(sup => slideRecompraEquipe(sup.chave, sup.nome)),
     slideDepartamentosCapa(),
-    ...SUPERVISORES.map(sup => slideEquipeDepartamentos(sup.chave, sup.nome)),
+    ...supervisoresParaListas.map(sup => slideEquipeDepartamentos(sup.chave, sup.nome)),
     slideVendedorDestaqueCapa(),
     slideJantarExclusivo(),
     slidePremioAmbiente(),
@@ -1331,21 +1339,24 @@ function renderizarSlides(partesHtml) {
 }
 
 let atualAntesDoModoEquipe = 0;
+let equipeEscolhida = null;
 
 function entrarModoEquipe(chave) {
   const sup = SUPERVISORES.find(s => s.chave === chave);
   if (!sup) return;
   atualAntesDoModoEquipe = atual;
-  // Recompra também obedece a equipe escolhida — entra só a tabela desse
-  // time, as dos outros times não aparecem no modo equipe.
-  renderizarSlides([...slidesBlocoSupervisor(sup), slideRecompraEquipe(sup.chave, sup.nome)]);
+  equipeEscolhida = chave;
+  renderizarSlides(slidesBlocoSupervisor(sup));
   emModoEquipe = true;
   btnVoltarEl.classList.add("visivel");
 }
 
-// Botão "Painel completo": volta pro mesmo slide de onde saiu (Time T&T GYN).
+// Botão "Painel completo": limpa a escolha de equipe (Recompra/Departamentos
+// voltam a mostrar todo mundo) e retoma no mesmo slide de onde saiu.
 function sairModoEquipe() {
   emModoEquipe = false;
+  equipeEscolhida = null;
+  SLIDES_COMPLETOS = montarSlidesCompletos(null);
   renderizarSlides(SLIDES_COMPLETOS);
   ir(atualAntesDoModoEquipe);
   btnVoltarEl.classList.remove("visivel");
@@ -1353,16 +1364,18 @@ function sairModoEquipe() {
 
 // Seta "avançar" no último slide do time: continua a apresentação a partir
 // de onde os times terminam (Comissão Thermo em diante), pulando os outros
-// times em vez de voltar pro divisor "Time T&T GYN".
+// times — e as seções seguintes que também são por-supervisor (Recompra,
+// Departamentos) ficam filtradas só na equipe escolhida.
 function continuarAposEquipe() {
   emModoEquipe = false;
+  SLIDES_COMPLETOS = montarSlidesCompletos(equipeEscolhida);
   renderizarSlides(SLIDES_COMPLETOS);
   ir(INDEX_DEPOIS_TIMES);
-  btnVoltarEl.classList.remove("visivel");
+  // Continua visível: ainda estamos numa visão filtrada pra essa equipe.
 }
 
 function montar() {
-  SLIDES_COMPLETOS = montarSlidesCompletos();
+  SLIDES_COMPLETOS = montarSlidesCompletos(null);
   renderizarSlides(SLIDES_COMPLETOS);
 
   document.getElementById("btnPrev").addEventListener("click", () => ir(atual - 1));
