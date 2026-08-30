@@ -1336,7 +1336,9 @@ function entrarModoEquipe(chave) {
   const sup = SUPERVISORES.find(s => s.chave === chave);
   if (!sup) return;
   atualAntesDoModoEquipe = atual;
-  renderizarSlides(slidesBlocoSupervisor(sup));
+  // Recompra também obedece a equipe escolhida — entra só a tabela desse
+  // time, as dos outros times não aparecem no modo equipe.
+  renderizarSlides([...slidesBlocoSupervisor(sup), slideRecompraEquipe(sup.chave, sup.nome)]);
   emModoEquipe = true;
   btnVoltarEl.classList.add("visivel");
 }
