@@ -53,9 +53,9 @@
     {
       "mes": "Agosto",
       "meta": 15000000,
-      "faturamento": 12527909.785372443,
-      "pct_meta": -0.16480601430850372,
-      "saldo_meta": -2472090.2146275565
+      "faturamento": 13145814.058982443,
+      "pct_meta": -0.12361239606783714,
+      "saldo_meta": -1854185.941017557
     },
     {
       "mes": "Setembro",
@@ -158,12 +158,12 @@
     },
     {
       "mes": "Agosto",
-      "margem_pct": 0.11901278060218756,
+      "margem_pct": 0.11937007257564809,
       "peso": 1105007.179,
       "preco_medio": 11.351080443976011,
       "variacao_pct": 0.026318304156963013,
-      "cli_atendidos": 3653,
-      "cresc_mensal": 20
+      "cli_atendidos": 3667,
+      "cresc_mensal": 34
     },
     {
       "mes": "Setembro",
