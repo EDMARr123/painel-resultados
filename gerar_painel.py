@@ -1310,6 +1310,8 @@ function montarSlidesCompletos(chaveEscolhida) {
     slideVendedorDestaqueTabela(DADOS.vendedor_destaque_auto),
     slideVendedorDestaqueEstrategia(DADOS.vendedor_destaque_auto),
     slideSupervisorDestaqueCapa(),
+    slideJantarExclusivo(),
+    slidePremioAmbiente(),
     slideDestaque("supervisor_destaque", "Supervisor Destaque", false),
   ].filter(Boolean);
 }
