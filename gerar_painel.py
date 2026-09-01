@@ -597,8 +597,10 @@ h1, h2, .eyebrow, .destaque-nome, .capa-linha {
 .ganhadores-linha { width: 88%; max-width: 900px; border-top: 1px dashed rgba(255,255,255,0.35); margin-bottom: 18px; }
 .ganhadores-corpo { flex: 1; width: 100%; display: flex; align-items: center; justify-content: center; gap: 3vw; }
 .ganhadores-col { display: flex; flex-direction: column; gap: 18px; align-items: center; }
-.ganhadores-logos { display: flex; flex-direction: column; gap: 14px; margin-right: 1vw; }
-.ganhadores-logos img { height: 46px; width: auto; background: #fff; border-radius: 8px; padding: 6px 10px; }
+.ganhadores-logo-topo { position: absolute; top: 26px; z-index: 3; }
+.ganhadores-logo-topo.esq { left: 4vw; }
+.ganhadores-logo-topo.dir { right: 4vw; }
+.ganhadores-logo-topo img { height: 46px; width: auto; background: #fff; border-radius: 8px; padding: 6px 10px; }
 .ganhadores-premio {
   flex: 0 0 auto; background: linear-gradient(180deg, #7a0f0f, #4a0808); border: 2px solid var(--gold);
   border-radius: 18px; padding: 22px 34px; text-align: center; box-shadow: 0 16px 34px rgba(0,0,0,0.6);
@@ -1285,10 +1287,6 @@ function slideGanhadoresCampanha(faixa, grupo, pagina, totalPaginas) {
   const corpo = grupo.length
     ? `
       <div class="ganhadores-col">${colEsq.map(ganhadorBadge).join("")}</div>
-      <div class="ganhadores-logos">
-        <img src="__LOGO_URI__" alt="T&amp;T Alimentos">
-        <img src="__LOGO_FRIATO_URI__" alt="Friato Alimentos">
-      </div>
       <div class="ganhadores-premio">
         <div class="nivel">${faixa.nivel}º Nível</div>
         <div class="titulo">Premiação</div>
@@ -1297,10 +1295,6 @@ function slideGanhadoresCampanha(faixa, grupo, pagina, totalPaginas) {
       </div>
       <div class="ganhadores-col">${colDir.map(ganhadorBadge).join("")}</div>`
     : `
-      <div class="ganhadores-logos">
-        <img src="__LOGO_URI__" alt="T&amp;T Alimentos">
-        <img src="__LOGO_FRIATO_URI__" alt="Friato Alimentos">
-      </div>
       <div class="ganhadores-premio">
         <div class="nivel">${faixa.nivel}º Nível</div>
         <div class="titulo">Premiação</div>
@@ -1310,6 +1304,8 @@ function slideGanhadoresCampanha(faixa, grupo, pagina, totalPaginas) {
       <div class="ganhadores-sem">Sem ganhadores<br>nesta faixa</div>`;
   return `
     <div class="slide ganhadores-campanha"><div class="ganhadores-campanha-inner">
+      <div class="ganhadores-logo-topo esq"><img src="__LOGO_URI__" alt="T&amp;T Alimentos"></div>
+      <div class="ganhadores-logo-topo dir"><img src="__LOGO_FRIATO_URI__" alt="Friato Alimentos"></div>
       <div class="ganhadores-titulo">Ganhadores</div>
       <div class="ganhadores-linha"></div>
       <div class="ganhadores-corpo">${corpo}</div>
