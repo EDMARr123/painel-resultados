@@ -77,6 +77,210 @@
     },
     "media_4_pilares": 1.0178705593202992
   },
+  "campanha_hamburguer": [
+    {
+      "nivel": 1,
+      "caixas_min": 50,
+      "valor": 100,
+      "ganhadores": [
+        {
+          "codigo": "439",
+          "nome": "GUILHERME AUGU",
+          "rota": "",
+          "supervisor": "IDEGLAN",
+          "caixas": 98
+        },
+        {
+          "codigo": "679",
+          "nome": "RAFAEL COSTA -",
+          "rota": "",
+          "supervisor": "RICHARD",
+          "caixas": 95
+        },
+        {
+          "codigo": "45",
+          "nome": "TIAGO",
+          "rota": "GYN RT",
+          "supervisor": "IDEGLAN",
+          "caixas": 90
+        },
+        {
+          "codigo": "723",
+          "nome": "JEAN PIERRE -",
+          "rota": "",
+          "supervisor": "RICARDO",
+          "caixas": 84
+        },
+        {
+          "codigo": "357",
+          "nome": "LUCIANO",
+          "rota": "GYN",
+          "supervisor": "RODRIGO",
+          "caixas": 82
+        },
+        {
+          "codigo": "15",
+          "nome": "WESLEY",
+          "rota": "GYN RT",
+          "supervisor": "LEANDRO",
+          "caixas": 70
+        },
+        {
+          "codigo": "47",
+          "nome": "MARCELO",
+          "rota": "GYN R",
+          "supervisor": "RODRIGO",
+          "caixas": 67
+        },
+        {
+          "codigo": "377",
+          "nome": "CELISMAR",
+          "rota": "GYN",
+          "supervisor": "FLAVIANE",
+          "caixas": 67
+        },
+        {
+          "codigo": "561",
+          "nome": "THALLES VIEIRA",
+          "rota": "",
+          "supervisor": "RODRIGO",
+          "caixas": 67
+        },
+        {
+          "codigo": "473",
+          "nome": "KAIKY DIAS",
+          "rota": "G",
+          "supervisor": "RICHARD",
+          "caixas": 57
+        },
+        {
+          "codigo": "16",
+          "nome": "BERALDO",
+          "rota": "GYN R",
+          "supervisor": "RICARDO",
+          "caixas": 57
+        },
+        {
+          "codigo": "428",
+          "nome": "TAUA F.",
+          "rota": "GYN",
+          "supervisor": "IDEGLAN",
+          "caixas": 56
+        },
+        {
+          "codigo": "85",
+          "nome": "CARLOS HENRIQUE",
+          "rota": "",
+          "supervisor": "LEANDRO",
+          "caixas": 54
+        },
+        {
+          "codigo": "729",
+          "nome": "MARCELO ALVES",
+          "rota": "",
+          "supervisor": "RICARDO",
+          "caixas": 53
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "caixas_min": 100,
+      "valor": 150,
+      "ganhadores": [
+        {
+          "codigo": "738",
+          "nome": "MARCEL HENRIQU",
+          "rota": "",
+          "supervisor": "IDEGLAN",
+          "caixas": 149
+        },
+        {
+          "codigo": "42",
+          "nome": "PAULO RONAN",
+          "rota": "G",
+          "supervisor": "RICHARD",
+          "caixas": 145
+        },
+        {
+          "codigo": "698",
+          "nome": "FERNANDO OLIVE",
+          "rota": "",
+          "supervisor": "RICARDO",
+          "caixas": 138
+        },
+        {
+          "codigo": "467",
+          "nome": "IGOR SA",
+          "rota": "GYN",
+          "supervisor": "RICARDO",
+          "caixas": 117
+        },
+        {
+          "codigo": "649",
+          "nome": "WALLACE SOUSA",
+          "rota": "",
+          "supervisor": "LEANDRO",
+          "caixas": 117
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "caixas_min": 200,
+      "valor": 200,
+      "ganhadores": [
+        {
+          "codigo": "751",
+          "nome": "JULIO CESAR -",
+          "rota": "",
+          "supervisor": "RICHARD",
+          "caixas": 239
+        },
+        {
+          "codigo": "644",
+          "nome": "ALBERTO SANTOS",
+          "rota": "",
+          "supervisor": "RICARDO",
+          "caixas": 218
+        },
+        {
+          "codigo": "164",
+          "nome": "JOAO VITOR",
+          "rota": "G",
+          "supervisor": "IDEGLAN",
+          "caixas": 208
+        }
+      ]
+    },
+    {
+      "nivel": 4,
+      "caixas_min": 250,
+      "valor": 300,
+      "ganhadores": []
+    },
+    {
+      "nivel": 5,
+      "caixas_min": 300,
+      "valor": 400,
+      "ganhadores": [
+        {
+          "codigo": "33",
+          "nome": "ARTHUR",
+          "rota": "GYN RT",
+          "supervisor": "EDMAR",
+          "caixas": 1660
+        },
+        {
+          "codigo": "405",
+          "nome": "WILLIAN",
+          "rota": "GYN",
+          "supervisor": "RODRIGO",
+          "caixas": 344
+        }
+      ]
+    }
+  ],
   "pilares_por_supervisor": [
     {
       "supervisor": "LEANDRO",

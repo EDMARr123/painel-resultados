@@ -582,6 +582,60 @@ h1, h2, .eyebrow, .destaque-nome, .capa-linha {
   color: #fff; font-size: 34px; box-shadow: 0 8px 20px rgba(0,0,0,0.4);
 }
 
+/* Ganhadores da Campanha (Hambúrguer) — fundo preto com o RCA vencedor de
+   cada faixa em volta de um cartão central de premiação, réplica livre do
+   estilo "GANHADORES" que o Edmar já usa nos prints de fechamento. */
+.slide.ganhadores-campanha { padding: 0; background: #000; }
+.ganhadores-campanha-inner {
+  position: relative; width: 100%; height: 100%; display: flex; flex-direction: column;
+  align-items: center; padding: 26px 4vw 20px;
+}
+.ganhadores-titulo {
+  color: #fff; font-weight: 800; text-transform: uppercase; letter-spacing: 0.06em;
+  font-size: clamp(26px, 3.6vw, 44px); margin: 0 0 6px;
+}
+.ganhadores-linha { width: 88%; max-width: 900px; border-top: 1px dashed rgba(255,255,255,0.35); margin-bottom: 18px; }
+.ganhadores-corpo { flex: 1; width: 100%; display: flex; align-items: center; justify-content: center; gap: 3vw; }
+.ganhadores-col { display: flex; flex-direction: column; gap: 18px; align-items: center; }
+.ganhadores-logos { display: flex; flex-direction: column; gap: 14px; margin-right: 1vw; }
+.ganhadores-logos img { height: 46px; width: auto; background: #fff; border-radius: 8px; padding: 6px 10px; }
+.ganhadores-premio {
+  flex: 0 0 auto; background: linear-gradient(180deg, #7a0f0f, #4a0808); border: 2px solid var(--gold);
+  border-radius: 18px; padding: 22px 34px; text-align: center; box-shadow: 0 16px 34px rgba(0,0,0,0.6);
+  position: relative;
+}
+.ganhadores-premio .nivel {
+  display: inline-block; background: linear-gradient(180deg, #F3C500, #C69200); color: #3d0a0a;
+  font-weight: 900; text-transform: uppercase; font-size: 13px; letter-spacing: 0.04em;
+  padding: 5px 16px; border-radius: 999px; margin-bottom: 12px;
+}
+.ganhadores-premio .titulo { color: #fff; font-weight: 800; text-transform: uppercase; font-size: 20px; letter-spacing: 0.03em; }
+.ganhadores-premio .caixas { color: var(--gold); font-weight: 900; font-size: clamp(20px, 2.4vw, 28px); margin: 4px 0 14px; }
+.ganhadores-premio .valor {
+  background: rgba(0,0,0,0.55); border-radius: 10px; padding: 10px 20px; color: #fff;
+  font-weight: 900; font-size: clamp(26px, 3.2vw, 38px);
+}
+.ganhador-badge { display: flex; flex-direction: column; align-items: center; gap: 8px; width: 118px; }
+.ganhador-badge .gb-quadro {
+  width: 100px; height: 100px; background: var(--gold); border-radius: 14px;
+  display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 18px rgba(0,0,0,0.5);
+}
+.ganhador-badge .gb-anel {
+  width: 80px; height: 80px; border-radius: 50%; border: 3px solid #fff; overflow: hidden;
+  background: #fff; display: flex; align-items: center; justify-content: center;
+}
+.ganhador-badge .gb-anel img { width: 100%; height: 100%; object-fit: cover; }
+.ganhador-badge .gb-anel .gb-fallback { font-weight: 800; color: var(--ink-soft); font-size: 22px; }
+.ganhador-badge .gb-nome {
+  background: #fff; border-radius: 999px; padding: 4px 10px; font-weight: 800; font-size: 10.5px;
+  text-transform: uppercase; color: var(--ink); text-align: center; line-height: 1.25;
+}
+.ganhadores-sem {
+  color: rgba(255,255,255,0.7); font-weight: 800; text-transform: uppercase; font-size: 18px;
+  text-align: center;
+}
+.ganhadores-pagina { position: absolute; bottom: 18px; right: 24px; color: rgba(255,255,255,0.45); font-size: 12px; font-weight: 700; }
+
 /* Navegação */
 .nav-dots { position: fixed; bottom: 26px; left: 50%; transform: translateX(-50%); display: flex; gap: 8px; z-index: 20; }
 .nav-dots .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--border); cursor: pointer; transition: background 0.2s, transform 0.2s; }
@@ -1212,6 +1266,68 @@ function slideCampanhaAgosto() {
     </div></div>`;
 }
 
+function ganhadorBadge(g) {
+  const foto = FOTOS_RCAS[normalizarNomeFoto(g.nome)];
+  const fotoHtml = foto
+    ? `<img src="${foto}" alt="${g.nome}">`
+    : `<div class="gb-fallback">${iniciais(g.nome)}</div>`;
+  return `
+    <div class="ganhador-badge">
+      <div class="gb-quadro"><div class="gb-anel">${fotoHtml}</div></div>
+      <div class="gb-nome">${g.nome} · RCA ${g.codigo}</div>
+    </div>`;
+}
+
+function slideGanhadoresCampanha(faixa, grupo, pagina, totalPaginas) {
+  const metade = Math.ceil(grupo.length / 2);
+  const colEsq = grupo.slice(0, metade);
+  const colDir = grupo.slice(metade);
+  const corpo = grupo.length
+    ? `
+      <div class="ganhadores-col">${colEsq.map(ganhadorBadge).join("")}</div>
+      <div class="ganhadores-logos">
+        <img src="__LOGO_URI__" alt="T&amp;T Alimentos">
+        <img src="__LOGO_FRIATO_URI__" alt="Friato Alimentos">
+      </div>
+      <div class="ganhadores-premio">
+        <div class="nivel">${faixa.nivel}º Nível</div>
+        <div class="titulo">Premiação</div>
+        <div class="caixas">${faixa.caixas_min} caixas</div>
+        <div class="valor">${fmtMoedaSimples(faixa.valor)}</div>
+      </div>
+      <div class="ganhadores-col">${colDir.map(ganhadorBadge).join("")}</div>`
+    : `
+      <div class="ganhadores-logos">
+        <img src="__LOGO_URI__" alt="T&amp;T Alimentos">
+        <img src="__LOGO_FRIATO_URI__" alt="Friato Alimentos">
+      </div>
+      <div class="ganhadores-premio">
+        <div class="nivel">${faixa.nivel}º Nível</div>
+        <div class="titulo">Premiação</div>
+        <div class="caixas">${faixa.caixas_min} caixas</div>
+        <div class="valor">${fmtMoedaSimples(faixa.valor)}</div>
+      </div>
+      <div class="ganhadores-sem">Sem ganhadores<br>nesta faixa</div>`;
+  return `
+    <div class="slide ganhadores-campanha"><div class="ganhadores-campanha-inner">
+      <div class="ganhadores-titulo">Ganhadores</div>
+      <div class="ganhadores-linha"></div>
+      <div class="ganhadores-corpo">${corpo}</div>
+      ${totalPaginas > 1 ? `<div class="ganhadores-pagina">${pagina} / ${totalPaginas}</div>` : ""}
+    </div></div>`;
+}
+
+function slidesGanhadoresCampanha() {
+  const faixas = DADOS.campanha_hamburguer || [];
+  const porSlide = 6;
+  return faixas.flatMap(faixa => {
+    if (!faixa.ganhadores.length) return [slideGanhadoresCampanha(faixa, [], 1, 1)];
+    const grupos = [];
+    for (let i = 0; i < faixa.ganhadores.length; i += porSlide) grupos.push(faixa.ganhadores.slice(i, i + porSlide));
+    return grupos.map((grupo, idx) => slideGanhadoresCampanha(faixa, grupo, idx + 1, grupos.length));
+  });
+}
+
 function fmtPctResultado(v) {
   return (v * 100).toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + "%";
 }
@@ -1450,6 +1566,7 @@ function montarSlidesCompletos(chaveEscolhida) {
     slideSupervisorDestaqueTabela(DADOS.supervisor_destaque_auto),
     slideSupervisorDestaqueEstrategia(DADOS.supervisor_destaque_auto),
     slideCampanhaAgosto(),
+    ...slidesGanhadoresCampanha(),
   ].filter(Boolean);
 }
 

@@ -13,6 +13,8 @@ import datetime
 import json
 import os
 
+import xlrd
+
 PASTA_BASE = os.path.dirname(os.path.abspath(__file__))
 CAMINHO_SAIDA = os.path.join(PASTA_BASE, "dados.json")
 CAMINHO_CONFIG = os.path.join(PASTA_BASE, "config_mes.json")
@@ -21,6 +23,18 @@ CAMINHO_PILARES = r"c:\AutomacaoMaxGestao\painel_pilares\dados.json"
 CAMINHO_TOTAIS_GERENTE = r"c:\AutomacaoMaxGestao\painel_pilares\totais_gerais.json"
 CAMINHO_DEPARTAMENTOS = r"c:\AutomacaoMaxGestao\painel_departamentos\dados.json"
 CAMINHO_HISTORICO = os.path.join(PASTA_BASE, "historico_evolucao.json")
+CAMINHO_HAMBURGUER = r"C:\Users\edmar\Desktop\1464-HAMBURGUER.xls"
+
+# Regra da "Campanha Agosto" (premiação por caixas de Hambúrguer Friato
+# vendidas): faixas fechadas, quem bate o mínimo da faixa e não chega no
+# mínimo da próxima ganha o valor daquela faixa.
+FAIXAS_CAMPANHA_HAMBURGUER = [
+    {"nivel": 1, "caixas_min": 50, "valor": 100},
+    {"nivel": 2, "caixas_min": 100, "valor": 150},
+    {"nivel": 3, "caixas_min": 200, "valor": 200},
+    {"nivel": 4, "caixas_min": 250, "valor": 300},
+    {"nivel": 5, "caixas_min": 300, "valor": 400},
+]
 
 
 def _media(lista):
@@ -30,6 +44,56 @@ def _media(lista):
 def _ler_rcas_pilares():
     with open(CAMINHO_PILARES, "r", encoding="utf-8") as f:
         return json.load(f)
+
+
+def _campanha_hamburguer(rcas_pilares):
+    """Ganhadores da Campanha Agosto (Hambúrguer Friato), a partir da
+    planilha 1464-HAMBURGUER.xls (RCA/VENDEDOR/PESO/CAIXAS) que o Edmar
+    exporta do sistema. Cruza pelo código do RCA com o painel_pilares pra
+    pegar o nome "limpo" (mesmo usado nas fotos) e o supervisor."""
+    if not os.path.exists(CAMINHO_HAMBURGUER):
+        return []
+
+    por_codigo = {r["codigo"]: r for r in rcas_pilares}
+
+    wb = xlrd.open_workbook(CAMINHO_HAMBURGUER)
+    sh = wb.sheet_by_index(0)
+
+    faixas = {f["nivel"]: {**f, "ganhadores": []} for f in FAIXAS_CAMPANHA_HAMBURGUER}
+    limites = sorted(FAIXAS_CAMPANHA_HAMBURGUER, key=lambda f: f["caixas_min"])
+
+    for linha in range(1, sh.nrows):
+        codigo = sh.cell_value(linha, 0)
+        caixas = sh.cell_value(linha, 3)
+        if not codigo or not caixas:
+            continue
+        codigo_str = str(int(codigo))
+        rca = por_codigo.get(codigo_str)
+        if not rca:
+            continue  # ex.: código 3 = conta do gerente, não é RCA de rota
+
+        nivel = None
+        for i, faixa in enumerate(limites):
+            proxima = limites[i + 1] if i + 1 < len(limites) else None
+            if caixas >= faixa["caixas_min"] and (proxima is None or caixas < proxima["caixas_min"]):
+                nivel = faixa["nivel"]
+                break
+        if nivel is None:
+            continue  # não bateu nem a primeira faixa
+
+        faixas[nivel]["ganhadores"].append({
+            "codigo": codigo_str,
+            "nome": rca["nome"],
+            "rota": rca.get("rota", ""),
+            "supervisor": rca["supervisor"],
+            "caixas": int(caixas),
+        })
+
+    resultado = []
+    for f in sorted(faixas.values(), key=lambda f: f["nivel"]):
+        f["ganhadores"].sort(key=lambda g: g["caixas"], reverse=True)
+        resultado.append(f)
+    return resultado
 
 
 def _resumo_pilares():
@@ -306,6 +370,7 @@ def main():
         "vendedor_destaque_auto": _melhor_vendedor(rcas_pilares),
         "supervisor_destaque": config.get("supervisor_destaque", {}),
         "supervisor_destaque_auto": _melhor_supervisor(rcas_pilares),
+        "campanha_hamburguer": _campanha_hamburguer(rcas_pilares),
         "pilares_por_supervisor": _resumo_pilares(),
         "departamentos_por_supervisor": _resumo_departamentos(),
         "rcas_pilares": rcas_pilares,
