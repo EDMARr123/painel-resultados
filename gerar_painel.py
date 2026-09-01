@@ -617,19 +617,19 @@ h1, h2, .eyebrow, .destaque-nome, .capa-linha {
   background: rgba(0,0,0,0.55); border-radius: 10px; padding: 10px 20px; color: #fff;
   font-weight: 900; font-size: clamp(26px, 3.2vw, 38px);
 }
-.ganhador-badge { display: flex; flex-direction: column; align-items: center; gap: 8px; width: 118px; }
+.ganhador-badge { display: flex; flex-direction: column; align-items: center; gap: 10px; width: 168px; }
 .ganhador-badge .gb-quadro {
-  width: 100px; height: 100px; background: var(--gold); border-radius: 14px;
-  display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 18px rgba(0,0,0,0.5);
+  width: 148px; height: 148px; background: var(--gold); border-radius: 18px;
+  display: flex; align-items: center; justify-content: center; box-shadow: 0 10px 22px rgba(0,0,0,0.5);
 }
 .ganhador-badge .gb-anel {
-  width: 80px; height: 80px; border-radius: 50%; border: 3px solid #fff; overflow: hidden;
+  width: 120px; height: 120px; border-radius: 50%; border: 4px solid #fff; overflow: hidden;
   background: #fff; display: flex; align-items: center; justify-content: center;
 }
 .ganhador-badge .gb-anel img { width: 100%; height: 100%; object-fit: cover; }
-.ganhador-badge .gb-anel .gb-fallback { font-weight: 800; color: var(--ink-soft); font-size: 22px; }
+.ganhador-badge .gb-anel .gb-fallback { font-weight: 800; color: var(--ink-soft); font-size: 32px; }
 .ganhador-badge .gb-nome {
-  background: #fff; border-radius: 999px; padding: 4px 10px; font-weight: 800; font-size: 10.5px;
+  background: #fff; border-radius: 999px; padding: 6px 14px; font-weight: 800; font-size: 13px;
   text-transform: uppercase; color: var(--ink); text-align: center; line-height: 1.25;
 }
 .ganhadores-sem {
