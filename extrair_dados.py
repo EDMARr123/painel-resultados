@@ -132,6 +132,12 @@ def _melhor_supervisor(rcas):
             real = sum(r["pilares"][campo]["real"] for r in do_sup)
             return {"meta": meta, "real": real, "pct": (real / meta) if meta else 0}
 
+        def pilar_media(campo):
+            n = len(do_sup) or 1
+            meta = sum(r["pilares"][campo]["meta"] for r in do_sup) / n
+            real = sum(r["pilares"][campo]["real"] for r in do_sup) / n
+            return {"meta": meta, "real": real, "pct": (real / meta) if meta else 0}
+
         meta_financeiro_total = sum(r["pilares"]["financeiro"]["meta"] for r in do_sup)
         projetado_total = sum(r["tendencia"]["projetado"] for r in do_sup)
         tendencia_pct = (projetado_total / meta_financeiro_total) if meta_financeiro_total else 0
@@ -141,8 +147,8 @@ def _melhor_supervisor(rcas):
             "rcas": len(do_sup),
             "pilares": {
                 "positivacao": pilar("positivacao"),
-                "margem": pilar("margem"),
-                "mix": pilar("mix"),
+                "margem": pilar_media("margem"),
+                "mix": pilar_media("mix"),
                 "financeiro": pilar("financeiro"),
             },
             "tendencia": {"pct": tendencia_pct, "projetado": projetado_total, "meta": meta_financeiro_total},
