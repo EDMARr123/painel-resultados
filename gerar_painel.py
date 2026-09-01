@@ -544,7 +544,7 @@ h1, h2, .eyebrow, .destaque-nome, .capa-linha {
   background:
     repeating-linear-gradient(90deg, rgba(0,0,0,0.16) 0 18px, rgba(255,255,255,0.03) 18px 36px),
     radial-gradient(120% 90% at 50% 0%, #8a1a1a 0%, #5c0f10 60%, #3d0a0a 100%);
-  display: flex; align-items: center; justify-content: space-between;
+  display: flex; align-items: center; justify-content: center;
   padding: 0 5vw; text-align: left;
 }
 .campanha-faixa {
@@ -552,26 +552,6 @@ h1, h2, .eyebrow, .destaque-nome, .capa-linha {
   background: linear-gradient(180deg, #F3C500, #C69200); color: #3d0a0a;
   font-weight: 900; text-transform: uppercase; text-align: center; font-size: 15px;
   letter-spacing: 0.03em; transform: rotate(28deg); box-shadow: 0 6px 14px rgba(0,0,0,0.35);
-}
-.campanha-esquerda { display: flex; flex-direction: column; align-items: center; gap: 34px; flex: 0 0 auto; }
-.campanha-medalha { position: relative; width: 200px; height: 200px; display: flex; align-items: center; justify-content: center; }
-.medalha-raios {
-  position: absolute; inset: 0; border-radius: 50%;
-  background: repeating-conic-gradient(rgba(243,197,0,0.9) 0deg 9deg, rgba(243,197,0,0.35) 9deg 18deg);
-  filter: drop-shadow(0 0 26px rgba(243,197,0,0.5));
-}
-.medalha-circulo {
-  position: relative; width: 152px; height: 152px; border-radius: 50%;
-  background: radial-gradient(circle at 35% 30%, #FFE998, #F3C500 55%, #B88900 100%);
-  border: 4px solid #fff; box-shadow: 0 10px 24px rgba(0,0,0,0.4);
-  display: flex; align-items: center; justify-content: center;
-}
-.medalha-cifrao { font-size: 68px; font-weight: 900; color: #7a4b00; font-family: "Roboto Slab", Georgia, serif; }
-.campanha-continua { text-align: center; }
-.campanha-continua .linha1 { color: #fff; font-weight: 800; text-transform: uppercase; font-size: clamp(15px, 1.7vw, 20px); letter-spacing: 0.04em; }
-.campanha-continua .linha2 {
-  font-family: "Roboto Slab", Georgia, serif; font-style: italic; font-weight: 800;
-  color: var(--gold); font-size: clamp(24px, 3vw, 34px); margin-top: 2px;
 }
 .campanha-direita { flex: 0 0 auto; max-width: 640px; }
 .campanha-titulo {
@@ -1220,16 +1200,6 @@ function slideCampanhaAgosto() {
   return `
     <div class="slide campanha-agosto"><div class="campanha-agosto-inner">
       <div class="campanha-faixa">Campanha Agosto 2026</div>
-      <div class="campanha-esquerda">
-        <div class="campanha-medalha">
-          <div class="medalha-raios"></div>
-          <div class="medalha-circulo"><span class="medalha-cifrao">$</span></div>
-        </div>
-        <div class="campanha-continua">
-          <div class="linha1">Campanha Agosto</div>
-          <div class="linha2">Continua</div>
-        </div>
-      </div>
       <div class="campanha-direita">
         <h1 class="campanha-titulo">Premiação</h1>
         <table class="tabela-campanha"><tbody>${linhas}</tbody></table>
