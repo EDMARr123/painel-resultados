@@ -574,7 +574,8 @@ h1, h2, .eyebrow, .destaque-nome, .capa-linha {
   background: #fff; border-radius: 14px; padding: 10px 20px; width: fit-content;
   box-shadow: 0 8px 20px rgba(0,0,0,0.35);
 }
-.campanha-produto img { height: 40px; width: auto; }
+.campanha-produto .logo-box { width: 56px; height: 40px; flex: none; display: flex; align-items: center; justify-content: center; }
+.campanha-produto .logo-box img { max-width: 100%; max-height: 100%; object-fit: contain; }
 .campanha-produto span { font-weight: 800; color: var(--accent); font-size: 15px; text-transform: uppercase; }
 .campanha-selo {
   position: absolute; bottom: 30px; right: 5vw; width: 70px; height: 70px; border-radius: 50%;
@@ -1260,7 +1261,7 @@ function slideCampanhaAgosto() {
         <h1 class="campanha-titulo">Premiação</h1>
         <table class="tabela-campanha"><tbody>${linhas}</tbody></table>
         <div class="campanha-produto">
-          <img src="__LOGO_FRIATO_URI__" alt="Friato Alimentos">
+          <div class="logo-box"><img src="__LOGO_FRIATO_URI__" alt="Friato Alimentos"></div>
           <span>Hambúrguer Friato</span>
         </div>
       </div>
