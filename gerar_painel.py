@@ -1091,15 +1091,15 @@ function slideGanhadoresPositivacao(campo, titulo) {
     </div>`;
 }
 
-function slideVendedorDestaqueCapa() {
+function slideDestaqueCapa(titulo) {
   return `
     <div class="slide destaque-capa">
       <div class="destaque-capa-arte">
         <div class="destaque-capa-circulo"></div>
-        <img class="destaque-capa-foto" src="__VENDEDOR_TROFEU_URI__" alt="Vendedor Destaque">
+        <img class="destaque-capa-foto" src="__VENDEDOR_TROFEU_URI__" alt="${titulo}">
       </div>
       <div class="destaque-capa-texto">
-        <h1>Vendedor Destaque</h1>
+        <h1>${titulo}</h1>
         <div class="subtitulo">Melhor Perfomance 04 Pilares</div>
         <ul class="destaque-capa-lista">
           <li>Faturamento</li>
@@ -1111,6 +1111,9 @@ function slideVendedorDestaqueCapa() {
       </div>
     </div>`;
 }
+
+function slideVendedorDestaqueCapa() { return slideDestaqueCapa("Vendedor Destaque"); }
+function slideSupervisorDestaqueCapa() { return slideDestaqueCapa("Supervisor Destaque"); }
 
 function slideJantarExclusivo() {
   return `
@@ -1302,6 +1305,7 @@ function montarSlidesCompletos(chaveEscolhida) {
     slideResultadoReveal(DADOS.vendedor_destaque_auto),
     slideVendedorDestaqueTabela(DADOS.vendedor_destaque_auto),
     slideVendedorDestaqueEstrategia(DADOS.vendedor_destaque_auto),
+    slideSupervisorDestaqueCapa(),
     slideDestaque("supervisor_destaque", "Supervisor Destaque", false),
   ].filter(Boolean);
 }
