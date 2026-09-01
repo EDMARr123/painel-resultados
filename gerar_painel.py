@@ -395,7 +395,11 @@ h1, h2, .eyebrow, .destaque-nome, .capa-linha {
 /* Divisor "Vendedor Destaque" — painel dividido: texto à esquerda, e à
    direita uma composição (círculo dourado + troféu) no lugar da foto de
    banco de imagens datada do PowerPoint original. */
-.slide.destaque-capa { padding: 0; justify-content: flex-start; align-items: flex-start; text-align: left; position: relative; overflow: hidden; }
+.slide.destaque-capa { padding: 0; }
+.destaque-capa-inner {
+  position: relative; overflow: hidden; width: 100%; height: 100%;
+  display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-start; text-align: left;
+}
 .destaque-capa-arte {
   position: absolute; inset: 0; background: var(--accent);
   clip-path: polygon(40% 0, 100% 0, 100% 100%, 26% 100%);
@@ -1093,7 +1097,7 @@ function slideGanhadoresPositivacao(campo, titulo) {
 
 function slideDestaqueCapa(titulo) {
   return `
-    <div class="slide destaque-capa">
+    <div class="slide destaque-capa"><div class="destaque-capa-inner">
       <div class="destaque-capa-arte">
         <div class="destaque-capa-circulo"></div>
         <img class="destaque-capa-foto" src="__VENDEDOR_TROFEU_URI__" alt="${titulo}">
@@ -1109,7 +1113,7 @@ function slideDestaqueCapa(titulo) {
         </ul>
         <div class="logo-friato-rodape"><img src="__LOGO_FRIATO_URI__" alt="Friato Alimentos"></div>
       </div>
-    </div>`;
+    </div></div>`;
 }
 
 function slideVendedorDestaqueCapa() { return slideDestaqueCapa("Vendedor Destaque"); }
