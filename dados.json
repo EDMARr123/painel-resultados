@@ -283,34 +283,54 @@
   ],
   "pilares_por_supervisor": [
     {
-      "supervisor": "LEANDRO",
-      "rcas": 7,
-      "pilares_media": 2.4285714285714284,
-      "financeiro_pct": 0.8913478540526028,
-      "positivacao_pct": 1.01020452523165,
-      "margem_pct": 1.0471288495722135,
-      "mix_pct": 1.0152338802397247,
-      "recompra_pct": 0.28600035101601484
-    },
-    {
       "supervisor": "IDEGLAN",
       "rcas": 7,
-      "pilares_media": 2.2857142857142856,
+      "pilares_media": 2.7142857142857144,
       "financeiro_pct": 0.9684992502200005,
       "positivacao_pct": 1.049822041071015,
       "margem_pct": 0.9927902357823296,
       "mix_pct": 1.0579591836734694,
-      "recompra_pct": 0.2748803453948245
+      "recompra_pct": 0.4002641961745059
+    },
+    {
+      "supervisor": "LEANDRO",
+      "rcas": 7,
+      "pilares_media": 2.7142857142857144,
+      "financeiro_pct": 0.8913478540526028,
+      "positivacao_pct": 1.01020452523165,
+      "margem_pct": 1.0471288495722135,
+      "mix_pct": 1.0152338802397247,
+      "recompra_pct": 0.3598760655213317
     },
     {
       "supervisor": "RICHARD",
       "rcas": 8,
-      "pilares_media": 2.0,
+      "pilares_media": 2.625,
       "financeiro_pct": 0.9860171978443364,
       "positivacao_pct": 1.0038063559017731,
       "margem_pct": 1.0427060383708893,
       "mix_pct": 1.0098837209302327,
-      "recompra_pct": 0.20627807828112088
+      "recompra_pct": 0.3485145146529528
+    },
+    {
+      "supervisor": "FLAVIANE",
+      "rcas": 7,
+      "pilares_media": 1.8571428571428572,
+      "financeiro_pct": 0.7924090318647232,
+      "positivacao_pct": 0.8980293992116003,
+      "margem_pct": 0.9934310869034035,
+      "mix_pct": 0.9895384615384616,
+      "recompra_pct": 0.38275806319284583
+    },
+    {
+      "supervisor": "RICARDO",
+      "rcas": 7,
+      "pilares_media": 1.8571428571428572,
+      "financeiro_pct": 0.8913675802169418,
+      "positivacao_pct": 1.0030257427698792,
+      "margem_pct": 0.9645311681420871,
+      "mix_pct": 1.008418367346939,
+      "recompra_pct": 0.45692312866651924
     },
     {
       "supervisor": "RODRIGO",
@@ -320,27 +340,7 @@
       "positivacao_pct": 0.9882317872145382,
       "margem_pct": 0.9744974647555413,
       "mix_pct": 1.0483970962130336,
-      "recompra_pct": 0.230852613757448
-    },
-    {
-      "supervisor": "FLAVIANE",
-      "rcas": 7,
-      "pilares_media": 1.5714285714285714,
-      "financeiro_pct": 0.7924090318647232,
-      "positivacao_pct": 0.8980293992116003,
-      "margem_pct": 0.9934310869034035,
-      "mix_pct": 0.9895384615384616,
-      "recompra_pct": 0.3082637169593691
-    },
-    {
-      "supervisor": "RICARDO",
-      "rcas": 7,
-      "pilares_media": 1.5714285714285714,
-      "financeiro_pct": 0.8913675802169418,
-      "positivacao_pct": 1.0030257427698792,
-      "margem_pct": 0.9645311681420871,
-      "mix_pct": 1.008418367346939,
-      "recompra_pct": 0.3413804113575979
+      "recompra_pct": 0.3876950666601772
     },
     {
       "supervisor": "EDMAR",
@@ -350,7 +350,7 @@
       "positivacao_pct": 1.008922558922559,
       "margem_pct": 0.4119980106875687,
       "mix_pct": 1.0326923076923076,
-      "recompra_pct": 0.22658060244952002
+      "recompra_pct": 0.2629923866269447
     }
   ],
   "departamentos_por_supervisor": [
@@ -450,11 +450,11 @@
         "meta": 49200,
         "real": 12994.12,
         "participacao_pct": 0.010382998970736475,
-        "margem_pct": 0,
+        "margem_pct": 0.16329673584693147,
         "premio": 0
       },
-      "recompra_pct": 0.24561403508771928,
-      "media_pedidos": 14.346153846153847,
+      "recompra_pct": 0.2807017543859649,
+      "media_pedidos": 7.846153846153846,
       "sku": {
         "meta": 120,
         "real": 81
@@ -513,17 +513,17 @@
         "meta": 49350,
         "real": 137957.32,
         "participacao_pct": 0.11627116141454656,
-        "margem_pct": 0,
-        "premio": 0
+        "margem_pct": 0.16476485028429955,
+        "premio": 2759.1464
       },
-      "recompra_pct": 0.20754716981132076,
-      "media_pedidos": 15,
+      "recompra_pct": 0.24528301886792453,
+      "media_pedidos": 8.307692307692308,
       "sku": {
         "meta": 120,
         "real": 64
       },
       "positivacao_dia15": {
-        "resultado": 43,
+        "resultado": 44,
         "premio": 0
       },
       "positivacao_dia30": {
@@ -576,11 +576,11 @@
         "meta": 9780,
         "real": 6558.45,
         "participacao_pct": 0.025447826015694945,
-        "margem_pct": 0.15784974611562613,
+        "margem_pct": 0.23009750292053457,
         "premio": 0
       },
-      "recompra_pct": 0.25925925925925924,
-      "media_pedidos": 16.153846153846153,
+      "recompra_pct": 0.3611111111111111,
+      "media_pedidos": 8.961538461538462,
       "sku": {
         "meta": 120,
         "real": 85
@@ -621,7 +621,7 @@
           "pct": 1.0222078256784741
         }
       },
-      "pilares_atingidos": 3,
+      "pilares_atingidos": 4,
       "tendencia": {
         "pct": 1.0222078256784741,
         "projetado": 375150.272024,
@@ -639,11 +639,11 @@
         "meta": 11010,
         "real": 15597.21,
         "participacao_pct": 0.041575899481160916,
-        "margem_pct": 0.17677257959599596,
+        "margem_pct": 0.24459803417805076,
         "premio": 311.94419999999997
       },
-      "recompra_pct": 0.18556701030927836,
-      "media_pedidos": 15.346153846153847,
+      "recompra_pct": 0.41237113402061853,
+      "media_pedidos": 8.461538461538462,
       "sku": {
         "meta": 120,
         "real": 115
@@ -702,17 +702,17 @@
         "meta": 9930,
         "real": 9963.7,
         "participacao_pct": 0.038979236670800055,
-        "margem_pct": 0.12040854757238177,
-        "premio": 0
+        "margem_pct": 0.23271138785295833,
+        "premio": 199.27400000000003
       },
-      "recompra_pct": 0.3465346534653465,
-      "media_pedidos": 12.23076923076923,
+      "recompra_pct": 0.26732673267326734,
+      "media_pedidos": 6.269230769230769,
       "sku": {
         "meta": 120,
         "real": 98
       },
       "positivacao_dia15": {
-        "resultado": 71,
+        "resultado": 72,
         "premio": 0
       },
       "positivacao_dia30": {
@@ -765,11 +765,11 @@
         "meta": 11250,
         "real": 5971.11,
         "participacao_pct": 0.016959692706781628,
-        "margem_pct": 0.1673372300217132,
+        "margem_pct": 0.2299964129251337,
         "premio": 0
       },
-      "recompra_pct": 0.2376237623762376,
-      "media_pedidos": 12.26923076923077,
+      "recompra_pct": 0.31683168316831684,
+      "media_pedidos": 6.8076923076923075,
       "sku": {
         "meta": 120,
         "real": 109
@@ -828,11 +828,11 @@
         "meta": 7260,
         "real": 6192.81,
         "participacao_pct": 0.03017925212904758,
-        "margem_pct": 0.16603507024788455,
+        "margem_pct": 0.2365533904001544,
         "premio": 123.85620000000002
       },
-      "recompra_pct": 0.35064935064935066,
-      "media_pedidos": 11.115384615384615,
+      "recompra_pct": 0.37662337662337664,
+      "media_pedidos": 5.730769230769231,
       "sku": {
         "meta": 120,
         "real": 85
@@ -873,7 +873,7 @@
           "pct": 1.0246189137931034
         }
       },
-      "pilares_atingidos": 2,
+      "pilares_atingidos": 3,
       "tendencia": {
         "pct": 1.0246189137931034,
         "projetado": 237711.588,
@@ -891,11 +891,11 @@
         "meta": 6960,
         "real": 10988.48,
         "participacao_pct": 0.046226101522656944,
-        "margem_pct": 0.15956795912172697,
+        "margem_pct": 0.24230070980310528,
         "premio": 219.7696
       },
-      "recompra_pct": 0.275,
-      "media_pedidos": 9.807692307692308,
+      "recompra_pct": 0.4375,
+      "media_pedidos": 5.269230769230769,
       "sku": {
         "meta": 120,
         "real": 95
@@ -954,11 +954,11 @@
         "meta": 7410,
         "real": 7120.31,
         "participacao_pct": 0.03419629978933265,
-        "margem_pct": 0.1955205593979898,
+        "margem_pct": 0.2599462229080653,
         "premio": 142.4062
       },
       "recompra_pct": 0.3473684210526316,
-      "media_pedidos": 8.153846153846153,
+      "media_pedidos": 3.8076923076923075,
       "sku": {
         "meta": 120,
         "real": 123
@@ -1017,11 +1017,11 @@
         "meta": 7800,
         "real": 5067.86,
         "participacao_pct": 0.02595162245977783,
-        "margem_pct": 0.19252273055372476,
+        "margem_pct": 0.23447961568241246,
         "premio": 0
       },
-      "recompra_pct": 0.36363636363636365,
-      "media_pedidos": 9.807692307692308,
+      "recompra_pct": 0.3939393939393939,
+      "media_pedidos": 5.076923076923077,
       "sku": {
         "meta": 120,
         "real": 80
@@ -1062,7 +1062,7 @@
           "pct": 1.0212243176
         }
       },
-      "pilares_atingidos": 3,
+      "pilares_atingidos": 4,
       "tendencia": {
         "pct": 1.0212243176,
         "projetado": 255306.0794,
@@ -1080,11 +1080,11 @@
         "meta": 7500,
         "real": 6427.84,
         "participacao_pct": 0.02517699545230649,
-        "margem_pct": 0.18150466789388653,
+        "margem_pct": 0.2614363193258662,
         "premio": 0
       },
-      "recompra_pct": 0.30303030303030304,
-      "media_pedidos": 12.384615384615385,
+      "recompra_pct": 0.41414141414141414,
+      "media_pedidos": 6.346153846153846,
       "sku": {
         "meta": 120,
         "real": 110
@@ -1125,7 +1125,7 @@
           "pct": 1.1060945545777778
         }
       },
-      "pilares_atingidos": 2,
+      "pilares_atingidos": 3,
       "tendencia": {
         "pct": 1.1060945545777776,
         "projetado": 497742.54955999996,
@@ -1143,18 +1143,18 @@
         "meta": 13500,
         "real": 8637.78,
         "participacao_pct": 0.0173539111888982,
-        "margem_pct": 0.17464333569627438,
+        "margem_pct": 0.27566861978380475,
         "premio": 0
       },
-      "recompra_pct": 0.30303030303030304,
-      "media_pedidos": 13.346153846153847,
+      "recompra_pct": 0.494949494949495,
+      "media_pedidos": 7.8076923076923075,
       "sku": {
         "meta": 120,
         "real": 109
       },
       "positivacao_dia15": {
-        "resultado": 95,
-        "premio": 0
+        "resultado": 97,
+        "premio": 150
       },
       "positivacao_dia30": {
         "resultado": 63,
@@ -1206,11 +1206,11 @@
         "meta": 6300,
         "real": 9028.07,
         "participacao_pct": 0.04919425684935351,
-        "margem_pct": 0.16111360184329823,
+        "margem_pct": 0.2285782533896584,
         "premio": 180.5614
       },
-      "recompra_pct": 0.25217391304347825,
-      "media_pedidos": 13.153846153846153,
+      "recompra_pct": 0.3826086956521739,
+      "media_pedidos": 6.538461538461538,
       "sku": {
         "meta": 120,
         "real": 96
@@ -1269,17 +1269,17 @@
         "meta": 7800,
         "real": 5255.63,
         "participacao_pct": 0.020897949827162428,
-        "margem_pct": 0.07147059977509841,
+        "margem_pct": 0.23700206798754764,
         "premio": 0
       },
       "recompra_pct": 0.2727272727272727,
-      "media_pedidos": 7.6923076923076925,
+      "media_pedidos": 4,
       "sku": {
         "meta": 120,
         "real": 93
       },
       "positivacao_dia15": {
-        "resultado": 43,
+        "resultado": 44,
         "premio": 0
       },
       "positivacao_dia30": {
@@ -1332,11 +1332,11 @@
         "meta": 5700,
         "real": 2234.22,
         "participacao_pct": 0.027277408573749495,
-        "margem_pct": 0.18691983355264916,
+        "margem_pct": 0.2478810612248617,
         "premio": 0
       },
       "recompra_pct": 0.35555555555555557,
-      "media_pedidos": 4.8076923076923075,
+      "media_pedidos": 2.230769230769231,
       "sku": {
         "meta": 120,
         "real": 71
@@ -1395,17 +1395,17 @@
         "meta": 5700,
         "real": 1169.86,
         "participacao_pct": 0.015540407982301798,
-        "margem_pct": 0.2197593252645383,
+        "margem_pct": 0.2336898371764171,
         "premio": 0
       },
-      "recompra_pct": 0.3076923076923077,
-      "media_pedidos": 5.3076923076923075,
+      "recompra_pct": 0.36538461538461536,
+      "media_pedidos": 3.1538461538461537,
       "sku": {
         "meta": 120,
         "real": 70
       },
       "positivacao_dia15": {
-        "resultado": 42,
+        "resultado": 43,
         "premio": 0
       },
       "positivacao_dia30": {
@@ -1458,11 +1458,11 @@
         "meta": 9000,
         "real": 15109.39,
         "participacao_pct": 0.05345142648272112,
-        "margem_pct": 0.13764077354940393,
-        "premio": 0
+        "margem_pct": 0.24394742585537427,
+        "premio": 302.1878
       },
-      "recompra_pct": 0.16666666666666666,
-      "media_pedidos": 15.461538461538462,
+      "recompra_pct": 0.4,
+      "media_pedidos": 8.423076923076923,
       "sku": {
         "meta": 120,
         "real": 104
@@ -1503,7 +1503,7 @@
           "pct": 1.04243453575
         }
       },
-      "pilares_atingidos": 3,
+      "pilares_atingidos": 4,
       "tendencia": {
         "pct": 1.04243453575,
         "projetado": 500368.57716000004,
@@ -1521,11 +1521,11 @@
         "meta": 14400,
         "real": 20693.34,
         "participacao_pct": 0.04135619410285832,
-        "margem_pct": 0.12132586977390268,
-        "premio": 0
+        "margem_pct": 0.2276508138420352,
+        "premio": 413.8668
       },
-      "recompra_pct": 0.22857142857142856,
-      "media_pedidos": 17.615384615384617,
+      "recompra_pct": 0.3904761904761905,
+      "media_pedidos": 9.576923076923077,
       "sku": {
         "meta": 120,
         "real": 119
@@ -1566,7 +1566,7 @@
           "pct": 1.1581456842105262
         }
       },
-      "pilares_atingidos": 2,
+      "pilares_atingidos": 3,
       "tendencia": {
         "pct": 1.1581456842105262,
         "projetado": 440095.36,
@@ -1584,17 +1584,17 @@
         "meta": 11400,
         "real": 11173.23,
         "participacao_pct": 0.02538820222962587,
-        "margem_pct": 0.1634846027213258,
+        "margem_pct": 0.21814246587625113,
         "premio": 0
       },
-      "recompra_pct": 0.36082474226804123,
-      "media_pedidos": 9.23076923076923,
+      "recompra_pct": 0.29896907216494845,
+      "media_pedidos": 4.269230769230769,
       "sku": {
         "meta": 120,
         "real": 109
       },
       "positivacao_dia15": {
-        "resultado": 63,
+        "resultado": 65,
         "premio": 0
       },
       "positivacao_dia30": {
@@ -1629,7 +1629,7 @@
           "pct": 1.0009399333333333
         }
       },
-      "pilares_atingidos": 3,
+      "pilares_atingidos": 4,
       "tendencia": {
         "pct": 1.0009399333333333,
         "projetado": 300281.98,
@@ -1647,18 +1647,18 @@
         "meta": 9000,
         "real": 11747.23,
         "participacao_pct": 0.03912066251861001,
-        "margem_pct": 0.15778156123745377,
+        "margem_pct": 0.22360740204173585,
         "premio": 234.9446
       },
-      "recompra_pct": 0.3163265306122449,
-      "media_pedidos": 9.153846153846153,
+      "recompra_pct": 0.5918367346938775,
+      "media_pedidos": 5.230769230769231,
       "sku": {
         "meta": 120,
         "real": 107
       },
       "positivacao_dia15": {
-        "resultado": 86,
-        "premio": 0
+        "resultado": 87,
+        "premio": 150
       },
       "positivacao_dia30": {
         "resultado": 70,
@@ -1710,17 +1710,17 @@
         "meta": 9900,
         "real": 25334.61,
         "participacao_pct": 0.08588752981253413,
-        "margem_pct": 0.14571787202597564,
-        "premio": 0
+        "margem_pct": 0.2565207819660467,
+        "premio": 506.6922
       },
-      "recompra_pct": 0.2872340425531915,
-      "media_pedidos": 14.5,
+      "recompra_pct": 0.35106382978723405,
+      "media_pedidos": 7.423076923076923,
       "sku": {
         "meta": 120,
         "real": 91
       },
       "positivacao_dia15": {
-        "resultado": 77,
+        "resultado": 78,
         "premio": 0
       },
       "positivacao_dia30": {
@@ -1773,11 +1773,11 @@
         "meta": 8700,
         "real": 9119,
         "participacao_pct": 0.03397832787055669,
-        "margem_pct": 0.13193199033201236,
-        "premio": 0
+        "margem_pct": 0.2250059741327739,
+        "premio": 182.38
       },
-      "recompra_pct": 0.26666666666666666,
-      "media_pedidos": 11.384615384615385,
+      "recompra_pct": 0.3333333333333333,
+      "media_pedidos": 5.961538461538462,
       "sku": {
         "meta": 120,
         "real": 108
@@ -1836,11 +1836,11 @@
         "meta": 6000,
         "real": 6285.09,
         "participacao_pct": 0.038491534858932204,
-        "margem_pct": 0.14574174301605558,
-        "premio": 0
+        "margem_pct": 0.21799011006818303,
+        "premio": 125.7018
       },
-      "recompra_pct": 0.2978723404255319,
-      "media_pedidos": 11.384615384615385,
+      "recompra_pct": 0.43617021276595747,
+      "media_pedidos": 6.115384615384615,
       "sku": {
         "meta": 120,
         "real": 99
@@ -1899,11 +1899,11 @@
         "meta": 7950,
         "real": 3511.77,
         "participacao_pct": 0.018888541422146587,
-        "margem_pct": 0.1281253189095498,
+        "margem_pct": 0.2481574393670769,
         "premio": 0
       },
-      "recompra_pct": 0.275,
-      "media_pedidos": 10.5,
+      "recompra_pct": 0.4125,
+      "media_pedidos": 5.3076923076923075,
       "sku": {
         "meta": 120,
         "real": 79
@@ -1962,11 +1962,11 @@
         "meta": 7950,
         "real": 3040.46,
         "participacao_pct": 0.013991314255459481,
-        "margem_pct": 0.07301626269240674,
+        "margem_pct": 0.2390193327638704,
         "premio": 0
       },
-      "recompra_pct": 0.4861111111111111,
-      "media_pedidos": 10.307692307692308,
+      "recompra_pct": 0.375,
+      "media_pedidos": 5.423076923076923,
       "sku": {
         "meta": 120,
         "real": 68
@@ -2007,7 +2007,7 @@
           "pct": 1.0447082239160888
         }
       },
-      "pilares_atingidos": 3,
+      "pilares_atingidos": 4,
       "tendencia": {
         "pct": 1.0447082239160888,
         "projetado": 235059.35038112,
@@ -2025,11 +2025,11 @@
         "meta": 6750,
         "real": 4387.47,
         "participacao_pct": 0.01866537107707587,
-        "margem_pct": 0.21410169175453514,
+        "margem_pct": 0.2636388652012704,
         "premio": 0
       },
-      "recompra_pct": 0.38235294117647056,
-      "media_pedidos": 7.769230769230769,
+      "recompra_pct": 0.39705882352941174,
+      "media_pedidos": 3.9615384615384617,
       "sku": {
         "meta": 120,
         "real": 80
@@ -2088,17 +2088,17 @@
         "meta": 7350,
         "real": 3984.06,
         "participacao_pct": 0.01767882729797731,
-        "margem_pct": 0.1686175560769667,
+        "margem_pct": 0.20312854211777936,
         "premio": 0
       },
-      "recompra_pct": 0.2987012987012987,
-      "media_pedidos": 11.423076923076923,
+      "recompra_pct": 0.5194805194805194,
+      "media_pedidos": 6.346153846153846,
       "sku": {
         "meta": 120,
         "real": 73
       },
       "positivacao_dia15": {
-        "resultado": 74,
+        "resultado": 75,
         "premio": 150
       },
       "positivacao_dia30": {
@@ -2151,11 +2151,11 @@
         "meta": 8100,
         "real": 4530.62,
         "participacao_pct": 0.019648437979825198,
-        "margem_pct": 0.1577125096057797,
+        "margem_pct": 0.2642947517366202,
         "premio": 0
       },
-      "recompra_pct": 0.35526315789473684,
-      "media_pedidos": 9.076923076923077,
+      "recompra_pct": 0.5789473684210527,
+      "media_pedidos": 5.576923076923077,
       "sku": {
         "meta": 120,
         "real": 87
@@ -2196,7 +2196,7 @@
           "pct": 1.0442192857806452
         }
       },
-      "pilares_atingidos": 2,
+      "pilares_atingidos": 3,
       "tendencia": {
         "pct": 1.0442192857806452,
         "projetado": 323707.978592,
@@ -2214,11 +2214,11 @@
         "meta": 9300,
         "real": 7626.81,
         "participacao_pct": 0.023560772376305234,
-        "margem_pct": 0.11972498325191533,
+        "margem_pct": 0.22381322172942092,
         "premio": 0
       },
-      "recompra_pct": 0.3048780487804878,
-      "media_pedidos": 12.346153846153847,
+      "recompra_pct": 0.32926829268292684,
+      "media_pedidos": 6.884615384615385,
       "sku": {
         "meta": 120,
         "real": 87
@@ -2277,11 +2277,11 @@
         "meta": 6450,
         "real": 5276.6,
         "participacao_pct": 0.028698588383440894,
-        "margem_pct": 0.1709490947185689,
+        "margem_pct": 0.22730588596595772,
         "premio": 0
       },
-      "recompra_pct": 0.28735632183908044,
-      "media_pedidos": 11.461538461538462,
+      "recompra_pct": 0.5862068965517241,
+      "media_pedidos": 6.538461538461538,
       "sku": {
         "meta": 120,
         "real": 84
@@ -2322,7 +2322,7 @@
           "pct": 1.035295996732026
         }
       },
-      "pilares_atingidos": 1,
+      "pilares_atingidos": 2,
       "tendencia": {
         "pct": 1.035295996732026,
         "projetado": 316800.575,
@@ -2340,11 +2340,11 @@
         "meta": 9180,
         "real": 10520.27,
         "participacao_pct": 0.03320786270668859,
-        "margem_pct": 0.18084492443330824,
+        "margem_pct": 0.20687461075697214,
         "premio": 210.40540000000001
       },
-      "recompra_pct": 0.10666666666666667,
-      "media_pedidos": 15.846153846153847,
+      "recompra_pct": 0.3333333333333333,
+      "media_pedidos": 7.923076923076923,
       "sku": {
         "meta": 120,
         "real": 62
@@ -2385,7 +2385,7 @@
           "pct": 1.044353373039352
         }
       },
-      "pilares_atingidos": 3,
+      "pilares_atingidos": 4,
       "tendencia": {
         "pct": 1.044353373039352,
         "projetado": 225580.3285765,
@@ -2403,18 +2403,18 @@
         "meta": 6480,
         "real": 26268.67,
         "participacao_pct": 0.11644929398660588,
-        "margem_pct": 0.16771642310089457,
+        "margem_pct": 0.1940739375472948,
         "premio": 525.3734
       },
-      "recompra_pct": 0.3333333333333333,
-      "media_pedidos": 8.538461538461538,
+      "recompra_pct": 0.5303030303030303,
+      "media_pedidos": 4.846153846153846,
       "sku": {
         "meta": 120,
         "real": 61
       },
       "positivacao_dia15": {
-        "resultado": 63,
-        "premio": 0
+        "resultado": 65,
+        "premio": 150
       },
       "positivacao_dia30": {
         "resultado": 40,
@@ -2466,11 +2466,11 @@
         "meta": 5400,
         "real": 3259.14,
         "participacao_pct": 0.023512621309255074,
-        "margem_pct": 0.20642582061206788,
+        "margem_pct": 0.22090605443591163,
         "premio": 0
       },
-      "recompra_pct": 0.15517241379310345,
-      "media_pedidos": 8.153846153846153,
+      "recompra_pct": 0.25862068965517243,
+      "media_pedidos": 3.769230769230769,
       "sku": {
         "meta": 120,
         "real": 70
@@ -2529,11 +2529,11 @@
         "meta": 5250,
         "real": 482.08,
         "participacao_pct": 0.004296623530199226,
-        "margem_pct": 0.14596475066379017,
+        "margem_pct": 0.23223865853825562,
         "premio": 0
       },
-      "recompra_pct": 0.3,
-      "media_pedidos": 3.5,
+      "recompra_pct": 0.3333333333333333,
+      "media_pedidos": 1.6153846153846154,
       "sku": {
         "meta": 120,
         "real": 60
@@ -2574,7 +2574,7 @@
           "pct": 1.1975270844635924
         }
       },
-      "pilares_atingidos": 3,
+      "pilares_atingidos": 4,
       "tendencia": {
         "pct": 1.1975270844635924,
         "projetado": 246690.57939950004,
@@ -2592,11 +2592,11 @@
         "meta": 6180,
         "real": 5653.6,
         "participacao_pct": 0.02291777827009903,
-        "margem_pct": 0.20571768284650718,
+        "margem_pct": 0.22584854283967715,
         "premio": 0
       },
-      "recompra_pct": 0.2988505747126437,
-      "media_pedidos": 14.076923076923077,
+      "recompra_pct": 0.47126436781609193,
+      "media_pedidos": 7.961538461538462,
       "sku": {
         "meta": 120,
         "real": 79
@@ -2655,11 +2655,11 @@
         "meta": 4950,
         "real": 14238.15,
         "participacao_pct": 0.09024833814361162,
-        "margem_pct": 0.18972098071595006,
+        "margem_pct": 0.21655601673739608,
         "premio": 284.763
       },
-      "recompra_pct": 0.07407407407407407,
-      "media_pedidos": 11.846153846153847,
+      "recompra_pct": 0.18518518518518517,
+      "media_pedidos": 6.3076923076923075,
       "sku": {
         "meta": 120,
         "real": 58
@@ -2700,7 +2700,7 @@
           "pct": 1.0129621296296296
         }
       },
-      "pilares_atingidos": 3,
+      "pilares_atingidos": 4,
       "tendencia": {
         "pct": 1.0129621296296296,
         "projetado": 218799.82,
@@ -2718,11 +2718,11 @@
         "meta": 6480,
         "real": 25906.67,
         "participacao_pct": 0.11840352519485618,
-        "margem_pct": 0.16838187948996786,
+        "margem_pct": 0.24051027908873798,
         "premio": 518.1333999999999
       },
-      "recompra_pct": 0.20588235294117646,
-      "media_pedidos": 11.73076923076923,
+      "recompra_pct": 0.36764705882352944,
+      "media_pedidos": 5.961538461538462,
       "sku": {
         "meta": 120,
         "real": 85
@@ -2763,7 +2763,7 @@
           "pct": 1.2306293649074074
         }
       },
-      "pilares_atingidos": 3,
+      "pilares_atingidos": 4,
       "tendencia": {
         "pct": 1.2306293649074074,
         "projetado": 265815.94282,
@@ -2781,11 +2781,11 @@
         "meta": 6480,
         "real": 8780.65,
         "participacao_pct": 0.03303281927655448,
-        "margem_pct": 0.20198799166455428,
+        "margem_pct": 0.2217658528979285,
         "premio": 175.613
       },
-      "recompra_pct": 0.17624521072796934,
-      "media_pedidos": 13.192307692307692,
+      "recompra_pct": 0.30842911877394635,
+      "media_pedidos": 6.615384615384615,
       "sku": {
         "meta": 120,
         "real": 85
@@ -2844,11 +2844,11 @@
         "meta": 12150,
         "real": 19985.38,
         "participacao_pct": 0.05343435289015481,
-        "margem_pct": 0.16497935895499607,
+        "margem_pct": 0.2564524668072877,
         "premio": 399.7076
       },
-      "recompra_pct": 0.11818181818181818,
-      "media_pedidos": 14.423076923076923,
+      "recompra_pct": 0.37272727272727274,
+      "media_pedidos": 6.769230769230769,
       "sku": {
         "meta": 120,
         "real": 104
@@ -2907,11 +2907,11 @@
         "meta": 10050,
         "real": 27967.41,
         "participacao_pct": 0.09043478097784799,
-        "margem_pct": 0.15635559236919108,
+        "margem_pct": 0.2269272286231558,
         "premio": 559.3482
       },
-      "recompra_pct": 0.23376623376623376,
-      "media_pedidos": 12.384615384615385,
+      "recompra_pct": 0.35064935064935066,
+      "media_pedidos": 6.423076923076923,
       "sku": {
         "meta": 120,
         "real": 99
@@ -2970,11 +2970,11 @@
         "meta": 6150,
         "real": 13732.58,
         "participacao_pct": 0.08191065411472113,
-        "margem_pct": 0.1632698356744985,
+        "margem_pct": 0.2340851454203552,
         "premio": 274.65160000000003
       },
-      "recompra_pct": 0.23863636363636365,
-      "media_pedidos": 9.653846153846153,
+      "recompra_pct": 0.5340909090909091,
+      "media_pedidos": 5.5,
       "sku": {
         "meta": 120,
         "real": 85
@@ -3033,17 +3033,17 @@
         "meta": 13350,
         "real": 25420.97,
         "participacao_pct": 0.07100609722949036,
-        "margem_pct": 0,
-        "premio": 0
+        "margem_pct": 0.1723831285419553,
+        "premio": 508.41940000000005
       },
-      "recompra_pct": 0.42990654205607476,
-      "media_pedidos": 13.076923076923077,
+      "recompra_pct": 0.29906542056074764,
+      "media_pedidos": 6.346153846153846,
       "sku": {
         "meta": 120,
         "real": 100
       },
       "positivacao_dia15": {
-        "resultado": 72,
+        "resultado": 73,
         "premio": 0
       },
       "positivacao_dia30": {
@@ -3096,11 +3096,11 @@
         "meta": 6900,
         "real": 8217.53,
         "participacao_pct": 0.050267015546068876,
-        "margem_pct": 0.1531636954780585,
+        "margem_pct": 0.21780411231207847,
         "premio": 164.35060000000001
       },
-      "recompra_pct": 0.2602739726027397,
-      "media_pedidos": 10.23076923076923,
+      "recompra_pct": 0.3424657534246575,
+      "media_pedidos": 5.5,
       "sku": {
         "meta": 120,
         "real": 90
@@ -3159,11 +3159,11 @@
         "meta": 5100,
         "real": 5992.84,
         "participacao_pct": 0.04183491305707871,
-        "margem_pct": 0.16946484317587993,
+        "margem_pct": 0.23717298201876016,
         "premio": 119.8568
       },
-      "recompra_pct": 0.17391304347826086,
-      "media_pedidos": 8.192307692307692,
+      "recompra_pct": 0.4492753623188406,
+      "media_pedidos": 3.8461538461538463,
       "sku": {
         "meta": 120,
         "real": 89
@@ -3222,11 +3222,11 @@
         "meta": 7200,
         "real": 5625.03,
         "participacao_pct": 0.024910432508850378,
-        "margem_pct": 0.15052166936425218,
+        "margem_pct": 0.24465635907808447,
         "premio": 0
       },
-      "recompra_pct": 0.16129032258064516,
-      "media_pedidos": 15.038461538461538,
+      "recompra_pct": 0.3655913978494624,
+      "media_pedidos": 8.346153846153847,
       "sku": {
         "meta": 120,
         "real": 108
@@ -3307,7 +3307,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 14.346153846153847
+      "posit_atual": 7.846153846153846
     },
     {
       "codigo": "33",
@@ -3374,7 +3374,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 15
+      "posit_atual": 8.307692307692308
     },
     {
       "codigo": "15",
@@ -3441,7 +3441,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 16.153846153846153
+      "posit_atual": 8.961538461538462
     },
     {
       "codigo": "81",
@@ -3508,7 +3508,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 12.23076923076923
+      "posit_atual": 6.269230769230769
     },
     {
       "codigo": "83",
@@ -3575,7 +3575,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 12.26923076923077
+      "posit_atual": 6.8076923076923075
     },
     {
       "codigo": "85",
@@ -3642,7 +3642,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 15.346153846153847
+      "posit_atual": 8.461538461538462
     },
     {
       "codigo": "192",
@@ -3709,7 +3709,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 11.115384615384615
+      "posit_atual": 5.730769230769231
     },
     {
       "codigo": "649",
@@ -3776,7 +3776,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 9.807692307692308
+      "posit_atual": 5.269230769230769
     },
     {
       "codigo": "650",
@@ -3843,7 +3843,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 8.153846153846153
+      "posit_atual": 3.8076923076923075
     },
     {
       "codigo": "12",
@@ -3910,7 +3910,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 9.807692307692308
+      "posit_atual": 5.076923076923077
     },
     {
       "codigo": "377",
@@ -3977,7 +3977,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 13.153846153846153
+      "posit_atual": 6.538461538461538
     },
     {
       "codigo": "383",
@@ -4044,7 +4044,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 13.346153846153847
+      "posit_atual": 7.8076923076923075
     },
     {
       "codigo": "471",
@@ -4111,7 +4111,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 12.384615384615385
+      "posit_atual": 6.346153846153846
     },
     {
       "codigo": "657",
@@ -4178,7 +4178,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 7.6923076923076925
+      "posit_atual": 4
     },
     {
       "codigo": "781",
@@ -4312,7 +4312,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 5.3076923076923075
+      "posit_atual": 3.1538461538461537
     },
     {
       "codigo": "45",
@@ -4379,7 +4379,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 9.23076923076923
+      "posit_atual": 4.269230769230769
     },
     {
       "codigo": "738",
@@ -4446,7 +4446,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 15.461538461538462
+      "posit_atual": 8.423076923076923
     },
     {
       "codigo": "164",
@@ -4513,7 +4513,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 17.615384615384617
+      "posit_atual": 9.576923076923077
     },
     {
       "codigo": "428",
@@ -4580,7 +4580,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 9.153846153846153
+      "posit_atual": 5.230769230769231
     },
     {
       "codigo": "439",
@@ -4647,7 +4647,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 14.5
+      "posit_atual": 7.423076923076923
     },
     {
       "codigo": "735",
@@ -4714,7 +4714,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 11.384615384615385
+      "posit_atual": 6.115384615384615
     },
     {
       "codigo": "622",
@@ -4781,7 +4781,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 11.384615384615385
+      "posit_atual": 5.961538461538462
     },
     {
       "codigo": "16",
@@ -4848,7 +4848,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 10.5
+      "posit_atual": 5.3076923076923075
     },
     {
       "codigo": "398",
@@ -4915,7 +4915,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 10.307692307692308
+      "posit_atual": 5.423076923076923
     },
     {
       "codigo": "723",
@@ -4982,7 +4982,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 7.769230769230769
+      "posit_atual": 3.9615384615384617
     },
     {
       "codigo": "729",
@@ -5049,7 +5049,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 11.423076923076923
+      "posit_atual": 6.346153846153846
     },
     {
       "codigo": "467",
@@ -5116,7 +5116,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 9.076923076923077
+      "posit_atual": 5.576923076923077
     },
     {
       "codigo": "729",
@@ -5183,7 +5183,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 11.423076923076923
+      "posit_atual": 6.346153846153846
     },
     {
       "codigo": "698",
@@ -5250,7 +5250,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 11.461538461538462
+      "posit_atual": 6.538461538461538
     },
     {
       "codigo": "42",
@@ -5317,7 +5317,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 15.846153846153847
+      "posit_atual": 7.923076923076923
     },
     {
       "codigo": "334",
@@ -5384,7 +5384,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 8.538461538461538
+      "posit_atual": 4.846153846153846
     },
     {
       "codigo": "352",
@@ -5518,7 +5518,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 14.076923076923077
+      "posit_atual": 7.961538461538462
     },
     {
       "codigo": "751",
@@ -5585,7 +5585,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 11.846153846153847
+      "posit_atual": 6.3076923076923075
     },
     {
       "codigo": "687",
@@ -5652,7 +5652,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 13.192307692307692
+      "posit_atual": 6.615384615384615
     },
     {
       "codigo": "679",
@@ -5719,7 +5719,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 11.73076923076923
+      "posit_atual": 5.961538461538462
     },
     {
       "codigo": "722",
@@ -5786,7 +5786,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 15.038461538461538
+      "posit_atual": 8.346153846153847
     },
     {
       "codigo": "47",
@@ -5853,7 +5853,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 14.423076923076923
+      "posit_atual": 6.769230769230769
     },
     {
       "codigo": "347",
@@ -5920,7 +5920,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 12.384615384615385
+      "posit_atual": 6.423076923076923
     },
     {
       "codigo": "357",
@@ -5987,7 +5987,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 9.653846153846153
+      "posit_atual": 5.5
     },
     {
       "codigo": "405",
@@ -6054,7 +6054,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 13.076923076923077
+      "posit_atual": 6.346153846153846
     },
     {
       "codigo": "660",
@@ -6121,7 +6121,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 8.192307692307692
+      "posit_atual": 3.8461538461538463
     },
     {
       "codigo": "561",
@@ -6188,7 +6188,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 10.23076923076923
+      "posit_atual": 5.5
     }
   ],
   "evolucao_faturamento": [
@@ -6250,10 +6250,10 @@
     },
     {
       "mes": "Setembro",
-      "meta": 15500000.0,
-      "faturamento": null,
-      "pct_meta": null,
-      "saldo_meta": null
+      "meta": 15000000,
+      "faturamento": 13145814.058982443,
+      "pct_meta": -0.12361239606783714,
+      "saldo_meta": -1854185.941017557
     },
     {
       "mes": "Outubro",
@@ -6358,12 +6358,12 @@
     },
     {
       "mes": "Setembro",
-      "margem_pct": null,
-      "peso": null,
-      "preco_medio": null,
-      "variacao_pct": null,
-      "cli_atendidos": null,
-      "cresc_mensal": null
+      "margem_pct": 0.11937007257564809,
+      "peso": 1105007.179,
+      "preco_medio": 11.351080443976011,
+      "variacao_pct": 0.0,
+      "cli_atendidos": 3667,
+      "cresc_mensal": 0
     },
     {
       "mes": "Outubro",

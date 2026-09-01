@@ -59,10 +59,10 @@
     },
     {
       "mes": "Setembro",
-      "meta": 15500000.0,
-      "faturamento": null,
-      "pct_meta": null,
-      "saldo_meta": null
+      "meta": 15000000,
+      "faturamento": 13145814.058982443,
+      "pct_meta": -0.12361239606783714,
+      "saldo_meta": -1854185.941017557
     },
     {
       "mes": "Outubro",
@@ -167,12 +167,12 @@
     },
     {
       "mes": "Setembro",
-      "margem_pct": null,
-      "peso": null,
-      "preco_medio": null,
-      "variacao_pct": null,
-      "cli_atendidos": null,
-      "cresc_mensal": null
+      "margem_pct": 0.11937007257564809,
+      "peso": 1105007.179,
+      "preco_medio": 11.351080443976011,
+      "variacao_pct": 0.0,
+      "cli_atendidos": 3667,
+      "cresc_mensal": 0
     },
     {
       "mes": "Outubro",
