@@ -45,6 +45,38 @@
     "nome": "",
     "motivo": ""
   },
+  "supervisor_destaque_auto": {
+    "supervisor": "RICHARD",
+    "rcas": 8,
+    "pilares": {
+      "positivacao": {
+        "meta": 513,
+        "real": 522,
+        "pct": 1.0175438596491229
+      },
+      "margem": {
+        "meta": 104,
+        "real": 108.44142799057248,
+        "pct": 1.0427060383708893
+      },
+      "mix": {
+        "meta": 17.2,
+        "real": 17.37,
+        "pct": 1.0098837209302327
+      },
+      "financeiro": {
+        "meta": 1680000,
+        "real": 1682265.678796,
+        "pct": 1.0013486183309523
+      }
+    },
+    "tendencia": {
+      "pct": 1.0013486183309523,
+      "projetado": 1682265.678796,
+      "meta": 1680000
+    },
+    "media_4_pilares": 1.0178705593202992
+  },
   "pilares_por_supervisor": [
     {
       "supervisor": "LEANDRO",

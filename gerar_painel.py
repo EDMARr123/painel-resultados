@@ -1247,6 +1247,68 @@ function slideVendedorDestaqueEstrategia(vendedor) {
     </div></div>`;
 }
 
+function badgeSupervisor(supervisor) {
+  const foto = FOTOS_SUPERVISORES[normalizarNomeFoto(supervisor.supervisor)];
+  const fotoHtml = foto
+    ? `<img class="foto-vendedor" src="${foto}" alt="${supervisor.supervisor}">`
+    : `<div class="foto-fallback">${iniciais(supervisor.supervisor)}</div>`;
+  return `
+    <div class="badge-vendedor">
+      <div class="anel">
+        <img class="logo-mini" src="__LOGO_URI__" alt="T&amp;T">
+        ${fotoHtml}
+      </div>
+      <div class="legenda">Supervisor ${supervisor.supervisor}</div>
+    </div>`;
+}
+
+function slideSupervisorResultadoReveal(supervisor) {
+  const corpo = supervisor
+    ? tabelaResultado(supervisor)
+    : `<div class="resultado-vazio">Nenhuma equipe bateu os 4 pilares ainda este mês</div>`;
+  return `
+    <div class="slide resultado-onda-slide"><div class="resultado-onda-inner">
+      ${resultadoCabecalho("Resultado")}
+      <div class="resultado-subtitulo">Supervisor Destaque Foi........</div>
+      <div class="resultado-corpo">${corpo}</div>
+      <div class="resultado-onda"></div>
+    </div></div>`;
+}
+
+function slideSupervisorDestaqueTabela(supervisor) {
+  if (!supervisor) return "";
+  return `
+    <div class="slide resultado-onda-slide"><div class="resultado-onda-inner">
+      ${resultadoCabecalho("Supervisor Destaque")}
+      <div class="resultado-subtitulo">${supervisor.supervisor}</div>
+      <div class="resultado-corpo">${tabelaResultado(supervisor)}${badgeSupervisor(supervisor)}</div>
+      <div class="resultado-onda"></div>
+    </div></div>`;
+}
+
+function slideSupervisorDestaqueEstrategia(supervisor) {
+  if (!supervisor) return "";
+  const alvo = `
+    <div class="estrategia-alvo">
+      <div class="anel-alvo anel-1"></div>
+      <div class="anel-alvo anel-2"></div>
+      <div class="anel-alvo anel-3"></div>
+      <svg class="dardo" viewBox="0 0 100 30">
+        <polygon points="0,15 70,8 70,22" fill="var(--accent)"/>
+        <rect x="68" y="12" width="20" height="6" fill="#333"/>
+        <polygon points="88,6 100,15 88,24" fill="#333"/>
+      </svg>
+    </div>`;
+  return `
+    <div class="slide resultado-onda-slide"><div class="resultado-onda-inner">
+      ${resultadoCabecalho("Supervisor Destaque")}
+      <div class="resultado-subtitulo">${supervisor.supervisor}</div>
+      <div class="resultado-corpo">${badgeSupervisor(supervisor)}${alvo}</div>
+      <div class="resultado-onda"></div>
+      <div class="resultado-banner">Estratégia do Campeão</div>
+    </div></div>`;
+}
+
 function slideDestaque(chave, titulo, eImagemRca) {
   const d = DADOS[chave];
   if (!d || !d.nome) return "";
@@ -1312,7 +1374,10 @@ function montarSlidesCompletos(chaveEscolhida) {
     slideSupervisorDestaqueCapa(),
     slideJantarExclusivo(),
     slidePremioAmbiente(),
-    slideDestaque("supervisor_destaque", "Supervisor Destaque", false),
+    slideResultadoDivisor(),
+    slideSupervisorResultadoReveal(DADOS.supervisor_destaque_auto),
+    slideSupervisorDestaqueTabela(DADOS.supervisor_destaque_auto),
+    slideSupervisorDestaqueEstrategia(DADOS.supervisor_destaque_auto),
   ].filter(Boolean);
 }
 
