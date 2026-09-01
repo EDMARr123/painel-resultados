@@ -534,6 +534,74 @@ h1, h2, .eyebrow, .destaque-nome, .capa-linha {
 }
 .trofeu { font-size: 44px; margin-bottom: -6px; }
 
+/* Campanha Agosto — flyer de premiação por caixas vendidas. Sem foto real
+   disponível pro par de vendedores comemorando (não veio no PowerPoint
+   original), então a "cena" é substituída por uma medalha/cifrão em CSS,
+   igual ao tratamento já usado em Novos Colaboradores. */
+.slide.campanha-agosto { padding: 0; background: #5c0f10; }
+.campanha-agosto-inner {
+  position: relative; overflow: hidden; width: 100%; height: 100%;
+  background:
+    repeating-linear-gradient(90deg, rgba(0,0,0,0.16) 0 18px, rgba(255,255,255,0.03) 18px 36px),
+    radial-gradient(120% 90% at 50% 0%, #8a1a1a 0%, #5c0f10 60%, #3d0a0a 100%);
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 5vw; text-align: left;
+}
+.campanha-faixa {
+  position: absolute; top: 34px; right: -68px; width: 360px; padding: 10px 0;
+  background: linear-gradient(180deg, #F3C500, #C69200); color: #3d0a0a;
+  font-weight: 900; text-transform: uppercase; text-align: center; font-size: 15px;
+  letter-spacing: 0.03em; transform: rotate(28deg); box-shadow: 0 6px 14px rgba(0,0,0,0.35);
+}
+.campanha-esquerda { display: flex; flex-direction: column; align-items: center; gap: 34px; flex: 0 0 auto; }
+.campanha-medalha { position: relative; width: 200px; height: 200px; display: flex; align-items: center; justify-content: center; }
+.medalha-raios {
+  position: absolute; inset: 0; border-radius: 50%;
+  background: repeating-conic-gradient(rgba(243,197,0,0.9) 0deg 9deg, rgba(243,197,0,0.35) 9deg 18deg);
+  filter: drop-shadow(0 0 26px rgba(243,197,0,0.5));
+}
+.medalha-circulo {
+  position: relative; width: 152px; height: 152px; border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #FFE998, #F3C500 55%, #B88900 100%);
+  border: 4px solid #fff; box-shadow: 0 10px 24px rgba(0,0,0,0.4);
+  display: flex; align-items: center; justify-content: center;
+}
+.medalha-cifrao { font-size: 68px; font-weight: 900; color: #7a4b00; font-family: "Roboto Slab", Georgia, serif; }
+.campanha-continua { text-align: center; }
+.campanha-continua .linha1 { color: #fff; font-weight: 800; text-transform: uppercase; font-size: clamp(15px, 1.7vw, 20px); letter-spacing: 0.04em; }
+.campanha-continua .linha2 {
+  font-family: "Roboto Slab", Georgia, serif; font-style: italic; font-weight: 800;
+  color: var(--gold); font-size: clamp(24px, 3vw, 34px); margin-top: 2px;
+}
+.campanha-direita { flex: 0 0 auto; max-width: 640px; }
+.campanha-titulo {
+  color: var(--gold); font-weight: 900; text-transform: uppercase; letter-spacing: 0.02em;
+  font-size: clamp(36px, 5.4vw, 64px); margin: 0 0 18px; text-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+.tabela-campanha {
+  border-collapse: collapse; background: rgba(0,0,0,0.55); border: 2px solid var(--gold);
+  border-radius: 14px; overflow: hidden; width: 100%; box-shadow: 0 14px 30px rgba(0,0,0,0.4);
+}
+.tabela-campanha td {
+  padding: 12px 30px; font-size: clamp(17px, 2vw, 24px); font-weight: 800; color: #fff;
+  border-bottom: 1px solid rgba(243,197,0,0.25);
+}
+.tabela-campanha tr:last-child td { border-bottom: none; }
+.tabela-campanha td:first-child { color: var(--gold); }
+.tabela-campanha td:last-child { text-align: right; }
+.campanha-produto {
+  display: flex; align-items: center; gap: 14px; margin-top: 22px;
+  background: #fff; border-radius: 14px; padding: 10px 20px; width: fit-content;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.35);
+}
+.campanha-produto img { height: 40px; width: auto; }
+.campanha-produto span { font-weight: 800; color: var(--accent); font-size: 15px; text-transform: uppercase; }
+.campanha-selo {
+  position: absolute; bottom: 30px; right: 5vw; width: 70px; height: 70px; border-radius: 50%;
+  background: linear-gradient(180deg, #FFE998, #B88900); display: flex; align-items: center; justify-content: center;
+  color: #fff; font-size: 34px; box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
 /* Navegação */
 .nav-dots { position: fixed; bottom: 26px; left: 50%; transform: translateX(-50%); display: flex; gap: 8px; z-index: 20; }
 .nav-dots .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--border); cursor: pointer; transition: background 0.2s, transform 0.2s; }
@@ -1141,6 +1209,39 @@ function slidePremioAmbiente() {
     </div>`;
 }
 
+function slideCampanhaAgosto() {
+  const linhas = [
+    ["50 CXS", "R$ 100,00"],
+    ["100 CXS", "R$ 150,00"],
+    ["200 CXS", "R$ 200,00"],
+    ["250 CXS", "R$ 300,00"],
+    ["300 CXS", "R$ 400,00"],
+  ].map(([caixas, valor]) => `<tr><td>${caixas}</td><td>${valor}</td></tr>`).join("");
+  return `
+    <div class="slide campanha-agosto"><div class="campanha-agosto-inner">
+      <div class="campanha-faixa">Campanha Agosto 2026</div>
+      <div class="campanha-esquerda">
+        <div class="campanha-medalha">
+          <div class="medalha-raios"></div>
+          <div class="medalha-circulo"><span class="medalha-cifrao">$</span></div>
+        </div>
+        <div class="campanha-continua">
+          <div class="linha1">Campanha Agosto</div>
+          <div class="linha2">Continua</div>
+        </div>
+      </div>
+      <div class="campanha-direita">
+        <h1 class="campanha-titulo">Premiação</h1>
+        <table class="tabela-campanha"><tbody>${linhas}</tbody></table>
+        <div class="campanha-produto">
+          <img src="__LOGO_FRIATO_URI__" alt="Friato Alimentos">
+          <span>Hambúrguer Friato</span>
+        </div>
+      </div>
+      <div class="campanha-selo">★</div>
+    </div></div>`;
+}
+
 function fmtPctResultado(v) {
   return (v * 100).toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + "%";
 }
@@ -1378,6 +1479,7 @@ function montarSlidesCompletos(chaveEscolhida) {
     slideSupervisorResultadoReveal(DADOS.supervisor_destaque_auto),
     slideSupervisorDestaqueTabela(DADOS.supervisor_destaque_auto),
     slideSupervisorDestaqueEstrategia(DADOS.supervisor_destaque_auto),
+    slideCampanhaAgosto(),
   ].filter(Boolean);
 }
 
