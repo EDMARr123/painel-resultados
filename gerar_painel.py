@@ -600,7 +600,7 @@ h1, h2, .eyebrow, .destaque-nome, .capa-linha {
 .ganhadores-logo-topo { position: absolute; top: 10px; z-index: 3; }
 .ganhadores-logo-topo.esq { left: 2vw; }
 .ganhadores-logo-topo.dir { right: 2vw; }
-.ganhadores-logo-topo img { height: 150px; width: auto; max-width: 22vw; object-fit: contain; filter: drop-shadow(0 6px 14px rgba(0,0,0,0.5)); }
+.ganhadores-logo-topo img { height: 70px; width: auto; max-width: 22vw; object-fit: contain; filter: drop-shadow(0 6px 14px rgba(0,0,0,0.5)); }
 .ganhadores-premio {
   flex: 0 0 auto; background: linear-gradient(180deg, #7a0f0f, #4a0808); border: 2px solid var(--gold);
   border-radius: 18px; padding: 22px 34px; text-align: center; box-shadow: 0 16px 34px rgba(0,0,0,0.6);
