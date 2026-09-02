@@ -46,11 +46,19 @@ def _ler_rcas_pilares():
         return json.load(f)
 
 
+FATOR_PESO_CAIXA = 2.016  # kg por caixa — usado pra recuperar CAIXAS quando a
+# planilha só traz PESO (formato novo, sem cabeçalho e sem a coluna CAIXAS).
+
+
 def _campanha_hamburguer(rcas_pilares):
     """Ganhadores da Campanha Agosto (Hambúrguer Friato), a partir da
-    planilha 1464-HAMBURGUER.xls (RCA/VENDEDOR/PESO/CAIXAS) que o Edmar
-    exporta do sistema. Cruza pelo código do RCA com o painel_pilares pra
-    pegar o nome "limpo" (mesmo usado nas fotos) e o supervisor."""
+    planilha 1464-HAMBURGUER.xls (RCA/VENDEDOR/PESO) que o Edmar exporta do
+    sistema. Cruza pelo código do RCA com o painel_pilares pra pegar o
+    nome "limpo" (mesmo usado nas fotos) e o supervisor.
+
+    Formato mudou em 02/09: sem linha de cabeçalho e sem a coluna CAIXAS —
+    só RCA/VENDEDOR/PESO. CAIXAS agora é derivado do peso (fator fixo de
+    2,016 kg/caixa, confirmado batendo número redondo em todas as linhas)."""
     if not os.path.exists(CAMINHO_HAMBURGUER):
         return []
 
@@ -62,11 +70,12 @@ def _campanha_hamburguer(rcas_pilares):
     faixas = {f["nivel"]: {**f, "ganhadores": []} for f in FAIXAS_CAMPANHA_HAMBURGUER}
     limites = sorted(FAIXAS_CAMPANHA_HAMBURGUER, key=lambda f: f["caixas_min"])
 
-    for linha in range(1, sh.nrows):
+    for linha in range(sh.nrows):
         codigo = sh.cell_value(linha, 0)
-        caixas = sh.cell_value(linha, 3)
-        if not codigo or not caixas:
-            continue
+        peso = sh.cell_value(linha, 2)
+        if not isinstance(codigo, (int, float)) or not peso:
+            continue  # pula linha de cabeçalho, se um dia voltar a ter
+        caixas = round(peso / FATOR_PESO_CAIXA)
         codigo_str = str(int(codigo))
         rca = por_codigo.get(codigo_str)
         if not rca:

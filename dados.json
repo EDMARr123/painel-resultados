@@ -84,53 +84,25 @@
       "valor": 100,
       "ganhadores": [
         {
-          "codigo": "439",
-          "nome": "GUILHERME AUGU",
-          "rota": "",
-          "supervisor": "IDEGLAN",
-          "caixas": 98
-        },
-        {
-          "codigo": "679",
-          "nome": "RAFAEL COSTA -",
-          "rota": "",
-          "supervisor": "RICHARD",
-          "caixas": 95
-        },
-        {
-          "codigo": "45",
-          "nome": "TIAGO",
-          "rota": "GYN RT",
-          "supervisor": "IDEGLAN",
-          "caixas": 90
-        },
-        {
-          "codigo": "723",
-          "nome": "JEAN PIERRE -",
-          "rota": "",
-          "supervisor": "RICARDO",
-          "caixas": 84
-        },
-        {
-          "codigo": "357",
-          "nome": "LUCIANO",
-          "rota": "GYN",
-          "supervisor": "RODRIGO",
-          "caixas": 82
-        },
-        {
           "codigo": "15",
           "nome": "WESLEY",
           "rota": "GYN RT",
           "supervisor": "LEANDRO",
-          "caixas": 70
+          "caixas": 82
         },
         {
           "codigo": "47",
           "nome": "MARCELO",
           "rota": "GYN R",
           "supervisor": "RODRIGO",
-          "caixas": 67
+          "caixas": 72
+        },
+        {
+          "codigo": "561",
+          "nome": "THALLES VIEIRA",
+          "rota": "",
+          "supervisor": "RODRIGO",
+          "caixas": 68
         },
         {
           "codigo": "377",
@@ -140,39 +112,46 @@
           "caixas": 67
         },
         {
-          "codigo": "561",
-          "nome": "THALLES VIEIRA",
+          "codigo": "85",
+          "nome": "CARLOS HENRIQUE",
           "rota": "",
-          "supervisor": "RODRIGO",
-          "caixas": 67
-        },
-        {
-          "codigo": "473",
-          "nome": "KAIKY DIAS",
-          "rota": "G",
-          "supervisor": "RICHARD",
-          "caixas": 57
+          "supervisor": "LEANDRO",
+          "caixas": 66
         },
         {
           "codigo": "16",
           "nome": "BERALDO",
           "rota": "GYN R",
           "supervisor": "RICARDO",
-          "caixas": 57
+          "caixas": 65
+        },
+        {
+          "codigo": "473",
+          "nome": "KAIKY DIAS",
+          "rota": "G",
+          "supervisor": "RICHARD",
+          "caixas": 64
         },
         {
           "codigo": "428",
           "nome": "TAUA F.",
           "rota": "GYN",
           "supervisor": "IDEGLAN",
+          "caixas": 58
+        },
+        {
+          "codigo": "347",
+          "nome": "MATIAS",
+          "rota": "GYN R",
+          "supervisor": "RODRIGO",
           "caixas": 56
         },
         {
-          "codigo": "85",
-          "nome": "CARLOS HENRIQUE",
+          "codigo": "650",
+          "nome": "ANDRE WILKER -",
           "rota": "",
           "supervisor": "LEANDRO",
-          "caixas": 54
+          "caixas": 55
         },
         {
           "codigo": "729",
@@ -180,6 +159,13 @@
           "rota": "",
           "supervisor": "RICARDO",
           "caixas": 53
+        },
+        {
+          "codigo": "735",
+          "nome": "CARLOS RAFAEL",
+          "rota": "",
+          "supervisor": "IDEGLAN",
+          "caixas": 52
         }
       ]
     },
@@ -193,7 +179,14 @@
           "nome": "MARCEL HENRIQU",
           "rota": "",
           "supervisor": "IDEGLAN",
-          "caixas": 149
+          "caixas": 155
+        },
+        {
+          "codigo": "698",
+          "nome": "FERNANDO OLIVE",
+          "rota": "",
+          "supervisor": "RICARDO",
+          "caixas": 148
         },
         {
           "codigo": "42",
@@ -203,25 +196,53 @@
           "caixas": 145
         },
         {
-          "codigo": "698",
-          "nome": "FERNANDO OLIVE",
+          "codigo": "649",
+          "nome": "WALLACE SOUSA",
           "rota": "",
-          "supervisor": "RICARDO",
-          "caixas": 138
+          "supervisor": "LEANDRO",
+          "caixas": 127
         },
         {
           "codigo": "467",
           "nome": "IGOR SA",
           "rota": "GYN",
           "supervisor": "RICARDO",
-          "caixas": 117
+          "caixas": 122
         },
         {
-          "codigo": "649",
-          "nome": "WALLACE SOUSA",
+          "codigo": "723",
+          "nome": "JEAN PIERRE -",
           "rota": "",
-          "supervisor": "LEANDRO",
-          "caixas": 117
+          "supervisor": "RICARDO",
+          "caixas": 110
+        },
+        {
+          "codigo": "679",
+          "nome": "RAFAEL COSTA -",
+          "rota": "",
+          "supervisor": "RICHARD",
+          "caixas": 106
+        },
+        {
+          "codigo": "357",
+          "nome": "LUCIANO",
+          "rota": "GYN",
+          "supervisor": "RODRIGO",
+          "caixas": 103
+        },
+        {
+          "codigo": "45",
+          "nome": "TIAGO",
+          "rota": "GYN RT",
+          "supervisor": "IDEGLAN",
+          "caixas": 102
+        },
+        {
+          "codigo": "439",
+          "nome": "GUILHERME AUGU",
+          "rota": "",
+          "supervisor": "IDEGLAN",
+          "caixas": 100
         }
       ]
     },
@@ -230,20 +251,6 @@
       "caixas_min": 200,
       "valor": 200,
       "ganhadores": [
-        {
-          "codigo": "751",
-          "nome": "JULIO CESAR -",
-          "rota": "",
-          "supervisor": "RICHARD",
-          "caixas": 239
-        },
-        {
-          "codigo": "644",
-          "nome": "ALBERTO SANTOS",
-          "rota": "",
-          "supervisor": "RICARDO",
-          "caixas": 218
-        },
         {
           "codigo": "164",
           "nome": "JOAO VITOR",
@@ -257,7 +264,15 @@
       "nivel": 4,
       "caixas_min": 250,
       "valor": 300,
-      "ganhadores": []
+      "ganhadores": [
+        {
+          "codigo": "644",
+          "nome": "ALBERTO SANTOS",
+          "rota": "",
+          "supervisor": "RICARDO",
+          "caixas": 250
+        }
+      ]
     },
     {
       "nivel": 5,
@@ -276,7 +291,14 @@
           "nome": "WILLIAN",
           "rota": "GYN",
           "supervisor": "RODRIGO",
-          "caixas": 344
+          "caixas": 345
+        },
+        {
+          "codigo": "751",
+          "nome": "JULIO CESAR -",
+          "rota": "",
+          "supervisor": "RICHARD",
+          "caixas": 306
         }
       ]
     }
