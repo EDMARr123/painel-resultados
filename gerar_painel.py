@@ -190,6 +190,13 @@ h1, h2, .eyebrow, .destaque-nome, .capa-linha {
 .tabela-cronograma td { border: 1px solid #000; padding: 5px 8px; font-weight: 700; text-align: center; }
 .tabela-cronograma td:nth-child(1), .tabela-cronograma td:nth-child(2) { text-align: left; }
 
+/* Encerramento — último slide (réplica do slide final do PowerPoint):
+   logo T&T centralizada, "Obrigado!" em vermelho, "Boas Venda!" em verde. */
+.slide.encerramento { flex-direction: column; gap: 30px; }
+.encerramento img.logo-tt { height: clamp(110px, 20vh, 170px); width: auto; filter: drop-shadow(0 10px 18px rgba(26,26,26,0.2)); }
+.encerramento .obrigado { margin: 0; color: var(--accent); font-weight: 900; font-size: clamp(34px, 5vw, 58px); }
+.encerramento .boas-venda { margin: 36px 0 0; color: var(--good); font-weight: 900; font-size: clamp(34px, 5vw, 58px); }
+
 /* Título com linha vermelha embaixo — réplica do slide 3 (Novos
    Colaboradores): título vermelho maiúsculo + barra fina vermelha centrada. */
 .titulo-com-linha { margin: 0 0 32px; }
@@ -735,6 +742,15 @@ function slideCapa() {
         <span class="capa-linha ano">${ano}</span>
       </h1>
       <div class="logo-anel"><img src="__LOGO_URI__" alt="T&amp;T Alimentos"></div>
+    </div>`;
+}
+
+function slideEncerramento() {
+  return `
+    <div class="slide encerramento">
+      <img class="logo-tt" src="__LOGO_URI__" alt="T&amp;T Alimentos">
+      <h1 class="obrigado">Obrigado !</h1>
+      <h1 class="boas-venda">Boas Venda !</h1>
     </div>`;
 }
 
@@ -1638,6 +1654,7 @@ function montarSlidesCompletos(chaveEscolhida) {
     slideSupervisorDestaqueEstrategia(DADOS.supervisor_destaque_auto),
     slideCampanhaAgosto(),
     ...slidesGanhadoresCampanha(),
+    slideEncerramento(),
   ].filter(Boolean);
 }
 
