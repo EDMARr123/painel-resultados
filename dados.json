@@ -280,13 +280,6 @@
       "valor": 400,
       "ganhadores": [
         {
-          "codigo": "33",
-          "nome": "ARTHUR",
-          "rota": "GYN RT",
-          "supervisor": "EDMAR",
-          "caixas": 1660
-        },
-        {
           "codigo": "405",
           "nome": "WILLIAN",
           "rota": "GYN",
