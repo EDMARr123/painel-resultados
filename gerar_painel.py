@@ -150,6 +150,46 @@ h1, h2, .eyebrow, .destaque-nome, .capa-linha {
   text-transform: uppercase; letter-spacing: 0.01em;
 }
 
+/* Cronograma da Reunião — pauta da reunião de fechamento, réplica da
+   planilha de pauta (T&T Goiânia): cabeçalho com logos, faixa
+   data/horário, linha Meet/Coordenador, Diretoria/Convidados, e a
+   tabela O QUÊ/QUEM/COMO/TEMPO/OBSERVAÇÕES. */
+.cronograma-conteudo {
+  width: 100%; max-width: 1180px; margin: 21vh auto 0; padding: 0 24px;
+  display: flex; flex-direction: column; font-size: 12.5px; text-align: left;
+}
+.cronograma-topo {
+  display: flex; align-items: center; justify-content: space-between;
+  border: 2px solid #000; border-bottom: none; padding: 6px 18px;
+}
+.cronograma-topo img { height: 58px; width: auto; }
+.cronograma-topo h2 {
+  margin: 0; font-size: clamp(18px, 2.4vw, 28px); font-weight: 900; font-style: italic;
+  letter-spacing: 0.01em;
+}
+.cronograma-linha2 { display: flex; border: 2px solid #000; }
+.cronograma-linha2 .data {
+  flex: 0 0 220px; background: var(--gold); text-align: center; font-weight: 800;
+  padding: 8px; border-right: 2px solid #000;
+}
+.cronograma-linha2 .horario { flex: 1; background: #C6E0B4; text-align: center; font-weight: 800; padding: 8px; }
+.cronograma-linha3 {
+  display: flex; align-items: center; justify-content: space-between;
+  border: 2px solid #000; border-top: none; padding: 6px 18px;
+}
+.cronograma-linha3 .meet { color: var(--accent); font-weight: 800; }
+.cronograma-linha3 .coord span { color: var(--accent); font-weight: 800; }
+.cronograma-linha4, .cronograma-linha5 {
+  border: 2px solid #000; border-top: none; text-align: center; font-weight: 800;
+  color: var(--accent); padding: 5px; font-size: 12px;
+}
+.tabela-cronograma { width: 100%; border-collapse: collapse; border: 2px solid #000; border-top: none; }
+.tabela-cronograma th {
+  background: #D9D9D9; border: 1px solid #000; padding: 5px 8px; font-weight: 800; font-size: 11.5px;
+}
+.tabela-cronograma td { border: 1px solid #000; padding: 5px 8px; font-weight: 700; text-align: center; }
+.tabela-cronograma td:nth-child(1), .tabela-cronograma td:nth-child(2) { text-align: left; }
+
 /* Título com linha vermelha embaixo — réplica do slide 3 (Novos
    Colaboradores): título vermelho maiúsculo + barra fina vermelha centrada. */
 .titulo-com-linha { margin: 0 0 32px; }
@@ -699,9 +739,43 @@ function slideCapa() {
 }
 
 function slideCronograma() {
+  const pauta = [
+    ["INICIO REUNIÃO", "SUPERVISORES", "VERBAL", "05 MINUTOS - 07:05 HS"],
+    ["APRESENTAÇÃO RESULTADOS ANUAL", "SUPERVISORES", "PROJEÇÃO", "05 MINUTOS - 07:10 HS"],
+    ["APRESENTAÇÃO RESULTADOS MENSAL", "SUPERVISORES", "PROJEÇÃO", "10 MINUTOS - 07:20 HS"],
+    ["LOGISTICA", "SUPERVISORES", "PROJEÇÃO", "05 MINUTOS - 07:25 HS"],
+    ["PREMIAÇÃO THERMO", "SUPERVISORES", "PROJEÇÃO", "05 MINUTOS - 07:30 HS"],
+    ["POSITIVAÇÃO DIA 15", "SUPERVISORES", "PROJEÇÃO", "05 MINUTOS - 07:35 HS"],
+    ["RESULTADO RECOMPRA", "SUPERVISORES", "PROJEÇÃO", "05 MINUTOS - 07:40 HS"],
+    ["VENDA DE DEPARTAMENTOS", "SUPERVISORES", "PROJEÇÃO", "10 MINUTOS - 07:50 HS"],
+    ["VENDEDOR DESTAQUE", "SUPERVISORES", "PROJEÇÃO", "05 MINUTOS - 07:55 HS"],
+    ["PREMIAÇÃO AGOSTO", "SUPERVISORES", "PROJEÇÃO", "05 MINUTOS - 08:00 HS"],
+  ].map(([oque, quem, como, tempo]) => `
+    <tr><td>${oque}</td><td>${quem}</td><td>${como}</td><td>${tempo}</td><td></td></tr>`).join("");
   return `
     <div class="slide divisor">
       <div class="divisor-faixa"><h1>Cronograma da Reunião</h1></div>
+      <div class="cronograma-conteudo">
+        <div class="cronograma-topo">
+          <img src="__LOGO_URI__" alt="T&amp;T Alimentos">
+          <h2>T &amp; T GOIÂNIA</h2>
+          <img src="__LOGO_FRIATO_URI__" alt="Friato Alimentos">
+        </div>
+        <div class="cronograma-linha2">
+          <div class="data">DATA: 04/09/2026</div>
+          <div class="horario">HORÁRIO: (07:00 AS 08:00 HS)</div>
+        </div>
+        <div class="cronograma-linha3">
+          <div class="meet">GOOGLE MEET</div>
+          <div class="coord">COORDENADOR: <span>SUPERVISORES</span></div>
+        </div>
+        <div class="cronograma-linha4">DIRETORIA:</div>
+        <div class="cronograma-linha5">CONVIDADOS: TODOS OS VENDEDORES E SUPERVISORES</div>
+        <table class="tabela-cronograma">
+          <thead><tr><th>O QUÊ</th><th>QUEM</th><th>COMO</th><th>TEMPO</th><th>OBSERVAÇÕES</th></tr></thead>
+          <tbody>${pauta}</tbody>
+        </table>
+      </div>
     </div>`;
 }
 
