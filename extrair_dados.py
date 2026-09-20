@@ -360,11 +360,70 @@ def _preencher_mes_com_gerente(historico):
                     linha["variacao_pct"] = nova_variacao
                     mudou = True
 
+    if _recalcular_totais(historico):
+        mudou = True
+
     if mudou:
         with open(CAMINHO_HISTORICO, "w", encoding="utf-8") as f:
             json.dump(historico, f, ensure_ascii=False, indent=2)
 
     return historico
+
+
+def _recalcular_totais(historico):
+    """Linha TOTAL das duas tabelas de Evolução Anual — nunca editada à mão,
+    sempre recalculada a partir das linhas mes a mes (YTD: soma os meses que
+    já têm faturamento lançado, incluindo o mes vigente com o parcial de
+    hoje). Retorna True se algum total mudou (pra entrar no `mudou` do
+    _preencher_mes_com_gerente e salvar o arquivo)."""
+    fat_por_mes = {l["mes"]: l for l in historico.get("faturamento", [])}
+    fat_linhas = [l for l in fat_por_mes.values() if l.get("faturamento") is not None]
+
+    total_fat_antigo = historico.get("total_faturamento", {})
+    if fat_linhas:
+        meta = sum(l["meta"] for l in fat_linhas)
+        faturamento = sum(l["faturamento"] for l in fat_linhas)
+        total_fat_novo = {
+            "meta": meta,
+            "faturamento": faturamento,
+            "pct_meta": (faturamento / meta - 1) if meta else None,
+            "saldo_meta": faturamento - meta,
+        }
+        historico["total_faturamento"] = total_fat_novo
+    else:
+        total_fat_novo = total_fat_antigo
+
+    op_linhas = [l for l in historico.get("operacional", []) if l.get("margem_pct") is not None]
+    total_op_antigo = historico.get("total_operacional", {})
+    if op_linhas:
+        peso_total = sum(l["peso"] for l in op_linhas if l.get("peso") is not None)
+        fat_dos_meses_op = [fat_por_mes[l["mes"]]["faturamento"] for l in op_linhas if l["mes"] in fat_por_mes and fat_por_mes[l["mes"]].get("faturamento") is not None]
+        fat_total_op = sum(fat_dos_meses_op) if fat_dos_meses_op else 0
+        soma_margem_pond = sum(
+            l["margem_pct"] * fat_por_mes[l["mes"]]["faturamento"]
+            for l in op_linhas
+            if l["mes"] in fat_por_mes and fat_por_mes[l["mes"]].get("faturamento") is not None
+        )
+        margem_pct = (soma_margem_pond / fat_total_op) if fat_total_op else None
+        preco_medio = (fat_total_op / peso_total) if peso_total else None
+        cli_valores = [l["cli_atendidos"] for l in op_linhas if l.get("cli_atendidos") is not None]
+        cli_atendidos = round(sum(cli_valores) / len(cli_valores)) if cli_valores else None
+        preco_primeiro_mes = op_linhas[0].get("preco_medio")
+        variacao_pct = (preco_medio / preco_primeiro_mes - 1) if (preco_medio is not None and preco_primeiro_mes) else None
+        cresc_mensal = (cli_valores[-1] - cli_valores[0]) if len(cli_valores) >= 2 else None
+        total_op_novo = {
+            "margem_pct": margem_pct,
+            "peso": peso_total,
+            "preco_medio": preco_medio,
+            "variacao_pct": variacao_pct,
+            "cli_atendidos": cli_atendidos,
+            "cresc_mensal": cresc_mensal,
+        }
+        historico["total_operacional"] = total_op_novo
+    else:
+        total_op_novo = total_op_antigo
+
+    return total_fat_novo != total_fat_antigo or total_op_novo != total_op_antigo
 
 
 def main():

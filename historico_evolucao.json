@@ -87,10 +87,10 @@
     }
   ],
   "total_faturamento": {
-    "meta": 182000000.0,
-    "faturamento": 92211271.19,
-    "pct_meta": -0.4303,
-    "saldo_meta": -72788728.81
+    "meta": 130000000.0,
+    "faturamento": 112225031.93809514,
+    "pct_meta": -0.13673052355311432,
+    "saldo_meta": -17774968.061904863
   },
   "operacional": [
     {
@@ -203,11 +203,11 @@
     }
   ],
   "total_operacional": {
-    "margem_pct": 0.1196,
-    "peso": 9132711,
-    "preco_medio": 10.67,
-    "variacao_pct": 0.0077,
-    "cli_atendidos": 3594,
-    "cresc_mensal": 61
+    "margem_pct": 0.11982058485065067,
+    "peso": 11244697.644624999,
+    "preco_medio": 9.980262296491276,
+    "variacao_pct": -0.054003573792296256,
+    "cli_atendidos": 3550,
+    "cresc_mensal": -448
   }
 }
