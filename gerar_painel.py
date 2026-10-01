@@ -1652,8 +1652,6 @@ function montarSlidesCompletos(chaveEscolhida) {
     slideSupervisorResultadoReveal(DADOS.supervisor_destaque_auto),
     slideSupervisorDestaqueTabela(DADOS.supervisor_destaque_auto),
     slideSupervisorDestaqueEstrategia(DADOS.supervisor_destaque_auto),
-    slideCampanhaAgosto(),
-    ...slidesGanhadoresCampanha(),
     slideEncerramento(),
   ].filter(Boolean);
 }
