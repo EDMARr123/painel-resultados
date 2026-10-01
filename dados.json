@@ -406,6 +406,14 @@
         "meta": 335000,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 27107.17537068604,
+        "real": 20636.78,
+        "meta_dia": 6470.395370686041,
+        "tendencia": -6470.395370686041,
+        "preco_medio": 12.358351448239503,
+        "pct": 0.761303223880597
+      },
       "industrializado": {
         "meta": 83750,
         "real": 85622.81,
@@ -428,8 +436,8 @@
         "real": 87
       },
       "positivacao_dia15": {
-        "resultado": 105,
-        "premio": 150
+        "resultado": 82,
+        "premio": 0
       },
       "positivacao_dia30": {
         "resultado": 90,
@@ -470,6 +478,14 @@
         "meta": 376000,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 30757.689681925895,
+        "real": 30999.14,
+        "meta_dia": -241.45031807410487,
+        "tendencia": 241.45031807410487,
+        "preco_medio": 12.224585262687933,
+        "pct": 1.007850079787234
+      },
       "industrializado": {
         "meta": 94000,
         "real": 94942.39,
@@ -492,8 +508,8 @@
         "real": 113
       },
       "positivacao_dia15": {
-        "resultado": 100,
-        "premio": 150
+        "resultado": 81,
+        "premio": 0
       },
       "positivacao_dia30": {
         "resultado": 85,
@@ -534,6 +550,14 @@
         "meta": 339000,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 29064.57654439684,
+        "real": 22168.83,
+        "meta_dia": 6895.746544396839,
+        "tendencia": -6895.746544396839,
+        "preco_medio": 11.663682747352928,
+        "pct": 0.76274395280236
+      },
       "industrializado": {
         "meta": 84750,
         "real": 74559.88,
@@ -556,8 +580,8 @@
         "real": 93
       },
       "positivacao_dia15": {
-        "resultado": 100,
-        "premio": 150
+        "resultado": 71,
+        "premio": 0
       },
       "positivacao_dia30": {
         "resultado": 89,
@@ -598,6 +622,14 @@
         "meta": 383000,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 28819.70124890236,
+        "real": 31162.755,
+        "meta_dia": -2343.053751097639,
+        "tendencia": 2343.053751097639,
+        "preco_medio": 13.289520133890601,
+        "pct": 1.0813004177545693
+      },
       "industrializado": {
         "meta": 95750,
         "real": 66365.12,
@@ -620,8 +652,8 @@
         "real": 103
       },
       "positivacao_dia15": {
-        "resultado": 101,
-        "premio": 150
+        "resultado": 73,
+        "premio": 0
       },
       "positivacao_dia30": {
         "resultado": 79,
@@ -662,6 +694,14 @@
         "meta": 245000,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 21157.089429878284,
+        "real": 20951.18,
+        "meta_dia": 205.90942987828385,
+        "tendencia": -205.90942987828385,
+        "preco_medio": 11.580042746995634,
+        "pct": 0.9902675918367346
+      },
       "industrializado": {
         "meta": 61250,
         "real": 53998.71,
@@ -684,8 +724,8 @@
         "real": 86
       },
       "positivacao_dia15": {
-        "resultado": 80,
-        "premio": 150
+        "resultado": 68,
+        "premio": 0
       },
       "positivacao_dia30": {
         "resultado": 60,
@@ -726,6 +766,14 @@
         "meta": 237000,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 19871.487978907353,
+        "real": 20235.62,
+        "meta_dia": -364.132021092646,
+        "tendencia": 364.132021092646,
+        "preco_medio": 11.926635803597815,
+        "pct": 1.0183243459915612
+      },
       "industrializado": {
         "meta": 59250,
         "real": 45247.34,
@@ -748,8 +796,8 @@
         "real": 90
       },
       "positivacao_dia15": {
-        "resultado": 80,
-        "premio": 150
+        "resultado": 69,
+        "premio": 0
       },
       "positivacao_dia30": {
         "resultado": 66,
@@ -790,6 +838,14 @@
         "meta": 252000,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 18918.701838357272,
+        "real": 19102.47,
+        "meta_dia": -183.76816164272896,
+        "tendencia": 183.76816164272896,
+        "preco_medio": 13.320152838873716,
+        "pct": 1.0097135714285714
+      },
       "industrializado": {
         "meta": 63000,
         "real": 51833.49,
@@ -812,8 +868,8 @@
         "real": 121
       },
       "positivacao_dia15": {
-        "resultado": 97,
-        "premio": 150
+        "resultado": 59,
+        "premio": 0
       },
       "positivacao_dia30": {
         "resultado": 90,
@@ -854,6 +910,14 @@
         "meta": 267000,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 20740.010418663212,
+        "real": 12871.44,
+        "meta_dia": 7868.570418663212,
+        "tendencia": -7868.570418663212,
+        "preco_medio": 12.873667592747976,
+        "pct": 0.6206091385767791
+      },
       "industrializado": {
         "meta": 66750,
         "real": 42833.23,
@@ -876,8 +940,8 @@
         "real": 91
       },
       "positivacao_dia15": {
-        "resultado": 100,
-        "premio": 150
+        "resultado": 66,
+        "premio": 0
       },
       "positivacao_dia30": {
         "resultado": 85,
@@ -918,6 +982,14 @@
         "meta": 252500,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 18297.565159485683,
+        "real": 18917.47,
+        "meta_dia": -619.9048405143185,
+        "tendencia": 619.9048405143185,
+        "preco_medio": 13.799650270358562,
+        "pct": 1.033879089108911
+      },
       "industrializado": {
         "meta": 63125,
         "real": 25355.87,
@@ -940,8 +1012,8 @@
         "real": 107
       },
       "positivacao_dia15": {
-        "resultado": 102,
-        "premio": 150
+        "resultado": 81,
+        "premio": 0
       },
       "positivacao_dia30": {
         "resultado": 85,
@@ -982,6 +1054,14 @@
         "meta": 450000,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 32434.360221020033,
+        "real": 35401.48,
+        "meta_dia": -2967.11977897997,
+        "tendencia": 2967.11977897997,
+        "preco_medio": 13.874175316964148,
+        "pct": 1.0914807555555557
+      },
       "industrializado": {
         "meta": 112500,
         "real": 77140.49,
@@ -1004,8 +1084,8 @@
         "real": 109
       },
       "positivacao_dia15": {
-        "resultado": 100,
-        "premio": 150
+        "resultado": 83,
+        "premio": 0
       },
       "positivacao_dia30": {
         "resultado": 77,
@@ -1046,6 +1126,14 @@
         "meta": 213000,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 17404.800291261254,
+        "real": 14301.2,
+        "meta_dia": 3103.600291261253,
+        "tendencia": -3103.600291261253,
+        "preco_medio": 12.238003104634576,
+        "pct": 0.8216813615023475
+      },
       "industrializado": {
         "meta": 53250,
         "real": 36482.7,
@@ -1068,8 +1156,8 @@
         "real": 96
       },
       "positivacao_dia15": {
-        "resultado": 115,
-        "premio": 150
+        "resultado": 90,
+        "premio": 0
       },
       "positivacao_dia30": {
         "resultado": 89,
@@ -1110,6 +1198,14 @@
         "meta": 260000,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 21747.35099121669,
+        "real": 24097.44,
+        "meta_dia": -2350.0890087833104,
+        "tendencia": 2350.0890087833104,
+        "preco_medio": 11.9554790882351,
+        "pct": 1.1080632307692309
+      },
       "industrializado": {
         "meta": 65000,
         "real": 62273.06,
@@ -1132,8 +1228,8 @@
         "real": 99
       },
       "positivacao_dia15": {
-        "resultado": 60,
-        "premio": 150
+        "resultado": 46,
+        "premio": 0
       },
       "positivacao_dia30": {
         "resultado": 48,
@@ -1174,6 +1270,14 @@
         "meta": 210000,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 19489.050263993362,
+        "real": 11250.78,
+        "meta_dia": 8238.270263993361,
+        "tendencia": -8238.270263993361,
+        "preco_medio": 10.775281358270272,
+        "pct": 0.5772872380952382
+      },
       "industrializado": {
         "meta": 52500,
         "real": 7348.53,
@@ -1196,7 +1300,7 @@
         "real": 75
       },
       "positivacao_dia15": {
-        "resultado": 51,
+        "resultado": 39,
         "premio": 0
       },
       "positivacao_dia30": {
@@ -1238,6 +1342,14 @@
         "meta": 205000,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 16729.089393958562,
+        "real": 11932.48,
+        "meta_dia": 4796.609393958563,
+        "tendencia": -4796.609393958563,
+        "preco_medio": 12.254103924749927,
+        "pct": 0.7132773170731708
+      },
       "industrializado": {
         "meta": 51250,
         "real": 20047.29,
@@ -1260,7 +1372,7 @@
         "real": 83
       },
       "positivacao_dia15": {
-        "resultado": 63,
+        "resultado": 45,
         "premio": 0
       },
       "positivacao_dia30": {
@@ -1302,6 +1414,14 @@
         "meta": 305000,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 25105.209338923276,
+        "real": 25286.25,
+        "meta_dia": -181.04066107672406,
+        "tendencia": 181.04066107672406,
+        "preco_medio": 12.14887300410302,
+        "pct": 1.0072112786885246
+      },
       "industrializado": {
         "meta": 76250,
         "real": 80451.29,
@@ -1324,7 +1444,7 @@
         "real": 99
       },
       "positivacao_dia15": {
-        "resultado": 92,
+        "resultado": 90,
         "premio": 150
       },
       "positivacao_dia30": {
@@ -1366,6 +1486,14 @@
         "meta": 485000,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 37360.472683488435,
+        "real": 40628.83,
+        "meta_dia": -3268.3573165115668,
+        "tendencia": 3268.3573165115668,
+        "preco_medio": 12.981634469907206,
+        "pct": 1.0874816907216494
+      },
       "industrializado": {
         "meta": 121250,
         "real": 113095.89,
@@ -1388,7 +1516,7 @@
         "real": 128
       },
       "positivacao_dia15": {
-        "resultado": 107,
+        "resultado": 100,
         "premio": 150
       },
       "positivacao_dia30": {
@@ -1430,6 +1558,14 @@
         "meta": 385000,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 28353.854557232407,
+        "real": 29643.53,
+        "meta_dia": -1289.6754427675914,
+        "tendencia": 1289.6754427675914,
+        "preco_medio": 13.578400750517904,
+        "pct": 1.045485012987013
+      },
       "industrializado": {
         "meta": 96250,
         "real": 105378.24,
@@ -1452,8 +1588,8 @@
         "real": 102
       },
       "positivacao_dia15": {
-        "resultado": 101,
-        "premio": 150
+        "resultado": 75,
+        "premio": 0
       },
       "positivacao_dia30": {
         "resultado": 79,
@@ -1494,6 +1630,14 @@
         "meta": 310000,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 23430.684231798612,
+        "real": 20523.9,
+        "meta_dia": 2906.7842317986106,
+        "tendencia": -2906.7842317986106,
+        "preco_medio": 13.23051418102797,
+        "pct": 0.8759411290322581
+      },
       "industrializado": {
         "meta": 77500,
         "real": 63074.8,
@@ -1516,7 +1660,7 @@
         "real": 111
       },
       "positivacao_dia15": {
-        "resultado": 95,
+        "resultado": 90,
         "premio": 150
       },
       "positivacao_dia30": {
@@ -1558,6 +1702,14 @@
         "meta": 335000,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 25363.22496029338,
+        "real": 20689.81,
+        "meta_dia": 4673.414960293379,
+        "tendencia": -4673.414960293379,
+        "preco_medio": 13.208099542721754,
+        "pct": 0.8157405074626866
+      },
       "industrializado": {
         "meta": 83750,
         "real": 55328.35,
@@ -1580,7 +1732,7 @@
         "real": 88
       },
       "positivacao_dia15": {
-        "resultado": 97,
+        "resultado": 96,
         "premio": 150
       },
       "positivacao_dia30": {
@@ -1622,6 +1774,14 @@
         "meta": 300000,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 23695.03675455957,
+        "real": 21807.904,
+        "meta_dia": 1887.1327545595705,
+        "tendencia": -1887.1327545595705,
+        "preco_medio": 12.660879284868459,
+        "pct": 0.9203574666666666
+      },
       "industrializado": {
         "meta": 75000,
         "real": 59346.85,
@@ -1644,8 +1804,8 @@
         "real": 110
       },
       "positivacao_dia15": {
-        "resultado": 75,
-        "premio": 150
+        "resultado": 65,
+        "premio": 0
       },
       "positivacao_dia30": {
         "resultado": 66,
@@ -1686,6 +1846,14 @@
         "meta": 208000,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 16038.658671791716,
+        "real": 11776.81,
+        "meta_dia": 4261.848671791717,
+        "tendencia": -4261.848671791717,
+        "preco_medio": 12.968665538460757,
+        "pct": 0.7342764903846155
+      },
       "industrializado": {
         "meta": 52000,
         "real": 22945.83,
@@ -1708,7 +1876,7 @@
         "real": 96
       },
       "positivacao_dia15": {
-        "resultado": 78,
+        "resultado": 67,
         "premio": 0
       },
       "positivacao_dia30": {
@@ -1750,6 +1918,14 @@
         "meta": 274500,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 24826.126089916466,
+        "real": 22884.43,
+        "meta_dia": 1941.696089916466,
+        "tendencia": -1941.696089916466,
+        "preco_medio": 11.056900259259242,
+        "pct": 0.9217881967213114
+      },
       "industrializado": {
         "meta": 68625,
         "real": 52247.51,
@@ -1772,7 +1948,7 @@
         "real": 82
       },
       "positivacao_dia15": {
-        "resultado": 75,
+        "resultado": 61,
         "premio": 0
       },
       "positivacao_dia30": {
@@ -1814,6 +1990,14 @@
         "meta": 266000,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 19351.629971853916,
+        "real": 16630,
+        "meta_dia": 2721.629971853916,
+        "tendencia": -2721.629971853916,
+        "preco_medio": 13.74561214672279,
+        "pct": 0.8593591353383458
+      },
       "industrializado": {
         "meta": 66500,
         "real": 15489.77,
@@ -1836,8 +2020,8 @@
         "real": 71
       },
       "positivacao_dia15": {
-        "resultado": 75,
-        "premio": 150
+        "resultado": 37,
+        "premio": 0
       },
       "positivacao_dia30": {
         "resultado": 66,
@@ -1878,6 +2062,14 @@
         "meta": 227000,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 17973.93978367687,
+        "real": 20030.67,
+        "meta_dia": -2056.730216323129,
+        "tendencia": 2056.730216323129,
+        "preco_medio": 12.62939582150772,
+        "pct": 1.1144284581497796
+      },
       "industrializado": {
         "meta": 56750,
         "real": 46461.83,
@@ -1900,8 +2092,8 @@
         "real": 81
       },
       "positivacao_dia15": {
-        "resultado": 70,
-        "premio": 150
+        "resultado": 33,
+        "premio": 0
       },
       "positivacao_dia30": {
         "resultado": 67,
@@ -1942,6 +2134,14 @@
         "meta": 246000,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 17639.026020716617,
+        "real": 16286.52,
+        "meta_dia": 1352.5060207166152,
+        "tendencia": -1352.5060207166152,
+        "preco_medio": 13.946348268383915,
+        "pct": 0.9233230894308943
+      },
       "industrializado": {
         "meta": 61500,
         "real": 23305.36,
@@ -1964,8 +2164,8 @@
         "real": 82
       },
       "positivacao_dia15": {
-        "resultado": 76,
-        "premio": 150
+        "resultado": 46,
+        "premio": 0
       },
       "positivacao_dia30": {
         "resultado": 66,
@@ -2006,6 +2206,14 @@
         "meta": 273000,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 22614.118726597964,
+        "real": 17857.88,
+        "meta_dia": 4756.238726597963,
+        "tendencia": -4756.238726597963,
+        "preco_medio": 12.07210430353435,
+        "pct": 0.7896783516483517
+      },
       "industrializado": {
         "meta": 68250,
         "real": 30595.79,
@@ -2028,7 +2236,7 @@
         "real": 87
       },
       "positivacao_dia15": {
-        "resultado": 76,
+        "resultado": 56,
         "premio": 0
       },
       "positivacao_dia30": {
@@ -2070,6 +2278,14 @@
         "meta": 335000,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 32091.888254848946,
+        "real": 28611.454,
+        "meta_dia": 3480.4342548489403,
+        "tendencia": -3480.4342548489403,
+        "preco_medio": 10.438774974525936,
+        "pct": 0.8915478507462687
+      },
       "industrializado": {
         "meta": 83750,
         "real": 65858.55,
@@ -2092,8 +2308,8 @@
         "real": 88
       },
       "positivacao_dia15": {
-        "resultado": 85,
-        "premio": 150
+        "resultado": 72,
+        "premio": 0
       },
       "positivacao_dia30": {
         "resultado": 64,
@@ -2134,6 +2350,14 @@
         "meta": 221000,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 17885.42790174005,
+        "real": 15460.07,
+        "meta_dia": 2425.3579017400516,
+        "tendencia": -2425.3579017400516,
+        "preco_medio": 12.356427881633136,
+        "pct": 0.8643947511312217
+      },
       "industrializado": {
         "meta": 55250,
         "real": 17850.57,
@@ -2156,7 +2380,7 @@
         "real": 83
       },
       "positivacao_dia15": {
-        "resultado": 78,
+        "resultado": 56,
         "premio": 0
       },
       "positivacao_dia30": {
@@ -2197,6 +2421,14 @@
         "projetado": 327753.36,
         "meta": 309000,
         "meta_dia": 0
+      },
+      "peso": {
+        "meta": 23916.223556525052,
+        "real": 25367.71,
+        "meta_dia": -1451.486443474947,
+        "tendencia": 1451.486443474947,
+        "preco_medio": 12.920100001143185,
+        "pct": 1.0606904530744337
       },
       "industrializado": {
         "meta": 77250,
@@ -2262,6 +2494,14 @@
         "meta": 219000,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 15259.143302934428,
+        "real": 16673.9,
+        "meta_dia": -1414.7566970655735,
+        "tendencia": 1414.7566970655735,
+        "preco_medio": 14.352050809948482,
+        "pct": 1.0927153424657534
+      },
       "industrializado": {
         "meta": 54750,
         "real": 11945.32,
@@ -2284,8 +2524,8 @@
         "real": 61
       },
       "positivacao_dia15": {
-        "resultado": 66,
-        "premio": 150
+        "resultado": 54,
+        "premio": 0
       },
       "positivacao_dia30": {
         "resultado": 51,
@@ -2326,6 +2566,14 @@
         "meta": 177000,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 14842.520125577694,
+        "real": 7943.7,
+        "meta_dia": 6898.820125577694,
+        "tendencia": -6898.820125577694,
+        "preco_medio": 11.925198585042235,
+        "pct": 0.5351988700564971
+      },
       "industrializado": {
         "meta": 44250,
         "real": 9781.52,
@@ -2348,7 +2596,7 @@
         "real": 67
       },
       "positivacao_dia15": {
-        "resultado": 62,
+        "resultado": 61,
         "premio": 150
       },
       "positivacao_dia30": {
@@ -2390,6 +2638,14 @@
         "meta": 209000,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 15983.175119928368,
+        "real": 16769.88,
+        "meta_dia": -786.7048800716329,
+        "tendencia": 786.7048800716329,
+        "preco_medio": 13.07625039654428,
+        "pct": 1.0492208133971292
+      },
       "industrializado": {
         "meta": 52250,
         "real": 24429.26,
@@ -2412,8 +2668,8 @@
         "real": 74
       },
       "positivacao_dia15": {
-        "resultado": 90,
-        "premio": 150
+        "resultado": 79,
+        "premio": 0
       },
       "positivacao_dia30": {
         "resultado": 66,
@@ -2454,6 +2710,14 @@
         "meta": 170000,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 13605.110479947149,
+        "real": 14378,
+        "meta_dia": -772.8895200528514,
+        "tendencia": 772.8895200528514,
+        "preco_medio": 12.495304632076783,
+        "pct": 1.0568087647058824
+      },
       "industrializado": {
         "meta": 42500,
         "real": 25463.46,
@@ -2476,7 +2740,7 @@
         "real": 63
       },
       "positivacao_dia15": {
-        "resultado": 62,
+        "resultado": 55,
         "premio": 150
       },
       "positivacao_dia30": {
@@ -2518,6 +2782,14 @@
         "meta": 221500,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 15175.07541713759,
+        "real": 16949.77,
+        "meta_dia": -1774.6945828624102,
+        "tendencia": 1774.6945828624102,
+        "preco_medio": 14.596303076678916,
+        "pct": 1.1169479909706546
+      },
       "industrializado": {
         "meta": 55375,
         "real": 29624.67,
@@ -2540,7 +2812,7 @@
         "real": 89
       },
       "positivacao_dia15": {
-        "resultado": 69,
+        "resultado": 63,
         "premio": 150
       },
       "positivacao_dia30": {
@@ -2582,6 +2854,14 @@
         "meta": 200000,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 13572.296338411892,
+        "real": 7235.4,
+        "meta_dia": 6336.896338411892,
+        "tendencia": -6336.896338411892,
+        "preco_medio": 14.735899881139952,
+        "pct": 0.53310065
+      },
       "industrializado": {
         "meta": 50000,
         "real": 5468.75,
@@ -2604,8 +2884,8 @@
         "real": 45
       },
       "positivacao_dia15": {
-        "resultado": 25,
-        "premio": 150
+        "resultado": 20,
+        "premio": 0
       },
       "positivacao_dia30": {
         "resultado": 21,
@@ -2646,6 +2926,14 @@
         "meta": 222000,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 17748.426560182063,
+        "real": 21517.52,
+        "meta_dia": -3769.093439817938,
+        "tendencia": 3769.093439817938,
+        "preco_medio": 12.508151032275096,
+        "pct": 1.2123621171171173
+      },
       "industrializado": {
         "meta": 55500,
         "real": 31828.19,
@@ -2668,8 +2956,8 @@
         "real": 90
       },
       "positivacao_dia15": {
-        "resultado": 83,
-        "premio": 150
+        "resultado": 74,
+        "premio": 0
       },
       "positivacao_dia30": {
         "resultado": 64,
@@ -2710,6 +2998,14 @@
         "meta": 416000,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 34171.85860120004,
+        "real": 32713.6,
+        "meta_dia": 1458.2586012000393,
+        "tendencia": -1458.2586012000393,
+        "preco_medio": 12.173759843001077,
+        "pct": 0.9573257451923077
+      },
       "industrializado": {
         "meta": 85000,
         "real": 51706.79,
@@ -2732,7 +3028,7 @@
         "real": 114
       },
       "positivacao_dia15": {
-        "resultado": 78,
+        "resultado": 58,
         "premio": 0
       },
       "positivacao_dia30": {
@@ -2774,6 +3070,14 @@
         "meta": 340000,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 26913.205519481617,
+        "real": 24082.64,
+        "meta_dia": 2830.5655194816172,
+        "tendencia": -2830.5655194816172,
+        "preco_medio": 12.633203419558654,
+        "pct": 0.8948261470588236
+      },
       "industrializado": {
         "meta": 52500,
         "real": 39174.05,
@@ -2796,7 +3100,7 @@
         "real": 99
       },
       "positivacao_dia15": {
-        "resultado": 87,
+        "resultado": 73,
         "premio": 0
       },
       "positivacao_dia30": {
@@ -2838,6 +3142,14 @@
         "meta": 210000,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 15276.692705782336,
+        "real": 13924.21,
+        "meta_dia": 1352.4827057823368,
+        "tendencia": -1352.4827057823368,
+        "preco_medio": 13.74643085675956,
+        "pct": 0.9114675714285715
+      },
       "industrializado": {
         "meta": 114250,
         "real": 61902.92,
@@ -2860,7 +3172,7 @@
         "real": 98
       },
       "positivacao_dia15": {
-        "resultado": 101,
+        "resultado": 78,
         "premio": 0
       },
       "positivacao_dia30": {
@@ -2902,6 +3214,14 @@
         "meta": 457000,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 39174.10304433291,
+        "real": 33626.27,
+        "meta_dia": 5547.8330443329105,
+        "tendencia": -5547.8330443329105,
+        "preco_medio": 11.665870166390743,
+        "pct": 0.8583800875273523
+      },
       "industrializado": {
         "meta": 58750,
         "real": 43134.99,
@@ -2924,7 +3244,7 @@
         "real": 97
       },
       "positivacao_dia15": {
-        "resultado": 68,
+        "resultado": 54,
         "premio": 0
       },
       "positivacao_dia30": {
@@ -2966,6 +3286,14 @@
         "meta": 235000,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 19224.710642269863,
+        "real": 13699.42,
+        "meta_dia": 5525.290642269863,
+        "tendencia": -5525.290642269863,
+        "preco_medio": 12.22385108274657,
+        "pct": 0.712594340425532
+      },
       "industrializado": {
         "meta": 43625,
         "real": 33122.88,
@@ -2988,7 +3316,7 @@
         "real": 92
       },
       "positivacao_dia15": {
-        "resultado": 70,
+        "resultado": 62,
         "premio": 0
       },
       "positivacao_dia30": {
@@ -3030,6 +3358,14 @@
         "meta": 174500,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 15139.19938532,
+        "real": 12390.07,
+        "meta_dia": 2749.1293853200004,
+        "tendencia": -2749.1293853200004,
+        "preco_medio": 11.526369100416703,
+        "pct": 0.8184098567335243
+      },
       "industrializado": {
         "meta": 61250,
         "real": 37046.83,
@@ -3052,7 +3388,7 @@
         "real": 88
       },
       "positivacao_dia15": {
-        "resultado": 92,
+        "resultado": 87,
         "premio": 0
       },
       "positivacao_dia30": {
@@ -3094,6 +3430,14 @@
         "meta": 245000,
         "meta_dia": 0
       },
+      "peso": {
+        "meta": 18620.163534679457,
+        "real": 15899.5,
+        "meta_dia": 2720.6635346794574,
+        "tendencia": -2720.6635346794574,
+        "preco_medio": 13.157779175445768,
+        "pct": 0.853886163265306
+      },
       "industrializado": {
         "meta": 415375,
         "real": 266088.46,
@@ -3116,7 +3460,7 @@
         "real": 105
       },
       "positivacao_dia15": {
-        "resultado": 92,
+        "resultado": 87,
         "premio": 0
       },
       "positivacao_dia30": {

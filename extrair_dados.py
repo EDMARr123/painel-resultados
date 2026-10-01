@@ -19,9 +19,10 @@ PASTA_BASE = os.path.dirname(os.path.abspath(__file__))
 CAMINHO_SAIDA = os.path.join(PASTA_BASE, "dados.json")
 CAMINHO_CONFIG = os.path.join(PASTA_BASE, "config_mes.json")
 
-CAMINHO_PILARES = r"c:\AutomacaoMaxGestao\painel_pilares\dados.json"
-CAMINHO_TOTAIS_GERENTE = r"c:\AutomacaoMaxGestao\painel_pilares\totais_gerais.json"
-CAMINHO_DEPARTAMENTOS = r"c:\AutomacaoMaxGestao\painel_departamentos\dados.json"
+PASTA_PROJETO = os.path.dirname(PASTA_BASE)
+CAMINHO_PILARES = os.path.join(PASTA_PROJETO, "painel_pilares", "dados.json")
+CAMINHO_TOTAIS_GERENTE = os.path.join(PASTA_PROJETO, "painel_pilares", "totais_gerais.json")
+CAMINHO_DEPARTAMENTOS = os.path.join(PASTA_PROJETO, "painel_departamentos", "dados.json")
 CAMINHO_HISTORICO = os.path.join(PASTA_BASE, "historico_evolucao.json")
 CAMINHO_HAMBURGUER = r"C:\Users\edmar\Desktop\1464-HAMBURGUER.xls"
 
