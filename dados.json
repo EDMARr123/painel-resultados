@@ -14,13 +14,13 @@
     "pilares": {
       "positivacao": {
         "meta": 76,
-        "real": 77,
-        "pct": 1.013157894736842
+        "real": 83,
+        "pct": 1.0921052631578947
       },
       "margem": {
         "meta": 13.5,
-        "real": 14.898356383426036,
-        "pct": 1.1035819543278544
+        "real": 14.895937849900568,
+        "pct": 1.1034028036963384
       },
       "mix": {
         "meta": 2.2,
@@ -29,17 +29,17 @@
       },
       "financeiro": {
         "meta": 222000,
-        "real": 167696.75,
-        "pct": 0.7553907657657658
+        "real": 269144.39,
+        "pct": 1.2123621171171173
       }
     },
     "tendencia": {
-      "pct": 1.180298071509009,
-      "projetado": 262026.171875,
+      "pct": 1.2123621171171173,
+      "projetado": 269144.39,
       "meta": 222000,
-      "meta_dia": 6033.694444444444
+      "meta_dia": 0
     },
-    "media_4_pilares": 1.0844867528706992
+    "media_4_pilares": 1.1121948187201103
   },
   "supervisor_destaque": {
     "nome": "",
@@ -269,81 +269,88 @@
     {
       "supervisor": "RICHARD",
       "rcas": 8,
-      "pilares_media": 2.0,
-      "financeiro_pct": 0.6127837321624063,
-      "positivacao_pct": 0.9714716949477519,
-      "margem_pct": 1.0086537056687581,
-      "mix_pct": 0.9801136363636362,
-      "recompra_pct": 0.29565871779540615
+      "pilares_media": 3.375,
+      "financeiro_pct": 0.95713063914145,
+      "positivacao_pct": 1.0413761910364585,
+      "margem_pct": 1.015224281072793,
+      "mix_pct": 1.0085227272727273,
+      "recompra_pct": 0.20422624714939458
     },
     {
       "supervisor": "LEANDRO",
       "rcas": 7,
-      "pilares_media": 1.5714285714285714,
-      "financeiro_pct": 0.5718267365589479,
-      "positivacao_pct": 0.8626572690932043,
-      "margem_pct": 1.0791472289123414,
-      "mix_pct": 1.0275554275042877,
-      "recompra_pct": 0.39687883432123067
+      "pilares_media": 3.142857142857143,
+      "financeiro_pct": 0.9473576012882775,
+      "positivacao_pct": 1.0014285714285713,
+      "margem_pct": 1.0894623361127203,
+      "mix_pct": 1.0234403013917919,
+      "recompra_pct": 0.3109181503570092
     },
     {
       "supervisor": "FLAVIANE",
       "rcas": 7,
-      "pilares_media": 1.4285714285714286,
-      "financeiro_pct": 0.5421976917627969,
-      "positivacao_pct": 0.7984590357882284,
-      "margem_pct": 1.0020598836540118,
-      "mix_pct": 1.0162637362637363,
-      "recompra_pct": 0.3872040356677461
+      "pilares_media": 2.7142857142857144,
+      "financeiro_pct": 0.8523254454496165,
+      "positivacao_pct": 0.9412244897959184,
+      "margem_pct": 1.0274017270284939,
+      "mix_pct": 1.0105934065934066,
+      "recompra_pct": 0.33284044052403566
     },
     {
       "supervisor": "IDEGLAN",
       "rcas": 7,
-      "pilares_media": 1.4285714285714286,
-      "financeiro_pct": 0.5643863509561639,
-      "positivacao_pct": 0.9476942355889725,
-      "margem_pct": 0.9884223038724078,
-      "mix_pct": 1.0158549608522656,
-      "recompra_pct": 0.4227802249430586
-    },
-    {
-      "supervisor": "RODRIGO",
-      "rcas": 7,
-      "pilares_media": 0.8571428571428571,
-      "financeiro_pct": 0.5434996546549934,
-      "positivacao_pct": 0.844440647072226,
-      "margem_pct": 0.9999951628655565,
-      "mix_pct": 0.9785354896675652,
-      "recompra_pct": 0.3459895929177244
+      "pilares_media": 2.5714285714285716,
+      "financeiro_pct": 0.9266419378264146,
+      "positivacao_pct": 1.0064995822890561,
+      "margem_pct": 1.0080302577203637,
+      "mix_pct": 1.0415302271852138,
+      "recompra_pct": 0.23591520584733994
     },
     {
       "supervisor": "RICARDO",
       "rcas": 7,
-      "pilares_media": 0.7142857142857143,
-      "financeiro_pct": 0.5431032743596168,
-      "positivacao_pct": 0.7076599574216393,
-      "margem_pct": 0.9615889582245476,
-      "mix_pct": 1.0273931000971819,
-      "recompra_pct": 0.3726491926888858
+      "pilares_media": 1.4285714285714286,
+      "financeiro_pct": 0.9092171108447038,
+      "positivacao_pct": 0.9591635385655319,
+      "margem_pct": 0.9790164820655362,
+      "mix_pct": 0.9964042759961128,
+      "recompra_pct": 0.356971085622125
+    },
+    {
+      "supervisor": "RODRIGO",
+      "rcas": 7,
+      "pilares_media": 1.4285714285714286,
+      "financeiro_pct": 0.8581271323697568,
+      "positivacao_pct": 0.9344196982354877,
+      "margem_pct": 1.0371087604376592,
+      "mix_pct": 1.0075130278526505,
+      "recompra_pct": 0.25025188030510354
     }
   ],
   "departamentos_por_supervisor": [
     {
+      "supervisor": "IDEGLAN",
+      "categorias_media": 3.0,
+      "total_categorias": 9,
+      "bateram": 0,
+      "rcas": 7
+    },
+    {
       "supervisor": "RODRIGO",
-      "categorias_media": 1.8571428571428572,
+      "categorias_media": 2.4285714285714284,
       "total_categorias": 9,
       "bateram": 0,
       "rcas": 7
     },
     {
       "supervisor": "LEANDRO",
-      "categorias_media": 1.4285714285714286,
+      "categorias_media": 2.142857142857143,
       "total_categorias": 9,
       "bateram": 0,
       "rcas": 7
     },
     {
-      "supervisor": "IDEGLAN",
+      "supervisor": "RICHARD",
       "categorias_media": 1.1428571428571428,
       "total_categorias": 9,
       "bateram": 0,
@@ -351,21 +358,14 @@
     },
     {
       "supervisor": "FLAVIANE",
-      "categorias_media": 0.42857142857142855,
-      "total_categorias": 9,
-      "bateram": 0,
-      "rcas": 7
-    },
-    {
-      "supervisor": "RICHARD",
-      "categorias_media": 0.42857142857142855,
+      "categorias_media": 1.0,
       "total_categorias": 9,
       "bateram": 0,
       "rcas": 7
     },
     {
       "supervisor": "RICARDO",
-      "categorias_media": 0.0,
+      "categorias_media": 0.125,
       "total_categorias": 9,
       "bateram": 0,
       "rcas": 8
@@ -380,59 +380,59 @@
       "pilares": {
         "positivacao": {
           "meta": 105,
-          "real": 93,
-          "pct": 0.8857142857142857
+          "real": 105,
+          "pct": 1
         },
         "margem": {
           "meta": 13.5,
-          "real": 14.302099171800931,
-          "pct": 1.0594147534667355
+          "real": 13.850468670712724,
+          "pct": 1.0259606422750165
         },
         "mix": {
           "meta": 2.6,
-          "real": 2.47,
-          "pct": 0.9500000000000001
+          "real": 2.48,
+          "pct": 0.9538461538461538
         },
         "financeiro": {
           "meta": 335000,
-          "real": 146640.107,
-          "pct": 0.43773166268656716
+          "real": 255036.587,
+          "pct": 0.7613032447761194
         }
       },
-      "pilares_atingidos": 1,
+      "pilares_atingidos": 2,
       "tendencia": {
-        "pct": 0.6839557229477612,
-        "projetado": 229125.1671875,
+        "pct": 0.7613032447761194,
+        "projetado": 255036.587,
         "meta": 335000,
-        "meta_dia": 20928.877
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 83750,
-        "real": 49940.66,
-        "participacao_pct": 0.3405661726637993,
-        "margem_pct": 0.22852187493011045,
-        "premio": 499.4066
+        "real": 85622.81,
+        "participacao_pct": 0.33572755582711744,
+        "margem_pct": 0.21942688029540533,
+        "premio": 856.2281
       },
       "thermo": {
         "meta": 10050,
-        "real": 4312.02,
-        "participacao_pct": 0.02940546135853543,
-        "margem_pct": 0.1697874825385783,
+        "real": 6788,
+        "participacao_pct": 0.026615789051474405,
+        "margem_pct": 0.15368924635945783,
         "premio": 0
       },
-      "recompra_pct": 0.3010752688172043,
+      "recompra_pct": 0.26666666666666666,
       "recompra_contagem": 28,
-      "media_pedidos": 15.375,
+      "media_pedidos": 14.8,
       "sku": {
         "meta": 120,
-        "real": 81
+        "real": 87
       },
       "positivacao_dia15": {
-        "resultado": 82,
-        "premio": 0
+        "resultado": 105,
+        "premio": 150
       },
       "positivacao_dia30": {
-        "resultado": 37,
+        "resultado": 90,
         "premio": 0
       }
     },
@@ -444,59 +444,59 @@
       "pilares": {
         "positivacao": {
           "meta": 100,
-          "real": 93,
-          "pct": 0.93
+          "real": 100,
+          "pct": 1
         },
         "margem": {
           "meta": 13.5,
-          "real": 13.948419797894594,
-          "pct": 1.0332162813255255
+          "real": 14.503737939325132,
+          "pct": 1.0743509584685282
         },
         "mix": {
           "meta": 3.3,
-          "real": 3.51,
-          "pct": 1.0636363636363637
+          "real": 3.47,
+          "pct": 1.0515151515151517
         },
         "financeiro": {
           "meta": 376000,
-          "real": 263727.73,
-          "pct": 0.7014035372340425
+          "real": 378951.63,
+          "pct": 1.007850079787234
         }
       },
-      "pilares_atingidos": 3,
+      "pilares_atingidos": 4,
       "tendencia": {
-        "pct": 1.0959430269281916,
-        "projetado": 412074.578125,
+        "pct": 1.007850079787234,
+        "projetado": 378951.63,
         "meta": 376000,
-        "meta_dia": 12474.696666666669
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 94000,
-        "real": 59853.26,
-        "participacao_pct": 0.22695095430427437,
-        "margem_pct": 0.2653153513679543,
-        "premio": 0
+        "real": 94942.39,
+        "participacao_pct": 0.2505396005289646,
+        "margem_pct": 0.2575128289137637,
+        "premio": 949.4239
       },
       "thermo": {
         "meta": 11280,
-        "real": 9015.37,
-        "participacao_pct": 0.03418438402362922,
-        "margem_pct": 0.1804646931922758,
-        "premio": 180.30740000000003
+        "real": 13750.74,
+        "participacao_pct": 0.03628626693068981,
+        "margem_pct": 0.1852439511747929,
+        "premio": 275.0148
       },
-      "recompra_pct": 0.41935483870967744,
-      "recompra_contagem": 39,
-      "media_pedidos": 15.375,
+      "recompra_pct": 0.27,
+      "recompra_contagem": 27,
+      "media_pedidos": 14.28,
       "sku": {
         "meta": 120,
-        "real": 100
+        "real": 113
       },
       "positivacao_dia15": {
-        "resultado": 81,
-        "premio": 0
+        "resultado": 100,
+        "premio": 150
       },
       "positivacao_dia30": {
-        "resultado": 32,
+        "resultado": 85,
         "premio": 0
       }
     },
@@ -508,59 +508,59 @@
       "pilares": {
         "positivacao": {
           "meta": 100,
-          "real": 80,
-          "pct": 0.8
+          "real": 100,
+          "pct": 1
         },
         "margem": {
           "meta": 13.5,
-          "real": 15.372331394524506,
-          "pct": 1.1386912144092227
+          "real": 16.138741974072804,
+          "pct": 1.1954623684498373
         },
         "mix": {
           "meta": 2.9,
-          "real": 2.81,
-          "pct": 0.9689655172413794
+          "real": 2.76,
+          "pct": 0.9517241379310344
         },
         "financeiro": {
           "meta": 339000,
-          "real": 164212.03,
-          "pct": 0.48440126843657816
+          "real": 258570.2,
+          "pct": 0.76274395280236
         }
       },
-      "pilares_atingidos": 1,
+      "pilares_atingidos": 2,
       "tendencia": {
-        "pct": 0.7568769819321534,
-        "projetado": 256581.296875,
+        "pct": 0.76274395280236,
+        "projetado": 258570.2,
         "meta": 339000,
-        "meta_dia": 19420.885555555556
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 84750,
-        "real": 43729.02,
-        "participacao_pct": 0.26629608074390165,
-        "margem_pct": 0.24282793973049774,
-        "premio": 437.29019999999997
+        "real": 74559.88,
+        "participacao_pct": 0.2883544971539644,
+        "margem_pct": 0.2409284202823193,
+        "premio": 745.5988000000001
       },
       "thermo": {
         "meta": 10170,
-        "real": 9111.14,
-        "participacao_pct": 0.05548399834043827,
-        "margem_pct": 0.17813582939316538,
-        "premio": 182.22279999999998
+        "real": 14600.33,
+        "participacao_pct": 0.0564656329306316,
+        "margem_pct": 0.18453148324641638,
+        "premio": 292.0066
       },
-      "recompra_pct": 0.425,
-      "recompra_contagem": 34,
-      "media_pedidos": 12.875,
+      "recompra_pct": 0.36,
+      "recompra_contagem": 36,
+      "media_pedidos": 12.4,
       "sku": {
         "meta": 120,
-        "real": 81
+        "real": 93
       },
       "positivacao_dia15": {
-        "resultado": 71,
-        "premio": 0
+        "resultado": 100,
+        "premio": 150
       },
       "positivacao_dia30": {
-        "resultado": 30,
+        "resultado": 89,
         "premio": 0
       }
     },
@@ -572,59 +572,59 @@
       "pilares": {
         "positivacao": {
           "meta": 100,
-          "real": 81,
-          "pct": 0.81
+          "real": 101,
+          "pct": 1.01
         },
         "margem": {
           "meta": 13.5,
-          "real": 12.783537905692384,
-          "pct": 0.9469287337549914
+          "real": 13.785523648980616,
+          "pct": 1.0211498999244901
         },
         "mix": {
           "meta": 2.7,
-          "real": 2.71,
-          "pct": 1.0037037037037035
+          "real": 2.78,
+          "pct": 1.0296296296296295
         },
         "financeiro": {
           "meta": 383000,
-          "real": 259311.3204524,
-          "pct": 0.6770530560114882
+          "real": 414138.05292152,
+          "pct": 1.0813003992728982
         }
       },
-      "pilares_atingidos": 2,
+      "pilares_atingidos": 4,
       "tendencia": {
-        "pct": 1.0578954000179503,
-        "projetado": 405173.938206875,
+        "pct": 1.0813003992728982,
+        "projetado": 414138.05292152,
         "meta": 383000,
-        "meta_dia": 13743.186616400002
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 95750,
-        "real": 34305.11,
-        "participacao_pct": 0.13229314454976585,
-        "margem_pct": 0.21996114388458315,
+        "real": 66365.12,
+        "participacao_pct": 0.16024878547583338,
+        "margem_pct": 0.21831371652837014,
         "premio": 0
       },
       "thermo": {
         "meta": 11490,
-        "real": 4143.82,
-        "participacao_pct": 0.0159800967916503,
-        "margem_pct": 0.17325855193691805,
+        "real": 6661.03,
+        "participacao_pct": 0.016084081028077558,
+        "margem_pct": 0.17318862398682383,
         "premio": 0
       },
-      "recompra_pct": 0.4074074074074074,
-      "recompra_contagem": 33,
-      "media_pedidos": 11.8125,
+      "recompra_pct": 0.3564356435643564,
+      "recompra_contagem": 36,
+      "media_pedidos": 11.4,
       "sku": {
         "meta": 120,
-        "real": 91
+        "real": 103
       },
       "positivacao_dia15": {
-        "resultado": 73,
-        "premio": 0
+        "resultado": 101,
+        "premio": 150
       },
       "positivacao_dia30": {
-        "resultado": 21,
+        "resultado": 79,
         "premio": 0
       }
     },
@@ -636,59 +636,59 @@
       "pilares": {
         "positivacao": {
           "meta": 80,
-          "real": 70,
-          "pct": 0.875
+          "real": 80,
+          "pct": 1
         },
         "margem": {
           "meta": 13.5,
-          "real": 15.301236452066808,
-          "pct": 1.1334249223753192
+          "real": 14.845052930334724,
+          "pct": 1.0996335503951646
         },
         "mix": {
           "meta": 2.9,
-          "real": 2.83,
-          "pct": 0.9758620689655173
+          "real": 2.87,
+          "pct": 0.9896551724137932
         },
         "financeiro": {
           "meta": 245000,
-          "real": 137864.49,
-          "pct": 0.5627122040816326
+          "real": 242615.56,
+          "pct": 0.9902675918367347
         }
       },
-      "pilares_atingidos": 1,
+      "pilares_atingidos": 2,
       "tendencia": {
-        "pct": 0.879237818877551,
-        "projetado": 215413.265625,
+        "pct": 0.9902675918367347,
+        "projetado": 242615.56,
         "meta": 245000,
-        "meta_dia": 11903.945555555556
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 61250,
-        "real": 35227.61,
-        "participacao_pct": 0.2555234491492335,
-        "margem_pct": 0.2684474187774874,
-        "premio": 352.2761
+        "real": 53998.71,
+        "participacao_pct": 0.2225690306095784,
+        "margem_pct": 0.261718982146055,
+        "premio": 0
       },
       "thermo": {
         "meta": 7350,
-        "real": 5015.56,
-        "participacao_pct": 0.03638036161451002,
-        "margem_pct": 0.15934802199076478,
-        "premio": 100.31120000000001
-      },
-      "recompra_pct": 0.32857142857142857,
-      "recompra_contagem": 23,
-      "media_pedidos": 12.25,
-      "sku": {
-        "meta": 120,
-        "real": 73
-      },
-      "positivacao_dia15": {
-        "resultado": 68,
+        "real": 7167.87,
+        "participacao_pct": 0.029544147951598817,
+        "margem_pct": 0.16551579908340971,
         "premio": 0
       },
+      "recompra_pct": 0.3375,
+      "recompra_contagem": 27,
+      "media_pedidos": 11.72,
+      "sku": {
+        "meta": 120,
+        "real": 86
+      },
+      "positivacao_dia15": {
+        "resultado": 80,
+        "premio": 150
+      },
       "positivacao_dia30": {
-        "resultado": 26,
+        "resultado": 60,
         "premio": 0
       }
     },
@@ -700,59 +700,59 @@
       "pilares": {
         "positivacao": {
           "meta": 80,
-          "real": 78,
-          "pct": 0.975
+          "real": 80,
+          "pct": 1
         },
         "margem": {
           "meta": 13.5,
-          "real": 13.415740705740264,
-          "pct": 0.9937585707955751
+          "real": 13.62194639767606,
+          "pct": 1.009033066494523
         },
         "mix": {
           "meta": 2.4,
-          "real": 2.49,
-          "pct": 1.0375
+          "real": 2.46,
+          "pct": 1.0250000000000001
         },
         "financeiro": {
           "meta": 237000,
-          "real": 132249.20488,
-          "pct": 0.5580135227004219
+          "real": 241342.87488,
+          "pct": 1.0183243665822785
         }
       },
-      "pilares_atingidos": 1,
+      "pilares_atingidos": 4,
       "tendencia": {
-        "pct": 0.8718961292194093,
-        "projetado": 206639.382625,
+        "pct": 1.0183243665822785,
+        "projetado": 241342.87488,
         "meta": 237000,
-        "meta_dia": 11638.977235555554
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 59250,
-        "real": 25360.22,
-        "participacao_pct": 0.19176085045661562,
-        "margem_pct": 0.24531350613677652,
+        "real": 45247.34,
+        "participacao_pct": 0.18748156548022304,
+        "margem_pct": 0.2350210915892228,
         "premio": 0
       },
       "thermo": {
         "meta": 7110,
-        "real": 5465.98,
-        "participacao_pct": 0.0413309101174537,
-        "margem_pct": 0.16532431563232933,
-        "premio": 109.3196
+        "real": 9563.62,
+        "participacao_pct": 0.03962669295604938,
+        "margem_pct": 0.16438719514242525,
+        "premio": 191.27240000000003
       },
-      "recompra_pct": 0.41025641025641024,
-      "recompra_contagem": 32,
-      "media_pedidos": 10.3125,
+      "recompra_pct": 0.225,
+      "recompra_contagem": 18,
+      "media_pedidos": 10.12,
       "sku": {
         "meta": 120,
-        "real": 80
+        "real": 90
       },
       "positivacao_dia15": {
-        "resultado": 69,
-        "premio": 0
+        "resultado": 80,
+        "premio": 150
       },
       "positivacao_dia30": {
-        "resultado": 22,
+        "resultado": 66,
         "premio": 0
       }
     },
@@ -764,59 +764,59 @@
       "pilares": {
         "positivacao": {
           "meta": 97,
-          "real": 74,
-          "pct": 0.7628865979381443
+          "real": 97,
+          "pct": 1
         },
         "margem": {
           "meta": 13.5,
-          "real": 16.85604770449677,
-          "pct": 1.24859612625902
+          "real": 16.208719201549997,
+          "pct": 1.2006458667814812
         },
         "mix": {
           "meta": 2.95,
-          "real": 3.52,
-          "pct": 1.1932203389830507
+          "real": 3.43,
+          "pct": 1.1627118644067795
         },
         "financeiro": {
           "meta": 252000,
-          "real": 146530.92,
-          "pct": 0.5814719047619048
+          "real": 254447.820638,
+          "pct": 1.0097135739603176
         }
       },
-      "pilares_atingidos": 2,
+      "pilares_atingidos": 4,
       "tendencia": {
-        "pct": 0.9085498511904763,
-        "projetado": 228954.56250000003,
+        "pct": 1.0097135739603174,
+        "projetado": 254447.82063799998,
         "meta": 252000,
-        "meta_dia": 11718.786666666665
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 63000,
-        "real": 30515.36,
-        "participacao_pct": 0.2082520194372628,
-        "margem_pct": 0.2827933103825339,
+        "real": 51833.49,
+        "participacao_pct": 0.20370970311332676,
+        "margem_pct": 0.27030917059183995,
         "premio": 0
       },
       "thermo": {
         "meta": 7560,
-        "real": 5806.26,
-        "participacao_pct": 0.03962481092727733,
-        "margem_pct": 0.19230588110682334,
-        "premio": 116.1252
+        "real": 9717.43,
+        "participacao_pct": 0.03819026618359163,
+        "margem_pct": 0.1954916115510129,
+        "premio": 194.3486
       },
-      "recompra_pct": 0.4864864864864865,
-      "recompra_contagem": 36,
-      "media_pedidos": 8.75,
+      "recompra_pct": 0.36082474226804123,
+      "recompra_contagem": 35,
+      "media_pedidos": 9.24,
       "sku": {
         "meta": 120,
-        "real": 104
+        "real": 121
       },
       "positivacao_dia15": {
-        "resultado": 59,
-        "premio": 0
+        "resultado": 97,
+        "premio": 150
       },
       "positivacao_dia30": {
-        "resultado": 36,
+        "resultado": 90,
         "premio": 0
       }
     },
@@ -828,59 +828,59 @@
       "pilares": {
         "positivacao": {
           "meta": 100,
-          "real": 79,
-          "pct": 0.79
+          "real": 100,
+          "pct": 1
         },
         "margem": {
           "meta": 13.5,
-          "real": 15.566154036460148,
-          "pct": 1.153048447145196
+          "real": 14.77915393658182,
+          "pct": 1.0947521434505052
         },
         "mix": {
           "meta": 2.5,
-          "real": 2.64,
-          "pct": 1.056
+          "real": 2.55,
+          "pct": 1.02
         },
         "financeiro": {
           "meta": 267000,
-          "real": 97261.26,
-          "pct": 0.36427438202247187
+          "real": 165702.64,
+          "pct": 0.6206091385767791
         }
       },
-      "pilares_atingidos": 2,
+      "pilares_atingidos": 3,
       "tendencia": {
-        "pct": 0.5691787219101123,
-        "projetado": 151970.71875,
+        "pct": 0.6206091385767791,
+        "projetado": 165702.64,
         "meta": 267000,
-        "meta_dia": 18859.86
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 66750,
-        "real": 25511.41,
-        "participacao_pct": 0.2622977534940428,
-        "margem_pct": 0.2673417034965923,
-        "premio": 255.1141
+        "real": 42833.23,
+        "participacao_pct": 0.258494553858647,
+        "margem_pct": 0.24010487706390585,
+        "premio": 428.33230000000003
       },
       "thermo": {
         "meta": 8010,
-        "real": 3312.56,
-        "participacao_pct": 0.034058370208241186,
-        "margem_pct": 0.2041280886927331,
-        "premio": 66.2512
-      },
-      "recompra_pct": 0.46835443037974683,
-      "recompra_contagem": 37,
-      "media_pedidos": 9.625,
-      "sku": {
-        "meta": 120,
-        "real": 82
-      },
-      "positivacao_dia15": {
-        "resultado": 66,
+        "real": 4722.23,
+        "participacao_pct": 0.02849821825409661,
+        "margem_pct": 0.2061843028230306,
         "premio": 0
       },
+      "recompra_pct": 0.4,
+      "recompra_contagem": 40,
+      "media_pedidos": 9.48,
+      "sku": {
+        "meta": 120,
+        "real": 91
+      },
+      "positivacao_dia15": {
+        "resultado": 100,
+        "premio": 150
+      },
       "positivacao_dia30": {
-        "resultado": 22,
+        "resultado": 85,
         "premio": 0
       }
     },
@@ -892,59 +892,59 @@
       "pilares": {
         "positivacao": {
           "meta": 100,
-          "real": 87,
-          "pct": 0.87
+          "real": 102,
+          "pct": 1.02
         },
         "margem": {
           "meta": 13.5,
-          "real": 14.680634905083034,
-          "pct": 1.087454437413558
+          "real": 14.53994530733337,
+          "pct": 1.0770329857283978
         },
         "mix": {
           "meta": 2.5,
-          "real": 2.55,
-          "pct": 1.02
+          "real": 2.53,
+          "pct": 1.012
         },
         "financeiro": {
           "meta": 252500,
-          "real": 169788.93,
-          "pct": 0.672431405940594
+          "real": 261054.47,
+          "pct": 1.033879089108911
         }
       },
-      "pilares_atingidos": 3,
+      "pilares_atingidos": 4,
       "tendencia": {
-        "pct": 1.0506740717821783,
-        "projetado": 265295.203125,
+        "pct": 1.033879089108911,
+        "projetado": 261054.47,
         "meta": 252500,
-        "meta_dia": 9190.11888888889
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 63125,
-        "real": 17969.81,
-        "participacao_pct": 0.10583616964898714,
-        "margem_pct": 0.2564771262244843,
+        "real": 25355.87,
+        "participacao_pct": 0.09712865671290746,
+        "margem_pct": 0.25380450635626023,
         "premio": 0
       },
       "thermo": {
         "meta": 7575,
-        "real": 4890.08,
-        "participacao_pct": 0.02880093537311296,
-        "margem_pct": 0.18745018514380127,
+        "real": 7052.12,
+        "participacao_pct": 0.027013979113247898,
+        "margem_pct": 0.18482065379602158,
         "premio": 0
       },
-      "recompra_pct": 0.3103448275862069,
-      "recompra_contagem": 27,
-      "media_pedidos": 13.1875,
+      "recompra_pct": 0.30392156862745096,
+      "recompra_contagem": 31,
+      "media_pedidos": 12.2,
       "sku": {
         "meta": 120,
-        "real": 102
+        "real": 107
       },
       "positivacao_dia15": {
-        "resultado": 81,
-        "premio": 0
+        "resultado": 102,
+        "premio": 150
       },
       "positivacao_dia30": {
-        "resultado": 26,
+        "resultado": 85,
         "premio": 0
       }
     },
@@ -956,59 +956,59 @@
       "pilares": {
         "positivacao": {
           "meta": 100,
-          "real": 91,
-          "pct": 0.91
+          "real": 100,
+          "pct": 1
         },
         "margem": {
           "meta": 13.5,
-          "real": 11.880859476611052,
-          "pct": 0.880063664934152
+          "real": 13.65581851948936,
+          "pct": 1.0115421125547674
         },
         "mix": {
           "meta": 2.5,
-          "real": 2.85,
-          "pct": 1.1400000000000001
+          "real": 2.84,
+          "pct": 1.136
         },
         "financeiro": {
           "meta": 450000,
-          "real": 359844.435,
-          "pct": 0.7996543
+          "real": 491166.345,
+          "pct": 1.0914807666666666
         }
       },
-      "pilares_atingidos": 2,
+      "pilares_atingidos": 4,
       "tendencia": {
-        "pct": 1.24945984375,
-        "projetado": 562256.9296875,
+        "pct": 1.0914807666666666,
+        "projetado": 491166.345,
         "meta": 450000,
-        "meta_dia": 10017.285
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 112500,
-        "real": 48032.13,
-        "participacao_pct": 0.13348026349219488,
-        "margem_pct": 0.2390973811622483,
+        "real": 77140.49,
+        "participacao_pct": 0.15705573230999775,
+        "margem_pct": 0.2462931638736748,
         "premio": 0
       },
       "thermo": {
         "meta": 13500,
-        "real": 7824.34,
-        "participacao_pct": 0.02174367376280253,
-        "margem_pct": 0.18420508047554168,
+        "real": 11426.16,
+        "participacao_pct": 0.02326332029121417,
+        "margem_pct": 0.18793458848677072,
         "premio": 0
       },
-      "recompra_pct": 0.4065934065934066,
-      "recompra_contagem": 37,
-      "media_pedidos": 14,
+      "recompra_pct": 0.32,
+      "recompra_contagem": 32,
+      "media_pedidos": 13.12,
       "sku": {
         "meta": 120,
-        "real": 99
+        "real": 109
       },
       "positivacao_dia15": {
-        "resultado": 83,
-        "premio": 0
+        "resultado": 100,
+        "premio": 150
       },
       "positivacao_dia30": {
-        "resultado": 32,
+        "resultado": 77,
         "premio": 0
       }
     },
@@ -1020,59 +1020,59 @@
       "pilares": {
         "positivacao": {
           "meta": 115,
-          "real": 101,
-          "pct": 0.8782608695652174
+          "real": 115,
+          "pct": 1
         },
         "margem": {
           "meta": 13.5,
-          "real": 13.902749309286902,
-          "pct": 1.0298332821694
+          "real": 13.948732076258613,
+          "pct": 1.0332394130561935
         },
         "mix": {
           "meta": 2.5,
-          "real": 2.47,
-          "pct": 0.9880000000000001
+          "real": 2.52,
+          "pct": 1.008
         },
         "financeiro": {
           "meta": 213000,
-          "real": 111754.07,
-          "pct": 0.5246669953051644
+          "real": 175018.13,
+          "pct": 0.8216813615023474
         }
       },
-      "pilares_atingidos": 1,
+      "pilares_atingidos": 3,
       "tendencia": {
-        "pct": 0.8197921801643192,
-        "projetado": 174615.734375,
+        "pct": 0.8216813615023474,
+        "projetado": 175018.13,
         "meta": 213000,
-        "meta_dia": 11249.547777777778
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 53250,
-        "real": 22714.36,
-        "participacao_pct": 0.2032530895742768,
-        "margem_pct": 0.2520795774992736,
+        "real": 36482.7,
+        "participacao_pct": 0.2084509759074674,
+        "margem_pct": 0.2414089574870443,
         "premio": 0
       },
       "thermo": {
         "meta": 6390,
-        "real": 5015.34,
-        "participacao_pct": 0.044878365503824603,
-        "margem_pct": 0.16532324181889965,
-        "premio": 100.30680000000001
+        "real": 8737.09,
+        "participacao_pct": 0.049921056749949275,
+        "margem_pct": 0.1657016639813119,
+        "premio": 174.7418
       },
-      "recompra_pct": 0.40594059405940597,
+      "recompra_pct": 0.3565217391304348,
       "recompra_contagem": 41,
-      "media_pedidos": 13.6875,
+      "media_pedidos": 12.48,
       "sku": {
         "meta": 120,
-        "real": 89
+        "real": 96
       },
       "positivacao_dia15": {
-        "resultado": 90,
-        "premio": 0
+        "resultado": 115,
+        "premio": 150
       },
       "positivacao_dia30": {
-        "resultado": 37,
+        "resultado": 89,
         "premio": 0
       }
     },
@@ -1084,59 +1084,59 @@
       "pilares": {
         "positivacao": {
           "meta": 60,
-          "real": 50,
-          "pct": 0.8333333333333334
+          "real": 60,
+          "pct": 1
         },
         "margem": {
           "meta": 13.5,
-          "real": 13.276092758983674,
-          "pct": 0.9834142784432351
+          "real": 13.517195379489689,
+          "pct": 1.001273731814051
         },
         "mix": {
           "meta": 2.6,
-          "real": 3.26,
-          "pct": 1.2538461538461536
+          "real": 3.24,
+          "pct": 1.2461538461538462
         },
         "financeiro": {
           "meta": 260000,
-          "real": 172667.93,
-          "pct": 0.664107423076923
+          "real": 288096.437992,
+          "pct": 1.108063223046154
         }
       },
-      "pilares_atingidos": 2,
+      "pilares_atingidos": 4,
       "tendencia": {
-        "pct": 1.0376678485576922,
-        "projetado": 269793.640625,
+        "pct": 1.108063223046154,
+        "projetado": 288096.437992,
         "meta": 260000,
-        "meta_dia": 9703.563333333334
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 65000,
-        "real": 31614.9,
-        "participacao_pct": 0.18309653680333113,
-        "margem_pct": 0.24451990778312566,
+        "real": 62273.06,
+        "participacao_pct": 0.2161535228760073,
+        "margem_pct": 0.22122431962273545,
         "premio": 0
       },
       "thermo": {
         "meta": 7800,
-        "real": 4662.58,
-        "participacao_pct": 0.027003161501965075,
-        "margem_pct": 0.13287093279857928,
-        "premio": 0
+        "real": 11326.51,
+        "participacao_pct": 0.03931499493344836,
+        "margem_pct": 0.1682712172981793,
+        "premio": 226.5302
       },
-      "recompra_pct": 0.32,
-      "recompra_contagem": 16,
-      "media_pedidos": 8.0625,
+      "recompra_pct": 0.35,
+      "recompra_contagem": 21,
+      "media_pedidos": 7.64,
       "sku": {
         "meta": 120,
-        "real": 92
+        "real": 99
       },
       "positivacao_dia15": {
-        "resultado": 46,
-        "premio": 0
+        "resultado": 60,
+        "premio": 150
       },
       "positivacao_dia30": {
-        "resultado": 15,
+        "resultado": 48,
         "premio": 0
       }
     },
@@ -1148,59 +1148,59 @@
       "pilares": {
         "positivacao": {
           "meta": 70,
-          "real": 43,
-          "pct": 0.6142857142857143
+          "real": 51,
+          "pct": 0.7285714285714285
         },
         "margem": {
           "meta": 13.5,
-          "real": 11.998998638308697,
-          "pct": 0.8888147139487924
+          "real": 13.147464418590168,
+          "pct": 0.9738862532289013
         },
         "mix": {
           "meta": 2.5,
-          "real": 2.21,
-          "pct": 0.884
+          "real": 2.23,
+          "pct": 0.892
         },
         "financeiro": {
           "meta": 210000,
-          "real": 71505.12,
-          "pct": 0.34050057142857143
+          "real": 121230.32,
+          "pct": 0.5772872380952381
         }
       },
       "pilares_atingidos": 0,
       "tendencia": {
-        "pct": 0.5320321428571428,
-        "projetado": 111726.75,
+        "pct": 0.5772872380952381,
+        "projetado": 121230.32,
         "meta": 210000,
-        "meta_dia": 15388.32
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 52500,
-        "real": 3681.03,
-        "participacao_pct": 0.05147925071659205,
-        "margem_pct": 0.2407950667394724,
+        "real": 7348.53,
+        "participacao_pct": 0.060616271572986026,
+        "margem_pct": 0.21339188609422557,
         "premio": 0
       },
       "thermo": {
         "meta": 6300,
-        "real": 2120.45,
-        "participacao_pct": 0.029654519844173395,
-        "margem_pct": 0.1840820895413708,
-        "premio": 0
+        "real": 3680.57,
+        "participacao_pct": 0.030360144227945616,
+        "margem_pct": 0.16749227270123923,
+        "premio": 73.6114
       },
-      "recompra_pct": 0.3953488372093023,
-      "recompra_contagem": 17,
-      "media_pedidos": 6.25,
+      "recompra_pct": 0.3137254901960784,
+      "recompra_contagem": 16,
+      "media_pedidos": 5.72,
       "sku": {
         "meta": 120,
-        "real": 65
+        "real": 75
       },
       "positivacao_dia15": {
-        "resultado": 39,
+        "resultado": 51,
         "premio": 0
       },
       "positivacao_dia30": {
-        "resultado": 10,
+        "resultado": 38,
         "premio": 0
       }
     },
@@ -1212,59 +1212,59 @@
       "pilares": {
         "positivacao": {
           "meta": 75,
-          "real": 52,
-          "pct": 0.6933333333333334
+          "real": 63,
+          "pct": 0.84
         },
         "margem": {
           "meta": 13.5,
-          "real": 13.389169880570616,
-          "pct": 0.9917903615237493
+          "real": 13.501153566449647,
+          "pct": 1.0000854493666405
         },
         "mix": {
           "meta": 2.5,
-          "real": 1.93,
-          "pct": 0.772
+          "real": 1.9,
+          "pct": 0.76
         },
         "financeiro": {
           "meta": 205000,
-          "real": 88098.496736,
-          "pct": 0.42974876456585365
+          "real": 146221.846736,
+          "pct": 0.7132773011512196
         }
       },
-      "pilares_atingidos": 0,
+      "pilares_atingidos": 1,
       "tendencia": {
-        "pct": 0.6714824446341463,
-        "projetado": 137653.90115,
+        "pct": 0.7132773011512196,
+        "projetado": 146221.846736,
         "meta": 205000,
-        "meta_dia": 12989.055918222222
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 51250,
-        "real": 10897.51,
-        "participacao_pct": 0.1236968893198709,
-        "margem_pct": 0.25303556700567376,
+        "real": 20047.29,
+        "participacao_pct": 0.1371018794215812,
+        "margem_pct": 0.2531989386096575,
         "premio": 0
       },
       "thermo": {
         "meta": 6150,
-        "real": 1236.45,
-        "participacao_pct": 0.01403485922926929,
-        "margem_pct": 0.20077560773504793,
+        "real": 1709.77,
+        "participacao_pct": 0.011692985953644453,
+        "margem_pct": 0.18795492997069785,
         "premio": 0
       },
-      "recompra_pct": 0.40384615384615385,
-      "recompra_contagem": 21,
-      "media_pedidos": 8.0625,
+      "recompra_pct": 0.2857142857142857,
+      "recompra_contagem": 18,
+      "media_pedidos": 8.12,
       "sku": {
         "meta": 120,
-        "real": 68
+        "real": 83
       },
       "positivacao_dia15": {
-        "resultado": 45,
+        "resultado": 63,
         "premio": 0
       },
       "positivacao_dia30": {
-        "resultado": 16,
+        "resultado": 52,
         "premio": 0
       }
     },
@@ -1276,59 +1276,59 @@
       "pilares": {
         "positivacao": {
           "meta": 90,
-          "real": 91,
-          "pct": 1.011111111111111
+          "real": 92,
+          "pct": 1.0222222222222221
         },
         "margem": {
           "meta": 13.5,
-          "real": 13.30595322609274,
-          "pct": 0.9856261648957585
+          "real": 13.641318803336034,
+          "pct": 1.0104680595063729
         },
         "mix": {
           "meta": 2.65,
-          "real": 2.8,
-          "pct": 1.0566037735849056
+          "real": 2.77,
+          "pct": 1.0452830188679245
         },
         "financeiro": {
           "meta": 305000,
-          "real": 172012.29,
-          "pct": 0.5639747213114754
+          "real": 307199.44,
+          "pct": 1.0072112786885246
         }
       },
-      "pilares_atingidos": 2,
+      "pilares_atingidos": 4,
       "tendencia": {
-        "pct": 0.8812105020491803,
-        "projetado": 268769.203125,
+        "pct": 1.0072112786885246,
+        "projetado": 307199.44,
         "meta": 305000,
-        "meta_dia": 14776.412222222221
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 76250,
-        "real": 37521.41,
-        "participacao_pct": 0.2181321462553635,
-        "margem_pct": 0.23062418580637792,
-        "premio": 0
+        "real": 80451.29,
+        "participacao_pct": 0.26188618703211175,
+        "margem_pct": 0.21855435997612907,
+        "premio": 804.5129
       },
       "thermo": {
         "meta": 9150,
-        "real": 7632.31,
-        "participacao_pct": 0.04437072490576109,
-        "margem_pct": 0.14345925920828698,
+        "real": 13030.17,
+        "participacao_pct": 0.042415995289574744,
+        "margem_pct": 0.12679946316218443,
         "premio": 0
       },
-      "recompra_pct": 0.45054945054945056,
-      "recompra_contagem": 41,
-      "media_pedidos": 14.5,
+      "recompra_pct": 0.13043478260869565,
+      "recompra_contagem": 12,
+      "media_pedidos": 14.56,
       "sku": {
         "meta": 120,
-        "real": 92
+        "real": 99
       },
       "positivacao_dia15": {
-        "resultado": 90,
+        "resultado": 92,
         "premio": 150
       },
       "positivacao_dia30": {
-        "resultado": 22,
+        "resultado": 80,
         "premio": 0
       }
     },
@@ -1340,59 +1340,59 @@
       "pilares": {
         "positivacao": {
           "meta": 100,
-          "real": 102,
-          "pct": 1.02
+          "real": 107,
+          "pct": 1.07
         },
         "margem": {
           "meta": 13.5,
-          "real": 13.153707297080173,
-          "pct": 0.9743486886726054
+          "real": 13.70849585449095,
+          "pct": 1.0154441373697
         },
         "mix": {
           "meta": 3,
-          "real": 3.09,
-          "pct": 1.03
+          "real": 3.34,
+          "pct": 1.1133333333333333
         },
         "financeiro": {
           "meta": 485000,
-          "real": 330267.0535155,
-          "pct": 0.6809629969391752
+          "real": 527428.6235155,
+          "pct": 1.087481697970103
         }
       },
-      "pilares_atingidos": 3,
+      "pilares_atingidos": 4,
       "tendencia": {
-        "pct": 1.0640046827174612,
-        "projetado": 516042.2711179687,
+        "pct": 1.087481697970103,
+        "projetado": 527428.6235155,
         "meta": 485000,
-        "meta_dia": 17192.54960938889
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 121250,
-        "real": 65314.31,
-        "participacao_pct": 0.1977621119175143,
-        "margem_pct": 0.21985738215184417,
+        "real": 113095.89,
+        "participacao_pct": 0.21442880601772338,
+        "margem_pct": 0.22227760069934063,
         "premio": 0
       },
       "thermo": {
         "meta": 14550,
-        "real": 9696.32,
-        "participacao_pct": 0.02935902899422856,
-        "margem_pct": 0.1353542220156015,
+        "real": 20592.47,
+        "participacao_pct": 0.03904314078129442,
+        "margem_pct": 0.12847373182295713,
         "premio": 0
       },
-      "recompra_pct": 0.30392156862745096,
-      "recompra_contagem": 31,
-      "media_pedidos": 20.625,
+      "recompra_pct": 0.205607476635514,
+      "recompra_contagem": 22,
+      "media_pedidos": 18.04,
       "sku": {
         "meta": 120,
-        "real": 106
+        "real": 128
       },
       "positivacao_dia15": {
-        "resultado": 100,
+        "resultado": 107,
         "premio": 150
       },
       "positivacao_dia30": {
-        "resultado": 30,
+        "resultado": 83,
         "premio": 0
       }
     },
@@ -1404,59 +1404,59 @@
       "pilares": {
         "positivacao": {
           "meta": 100,
-          "real": 85,
-          "pct": 0.85
+          "real": 101,
+          "pct": 1.01
         },
         "margem": {
           "meta": 13.5,
-          "real": 13.689575737749042,
-          "pct": 1.0140426472406698
+          "real": 13.700655744775686,
+          "pct": 1.0148633885019027
         },
         "mix": {
           "meta": 2.8,
-          "real": 3.46,
-          "pct": 1.2357142857142858
+          "real": 3.28,
+          "pct": 1.1714285714285715
         },
         "financeiro": {
           "meta": 385000,
-          "real": 233467.06,
-          "pct": 0.6064079480519481
+          "real": 402511.73,
+          "pct": 1.045485012987013
         }
       },
-      "pilares_atingidos": 2,
+      "pilares_atingidos": 4,
       "tendencia": {
-        "pct": 0.9475124188311689,
-        "projetado": 364792.28125,
+        "pct": 1.045485012987013,
+        "projetado": 402511.73,
         "meta": 385000,
-        "meta_dia": 16836.993333333332
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 96250,
-        "real": 59952.4,
-        "participacao_pct": 0.2567916861590667,
-        "margem_pct": 0.17956269132044855,
-        "premio": 0
+        "real": 105378.24,
+        "participacao_pct": 0.26180166227702234,
+        "margem_pct": 0.18096051007073943,
+        "premio": 1053.7824
       },
       "thermo": {
         "meta": 11550,
-        "real": 9294.78,
-        "participacao_pct": 0.03981195462863155,
-        "margem_pct": 0.16568156027686132,
-        "premio": 185.89560000000003
+        "real": 16349.62,
+        "participacao_pct": 0.040618990159615974,
+        "margem_pct": 0.15770732673201196,
+        "premio": 326.99240000000003
       },
-      "recompra_pct": 0.5411764705882353,
-      "recompra_contagem": 46,
-      "media_pedidos": 9.75,
+      "recompra_pct": 0.3465346534653465,
+      "recompra_contagem": 35,
+      "media_pedidos": 9.32,
       "sku": {
         "meta": 120,
-        "real": 89
+        "real": 102
       },
       "positivacao_dia15": {
-        "resultado": 75,
-        "premio": 0
+        "resultado": 101,
+        "premio": 150
       },
       "positivacao_dia30": {
-        "resultado": 39,
+        "resultado": 79,
         "premio": 0
       }
     },
@@ -1468,59 +1468,59 @@
       "pilares": {
         "positivacao": {
           "meta": 90,
-          "real": 93,
-          "pct": 1.0333333333333334
+          "real": 95,
+          "pct": 1.0555555555555556
         },
         "margem": {
           "meta": 13.5,
-          "real": 12.999785921335173,
-          "pct": 0.9629471052840869
+          "real": 13.779337593681266,
+          "pct": 1.0206916736060196
         },
         "mix": {
           "meta": 3,
-          "real": 2.87,
-          "pct": 0.9566666666666667
+          "real": 3.11,
+          "pct": 1.0366666666666666
         },
         "financeiro": {
           "meta": 310000,
-          "real": 189320.19,
-          "pct": 0.6107102903225806
+          "real": 271541.75,
+          "pct": 0.8759411290322581
         }
       },
-      "pilares_atingidos": 1,
+      "pilares_atingidos": 3,
       "tendencia": {
-        "pct": 0.9542348286290323,
-        "projetado": 295812.796875,
+        "pct": 0.8759411290322581,
+        "projetado": 271541.75,
         "meta": 310000,
-        "meta_dia": 13408.867777777778
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 77500,
-        "real": 42345.14,
-        "participacao_pct": 0.22366943536238793,
-        "margem_pct": 0.2371630215887821,
+        "real": 63074.8,
+        "participacao_pct": 0.23228398579592274,
+        "margem_pct": 0.2388330901567528,
         "premio": 0
       },
       "thermo": {
         "meta": 9300,
-        "real": 4938.72,
-        "participacao_pct": 0.026086599638422085,
-        "margem_pct": 0.14451330851070732,
-        "premio": 0
+        "real": 8743.96,
+        "participacao_pct": 0.03220116243634726,
+        "margem_pct": 0.15395317414084903,
+        "premio": 174.8792
       },
-      "recompra_pct": 0.4731182795698925,
-      "recompra_contagem": 44,
-      "media_pedidos": 11,
+      "recompra_pct": 0.22105263157894736,
+      "recompra_contagem": 21,
+      "media_pedidos": 9.84,
       "sku": {
         "meta": 120,
-        "real": 97
+        "real": 111
       },
       "positivacao_dia15": {
-        "resultado": 90,
+        "resultado": 95,
         "premio": 150
       },
       "positivacao_dia30": {
-        "resultado": 21,
+        "resultado": 73,
         "premio": 0
       }
     },
@@ -1532,59 +1532,59 @@
       "pilares": {
         "positivacao": {
           "meta": 95,
-          "real": 96,
-          "pct": 1.0105263157894737
+          "real": 97,
+          "pct": 1.0210526315789474
         },
         "margem": {
           "meta": 13.5,
-          "real": 13.280411254993181,
-          "pct": 0.9837341670365319
+          "real": 13.331069411464428,
+          "pct": 0.9874866230714391
         },
         "mix": {
           "meta": 2.5,
-          "real": 2.33,
-          "pct": 0.932
+          "real": 2.46,
+          "pct": 0.984
         },
         "financeiro": {
           "meta": 335000,
-          "real": 177153.106,
-          "pct": 0.5288152417910448
+          "real": 273273.066,
+          "pct": 0.815740495522388
         }
       },
       "pilares_atingidos": 1,
       "tendencia": {
-        "pct": 0.8262738152985075,
-        "projetado": 276801.728125,
+        "pct": 0.815740495522388,
+        "projetado": 273273.066,
         "meta": 335000,
-        "meta_dia": 17538.543777777777
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 83750,
-        "real": 34543.29,
-        "participacao_pct": 0.19499116205165493,
-        "margem_pct": 0.24294991988861228,
+        "real": 55328.35,
+        "participacao_pct": 0.20246543433592537,
+        "margem_pct": 0.2371631801606014,
         "premio": 0
       },
       "thermo": {
         "meta": 10050,
-        "real": 12267.36,
-        "participacao_pct": 0.0692472194080526,
-        "margem_pct": 0.1531739905332576,
-        "premio": 245.34720000000002
+        "real": 17105.6,
+        "participacao_pct": 0.06259526505989434,
+        "margem_pct": 0.15564171233939328,
+        "premio": 342.11199999999997
       },
-      "recompra_pct": 0.40625,
-      "recompra_contagem": 39,
-      "media_pedidos": 16.75,
+      "recompra_pct": 0.21649484536082475,
+      "recompra_contagem": 21,
+      "media_pedidos": 15.44,
       "sku": {
         "meta": 120,
-        "real": 79
+        "real": 88
       },
       "positivacao_dia15": {
-        "resultado": 96,
+        "resultado": 97,
         "premio": 150
       },
       "positivacao_dia30": {
-        "resultado": 25,
+        "resultado": 70,
         "premio": 0
       }
     },
@@ -1596,59 +1596,59 @@
       "pilares": {
         "positivacao": {
           "meta": 75,
-          "real": 69,
-          "pct": 0.92
+          "real": 75,
+          "pct": 1
         },
         "margem": {
           "meta": 13.5,
-          "real": 13.744404239708961,
-          "pct": 1.0181040177562193
+          "real": 13.641799872143126,
+          "pct": 1.0105036942328243
         },
         "mix": {
           "meta": 2.5,
-          "real": 2.34,
-          "pct": 0.9359999999999999
+          "real": 2.38,
+          "pct": 0.952
         },
         "financeiro": {
           "meta": 300000,
-          "real": 140797.33806,
-          "pct": 0.4693244602
+          "real": 276107.23806,
+          "pct": 0.9203574602
         }
       },
-      "pilares_atingidos": 1,
+      "pilares_atingidos": 2,
       "tendencia": {
-        "pct": 0.7333194690625001,
-        "projetado": 219995.84071875003,
+        "pct": 0.9203574602,
+        "projetado": 276107.23806,
         "meta": 300000,
-        "meta_dia": 17689.18466
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 75000,
-        "real": 29379.34,
-        "participacao_pct": 0.2086640301926742,
-        "margem_pct": 0.22190991997647547,
+        "real": 59346.85,
+        "participacao_pct": 0.2149413047516832,
+        "margem_pct": 0.216133142890724,
         "premio": 0
       },
       "thermo": {
         "meta": 9000,
-        "real": 4200.15,
-        "participacao_pct": 0.029831174778390545,
-        "margem_pct": 0.16851326621001625,
+        "real": 7260.62,
+        "participacao_pct": 0.02629637691143112,
+        "margem_pct": 0.17370368337359618,
         "premio": 0
       },
-      "recompra_pct": 0.34782608695652173,
-      "recompra_contagem": 24,
-      "media_pedidos": 11.5625,
+      "recompra_pct": 0.14666666666666667,
+      "recompra_contagem": 11,
+      "media_pedidos": 12.08,
       "sku": {
         "meta": 120,
-        "real": 95
+        "real": 110
       },
       "positivacao_dia15": {
-        "resultado": 65,
-        "premio": 0
+        "resultado": 75,
+        "premio": 150
       },
       "positivacao_dia30": {
-        "resultado": 25,
+        "resultado": 66,
         "premio": 0
       }
     },
@@ -1660,59 +1660,59 @@
       "pilares": {
         "positivacao": {
           "meta": 90,
-          "real": 71,
-          "pct": 0.7888888888888889
+          "real": 78,
+          "pct": 0.8666666666666667
         },
         "margem": {
           "meta": 13.5,
-          "real": 13.232070038983265,
-          "pct": 0.9801533362209826
+          "real": 13.456182074682882,
+          "pct": 0.9967542277542876
         },
         "mix": {
           "meta": 2.5,
-          "real": 2.41,
-          "pct": 0.9640000000000001
+          "real": 2.47,
+          "pct": 0.9880000000000001
         },
         "financeiro": {
           "meta": 208000,
-          "real": 102025.83,
-          "pct": 0.4905087980769231
+          "real": 152729.51,
+          "pct": 0.7342764903846154
         }
       },
       "pilares_atingidos": 0,
       "tendencia": {
-        "pct": 0.7664199969951923,
-        "projetado": 159415.359375,
+        "pct": 0.7342764903846154,
+        "projetado": 152729.51,
         "meta": 208000,
-        "meta_dia": 11774.907777777778
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 52000,
-        "real": 16362.35,
-        "participacao_pct": 0.1603745835735911,
-        "margem_pct": 0.22985878742356688,
+        "real": 22945.83,
+        "participacao_pct": 0.15023835275841585,
+        "margem_pct": 0.22929130513038756,
         "premio": 0
       },
       "thermo": {
         "meta": 6240,
-        "real": 4639.69,
-        "participacao_pct": 0.04547564082546547,
-        "margem_pct": 0.12963388310339694,
+        "real": 6263.36,
+        "participacao_pct": 0.041009494497821666,
+        "margem_pct": 0.13953373337888927,
         "premio": 0
       },
-      "recompra_pct": 0.43661971830985913,
-      "recompra_contagem": 31,
-      "media_pedidos": 10.1875,
+      "recompra_pct": 0.38461538461538464,
+      "recompra_contagem": 30,
+      "media_pedidos": 8.8,
       "sku": {
         "meta": 120,
-        "real": 88
+        "real": 96
       },
       "positivacao_dia15": {
-        "resultado": 67,
+        "resultado": 78,
         "premio": 0
       },
       "positivacao_dia30": {
-        "resultado": 18,
+        "resultado": 50,
         "premio": 0
       }
     },
@@ -1724,59 +1724,59 @@
       "pilares": {
         "positivacao": {
           "meta": 86,
-          "real": 64,
-          "pct": 0.7441860465116279
+          "real": 74,
+          "pct": 0.8604651162790697
         },
         "margem": {
           "meta": 13.5,
-          "real": 13.022584457856908,
-          "pct": 0.9646358857671784
+          "real": 12.586417210751994,
+          "pct": 0.932327200796444
         },
         "mix": {
           "meta": 2.4,
-          "real": 2.38,
-          "pct": 0.9916666666666667
+          "real": 2.34,
+          "pct": 0.975
         },
         "financeiro": {
           "meta": 274500,
-          "real": 133420.5542808,
-          "pct": 0.4860493780721311
+          "real": 253030.8496088,
+          "pct": 0.9217881588663024
         }
       },
       "pilares_atingidos": 0,
       "tendencia": {
-        "pct": 0.7594521532377048,
-        "projetado": 208469.61606374997,
+        "pct": 0.9217881588663024,
+        "projetado": 253030.8496088,
         "meta": 274500,
-        "meta_dia": 15675.493968800001
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 68625,
-        "real": 29096.99,
-        "participacao_pct": 0.21808476330237545,
-        "margem_pct": 0.26053595453847644,
+        "real": 52247.51,
+        "participacao_pct": 0.2064867192311831,
+        "margem_pct": 0.2530440683781978,
         "premio": 0
       },
       "thermo": {
         "meta": 8235,
-        "real": 1555.53,
-        "participacao_pct": 0.01165884828154885,
-        "margem_pct": 0.16031720301633523,
+        "real": 8370.89,
+        "participacao_pct": 0.033082487818943296,
+        "margem_pct": 0.05315560441769028,
         "premio": 0
       },
-      "recompra_pct": 0.3125,
-      "recompra_contagem": 20,
-      "media_pedidos": 11.125,
+      "recompra_pct": 0.1891891891891892,
+      "recompra_contagem": 14,
+      "media_pedidos": 11.24,
       "sku": {
         "meta": 120,
-        "real": 72
+        "real": 82
       },
       "positivacao_dia15": {
-        "resultado": 61,
+        "resultado": 75,
         "premio": 0
       },
       "positivacao_dia30": {
-        "resultado": 19,
+        "resultado": 65,
         "premio": 0
       }
     },
@@ -1788,59 +1788,59 @@
       "pilares": {
         "positivacao": {
           "meta": 75,
-          "real": 41,
-          "pct": 0.5466666666666666
+          "real": 75,
+          "pct": 1
         },
         "margem": {
           "meta": 13.5,
-          "real": 13.362109219502017,
-          "pct": 0.9897858681112605
+          "real": 14.23357736133059,
+          "pct": 1.054339063802266
         },
         "mix": {
           "meta": 2.4,
-          "real": 2.7,
-          "pct": 1.1250000000000002
+          "real": 2.48,
+          "pct": 1.0333333333333334
         },
         "financeiro": {
           "meta": 266000,
-          "real": 140578.07,
-          "pct": 0.528488984962406
+          "real": 228589.53,
+          "pct": 0.8593591353383458
         }
       },
-      "pilares_atingidos": 1,
+      "pilares_atingidos": 3,
       "tendencia": {
-        "pct": 0.8257640390037594,
-        "projetado": 219653.234375,
+        "pct": 0.859359135338346,
+        "projetado": 228589.53000000003,
         "meta": 266000,
-        "meta_dia": 13935.769999999999
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 66500,
-        "real": 8772.71,
-        "participacao_pct": 0.0624045414764906,
-        "margem_pct": 0.274241263384895,
+        "real": 15489.77,
+        "participacao_pct": 0.06776237739322531,
+        "margem_pct": 0.2905011015424626,
         "premio": 0
       },
       "thermo": {
         "meta": 7980,
-        "real": 1153.19,
-        "participacao_pct": 0.008203199830528331,
-        "margem_pct": 0.12386661813577991,
+        "real": 1622.55,
+        "participacao_pct": 0.007098094125308364,
+        "margem_pct": 0.13151194359988908,
         "premio": 0
       },
-      "recompra_pct": 0.4146341463414634,
-      "recompra_contagem": 17,
-      "media_pedidos": 9.625,
+      "recompra_pct": 0.5733333333333334,
+      "recompra_contagem": 43,
+      "media_pedidos": 10.04,
       "sku": {
         "meta": 120,
-        "real": 63
+        "real": 71
       },
       "positivacao_dia15": {
-        "resultado": 37,
-        "premio": 0
+        "resultado": 75,
+        "premio": 150
       },
       "positivacao_dia30": {
-        "resultado": 15,
+        "resultado": 66,
         "premio": 0
       }
     },
@@ -1852,59 +1852,59 @@
       "pilares": {
         "positivacao": {
           "meta": 70,
-          "real": 43,
-          "pct": 0.6142857142857143
+          "real": 70,
+          "pct": 1
         },
         "margem": {
           "meta": 13.5,
-          "real": 13.396837519319549,
-          "pct": 0.992358334764411
+          "real": 14.839464292098658,
+          "pct": 1.099219577192493
         },
         "mix": {
           "meta": 2.4,
-          "real": 2.47,
-          "pct": 1.0291666666666668
+          "real": 2.38,
+          "pct": 0.9916666666666667
         },
         "financeiro": {
           "meta": 227000,
-          "real": 150005.812188,
-          "pct": 0.6608185558942732
+          "real": 252975.259689128,
+          "pct": 1.1144284567802996
         }
       },
-      "pilares_atingidos": 2,
+      "pilares_atingidos": 3,
       "tendencia": {
-        "pct": 1.0325289935848019,
-        "projetado": 234384.08154375,
+        "pct": 1.1144284567802996,
+        "projetado": 252975.259689128,
         "meta": 227000,
-        "meta_dia": 8554.909756888888
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 56750,
-        "real": 26616.44,
-        "participacao_pct": 0.17743605805515067,
-        "margem_pct": 0.2868539513089744,
+        "real": 46461.83,
+        "participacao_pct": 0.18366155669568335,
+        "margem_pct": 0.2686217362817329,
         "premio": 0
       },
       "thermo": {
         "meta": 6810,
-        "real": 4126.52,
-        "participacao_pct": 0.027509067414189896,
-        "margem_pct": 0.1901097622971123,
+        "real": 5620.83,
+        "participacao_pct": 0.0222188921039442,
+        "margem_pct": 0.18805076096323434,
         "premio": 0
       },
-      "recompra_pct": 0.46511627906976744,
-      "recompra_contagem": 20,
-      "media_pedidos": 6.25,
+      "recompra_pct": 0.4142857142857143,
+      "recompra_contagem": 29,
+      "media_pedidos": 6.92,
       "sku": {
         "meta": 120,
-        "real": 70
+        "real": 81
       },
       "positivacao_dia15": {
-        "resultado": 33,
-        "premio": 0
+        "resultado": 70,
+        "premio": 150
       },
       "positivacao_dia30": {
-        "resultado": 16,
+        "resultado": 67,
         "premio": 0
       }
     },
@@ -1916,59 +1916,59 @@
       "pilares": {
         "positivacao": {
           "meta": 76,
-          "real": 50,
-          "pct": 0.6578947368421053
+          "real": 76,
+          "pct": 1
         },
         "margem": {
           "meta": 13.5,
-          "real": 13.74551170048483,
-          "pct": 1.0181860518877652
+          "real": 13.354074778993763,
+          "pct": 0.9891907243699083
         },
         "mix": {
           "meta": 2.4,
-          "real": 2.74,
-          "pct": 1.1416666666666668
+          "real": 2.49,
+          "pct": 1.0375
         },
         "financeiro": {
           "meta": 246000,
-          "real": 132941.38,
-          "pct": 0.5404121138211382
+          "real": 227137.48,
+          "pct": 0.9233230894308944
         }
       },
       "pilares_atingidos": 2,
       "tendencia": {
-        "pct": 0.8443939278455285,
-        "projetado": 207720.90625,
+        "pct": 0.9233230894308944,
+        "projetado": 227137.48,
         "meta": 246000,
-        "meta_dia": 12562.068888888889
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 61500,
-        "real": 14440.19,
-        "participacao_pct": 0.10862073193463163,
-        "margem_pct": 0.2167626036776525,
+        "real": 23305.36,
+        "participacao_pct": 0.1026046427916696,
+        "margem_pct": 0.21054995505730514,
         "premio": 0
       },
       "thermo": {
         "meta": 7380,
-        "real": 3560.64,
-        "participacao_pct": 0.02678353421635912,
-        "margem_pct": 0.14921364801159342,
+        "real": 5660.11,
+        "participacao_pct": 0.024919313184244184,
+        "margem_pct": 0.13321905030679615,
         "premio": 0
       },
-      "recompra_pct": 0.28,
-      "recompra_contagem": 14,
-      "media_pedidos": 9.9375,
+      "recompra_pct": 0.40789473684210525,
+      "recompra_contagem": 31,
+      "media_pedidos": 10.36,
       "sku": {
         "meta": 120,
-        "real": 77
+        "real": 82
       },
       "positivacao_dia15": {
-        "resultado": 46,
-        "premio": 0
+        "resultado": 76,
+        "premio": 150
       },
       "positivacao_dia30": {
-        "resultado": 20,
+        "resultado": 66,
         "premio": 0
       }
     },
@@ -1980,59 +1980,59 @@
       "pilares": {
         "positivacao": {
           "meta": 77,
-          "real": 57,
-          "pct": 0.7402597402597403
+          "real": 76,
+          "pct": 0.987012987012987
         },
         "margem": {
           "meta": 13.5,
-          "real": 13.085647871578825,
-          "pct": 0.9693072497465797
+          "real": 12.590736619570034,
+          "pct": 0.9326471570051877
         },
         "mix": {
           "meta": 2.45,
-          "real": 2.44,
-          "pct": 0.9959183673469387
+          "real": 2.47,
+          "pct": 1.0081632653061225
         },
         "financeiro": {
           "meta": 273000,
-          "real": 119493.69,
-          "pct": 0.4377058241758242
+          "real": 215582.186708,
+          "pct": 0.7896783395897435
         }
       },
-      "pilares_atingidos": 0,
+      "pilares_atingidos": 1,
       "tendencia": {
-        "pct": 0.6839153502747253,
-        "projetado": 186708.890625,
+        "pct": 0.7896783395897434,
+        "projetado": 215582.18670799996,
         "meta": 273000,
-        "meta_dia": 17056.256666666668
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 68250,
-        "real": 18572.47,
-        "participacao_pct": 0.15542636602819782,
-        "margem_pct": 0.29172119999332347,
+        "real": 30595.79,
+        "participacao_pct": 0.14192169801784754,
+        "margem_pct": 0.277111384590333,
         "premio": 0
       },
       "thermo": {
         "meta": 8190,
-        "real": 3357.32,
-        "participacao_pct": 0.028096211607491577,
-        "margem_pct": 0.13623913892129333,
+        "real": 4836.47,
+        "participacao_pct": 0.02243446025784525,
+        "margem_pct": 0.12950407760332724,
         "premio": 0
       },
-      "recompra_pct": 0.2807017543859649,
-      "recompra_contagem": 16,
-      "media_pedidos": 8.0625,
+      "recompra_pct": 0.3026315789473684,
+      "recompra_contagem": 23,
+      "media_pedidos": 8.16,
       "sku": {
         "meta": 120,
-        "real": 74
+        "real": 87
       },
       "positivacao_dia15": {
-        "resultado": 56,
+        "resultado": 76,
         "premio": 0
       },
       "positivacao_dia30": {
-        "resultado": 13,
+        "resultado": 63,
         "premio": 0
       }
     },
@@ -2044,59 +2044,59 @@
       "pilares": {
         "positivacao": {
           "meta": 85,
-          "real": 77,
-          "pct": 0.9058823529411765
+          "real": 85,
+          "pct": 1
         },
         "margem": {
           "meta": 13.5,
-          "real": 12.30811322431713,
-          "pct": 0.9117120906901578
+          "real": 13.041067973198032,
+          "pct": 0.9660050350517061
         },
         "mix": {
           "meta": 2.4,
-          "real": 2.2,
-          "pct": 0.9166666666666667
+          "real": 2.24,
+          "pct": 0.9333333333333335
         },
         "financeiro": {
           "meta": 335000,
-          "real": 213537.128,
-          "pct": 0.6374242626865672
+          "real": 298668.528,
+          "pct": 0.8915478447761194
         }
       },
-      "pilares_atingidos": 0,
+      "pilares_atingidos": 1,
       "tendencia": {
-        "pct": 0.9959754104477613,
-        "projetado": 333651.7625,
+        "pct": 0.8915478447761194,
+        "projetado": 298668.528,
         "meta": 335000,
-        "meta_dia": 13495.874666666667
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 83750,
-        "real": 48974.41,
-        "participacao_pct": 0.2293484531645476,
-        "margem_pct": 0.24908633677474884,
+        "real": 65858.55,
+        "participacao_pct": 0.2205071637142833,
+        "margem_pct": 0.24417289317840235,
         "premio": 0
       },
       "thermo": {
         "meta": 10050,
-        "real": 5966.8,
-        "participacao_pct": 0.027942681705450306,
-        "margem_pct": 0.1236779835384442,
+        "real": 10239.71,
+        "participacao_pct": 0.034284529637484934,
+        "margem_pct": 0.1242081864490563,
         "premio": 0
       },
-      "recompra_pct": 0.4675324675324675,
-      "recompra_contagem": 36,
-      "media_pedidos": 13.125,
+      "recompra_pct": 0.32941176470588235,
+      "recompra_contagem": 28,
+      "media_pedidos": 12.84,
       "sku": {
         "meta": 120,
-        "real": 77
+        "real": 88
       },
       "positivacao_dia15": {
-        "resultado": 72,
-        "premio": 0
+        "resultado": 85,
+        "premio": 150
       },
       "positivacao_dia30": {
-        "resultado": 23,
+        "resultado": 64,
         "premio": 0
       }
     },
@@ -2108,59 +2108,59 @@
       "pilares": {
         "positivacao": {
           "meta": 90,
-          "real": 67,
-          "pct": 0.7444444444444445
+          "real": 78,
+          "pct": 0.8666666666666667
         },
         "margem": {
           "meta": 13.5,
-          "real": 11.949352559160493,
-          "pct": 0.885137226604481
+          "real": 11.871719319250086,
+          "pct": 0.8793866162407471
         },
         "mix": {
           "meta": 2.4,
-          "real": 2.38,
-          "pct": 0.9916666666666667
+          "real": 2.39,
+          "pct": 0.9958333333333335
         },
         "financeiro": {
           "meta": 221000,
-          "real": 112892.06,
-          "pct": 0.5108238009049774
+          "real": 191031.24,
+          "pct": 0.8643947511312217
         }
       },
       "pilares_atingidos": 0,
       "tendencia": {
-        "pct": 0.7981621889140271,
-        "projetado": 176393.84375,
+        "pct": 0.8643947511312217,
+        "projetado": 191031.24,
         "meta": 221000,
-        "meta_dia": 12011.993333333334
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 55250,
-        "real": 11584.21,
-        "participacao_pct": 0.10261315100459678,
-        "margem_pct": 0.2564804124234626,
+        "real": 17850.57,
+        "participacao_pct": 0.09344319808634441,
+        "margem_pct": 0.24480549402343083,
         "premio": 0
       },
       "thermo": {
         "meta": 6630,
-        "real": 4141.63,
-        "participacao_pct": 0.03668663677498666,
-        "margem_pct": 0.1593838113264584,
-        "premio": 82.8326
+        "real": 6828.49,
+        "participacao_pct": 0.035745410017754164,
+        "margem_pct": 0.13397360509443615,
+        "premio": 0
       },
-      "recompra_pct": 0.3880597014925373,
-      "recompra_contagem": 26,
-      "media_pedidos": 11,
+      "recompra_pct": 0.28205128205128205,
+      "recompra_contagem": 22,
+      "media_pedidos": 10.8,
       "sku": {
         "meta": 120,
-        "real": 66
+        "real": 83
       },
       "positivacao_dia15": {
-        "resultado": 56,
+        "resultado": 78,
         "premio": 0
       },
       "positivacao_dia30": {
-        "resultado": 29,
+        "resultado": 69,
         "premio": 0
       }
     },
@@ -2177,54 +2177,54 @@
         },
         "margem": {
           "meta": 13.5,
-          "real": 13.371491697682396,
-          "pct": 0.9904808664949923
+          "real": 13.702537790853158,
+          "pct": 1.0150027993224562
         },
         "mix": {
           "meta": 2.2,
-          "real": 1.98,
-          "pct": 0.8999999999999999
+          "real": 2.22,
+          "pct": 1.009090909090909
         },
         "financeiro": {
           "meta": 309000,
-          "real": 189795.365,
-          "pct": 0.6142244822006472
+          "real": 327753.36,
+          "pct": 1.0606904854368933
         }
       },
-      "pilares_atingidos": 1,
+      "pilares_atingidos": 4,
       "tendencia": {
-        "pct": 0.9597257534385113,
-        "projetado": 296555.2578125,
+        "pct": 1.0606904854368933,
+        "projetado": 327753.36,
         "meta": 309000,
-        "meta_dia": 13244.959444444445
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 77250,
-        "real": 19847.46,
-        "participacao_pct": 0.10457294360165223,
-        "margem_pct": 0.24270852665978718,
+        "real": 36531.36,
+        "participacao_pct": 0.11145990997620894,
+        "margem_pct": 0.23306955019919712,
         "premio": 0
       },
       "thermo": {
         "meta": 9270,
-        "real": 4324.24,
-        "participacao_pct": 0.022783696535476513,
-        "margem_pct": 0.19363967459758388,
-        "premio": 0
+        "real": 9910.33,
+        "participacao_pct": 0.03023715759923865,
+        "margem_pct": 0.18397986443801564,
+        "premio": 198.2066
       },
-      "recompra_pct": 0.23684210526315788,
-      "recompra_contagem": 18,
-      "media_pedidos": 16.0625,
+      "recompra_pct": 0.10526315789473684,
+      "recompra_contagem": 8,
+      "media_pedidos": 14.68,
       "sku": {
         "meta": 120,
-        "real": 55
+        "real": 64
       },
       "positivacao_dia15": {
         "resultado": 76,
         "premio": 150
       },
       "positivacao_dia30": {
-        "resultado": 31,
+        "resultado": 66,
         "premio": 0
       }
     },
@@ -2236,59 +2236,59 @@
       "pilares": {
         "positivacao": {
           "meta": 66,
-          "real": 56,
-          "pct": 0.8484848484848485
+          "real": 66,
+          "pct": 1
         },
         "margem": {
           "meta": 13.5,
-          "real": 13.795634924987725,
-          "pct": 1.021898883332424
+          "real": 13.815850377673454,
+          "pct": 1.0233963242721078
         },
         "mix": {
           "meta": 2.2,
-          "real": 2.11,
-          "pct": 0.959090909090909
+          "real": 2.22,
+          "pct": 1.009090909090909
         },
         "financeiro": {
           "meta": 219000,
-          "real": 146423.37,
-          "pct": 0.6685998630136986
+          "real": 239304.65798,
+          "pct": 1.092715333242009
         }
       },
-      "pilares_atingidos": 2,
+      "pilares_atingidos": 4,
       "tendencia": {
-        "pct": 1.044687285958904,
-        "projetado": 228786.515625,
+        "pct": 1.092715333242009,
+        "projetado": 239304.65798,
         "meta": 219000,
-        "meta_dia": 8064.070000000001
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 54750,
-        "real": 6944.23,
-        "participacao_pct": 0.04742569440930092,
-        "margem_pct": 0.21784249003849232,
+        "real": 11945.32,
+        "participacao_pct": 0.04991678850228789,
+        "margem_pct": 0.21267512207291225,
         "premio": 0
       },
       "thermo": {
         "meta": 6570,
-        "real": 14725.61,
-        "participacao_pct": 0.1005687138603626,
-        "margem_pct": 0.17294884995976406,
-        "premio": 294.5122
+        "real": 24357.3,
+        "participacao_pct": 0.10178364351786112,
+        "margem_pct": 0.17990087518074663,
+        "premio": 487.146
       },
-      "recompra_pct": 0.44642857142857145,
-      "recompra_contagem": 25,
-      "media_pedidos": 9.25,
+      "recompra_pct": 0.36363636363636365,
+      "recompra_contagem": 24,
+      "media_pedidos": 8.68,
       "sku": {
         "meta": 120,
-        "real": 51
+        "real": 61
       },
       "positivacao_dia15": {
-        "resultado": 54,
-        "premio": 0
+        "resultado": 66,
+        "premio": 150
       },
       "positivacao_dia30": {
-        "resultado": 12,
+        "resultado": 51,
         "premio": 0
       }
     },
@@ -2305,54 +2305,54 @@
         },
         "margem": {
           "meta": 13.5,
-          "real": 12.209179859879892,
-          "pct": 0.9043836933244365
+          "real": 12.299552851252294,
+          "pct": 0.9110779889816514
         },
         "mix": {
           "meta": 2.2,
-          "real": 1.88,
-          "pct": 0.8545454545454544
+          "real": 1.87,
+          "pct": 0.85
         },
         "financeiro": {
           "meta": 177000,
-          "real": 86619.26,
-          "pct": 0.4893743502824858
+          "real": 94730.2,
+          "pct": 0.5351988700564971
         }
       },
       "pilares_atingidos": 1,
       "tendencia": {
-        "pct": 0.7646474223163842,
-        "projetado": 135342.59375,
+        "pct": 0.5351988700564971,
+        "projetado": 94730.2,
         "meta": 177000,
-        "meta_dia": 10042.304444444446
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 44250,
-        "real": 9075.02,
-        "participacao_pct": 0.10476907791638951,
-        "margem_pct": 0.24959296245669438,
+        "real": 9781.52,
+        "participacao_pct": 0.10325661721394024,
+        "margem_pct": 0.24883842245840185,
         "premio": 0
       },
       "thermo": {
         "meta": 5310,
-        "real": 2924.1,
-        "participacao_pct": 0.03375808105495245,
+        "real": 3517.83,
+        "participacao_pct": 0.03713525359389086,
         "margem_pct": 0.18316486312527888,
-        "premio": 58.482
+        "premio": 70.3566
       },
-      "recompra_pct": 0.3387096774193548,
-      "recompra_contagem": 21,
-      "media_pedidos": 10.125,
+      "recompra_pct": 0.3064516129032258,
+      "recompra_contagem": 19,
+      "media_pedidos": 6.8,
       "sku": {
         "meta": 120,
-        "real": 66
+        "real": 67
       },
       "positivacao_dia15": {
-        "resultado": 61,
+        "resultado": 62,
         "premio": 150
       },
       "positivacao_dia30": {
-        "resultado": 20,
+        "resultado": 36,
         "premio": 0
       }
     },
@@ -2364,59 +2364,59 @@
       "pilares": {
         "positivacao": {
           "meta": 90,
-          "real": 86,
-          "pct": 0.9555555555555556
+          "real": 90,
+          "pct": 1
         },
         "margem": {
           "meta": 13.5,
-          "real": 14.132007963400211,
-          "pct": 1.0468154046963118
+          "real": 14.182494743271095,
+          "pct": 1.0505551661682293
         },
         "mix": {
           "meta": 2.2,
-          "real": 2.19,
-          "pct": 0.9954545454545454
+          "real": 2.25,
+          "pct": 1.0227272727272727
         },
         "financeiro": {
           "meta": 209000,
-          "real": 144769.14,
-          "pct": 0.6926753110047847
+          "real": 219287.15,
+          "pct": 1.0492208133971292
         }
       },
-      "pilares_atingidos": 2,
+      "pilares_atingidos": 4,
       "tendencia": {
-        "pct": 1.0823051734449762,
-        "projetado": 226201.78125000003,
+        "pct": 1.049220813397129,
+        "projetado": 219287.14999999997,
         "meta": 209000,
-        "meta_dia": 7136.762222222221
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 52250,
-        "real": 17553.35,
-        "participacao_pct": 0.12125063394035494,
-        "margem_pct": 0.2507236609194256,
+        "real": 24429.26,
+        "participacao_pct": 0.1114030621493325,
+        "margem_pct": 0.2458014072550703,
         "premio": 0
       },
       "thermo": {
         "meta": 6270,
-        "real": 3824.13,
-        "participacao_pct": 0.02641536725299328,
-        "margem_pct": 0.19327781606169248,
+        "real": 5784.54,
+        "participacao_pct": 0.02637883706364007,
+        "margem_pct": 0.18606220383435843,
         "premio": 0
       },
-      "recompra_pct": 0.47674418604651164,
-      "recompra_contagem": 41,
-      "media_pedidos": 14.4375,
+      "recompra_pct": 0.32222222222222224,
+      "recompra_contagem": 29,
+      "media_pedidos": 12.88,
       "sku": {
         "meta": 120,
-        "real": 64
+        "real": 74
       },
       "positivacao_dia15": {
-        "resultado": 79,
-        "premio": 0
+        "resultado": 90,
+        "premio": 150
       },
       "positivacao_dia30": {
-        "resultado": 20,
+        "resultado": 66,
         "premio": 0
       }
     },
@@ -2428,60 +2428,60 @@
       "pilares": {
         "positivacao": {
           "meta": 55,
-          "real": 56,
-          "pct": 1.018181818181818
+          "real": 62,
+          "pct": 1.1272727272727272
         },
         "margem": {
           "meta": 13.5,
-          "real": 12.94819542660293,
-          "pct": 0.9591255871557727
+          "real": 13.57884951446778,
+          "pct": 1.0058407047753912
         },
         "mix": {
           "meta": 2.2,
-          "real": 2.14,
-          "pct": 0.9727272727272727
+          "real": 2.24,
+          "pct": 1.0181818181818183
         },
         "financeiro": {
           "meta": 170000,
-          "real": 108798.01,
-          "pct": 0.639988294117647
+          "real": 179657.49,
+          "pct": 1.0568087647058824
         }
       },
-      "pilares_atingidos": 1,
+      "pilares_atingidos": 4,
       "tendencia": {
-        "pct": 0.9999817095588235,
-        "projetado": 169996.890625,
+        "pct": 1.0568087647058824,
+        "projetado": 179657.49,
         "meta": 170000,
-        "meta_dia": 6800.221111111112
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 42500,
-        "real": 15751.99,
-        "participacao_pct": 0.1447819679790099,
-        "margem_pct": 0.22799549146000905,
+        "real": 25463.46,
+        "participacao_pct": 0.1417333616316247,
+        "margem_pct": 0.23216744576451429,
         "premio": 0
       },
       "thermo": {
         "meta": 5100,
-        "real": 9875.49,
-        "participacao_pct": 0.09076903152916124,
-        "margem_pct": 0.19279286628235454,
-        "premio": 197.5098
+        "real": 15854.16,
+        "participacao_pct": 0.08824658521055816,
+        "margem_pct": 0.1817903683495058,
+        "premio": 317.0832
       },
-      "recompra_pct": 0.26785714285714285,
-      "recompra_contagem": 15,
-      "media_pedidos": 12.5625,
+      "recompra_pct": 0.16129032258064516,
+      "recompra_contagem": 10,
+      "media_pedidos": 12.24,
       "sku": {
         "meta": 120,
-        "real": 57
+        "real": 63
       },
       "positivacao_dia15": {
-        "resultado": 55,
+        "resultado": 62,
         "premio": 150
       },
       "positivacao_dia30": {
-        "resultado": 19,
-        "premio": 0
+        "resultado": 55,
+        "premio": 150
       }
     },
     {
@@ -2492,59 +2492,59 @@
       "pilares": {
         "positivacao": {
           "meta": 63,
-          "real": 63,
-          "pct": 1
+          "real": 69,
+          "pct": 1.0952380952380953
         },
         "margem": {
           "meta": 13.5,
-          "real": 14.091917899235805,
-          "pct": 1.0438457703137634
+          "real": 13.437436650760375,
+          "pct": 0.9953656778341019
         },
         "mix": {
           "meta": 2.2,
-          "real": 2.31,
-          "pct": 1.05
+          "real": 2.37,
+          "pct": 1.0772727272727272
         },
         "financeiro": {
           "meta": 221500,
-          "real": 148096.155,
-          "pct": 0.6686056659142212
+          "real": 247403.994,
+          "pct": 1.1169480541760723
         }
       },
-      "pilares_atingidos": 4,
+      "pilares_atingidos": 3,
       "tendencia": {
-        "pct": 1.0446963529909707,
-        "projetado": 231400.2421875,
+        "pct": 1.1169480541760723,
+        "projetado": 247403.994,
         "meta": 221500,
-        "meta_dia": 8155.982777777778
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 55375,
-        "real": 16992.28,
-        "participacao_pct": 0.11473815778674334,
-        "margem_pct": 0.23783491897845885,
+        "real": 29624.67,
+        "participacao_pct": 0.11974208468113896,
+        "margem_pct": 0.2553109196106932,
         "premio": 0
       },
       "thermo": {
         "meta": 6645,
-        "real": 18258.03,
-        "participacao_pct": 0.12328496982247783,
-        "margem_pct": 0.17558327692959527,
-        "premio": 365.1606
+        "real": 25683.35,
+        "participacao_pct": 0.10381137985993871,
+        "margem_pct": 0.1745574120492401,
+        "premio": 513.667
       },
-      "recompra_pct": 0.2857142857142857,
-      "recompra_contagem": 18,
-      "media_pedidos": 12.5625,
+      "recompra_pct": 0.14492753623188406,
+      "recompra_contagem": 10,
+      "media_pedidos": 11.68,
       "sku": {
         "meta": 120,
-        "real": 77
+        "real": 89
       },
       "positivacao_dia15": {
-        "resultado": 63,
+        "resultado": 69,
         "premio": 150
       },
       "positivacao_dia30": {
-        "resultado": 23,
+        "resultado": 61,
         "premio": 0
       }
     },
@@ -2556,59 +2556,59 @@
       "pilares": {
         "positivacao": {
           "meta": 25,
-          "real": 23,
-          "pct": 0.92
+          "real": 25,
+          "pct": 1
         },
         "margem": {
           "meta": 13.5,
-          "real": 13.487816057010889,
-          "pct": 0.9990974857045103
+          "real": 13.731562577682912,
+          "pct": 1.0171527835320675
         },
         "mix": {
           "meta": 2.2,
-          "real": 2.35,
-          "pct": 1.0681818181818181
+          "real": 2.29,
+          "pct": 1.0409090909090908
         },
         "financeiro": {
           "meta": 200000,
-          "real": 74682.225,
-          "pct": 0.373411125
+          "real": 106620.135,
+          "pct": 0.533100675
         }
       },
-      "pilares_atingidos": 1,
+      "pilares_atingidos": 3,
       "tendencia": {
-        "pct": 0.5834548828125,
-        "projetado": 116690.97656250001,
+        "pct": 0.533100675,
+        "projetado": 106620.13500000001,
         "meta": 200000,
-        "meta_dia": 13924.197222222221
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 50000,
-        "real": 3820.88,
-        "participacao_pct": 0.051161839380120235,
-        "margem_pct": 0.30347833713699457,
+        "real": 5468.75,
+        "participacao_pct": 0.05129190654279325,
+        "margem_pct": 0.2976609685394286,
         "premio": 0
       },
       "thermo": {
         "meta": 6000,
-        "real": 0,
-        "participacao_pct": 0.0,
-        "margem_pct": 0,
+        "real": 552,
+        "participacao_pct": 0.005177258498125143,
+        "margem_pct": 0.2145961304347826,
         "premio": 0
       },
-      "recompra_pct": 0.2608695652173913,
-      "recompra_contagem": 6,
-      "media_pedidos": 3.25,
+      "recompra_pct": 0.2,
+      "recompra_contagem": 5,
+      "media_pedidos": 3.2,
       "sku": {
         "meta": 121,
-        "real": 38
+        "real": 45
       },
       "positivacao_dia15": {
-        "resultado": 20,
-        "premio": 0
+        "resultado": 25,
+        "premio": 150
       },
       "positivacao_dia30": {
-        "resultado": 11,
+        "resultado": 21,
         "premio": 0
       }
     },
@@ -2620,13 +2620,13 @@
       "pilares": {
         "positivacao": {
           "meta": 76,
-          "real": 77,
-          "pct": 1.013157894736842
+          "real": 83,
+          "pct": 1.0921052631578947
         },
         "margem": {
           "meta": 13.5,
-          "real": 14.898356383426036,
-          "pct": 1.1035819543278544
+          "real": 14.895937849900568,
+          "pct": 1.1034028036963384
         },
         "mix": {
           "meta": 2.2,
@@ -2635,44 +2635,44 @@
         },
         "financeiro": {
           "meta": 222000,
-          "real": 167696.75,
-          "pct": 0.7553907657657658
+          "real": 269144.39,
+          "pct": 1.2123621171171173
         }
       },
       "pilares_atingidos": 4,
       "tendencia": {
-        "pct": 1.180298071509009,
-        "projetado": 262026.171875,
+        "pct": 1.2123621171171173,
+        "projetado": 269144.39,
         "meta": 222000,
-        "meta_dia": 6033.694444444444
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 55500,
-        "real": 17661.95,
-        "participacao_pct": 0.1053207650118443,
-        "margem_pct": 0.23572695922804943,
+        "real": 31828.19,
+        "participacao_pct": 0.11825693264496427,
+        "margem_pct": 0.24101629229841742,
         "premio": 0
       },
       "thermo": {
         "meta": 6660,
-        "real": 5446.82,
-        "participacao_pct": 0.0324801762705598,
-        "margem_pct": 0.22005390895258448,
-        "premio": 108.93639999999999
-      },
-      "recompra_pct": 0.052104208416833664,
-      "recompra_contagem": 26,
-      "media_pedidos": 13.875,
-      "sku": {
-        "meta": 120,
-        "real": 84
-      },
-      "positivacao_dia15": {
-        "resultado": 74,
+        "real": 7227.23,
+        "participacao_pct": 0.026852612458316515,
+        "margem_pct": 0.2219600079997453,
         "premio": 0
       },
+      "recompra_pct": 0.0300187617260788,
+      "recompra_contagem": 16,
+      "media_pedidos": 12.56,
+      "sku": {
+        "meta": 120,
+        "real": 90
+      },
+      "positivacao_dia15": {
+        "resultado": 83,
+        "premio": 150
+      },
       "positivacao_dia30": {
-        "resultado": 20,
+        "resultado": 64,
         "premio": 0
       }
     },
@@ -2684,59 +2684,59 @@
       "pilares": {
         "positivacao": {
           "meta": 108,
-          "real": 99,
-          "pct": 0.9166666666666666
+          "real": 109,
+          "pct": 1.0092592592592593
         },
         "margem": {
           "meta": 13.5,
-          "real": 13.464831435895851,
-          "pct": 0.9973949211774704
+          "real": 13.726092465557663,
+          "pct": 1.0167475900413083
         },
         "mix": {
           "meta": 3,
-          "real": 3.5,
-          "pct": 1.1666666666666667
+          "real": 3.54,
+          "pct": 1.18
         },
         "financeiro": {
           "meta": 416000,
-          "real": 244588.77,
-          "pct": 0.5879537740384615
+          "real": 398247.51,
+          "pct": 0.9573257451923077
         }
       },
-      "pilares_atingidos": 1,
+      "pilares_atingidos": 3,
       "tendencia": {
-        "pct": 0.9186777719350961,
-        "projetado": 382169.953125,
+        "pct": 0.9573257451923077,
+        "projetado": 398247.51,
         "meta": 416000,
-        "meta_dia": 19045.692222222224
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 85000,
-        "real": 31093.43,
-        "participacao_pct": 0.1820991188112822,
-        "margem_pct": 0.23087925017454677,
+        "real": 51706.79,
+        "participacao_pct": 0.16995345365969708,
+        "margem_pct": 0.2308209056911011,
         "premio": 0
       },
       "thermo": {
         "meta": 10200,
-        "real": 18705.71,
-        "participacao_pct": 0.07647820462075998,
-        "margem_pct": 0.15450147661547572,
+        "real": 28472.94,
+        "participacao_pct": 0.07149558825866859,
+        "margem_pct": 0.16529120261097077,
         "premio": 0
       },
-      "recompra_pct": 0.32323232323232326,
-      "recompra_contagem": 32,
-      "media_pedidos": 14.8125,
+      "recompra_pct": 0.2018348623853211,
+      "recompra_contagem": 22,
+      "media_pedidos": 14.6,
       "sku": {
         "meta": 120,
-        "real": 104
+        "real": 114
       },
       "positivacao_dia15": {
-        "resultado": 58,
+        "resultado": 78,
         "premio": 0
       },
       "positivacao_dia30": {
-        "resultado": 61,
+        "resultado": 95,
         "premio": 0
       }
     },
@@ -2748,59 +2748,59 @@
       "pilares": {
         "positivacao": {
           "meta": 80,
-          "real": 68,
-          "pct": 0.85
+          "real": 78,
+          "pct": 0.975
         },
         "margem": {
           "meta": 13.5,
-          "real": 12.491684576050734,
-          "pct": 0.9253099685963506
+          "real": 11.99449682375436,
+          "pct": 0.8884812462040267
         },
         "mix": {
           "meta": 3,
-          "real": 2.51,
-          "pct": 0.8366666666666666
+          "real": 2.69,
+          "pct": 0.8966666666666666
         },
         "financeiro": {
           "meta": 340000,
-          "real": 170750.03,
-          "pct": 0.5022059705882352
+          "real": 304240.89,
+          "pct": 0.8948261470588236
         }
       },
       "pilares_atingidos": 0,
       "tendencia": {
-        "pct": 0.7846968290441176,
-        "projetado": 266796.921875,
+        "pct": 0.8948261470588236,
+        "projetado": 304240.89,
         "meta": 340000,
-        "meta_dia": 18805.55222222222
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 52500,
-        "real": 24451.97,
-        "participacao_pct": 0.19597494287530187,
-        "margem_pct": 0.24809379276140955,
+        "real": 39174.05,
+        "participacao_pct": 0.20466235013245776,
+        "margem_pct": 0.24433184945655548,
         "premio": 0
       },
       "thermo": {
         "meta": 6300,
-        "real": 11153.24,
-        "participacao_pct": 0.06531911004642284,
-        "margem_pct": 0.17226948464628936,
+        "real": 19099.79,
+        "participacao_pct": 0.06277851080438267,
+        "margem_pct": 0.1762365481309056,
         "premio": 1
       },
-      "recompra_pct": 0.29411764705882354,
-      "recompra_contagem": 20,
-      "media_pedidos": 12.5,
+      "recompra_pct": 0.20512820512820512,
+      "recompra_contagem": 16,
+      "media_pedidos": 11.36,
       "sku": {
         "meta": 120,
-        "real": 81
+        "real": 99
       },
       "positivacao_dia15": {
-        "resultado": 73,
+        "resultado": 87,
         "premio": 0
       },
       "positivacao_dia30": {
-        "resultado": 28,
+        "resultado": 64,
         "premio": 0
       }
     },
@@ -2812,59 +2812,59 @@
       "pilares": {
         "positivacao": {
           "meta": 90,
-          "real": 78,
-          "pct": 0.8666666666666667
+          "real": 87,
+          "pct": 0.9666666666666667
         },
         "margem": {
           "meta": 13.5,
-          "real": 13.92268816162102,
-          "pct": 1.0313102341941496
+          "real": 14.360798502380698,
+          "pct": 1.0637628520281999
         },
         "mix": {
           "meta": 2.65,
-          "real": 2.72,
-          "pct": 1.0264150943396229
+          "real": 2.83,
+          "pct": 1.0679245283018868
         },
         "financeiro": {
           "meta": 210000,
-          "real": 124770.9,
-          "pct": 0.5941471428571429
+          "real": 191408.19,
+          "pct": 0.9114675714285715
         }
       },
       "pilares_atingidos": 2,
       "tendencia": {
-        "pct": 0.9283549107142857,
-        "projetado": 194954.53125,
+        "pct": 0.9114675714285715,
+        "projetado": 191408.19,
         "meta": 210000,
-        "meta_dia": 9469.900000000001
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 114250,
-        "real": 36043.11,
-        "participacao_pct": 0.1435109138138148,
-        "margem_pct": 0.23853347244575684,
+        "real": 61902.92,
+        "participacao_pct": 0.1578030116643896,
+        "margem_pct": 0.22765667798851508,
         "premio": 0
       },
       "thermo": {
         "meta": 13710,
-        "real": 14995.76,
-        "participacao_pct": 0.12018635755612889,
-        "margem_pct": 0,
+        "real": 23960.24,
+        "participacao_pct": 0.12517876063714933,
+        "margem_pct": 0.01542094932972301,
         "premio": 2
       },
-      "recompra_pct": 0.34615384615384615,
-      "recompra_contagem": 27,
-      "media_pedidos": 11.9375,
+      "recompra_pct": 0.2413793103448276,
+      "recompra_contagem": 21,
+      "media_pedidos": 11.2,
       "sku": {
         "meta": 120,
-        "real": 86
+        "real": 98
       },
       "positivacao_dia15": {
-        "resultado": 78,
+        "resultado": 101,
         "premio": 0
       },
       "positivacao_dia30": {
-        "resultado": 30,
+        "resultado": 73,
         "premio": 0
       }
     },
@@ -2876,59 +2876,59 @@
       "pilares": {
         "positivacao": {
           "meta": 110,
-          "real": 87,
-          "pct": 0.7909090909090909
+          "real": 100,
+          "pct": 0.9090909090909091
         },
         "margem": {
           "meta": 13.5,
-          "real": 13.264233091509375,
-          "pct": 0.98253578455625
+          "real": 14.354762209185948,
+          "pct": 1.063315719198959
         },
         "mix": {
           "meta": 2.5,
-          "real": 2.21,
-          "pct": 0.884
+          "real": 2.19,
+          "pct": 0.876
         },
         "financeiro": {
           "meta": 457000,
-          "real": 251152.397,
-          "pct": 0.5495676083150984
+          "real": 392279.7122,
+          "pct": 0.8583801142231948
         }
       },
-      "pilares_atingidos": 0,
+      "pilares_atingidos": 1,
       "tendencia": {
-        "pct": 0.8586993879923414,
-        "projetado": 392425.6203125,
+        "pct": 0.8583801142231948,
+        "projetado": 392279.7122,
         "meta": 457000,
-        "meta_dia": 22871.95588888889
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 58750,
-        "real": 26494.64,
-        "participacao_pct": 0.2337631239330194,
-        "margem_pct": 0.25647813611105325,
-        "premio": 0
+        "real": 43134.99,
+        "participacao_pct": 0.25758434851806405,
+        "margem_pct": 0.24609824432479718,
+        "premio": 431.3499
       },
       "thermo": {
         "meta": 7050,
-        "real": 3706.25,
-        "participacao_pct": 0.01475697641858461,
-        "margem_pct": 0.15620514981342334,
+        "real": 7143.14,
+        "participacao_pct": 0.01820930264259534,
+        "margem_pct": 0.16521796271595368,
         "premio": 3
       },
-      "recompra_pct": 0.4482758620689655,
-      "recompra_contagem": 39,
-      "media_pedidos": 13.875,
+      "recompra_pct": 0.35,
+      "recompra_contagem": 35,
+      "media_pedidos": 13.16,
       "sku": {
         "meta": 120,
-        "real": 85
+        "real": 97
       },
       "positivacao_dia15": {
-        "resultado": 54,
+        "resultado": 68,
         "premio": 0
       },
       "positivacao_dia30": {
-        "resultado": 30,
+        "resultado": 83,
         "premio": 0
       }
     },
@@ -2940,59 +2940,59 @@
       "pilares": {
         "positivacao": {
           "meta": 80,
-          "real": 60,
-          "pct": 0.75
+          "real": 67,
+          "pct": 0.8375
         },
         "margem": {
           "meta": 13.5,
-          "real": 14.359477612402152,
-          "pct": 1.0636650083260852
+          "real": 14.65191949082188,
+          "pct": 1.0853273696905097
         },
         "mix": {
           "meta": 2.5,
-          "real": 2.74,
-          "pct": 1.096
+          "real": 2.78,
+          "pct": 1.1119999999999999
         },
         "financeiro": {
           "meta": 235000,
-          "real": 113339.69,
-          "pct": 0.4822965531914894
+          "real": 167459.67,
+          "pct": 0.7125943404255319
         }
       },
       "pilares_atingidos": 2,
       "tendencia": {
-        "pct": 0.7535883643617022,
-        "projetado": 177093.265625,
+        "pct": 0.7125943404255319,
+        "projetado": 167459.67,
         "meta": 235000,
-        "meta_dia": 13517.812222222223
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 43625,
-        "real": 22378.59,
-        "participacao_pct": 0.2286425279460561,
-        "margem_pct": 0.2549423694879793,
+        "real": 33122.88,
+        "participacao_pct": 0.23193261296509893,
+        "margem_pct": 0.26289491235277357,
         "premio": 0
       },
       "thermo": {
         "meta": 5235,
-        "real": 3637.23,
-        "participacao_pct": 0.032091405932026106,
-        "margem_pct": 0.17884955360865276,
+        "real": 5580.79,
+        "participacao_pct": 0.033326173400437246,
+        "margem_pct": 0.17603113236083068,
         "premio": 4
       },
-      "recompra_pct": 0.3,
-      "recompra_contagem": 18,
-      "media_pedidos": 9.9375,
+      "recompra_pct": 0.2537313432835821,
+      "recompra_contagem": 17,
+      "media_pedidos": 9.56,
       "sku": {
         "meta": 120,
-        "real": 83
+        "real": 92
       },
       "positivacao_dia15": {
-        "resultado": 62,
+        "resultado": 70,
         "premio": 0
       },
       "positivacao_dia30": {
-        "resultado": 15,
+        "resultado": 58,
         "premio": 0
       }
     },
@@ -3004,59 +3004,59 @@
       "pilares": {
         "positivacao": {
           "meta": 80,
-          "real": 64,
-          "pct": 0.8
+          "real": 70,
+          "pct": 0.875
         },
         "margem": {
           "meta": 13.5,
-          "real": 13.646656749677852,
-          "pct": 1.0108634629391002
+          "real": 14.826100573855166,
+          "pct": 1.0982296721374196
         },
         "mix": {
           "meta": 2.5,
-          "real": 2.39,
-          "pct": 0.9560000000000001
+          "real": 2.48,
+          "pct": 0.992
         },
         "financeiro": {
           "meta": 174500,
-          "real": 97875.886,
-          "pct": 0.560893329512894
+          "real": 142812.516,
+          "pct": 0.8184098338108883
         }
       },
       "pilares_atingidos": 1,
       "tendencia": {
-        "pct": 0.8763958273638968,
-        "projetado": 152931.071875,
+        "pct": 0.8184098338108883,
+        "projetado": 142812.516,
         "meta": 174500,
-        "meta_dia": 8513.790444444445
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 61250,
-        "real": 19604.29,
-        "participacao_pct": 0.1517111732535084,
-        "margem_pct": 0.26193670107920264,
+        "real": 37046.83,
+        "participacao_pct": 0.1770863090949872,
+        "margem_pct": 0.24685613175700533,
         "premio": 0
       },
       "thermo": {
         "meta": 7350,
-        "real": 4515.76,
-        "participacao_pct": 0.04613761555118898,
-        "margem_pct": 0.16059854756851563,
+        "real": 8522.3,
+        "participacao_pct": 0.0596747416732018,
+        "margem_pct": 0.15302066774931644,
         "premio": 5
       },
-      "recompra_pct": 0.328125,
-      "recompra_contagem": 21,
-      "media_pedidos": 9.4375,
+      "recompra_pct": 0.2714285714285714,
+      "recompra_contagem": 19,
+      "media_pedidos": 8.36,
       "sku": {
         "meta": 120,
-        "real": 82
+        "real": 88
       },
       "positivacao_dia15": {
-        "resultado": 87,
+        "resultado": 92,
         "premio": 0
       },
       "positivacao_dia30": {
-        "resultado": 21,
+        "resultado": 54,
         "premio": 0
       }
     },
@@ -3068,59 +3068,59 @@
       "pilares": {
         "positivacao": {
           "meta": 95,
-          "real": 89,
-          "pct": 0.9368421052631579
+          "real": 92,
+          "pct": 0.968421052631579
         },
         "margem": {
           "meta": 13.5,
-          "real": 13.349971263638103,
-          "pct": 0.9888867602694892
+          "real": 14.092607795803085,
+          "pct": 1.0438968737631915
         },
         "mix": {
           "meta": 2.5,
-          "real": 2.21,
-          "pct": 0.884
+          "real": 2.32,
+          "pct": 0.9279999999999999
         },
         "financeiro": {
           "meta": 245000,
-          "real": 129221.135,
-          "pct": 0.5274332040816326
+          "real": 209202.11274,
+          "pct": 0.8538861744489796
         }
       },
-      "pilares_atingidos": 0,
+      "pilares_atingidos": 1,
       "tendencia": {
-        "pct": 0.824114381377551,
-        "projetado": 201908.0234375,
+        "pct": 0.8538861744489797,
+        "projetado": 209202.11274000004,
         "meta": 245000,
-        "meta_dia": 12864.318333333335
+        "meta_dia": 0
       },
       "industrializado": {
         "meta": 415375,
-        "real": 160066.03000000003,
-        "participacao_pct": 0.14143871926743254,
-        "margem_pct": 0.2484772870099914,
+        "real": 266088.46,
+        "participacao_pct": 0.1473643128196992,
+        "margem_pct": 0.24310978692845794,
         "premio": 0
       },
       "thermo": {
         "meta": 49845,
-        "real": 56713.950000000004,
-        "participacao_pct": 0.4388906659889654,
-        "margem_pct": 0.12947915768205373,
-        "premio": 90.3152
+        "real": 92779.2,
+        "participacao_pct": 0.4434907410103816,
+        "margem_pct": 0.14186974381628334,
+        "premio": 170.446
       },
-      "recompra_pct": 0.38202247191011235,
-      "recompra_contagem": 34,
-      "media_pedidos": 15.75,
+      "recompra_pct": 0.22826086956521738,
+      "recompra_contagem": 21,
+      "media_pedidos": 15.04,
       "sku": {
         "meta": 120,
-        "real": 94
+        "real": 105
       },
       "positivacao_dia15": {
-        "resultado": 87,
+        "resultado": 92,
         "premio": 0
       },
       "positivacao_dia30": {
-        "resultado": 25,
+        "resultado": 71,
         "premio": 0
       }
     }
@@ -3135,7 +3135,7 @@
         "bacon": {
           "label": "Bacon",
           "meta": 15.0,
-          "real": 1,
+          "real": 4,
           "bateu": false
         },
         "bovino": {
@@ -3147,7 +3147,7 @@
         "batata": {
           "label": "Batata",
           "meta": 15.0,
-          "real": 7,
+          "real": 12,
           "bateu": false
         },
         "suino": {
@@ -3159,39 +3159,39 @@
         "calabresa": {
           "label": "Calabresa",
           "meta": 15.0,
-          "real": 17,
+          "real": 22,
           "bateu": true
         },
         "paes": {
           "label": "Pães",
           "meta": 15.0,
-          "real": 12,
+          "real": 13,
           "bateu": false
         },
         "frescais": {
           "label": "Frescais",
           "meta": 20.0,
-          "real": 10,
-          "bateu": false
+          "real": 21,
+          "bateu": true
         },
         "lacteos": {
           "label": "Lácteos",
           "meta": 15.0,
-          "real": 22,
+          "real": 23,
           "bateu": true
         },
         "thermo": {
           "label": "Thermo",
           "meta": 40.0,
-          "real": 34,
-          "bateu": false
+          "real": 41,
+          "bateu": true
         }
       },
-      "categorias_atingidas": 2,
+      "categorias_atingidas": 4,
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 15.375
+      "posit_atual": 14.8
     },
     {
       "codigo": "81",
@@ -3208,49 +3208,49 @@
         "bovino": {
           "label": "Bovino",
           "meta": 15.0,
-          "real": 1,
+          "real": 2,
           "bateu": false
         },
         "batata": {
           "label": "Batata",
           "meta": 15.0,
-          "real": 4,
+          "real": 5,
           "bateu": false
         },
         "suino": {
           "label": "Suíno",
           "meta": 15.0,
-          "real": 1,
+          "real": 2,
           "bateu": false
         },
         "calabresa": {
           "label": "Calabresa",
           "meta": 15.0,
-          "real": 7,
+          "real": 11,
           "bateu": false
         },
         "paes": {
           "label": "Pães",
           "meta": 15.0,
-          "real": 4,
+          "real": 5,
           "bateu": false
         },
         "frescais": {
           "label": "Frescais",
           "meta": 20.0,
-          "real": 14,
+          "real": 18,
           "bateu": false
         },
         "lacteos": {
           "label": "Lácteos",
           "meta": 15.0,
-          "real": 13,
+          "real": 14,
           "bateu": false
         },
         "thermo": {
           "label": "Thermo",
           "meta": 40.0,
-          "real": 26,
+          "real": 28,
           "bateu": false
         }
       },
@@ -3258,7 +3258,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 12.875
+      "posit_atual": 12.4
     },
     {
       "codigo": "83",
@@ -3275,13 +3275,13 @@
         "bovino": {
           "label": "Bovino",
           "meta": 15.0,
-          "real": 1,
+          "real": 2,
           "bateu": false
         },
         "batata": {
           "label": "Batata",
           "meta": 15.0,
-          "real": 8,
+          "real": 10,
           "bateu": false
         },
         "suino": {
@@ -3293,31 +3293,31 @@
         "calabresa": {
           "label": "Calabresa",
           "meta": 15.0,
-          "real": 20,
+          "real": 28,
           "bateu": true
         },
         "paes": {
           "label": "Pães",
           "meta": 15.0,
-          "real": 3,
+          "real": 4,
           "bateu": false
         },
         "frescais": {
           "label": "Frescais",
           "meta": 20.0,
-          "real": 22,
+          "real": 35,
           "bateu": true
         },
         "lacteos": {
           "label": "Lácteos",
           "meta": 15.0,
-          "real": 18,
+          "real": 23,
           "bateu": true
         },
         "thermo": {
           "label": "Thermo",
           "meta": 40.0,
-          "real": 34,
+          "real": 39,
           "bateu": false
         }
       },
@@ -3325,7 +3325,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 11.8125
+      "posit_atual": 11.4
     },
     {
       "codigo": "85",
@@ -3336,7 +3336,7 @@
         "bacon": {
           "label": "Bacon",
           "meta": 15.0,
-          "real": 3,
+          "real": 8,
           "bateu": false
         },
         "bovino": {
@@ -3348,7 +3348,7 @@
         "batata": {
           "label": "Batata",
           "meta": 15.0,
-          "real": 9,
+          "real": 10,
           "bateu": false
         },
         "suino": {
@@ -3360,39 +3360,39 @@
         "calabresa": {
           "label": "Calabresa",
           "meta": 15.0,
-          "real": 22,
+          "real": 28,
           "bateu": true
         },
         "paes": {
           "label": "Pães",
           "meta": 15.0,
-          "real": 13,
+          "real": 14,
           "bateu": false
         },
         "frescais": {
           "label": "Frescais",
           "meta": 20.0,
-          "real": 13,
+          "real": 19,
           "bateu": false
         },
         "lacteos": {
           "label": "Lácteos",
           "meta": 15.0,
-          "real": 21,
+          "real": 23,
           "bateu": true
         },
         "thermo": {
           "label": "Thermo",
           "meta": 40.0,
-          "real": 36,
-          "bateu": false
+          "real": 46,
+          "bateu": true
         }
       },
-      "categorias_atingidas": 2,
+      "categorias_atingidas": 3,
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 15.375
+      "posit_atual": 14.28
     },
     {
       "codigo": "192",
@@ -3409,57 +3409,57 @@
         "bovino": {
           "label": "Bovino",
           "meta": 15.0,
-          "real": 2,
+          "real": 4,
           "bateu": false
         },
         "batata": {
           "label": "Batata",
           "meta": 15.0,
-          "real": 3,
+          "real": 5,
           "bateu": false
         },
         "suino": {
           "label": "Suíno",
           "meta": 15.0,
-          "real": 1,
+          "real": 4,
           "bateu": false
         },
         "calabresa": {
           "label": "Calabresa",
           "meta": 15.0,
-          "real": 16,
+          "real": 21,
           "bateu": true
         },
         "paes": {
           "label": "Pães",
           "meta": 15.0,
-          "real": 8,
+          "real": 10,
           "bateu": false
         },
         "frescais": {
           "label": "Frescais",
           "meta": 20.0,
-          "real": 17,
-          "bateu": false
+          "real": 20,
+          "bateu": true
         },
         "lacteos": {
           "label": "Lácteos",
           "meta": 15.0,
-          "real": 10,
+          "real": 13,
           "bateu": false
         },
         "thermo": {
           "label": "Thermo",
           "meta": 40.0,
-          "real": 24,
+          "real": 25,
           "bateu": false
         }
       },
-      "categorias_atingidas": 1,
+      "categorias_atingidas": 2,
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 12.25
+      "posit_atual": 11.72
     },
     {
       "codigo": "649",
@@ -3482,7 +3482,7 @@
         "batata": {
           "label": "Batata",
           "meta": 15.0,
-          "real": 4,
+          "real": 5,
           "bateu": false
         },
         "suino": {
@@ -3494,31 +3494,31 @@
         "calabresa": {
           "label": "Calabresa",
           "meta": 15.0,
-          "real": 11,
+          "real": 14,
           "bateu": false
         },
         "paes": {
           "label": "Pães",
           "meta": 15.0,
-          "real": 5,
+          "real": 8,
           "bateu": false
         },
         "frescais": {
           "label": "Frescais",
           "meta": 20.0,
-          "real": 14,
+          "real": 17,
           "bateu": false
         },
         "lacteos": {
           "label": "Lácteos",
           "meta": 15.0,
-          "real": 13,
+          "real": 14,
           "bateu": false
         },
         "thermo": {
           "label": "Thermo",
           "meta": 40.0,
-          "real": 25,
+          "real": 29,
           "bateu": false
         }
       },
@@ -3526,7 +3526,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 10.3125
+      "posit_atual": 10.12
     },
     {
       "codigo": "650",
@@ -3537,63 +3537,63 @@
         "bacon": {
           "label": "Bacon",
           "meta": 15.0,
-          "real": 4,
+          "real": 6,
           "bateu": false
         },
         "bovino": {
           "label": "Bovino",
           "meta": 15.0,
-          "real": 3,
+          "real": 7,
           "bateu": false
         },
         "batata": {
           "label": "Batata",
           "meta": 15.0,
-          "real": 12,
-          "bateu": false
+          "real": 16,
+          "bateu": true
         },
         "suino": {
           "label": "Suíno",
           "meta": 15.0,
-          "real": 3,
+          "real": 6,
           "bateu": false
         },
         "calabresa": {
           "label": "Calabresa",
           "meta": 15.0,
-          "real": 16,
+          "real": 22,
           "bateu": true
         },
         "paes": {
           "label": "Pães",
           "meta": 15.0,
-          "real": 10,
+          "real": 13,
           "bateu": false
         },
         "frescais": {
           "label": "Frescais",
           "meta": 20.0,
-          "real": 9,
+          "real": 18,
           "bateu": false
         },
         "lacteos": {
           "label": "Lácteos",
           "meta": 15.0,
-          "real": 16,
+          "real": 17,
           "bateu": true
         },
         "thermo": {
           "label": "Thermo",
           "meta": 40.0,
-          "real": 29,
+          "real": 37,
           "bateu": false
         }
       },
-      "categorias_atingidas": 2,
+      "categorias_atingidas": 3,
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 8.75
+      "posit_atual": 9.24
     },
     {
       "codigo": "12",
@@ -3628,39 +3628,39 @@
         "calabresa": {
           "label": "Calabresa",
           "meta": 15.0,
-          "real": 5,
+          "real": 8,
           "bateu": false
         },
         "paes": {
           "label": "Pães",
           "meta": 15.0,
-          "real": 9,
+          "real": 11,
           "bateu": false
         },
         "frescais": {
           "label": "Frescais",
           "meta": 20.0,
-          "real": 11,
+          "real": 16,
           "bateu": false
         },
         "lacteos": {
           "label": "Lácteos",
           "meta": 15.0,
-          "real": 13,
-          "bateu": false
+          "real": 18,
+          "bateu": true
         },
         "thermo": {
           "label": "Thermo",
           "meta": 40.0,
-          "real": 27,
+          "real": 30,
           "bateu": false
         }
       },
-      "categorias_atingidas": 0,
+      "categorias_atingidas": 1,
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 9.625
+      "posit_atual": 9.48
     },
     {
       "codigo": "377",
@@ -3671,63 +3671,63 @@
         "bacon": {
           "label": "Bacon",
           "meta": 15.0,
-          "real": 0,
+          "real": 3,
           "bateu": false
         },
         "bovino": {
           "label": "Bovino",
           "meta": 15.0,
-          "real": 9,
+          "real": 12,
           "bateu": false
         },
         "batata": {
           "label": "Batata",
           "meta": 15.0,
-          "real": 5,
+          "real": 8,
           "bateu": false
         },
         "suino": {
           "label": "Suíno",
           "meta": 15.0,
-          "real": 7,
+          "real": 9,
           "bateu": false
         },
         "calabresa": {
           "label": "Calabresa",
           "meta": 15.0,
-          "real": 10,
-          "bateu": false
+          "real": 16,
+          "bateu": true
         },
         "paes": {
           "label": "Pães",
           "meta": 15.0,
-          "real": 15,
+          "real": 16,
           "bateu": true
         },
         "frescais": {
           "label": "Frescais",
           "meta": 20.0,
-          "real": 14,
+          "real": 19,
           "bateu": false
         },
         "lacteos": {
           "label": "Lácteos",
           "meta": 15.0,
-          "real": 16,
+          "real": 23,
           "bateu": true
         },
         "thermo": {
           "label": "Thermo",
           "meta": 40.0,
-          "real": 37,
-          "bateu": false
+          "real": 47,
+          "bateu": true
         }
       },
-      "categorias_atingidas": 2,
+      "categorias_atingidas": 4,
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 13.6875
+      "posit_atual": 12.48
     },
     {
       "codigo": "383",
@@ -3762,39 +3762,39 @@
         "calabresa": {
           "label": "Calabresa",
           "meta": 15.0,
-          "real": 10,
+          "real": 12,
           "bateu": false
         },
         "paes": {
           "label": "Pães",
           "meta": 15.0,
-          "real": 5,
+          "real": 6,
           "bateu": false
         },
         "frescais": {
           "label": "Frescais",
           "meta": 20.0,
-          "real": 18,
-          "bateu": false
+          "real": 24,
+          "bateu": true
         },
         "lacteos": {
           "label": "Lácteos",
           "meta": 15.0,
-          "real": 17,
+          "real": 19,
           "bateu": true
         },
         "thermo": {
           "label": "Thermo",
           "meta": 40.0,
-          "real": 31,
+          "real": 38,
           "bateu": false
         }
       },
-      "categorias_atingidas": 1,
+      "categorias_atingidas": 2,
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 14
+      "posit_atual": 13.12
     },
     {
       "codigo": "471",
@@ -3805,7 +3805,7 @@
         "bacon": {
           "label": "Bacon",
           "meta": 15.0,
-          "real": 3,
+          "real": 4,
           "bateu": false
         },
         "bovino": {
@@ -3817,7 +3817,7 @@
         "batata": {
           "label": "Batata",
           "meta": 15.0,
-          "real": 6,
+          "real": 9,
           "bateu": false
         },
         "suino": {
@@ -3829,31 +3829,31 @@
         "calabresa": {
           "label": "Calabresa",
           "meta": 15.0,
-          "real": 11,
+          "real": 13,
           "bateu": false
         },
         "paes": {
           "label": "Pães",
           "meta": 15.0,
-          "real": 6,
+          "real": 9,
           "bateu": false
         },
         "frescais": {
           "label": "Frescais",
           "meta": 20.0,
-          "real": 10,
+          "real": 13,
           "bateu": false
         },
         "lacteos": {
           "label": "Lácteos",
           "meta": 15.0,
-          "real": 10,
+          "real": 13,
           "bateu": false
         },
         "thermo": {
           "label": "Thermo",
           "meta": 40.0,
-          "real": 19,
+          "real": 22,
           "bateu": false
         }
       },
@@ -3861,7 +3861,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 13.1875
+      "posit_atual": 12.2
     },
     {
       "codigo": "657",
@@ -3872,7 +3872,7 @@
         "bacon": {
           "label": "Bacon",
           "meta": 15.0,
-          "real": 1,
+          "real": 2,
           "bateu": false
         },
         "bovino": {
@@ -3896,7 +3896,7 @@
         "calabresa": {
           "label": "Calabresa",
           "meta": 15.0,
-          "real": 12,
+          "real": 13,
           "bateu": false
         },
         "paes": {
@@ -3908,7 +3908,7 @@
         "frescais": {
           "label": "Frescais",
           "meta": 20.0,
-          "real": 8,
+          "real": 14,
           "bateu": false
         },
         "lacteos": {
@@ -3920,7 +3920,7 @@
         "thermo": {
           "label": "Thermo",
           "meta": 40.0,
-          "real": 14,
+          "real": 15,
           "bateu": false
         }
       },
@@ -3928,7 +3928,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 8.0625
+      "posit_atual": 7.64
     },
     {
       "codigo": "781",
@@ -4073,7 +4073,7 @@
         "bacon": {
           "label": "Bacon",
           "meta": 15.0,
-          "real": 3,
+          "real": 5,
           "bateu": false
         },
         "bovino": {
@@ -4085,51 +4085,51 @@
         "batata": {
           "label": "Batata",
           "meta": 15.0,
-          "real": 2,
+          "real": 7,
           "bateu": false
         },
         "suino": {
           "label": "Suíno",
           "meta": 15.0,
-          "real": 3,
+          "real": 4,
           "bateu": false
         },
         "calabresa": {
           "label": "Calabresa",
           "meta": 15.0,
-          "real": 16,
+          "real": 21,
           "bateu": true
         },
         "paes": {
           "label": "Pães",
           "meta": 15.0,
-          "real": 18,
+          "real": 23,
           "bateu": true
         },
         "frescais": {
           "label": "Frescais",
           "meta": 20.0,
-          "real": 9,
+          "real": 15,
           "bateu": false
         },
         "lacteos": {
           "label": "Lácteos",
           "meta": 15.0,
-          "real": 12,
-          "bateu": false
+          "real": 19,
+          "bateu": true
         },
         "thermo": {
           "label": "Thermo",
           "meta": 40.0,
-          "real": 17,
+          "real": 18,
           "bateu": false
         }
       },
-      "categorias_atingidas": 2,
+      "categorias_atingidas": 3,
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 9.75
+      "posit_atual": 9.32
     },
     {
       "codigo": "738",
@@ -4140,87 +4140,20 @@
         "bacon": {
           "label": "Bacon",
           "meta": 15.0,
-          "real": 2,
-          "bateu": false
-        },
-        "bovino": {
-          "label": "Bovino",
-          "meta": 15.0,
-          "real": 4,
-          "bateu": false
-        },
-        "batata": {
-          "label": "Batata",
-          "meta": 15.0,
-          "real": 13,
-          "bateu": false
-        },
-        "suino": {
-          "label": "Suíno",
-          "meta": 15.0,
           "real": 3,
           "bateu": false
         },
-        "calabresa": {
-          "label": "Calabresa",
-          "meta": 15.0,
-          "real": 13,
-          "bateu": false
-        },
-        "paes": {
-          "label": "Pães",
-          "meta": 15.0,
-          "real": 8,
-          "bateu": false
-        },
-        "frescais": {
-          "label": "Frescais",
-          "meta": 20.0,
-          "real": 14,
-          "bateu": false
-        },
-        "lacteos": {
-          "label": "Lácteos",
-          "meta": 15.0,
-          "real": 15,
-          "bateu": true
-        },
-        "thermo": {
-          "label": "Thermo",
-          "meta": 40.0,
-          "real": 28,
-          "bateu": false
-        }
-      },
-      "categorias_atingidas": 1,
-      "total_categorias": 9,
-      "bateu": false,
-      "media_pedidos_atual": 15,
-      "posit_atual": 14.5
-    },
-    {
-      "codigo": "164",
-      "nome": "JOAO VITOR",
-      "rota": "GYN RT 13 - B",
-      "supervisor": "IDEGLAN",
-      "categorias": {
-        "bacon": {
-          "label": "Bacon",
-          "meta": 15.0,
-          "real": 5,
-          "bateu": false
-        },
         "bovino": {
           "label": "Bovino",
           "meta": 15.0,
-          "real": 5,
+          "real": 6,
           "bateu": false
         },
         "batata": {
           "label": "Batata",
           "meta": 15.0,
-          "real": 14,
-          "bateu": false
+          "real": 18,
+          "bateu": true
         },
         "suino": {
           "label": "Suíno",
@@ -4231,39 +4164,106 @@
         "calabresa": {
           "label": "Calabresa",
           "meta": 15.0,
-          "real": 17,
+          "real": 15,
           "bateu": true
         },
         "paes": {
           "label": "Pães",
           "meta": 15.0,
-          "real": 13,
+          "real": 9,
           "bateu": false
         },
         "frescais": {
           "label": "Frescais",
           "meta": 20.0,
-          "real": 9,
-          "bateu": false
+          "real": 22,
+          "bateu": true
         },
         "lacteos": {
           "label": "Lácteos",
           "meta": 15.0,
-          "real": 23,
+          "real": 27,
           "bateu": true
         },
         "thermo": {
           "label": "Thermo",
           "meta": 40.0,
-          "real": 36,
+          "real": 37,
           "bateu": false
         }
       },
-      "categorias_atingidas": 2,
+      "categorias_atingidas": 4,
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 20.625
+      "posit_atual": 14.56
+    },
+    {
+      "codigo": "164",
+      "nome": "JOAO VITOR",
+      "rota": "GYN RT 13 - B",
+      "supervisor": "IDEGLAN",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 11,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 8,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 18,
+          "bateu": true
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 7,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 20,
+          "bateu": true
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 16,
+          "bateu": true
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 13,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 26,
+          "bateu": true
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 41,
+          "bateu": true
+        }
+      },
+      "categorias_atingidas": 5,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 18.04
     },
     {
       "codigo": "428",
@@ -4274,63 +4274,63 @@
         "bacon": {
           "label": "Bacon",
           "meta": 15.0,
-          "real": 4,
+          "real": 6,
           "bateu": false
         },
         "bovino": {
           "label": "Bovino",
           "meta": 15.0,
-          "real": 5,
+          "real": 7,
           "bateu": false
         },
         "batata": {
           "label": "Batata",
           "meta": 15.0,
-          "real": 8,
+          "real": 10,
           "bateu": false
         },
         "suino": {
           "label": "Suíno",
           "meta": 15.0,
-          "real": 3,
+          "real": 5,
           "bateu": false
         },
         "calabresa": {
           "label": "Calabresa",
           "meta": 15.0,
-          "real": 14,
-          "bateu": false
+          "real": 17,
+          "bateu": true
         },
         "paes": {
           "label": "Pães",
           "meta": 15.0,
-          "real": 17,
+          "real": 22,
           "bateu": true
         },
         "frescais": {
           "label": "Frescais",
           "meta": 20.0,
-          "real": 5,
+          "real": 9,
           "bateu": false
         },
         "lacteos": {
           "label": "Lácteos",
           "meta": 15.0,
-          "real": 20,
+          "real": 21,
           "bateu": true
         },
         "thermo": {
           "label": "Thermo",
           "meta": 40.0,
-          "real": 25,
+          "real": 31,
           "bateu": false
         }
       },
-      "categorias_atingidas": 2,
+      "categorias_atingidas": 3,
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 11
+      "posit_atual": 9.84
     },
     {
       "codigo": "439",
@@ -4353,31 +4353,165 @@
         "batata": {
           "label": "Batata",
           "meta": 15.0,
-          "real": 12,
-          "bateu": false
+          "real": 16,
+          "bateu": true
         },
         "suino": {
           "label": "Suíno",
           "meta": 15.0,
-          "real": 4,
+          "real": 6,
           "bateu": false
         },
         "calabresa": {
           "label": "Calabresa",
           "meta": 15.0,
-          "real": 12,
+          "real": 15,
+          "bateu": true
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 15,
+          "bateu": true
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 11,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 17,
+          "bateu": true
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 28,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 4,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 15.44
+    },
+    {
+      "codigo": "735",
+      "nome": "carlos rafael",
+      "rota": "",
+      "supervisor": "IDEGLAN",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 6,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 7,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 6,
+          "bateu": false
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 6,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 11,
           "bateu": false
         },
         "paes": {
           "label": "Pães",
           "meta": 15.0,
-          "real": 14,
+          "real": 10,
           "bateu": false
         },
         "frescais": {
           "label": "Frescais",
           "meta": 20.0,
+          "real": 18,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 16,
+          "bateu": true
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 26,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 1,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 8.8
+    },
+    {
+      "codigo": "622",
+      "nome": "HAMBER",
+      "rota": "GYN RT 65 - P",
+      "supervisor": "IDEGLAN",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 7,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 5,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 10,
+          "bateu": false
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
           "real": 6,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 18,
+          "bateu": true
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 8,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 17,
           "bateu": false
         },
         "lacteos": {
@@ -4389,74 +4523,7 @@
         "thermo": {
           "label": "Thermo",
           "meta": 40.0,
-          "real": 23,
-          "bateu": false
-        }
-      },
-      "categorias_atingidas": 0,
-      "total_categorias": 9,
-      "bateu": false,
-      "media_pedidos_atual": 15,
-      "posit_atual": 16.75
-    },
-    {
-      "codigo": "735",
-      "nome": "carlos rafael",
-      "rota": "",
-      "supervisor": "IDEGLAN",
-      "categorias": {
-        "bacon": {
-          "label": "Bacon",
-          "meta": 15.0,
-          "real": 5,
-          "bateu": false
-        },
-        "bovino": {
-          "label": "Bovino",
-          "meta": 15.0,
-          "real": 6,
-          "bateu": false
-        },
-        "batata": {
-          "label": "Batata",
-          "meta": 15.0,
-          "real": 5,
-          "bateu": false
-        },
-        "suino": {
-          "label": "Suíno",
-          "meta": 15.0,
-          "real": 5,
-          "bateu": false
-        },
-        "calabresa": {
-          "label": "Calabresa",
-          "meta": 15.0,
-          "real": 8,
-          "bateu": false
-        },
-        "paes": {
-          "label": "Pães",
-          "meta": 15.0,
-          "real": 9,
-          "bateu": false
-        },
-        "frescais": {
-          "label": "Frescais",
-          "meta": 20.0,
-          "real": 16,
-          "bateu": false
-        },
-        "lacteos": {
-          "label": "Lácteos",
-          "meta": 15.0,
-          "real": 15,
-          "bateu": true
-        },
-        "thermo": {
-          "label": "Thermo",
-          "meta": 40.0,
-          "real": 23,
+          "real": 17,
           "bateu": false
         }
       },
@@ -4464,74 +4531,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 10.1875
-    },
-    {
-      "codigo": "622",
-      "nome": "HAMBER",
-      "rota": "GYN RT 65 - P",
-      "supervisor": "IDEGLAN",
-      "categorias": {
-        "bacon": {
-          "label": "Bacon",
-          "meta": 15.0,
-          "real": 3,
-          "bateu": false
-        },
-        "bovino": {
-          "label": "Bovino",
-          "meta": 15.0,
-          "real": 2,
-          "bateu": false
-        },
-        "batata": {
-          "label": "Batata",
-          "meta": 15.0,
-          "real": 4,
-          "bateu": false
-        },
-        "suino": {
-          "label": "Suíno",
-          "meta": 15.0,
-          "real": 5,
-          "bateu": false
-        },
-        "calabresa": {
-          "label": "Calabresa",
-          "meta": 15.0,
-          "real": 11,
-          "bateu": false
-        },
-        "paes": {
-          "label": "Pães",
-          "meta": 15.0,
-          "real": 7,
-          "bateu": false
-        },
-        "frescais": {
-          "label": "Frescais",
-          "meta": 20.0,
-          "real": 12,
-          "bateu": false
-        },
-        "lacteos": {
-          "label": "Lácteos",
-          "meta": 15.0,
-          "real": 12,
-          "bateu": false
-        },
-        "thermo": {
-          "label": "Thermo",
-          "meta": 40.0,
-          "real": 11,
-          "bateu": false
-        }
-      },
-      "categorias_atingidas": 0,
-      "total_categorias": 9,
-      "bateu": false,
-      "media_pedidos_atual": 15,
-      "posit_atual": 11.5625
+      "posit_atual": 12.08
     },
     {
       "codigo": "16",
@@ -4554,7 +4554,7 @@
         "batata": {
           "label": "Batata",
           "meta": 15.0,
-          "real": 7,
+          "real": 9,
           "bateu": false
         },
         "suino": {
@@ -4566,19 +4566,19 @@
         "calabresa": {
           "label": "Calabresa",
           "meta": 15.0,
-          "real": 14,
-          "bateu": false
+          "real": 16,
+          "bateu": true
         },
         "paes": {
           "label": "Pães",
           "meta": 15.0,
-          "real": 4,
+          "real": 6,
           "bateu": false
         },
         "frescais": {
           "label": "Frescais",
           "meta": 20.0,
-          "real": 6,
+          "real": 11,
           "bateu": false
         },
         "lacteos": {
@@ -4590,15 +4590,15 @@
         "thermo": {
           "label": "Thermo",
           "meta": 40.0,
-          "real": 13,
+          "real": 18,
           "bateu": false
         }
       },
-      "categorias_atingidas": 0,
+      "categorias_atingidas": 1,
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 11.125
+      "posit_atual": 11.24
     },
     {
       "codigo": "398",
@@ -4627,7 +4627,7 @@
         "suino": {
           "label": "Suíno",
           "meta": 15.0,
-          "real": 2,
+          "real": 3,
           "bateu": false
         },
         "calabresa": {
@@ -4639,13 +4639,13 @@
         "paes": {
           "label": "Pães",
           "meta": 15.0,
-          "real": 3,
+          "real": 4,
           "bateu": false
         },
         "frescais": {
           "label": "Frescais",
           "meta": 20.0,
-          "real": 5,
+          "real": 9,
           "bateu": false
         },
         "lacteos": {
@@ -4657,7 +4657,7 @@
         "thermo": {
           "label": "Thermo",
           "meta": 40.0,
-          "real": 7,
+          "real": 10,
           "bateu": false
         }
       },
@@ -4665,7 +4665,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 9.625
+      "posit_atual": 10.04
     },
     {
       "codigo": "723",
@@ -4676,19 +4676,19 @@
         "bacon": {
           "label": "Bacon",
           "meta": 15.0,
-          "real": 0,
+          "real": 1,
           "bateu": false
         },
         "bovino": {
           "label": "Bovino",
           "meta": 15.0,
-          "real": 1,
+          "real": 3,
           "bateu": false
         },
         "batata": {
           "label": "Batata",
           "meta": 15.0,
-          "real": 1,
+          "real": 3,
           "bateu": false
         },
         "suino": {
@@ -4700,19 +4700,19 @@
         "calabresa": {
           "label": "Calabresa",
           "meta": 15.0,
-          "real": 6,
+          "real": 9,
           "bateu": false
         },
         "paes": {
           "label": "Pães",
           "meta": 15.0,
-          "real": 4,
+          "real": 6,
           "bateu": false
         },
         "frescais": {
           "label": "Frescais",
           "meta": 20.0,
-          "real": 3,
+          "real": 11,
           "bateu": false
         },
         "lacteos": {
@@ -4724,7 +4724,7 @@
         "thermo": {
           "label": "Thermo",
           "meta": 40.0,
-          "real": 14,
+          "real": 23,
           "bateu": false
         }
       },
@@ -4732,7 +4732,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 6.25
+      "posit_atual": 6.92
     },
     {
       "codigo": "644",
@@ -4743,19 +4743,19 @@
         "bacon": {
           "label": "Bacon",
           "meta": 15.0,
-          "real": 4,
+          "real": 5,
           "bateu": false
         },
         "bovino": {
           "label": "Bovino",
           "meta": 15.0,
-          "real": 1,
+          "real": 4,
           "bateu": false
         },
         "batata": {
           "label": "Batata",
           "meta": 15.0,
-          "real": 7,
+          "real": 9,
           "bateu": false
         },
         "suino": {
@@ -4767,7 +4767,7 @@
         "calabresa": {
           "label": "Calabresa",
           "meta": 15.0,
-          "real": 11,
+          "real": 14,
           "bateu": false
         },
         "paes": {
@@ -4779,19 +4779,19 @@
         "frescais": {
           "label": "Frescais",
           "meta": 20.0,
-          "real": 15,
+          "real": 18,
           "bateu": false
         },
         "lacteos": {
           "label": "Lácteos",
           "meta": 15.0,
-          "real": 12,
+          "real": 13,
           "bateu": false
         },
         "thermo": {
           "label": "Thermo",
           "meta": 40.0,
-          "real": 22,
+          "real": 27,
           "bateu": false
         }
       },
@@ -4799,7 +4799,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 13.125
+      "posit_atual": 12.84
     },
     {
       "codigo": "467",
@@ -4810,7 +4810,7 @@
         "bacon": {
           "label": "Bacon",
           "meta": 15.0,
-          "real": 5,
+          "real": 9,
           "bateu": false
         },
         "bovino": {
@@ -4834,13 +4834,13 @@
         "calabresa": {
           "label": "Calabresa",
           "meta": 15.0,
-          "real": 4,
+          "real": 6,
           "bateu": false
         },
         "paes": {
           "label": "Pães",
           "meta": 15.0,
-          "real": 1,
+          "real": 2,
           "bateu": false
         },
         "frescais": {
@@ -4852,13 +4852,13 @@
         "lacteos": {
           "label": "Lácteos",
           "meta": 15.0,
-          "real": 8,
+          "real": 11,
           "bateu": false
         },
         "thermo": {
           "label": "Thermo",
           "meta": 40.0,
-          "real": 16,
+          "real": 28,
           "bateu": false
         }
       },
@@ -4866,7 +4866,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 8.0625
+      "posit_atual": 8.16
     },
     {
       "codigo": "729",
@@ -4883,7 +4883,7 @@
         "bovino": {
           "label": "Bovino",
           "meta": 15.0,
-          "real": 1,
+          "real": 2,
           "bateu": false
         },
         "batata": {
@@ -4901,31 +4901,31 @@
         "calabresa": {
           "label": "Calabresa",
           "meta": 15.0,
-          "real": 6,
+          "real": 7,
           "bateu": false
         },
         "paes": {
           "label": "Pães",
           "meta": 15.0,
-          "real": 6,
+          "real": 7,
           "bateu": false
         },
         "frescais": {
           "label": "Frescais",
           "meta": 20.0,
-          "real": 4,
+          "real": 5,
           "bateu": false
         },
         "lacteos": {
           "label": "Lácteos",
           "meta": 15.0,
-          "real": 5,
+          "real": 6,
           "bateu": false
         },
         "thermo": {
           "label": "Thermo",
           "meta": 40.0,
-          "real": 12,
+          "real": 13,
           "bateu": false
         }
       },
@@ -4933,7 +4933,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 9.9375
+      "posit_atual": 10.36
     },
     {
       "codigo": "802",
@@ -4956,7 +4956,7 @@
         "batata": {
           "label": "Batata",
           "meta": 15.0,
-          "real": 1,
+          "real": 2,
           "bateu": false
         },
         "suino": {
@@ -4968,7 +4968,7 @@
         "calabresa": {
           "label": "Calabresa",
           "meta": 15.0,
-          "real": 3,
+          "real": 4,
           "bateu": false
         },
         "paes": {
@@ -4986,13 +4986,13 @@
         "lacteos": {
           "label": "Lácteos",
           "meta": 15.0,
-          "real": 2,
+          "real": 3,
           "bateu": false
         },
         "thermo": {
           "label": "Thermo",
           "meta": 40.0,
-          "real": 0,
+          "real": 1,
           "bateu": false
         }
       },
@@ -5000,7 +5000,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 3.25
+      "posit_atual": 3.2
     },
     {
       "codigo": "698",
@@ -5023,25 +5023,25 @@
         "batata": {
           "label": "Batata",
           "meta": 15.0,
-          "real": 4,
+          "real": 9,
           "bateu": false
         },
         "suino": {
           "label": "Suíno",
           "meta": 15.0,
-          "real": 3,
+          "real": 6,
           "bateu": false
         },
         "calabresa": {
           "label": "Calabresa",
           "meta": 15.0,
-          "real": 4,
+          "real": 5,
           "bateu": false
         },
         "paes": {
           "label": "Pães",
           "meta": 15.0,
-          "real": 8,
+          "real": 9,
           "bateu": false
         },
         "frescais": {
@@ -5059,7 +5059,7 @@
         "thermo": {
           "label": "Thermo",
           "meta": 40.0,
-          "real": 20,
+          "real": 23,
           "bateu": false
         }
       },
@@ -5067,7 +5067,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 11
+      "posit_atual": 10.8
     },
     {
       "codigo": "42",
@@ -5090,25 +5090,92 @@
         "batata": {
           "label": "Batata",
           "meta": 15.0,
-          "real": 7,
-          "bateu": false
+          "real": 15,
+          "bateu": true
         },
         "suino": {
           "label": "Suíno",
           "meta": 15.0,
-          "real": 9,
+          "real": 10,
           "bateu": false
         },
         "calabresa": {
           "label": "Calabresa",
           "meta": 15.0,
-          "real": 7,
+          "real": 12,
           "bateu": false
         },
         "paes": {
           "label": "Pães",
           "meta": 15.0,
-          "real": 2,
+          "real": 3,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 23,
+          "bateu": true
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 3,
+          "bateu": false
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 14,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 2,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 14.68
+    },
+    {
+      "codigo": "334",
+      "nome": "JOAO GABRIEL",
+      "rota": "GYN RT",
+      "supervisor": "RICHARD",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 4,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 4,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 6,
+          "bateu": false
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 5,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 5,
+          "bateu": false
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 1,
           "bateu": false
         },
         "frescais": {
@@ -5120,13 +5187,13 @@
         "lacteos": {
           "label": "Lácteos",
           "meta": 15.0,
-          "real": 3,
+          "real": 0,
           "bateu": false
         },
         "thermo": {
           "label": "Thermo",
           "meta": 40.0,
-          "real": 12,
+          "real": 18,
           "bateu": false
         }
       },
@@ -5134,12 +5201,12 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 16.0625
+      "posit_atual": 8.68
     },
     {
-      "codigo": "334",
-      "nome": "JOAO GABRIEL",
-      "rota": "GYN RT",
+      "codigo": "802",
+      "nome": "SUBSTITUTO",
+      "rota": "GYN RT 105 - FERISTA",
       "supervisor": "RICHARD",
       "categorias": {
         "bacon": {
@@ -5151,19 +5218,19 @@
         "bovino": {
           "label": "Bovino",
           "meta": 15.0,
-          "real": 3,
+          "real": 1,
           "bateu": false
         },
         "batata": {
           "label": "Batata",
           "meta": 15.0,
-          "real": 5,
+          "real": 2,
           "bateu": false
         },
         "suino": {
           "label": "Suíno",
           "meta": 15.0,
-          "real": 3,
+          "real": 4,
           "bateu": false
         },
         "calabresa": {
@@ -5175,100 +5242,33 @@
         "paes": {
           "label": "Pães",
           "meta": 15.0,
+          "real": 3,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 3,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 3,
+          "bateu": false
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
           "real": 1,
           "bateu": false
-        },
-        "frescais": {
-          "label": "Frescais",
-          "meta": 20.0,
-          "real": 9,
-          "bateu": false
-        },
-        "lacteos": {
-          "label": "Lácteos",
-          "meta": 15.0,
-          "real": 0,
-          "bateu": false
-        },
-        "thermo": {
-          "label": "Thermo",
-          "meta": 40.0,
-          "real": 14,
-          "bateu": false
         }
       },
       "categorias_atingidas": 0,
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 9.25
-    },
-    {
-      "codigo": "352",
-      "nome": "DOUGLAS",
-      "rota": "GYN RT 34 - ST",
-      "supervisor": "RICHARD",
-      "categorias": {
-        "bacon": {
-          "label": "Bacon",
-          "meta": 15.0,
-          "real": 0,
-          "bateu": false
-        },
-        "bovino": {
-          "label": "Bovino",
-          "meta": 15.0,
-          "real": 0,
-          "bateu": false
-        },
-        "batata": {
-          "label": "Batata",
-          "meta": 15.0,
-          "real": 0,
-          "bateu": false
-        },
-        "suino": {
-          "label": "Suíno",
-          "meta": 15.0,
-          "real": 0,
-          "bateu": false
-        },
-        "calabresa": {
-          "label": "Calabresa",
-          "meta": 15.0,
-          "real": 0,
-          "bateu": false
-        },
-        "paes": {
-          "label": "Pães",
-          "meta": 15.0,
-          "real": 0,
-          "bateu": false
-        },
-        "frescais": {
-          "label": "Frescais",
-          "meta": 20.0,
-          "real": 0,
-          "bateu": false
-        },
-        "lacteos": {
-          "label": "Lácteos",
-          "meta": 15.0,
-          "real": 0,
-          "bateu": false
-        },
-        "thermo": {
-          "label": "Thermo",
-          "meta": 40.0,
-          "real": 0,
-          "bateu": false
-        }
-      },
-      "categorias_atingidas": 0,
-      "total_categorias": 9,
-      "bateu": false,
-      "media_pedidos_atual": 15,
-      "posit_atual": 0
+      "posit_atual": 3.2
     },
     {
       "codigo": "473",
@@ -5279,55 +5279,55 @@
         "bacon": {
           "label": "Bacon",
           "meta": 15.0,
-          "real": 2,
+          "real": 4,
           "bateu": false
         },
         "bovino": {
           "label": "Bovino",
           "meta": 15.0,
-          "real": 1,
+          "real": 3,
           "bateu": false
         },
         "batata": {
           "label": "Batata",
           "meta": 15.0,
-          "real": 12,
+          "real": 14,
           "bateu": false
         },
         "suino": {
           "label": "Suíno",
           "meta": 15.0,
-          "real": 8,
+          "real": 10,
           "bateu": false
         },
         "calabresa": {
           "label": "Calabresa",
           "meta": 15.0,
-          "real": 9,
+          "real": 13,
           "bateu": false
         },
         "paes": {
           "label": "Pães",
           "meta": 15.0,
-          "real": 3,
+          "real": 5,
           "bateu": false
         },
         "frescais": {
           "label": "Frescais",
           "meta": 20.0,
-          "real": 24,
+          "real": 29,
           "bateu": true
         },
         "lacteos": {
           "label": "Lácteos",
           "meta": 15.0,
-          "real": 9,
+          "real": 10,
           "bateu": false
         },
         "thermo": {
           "label": "Thermo",
           "meta": 40.0,
-          "real": 14,
+          "real": 15,
           "bateu": false
         }
       },
@@ -5335,7 +5335,7 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 14.4375
+      "posit_atual": 12.88
     },
     {
       "codigo": "751",
@@ -5346,13 +5346,13 @@
         "bacon": {
           "label": "Bacon",
           "meta": 15.0,
-          "real": 0,
+          "real": 3,
           "bateu": false
         },
         "bovino": {
           "label": "Bovino",
           "meta": 15.0,
-          "real": 3,
+          "real": 4,
           "bateu": false
         },
         "batata": {
@@ -5364,13 +5364,13 @@
         "suino": {
           "label": "Suíno",
           "meta": 15.0,
-          "real": 6,
+          "real": 7,
           "bateu": false
         },
         "calabresa": {
           "label": "Calabresa",
           "meta": 15.0,
-          "real": 8,
+          "real": 11,
           "bateu": false
         },
         "paes": {
@@ -5382,8 +5382,8 @@
         "frescais": {
           "label": "Frescais",
           "meta": 20.0,
-          "real": 16,
-          "bateu": false
+          "real": 21,
+          "bateu": true
         },
         "lacteos": {
           "label": "Lácteos",
@@ -5394,15 +5394,15 @@
         "thermo": {
           "label": "Thermo",
           "meta": 40.0,
-          "real": 21,
+          "real": 22,
           "bateu": false
         }
       },
-      "categorias_atingidas": 0,
+      "categorias_atingidas": 1,
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 12.5625
+      "posit_atual": 12.24
     },
     {
       "codigo": "687",
@@ -5413,37 +5413,37 @@
         "bacon": {
           "label": "Bacon",
           "meta": 15.0,
-          "real": 2,
+          "real": 4,
           "bateu": false
         },
         "bovino": {
           "label": "Bovino",
           "meta": 15.0,
-          "real": 1,
+          "real": 4,
           "bateu": false
         },
         "batata": {
           "label": "Batata",
           "meta": 15.0,
-          "real": 9,
+          "real": 10,
           "bateu": false
         },
         "suino": {
           "label": "Suíno",
           "meta": 15.0,
-          "real": 10,
-          "bateu": false
+          "real": 15,
+          "bateu": true
         },
         "calabresa": {
           "label": "Calabresa",
           "meta": 15.0,
-          "real": 11,
+          "real": 14,
           "bateu": false
         },
         "paes": {
           "label": "Pães",
           "meta": 15.0,
-          "real": 3,
+          "real": 4,
           "bateu": false
         },
         "frescais": {
@@ -5455,21 +5455,21 @@
         "lacteos": {
           "label": "Lácteos",
           "meta": 15.0,
-          "real": 5,
+          "real": 6,
           "bateu": false
         },
         "thermo": {
           "label": "Thermo",
           "meta": 40.0,
-          "real": 11,
+          "real": 12,
           "bateu": false
         }
       },
-      "categorias_atingidas": 0,
+      "categorias_atingidas": 1,
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 13.875
+      "posit_atual": 12.56
     },
     {
       "codigo": "679",
@@ -5480,6 +5480,73 @@
         "bacon": {
           "label": "Bacon",
           "meta": 15.0,
+          "real": 9,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 12,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 17,
+          "bateu": true
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 6,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 21,
+          "bateu": true
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 6,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 21,
+          "bateu": true
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 14,
+          "bateu": false
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 24,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 3,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 11.68
+    },
+    {
+      "codigo": "722",
+      "nome": "LUIZ GUSTAVO",
+      "rota": "GYN RT",
+      "supervisor": "RODRIGO",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
           "real": 5,
           "bateu": false
         },
@@ -5492,299 +5559,31 @@
         "batata": {
           "label": "Batata",
           "meta": 15.0,
-          "real": 15,
-          "bateu": true
-        },
-        "suino": {
-          "label": "Suíno",
-          "meta": 15.0,
-          "real": 6,
-          "bateu": false
-        },
-        "calabresa": {
-          "label": "Calabresa",
-          "meta": 15.0,
-          "real": 16,
-          "bateu": true
-        },
-        "paes": {
-          "label": "Pães",
-          "meta": 15.0,
-          "real": 6,
-          "bateu": false
-        },
-        "frescais": {
-          "label": "Frescais",
-          "meta": 20.0,
-          "real": 14,
-          "bateu": false
-        },
-        "lacteos": {
-          "label": "Lácteos",
-          "meta": 15.0,
-          "real": 12,
-          "bateu": false
-        },
-        "thermo": {
-          "label": "Thermo",
-          "meta": 40.0,
-          "real": 18,
-          "bateu": false
-        }
-      },
-      "categorias_atingidas": 2,
-      "total_categorias": 9,
-      "bateu": false,
-      "media_pedidos_atual": 15,
-      "posit_atual": 12.5625
-    },
-    {
-      "codigo": "722",
-      "nome": "LUIZ GUSTAVO",
-      "rota": "GYN RT",
-      "supervisor": "RODRIGO",
-      "categorias": {
-        "bacon": {
-          "label": "Bacon",
-          "meta": 15.0,
-          "real": 4,
-          "bateu": false
-        },
-        "bovino": {
-          "label": "Bovino",
-          "meta": 15.0,
-          "real": 3,
-          "bateu": false
-        },
-        "batata": {
-          "label": "Batata",
-          "meta": 15.0,
-          "real": 15,
-          "bateu": true
-        },
-        "suino": {
-          "label": "Suíno",
-          "meta": 15.0,
-          "real": 3,
-          "bateu": false
-        },
-        "calabresa": {
-          "label": "Calabresa",
-          "meta": 15.0,
-          "real": 9,
-          "bateu": false
-        },
-        "paes": {
-          "label": "Pães",
-          "meta": 15.0,
-          "real": 8,
-          "bateu": false
-        },
-        "frescais": {
-          "label": "Frescais",
-          "meta": 20.0,
-          "real": 9,
-          "bateu": false
-        },
-        "lacteos": {
-          "label": "Lácteos",
-          "meta": 15.0,
-          "real": 16,
-          "bateu": true
-        },
-        "thermo": {
-          "label": "Thermo",
-          "meta": 40.0,
-          "real": 17,
-          "bateu": false
-        }
-      },
-      "categorias_atingidas": 2,
-      "total_categorias": 9,
-      "bateu": false,
-      "media_pedidos_atual": 15,
-      "posit_atual": 15.75
-    },
-    {
-      "codigo": "47",
-      "nome": "MARCELO",
-      "rota": "GYN RT",
-      "supervisor": "RODRIGO",
-      "categorias": {
-        "bacon": {
-          "label": "Bacon",
-          "meta": 15.0,
-          "real": 4,
-          "bateu": false
-        },
-        "bovino": {
-          "label": "Bovino",
-          "meta": 15.0,
-          "real": 8,
-          "bateu": false
-        },
-        "batata": {
-          "label": "Batata",
-          "meta": 15.0,
-          "real": 16,
-          "bateu": true
-        },
-        "suino": {
-          "label": "Suíno",
-          "meta": 15.0,
-          "real": 4,
-          "bateu": false
-        },
-        "calabresa": {
-          "label": "Calabresa",
-          "meta": 15.0,
-          "real": 15,
-          "bateu": true
-        },
-        "paes": {
-          "label": "Pães",
-          "meta": 15.0,
           "real": 20,
           "bateu": true
         },
-        "frescais": {
-          "label": "Frescais",
-          "meta": 20.0,
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 5,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 15,
+          "bateu": true
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
           "real": 11,
           "bateu": false
         },
-        "lacteos": {
-          "label": "Lácteos",
-          "meta": 15.0,
-          "real": 17,
-          "bateu": true
-        },
-        "thermo": {
-          "label": "Thermo",
-          "meta": 40.0,
-          "real": 39,
-          "bateu": false
-        }
-      },
-      "categorias_atingidas": 4,
-      "total_categorias": 9,
-      "bateu": false,
-      "media_pedidos_atual": 15,
-      "posit_atual": 14.8125
-    },
-    {
-      "codigo": "347",
-      "nome": "MATIAS",
-      "rota": "GYN RT 98 - BR",
-      "supervisor": "RODRIGO",
-      "categorias": {
-        "bacon": {
-          "label": "Bacon",
-          "meta": 15.0,
-          "real": 3,
-          "bateu": false
-        },
-        "bovino": {
-          "label": "Bovino",
-          "meta": 15.0,
-          "real": 1,
-          "bateu": false
-        },
-        "batata": {
-          "label": "Batata",
-          "meta": 15.0,
-          "real": 7,
-          "bateu": false
-        },
-        "suino": {
-          "label": "Suíno",
-          "meta": 15.0,
-          "real": 3,
-          "bateu": false
-        },
-        "calabresa": {
-          "label": "Calabresa",
-          "meta": 15.0,
-          "real": 12,
-          "bateu": false
-        },
-        "paes": {
-          "label": "Pães",
-          "meta": 15.0,
-          "real": 10,
-          "bateu": false
-        },
         "frescais": {
           "label": "Frescais",
           "meta": 20.0,
-          "real": 4,
-          "bateu": false
-        },
-        "lacteos": {
-          "label": "Lácteos",
-          "meta": 15.0,
-          "real": 15,
-          "bateu": true
-        },
-        "thermo": {
-          "label": "Thermo",
-          "meta": 40.0,
-          "real": 34,
-          "bateu": false
-        }
-      },
-      "categorias_atingidas": 1,
-      "total_categorias": 9,
-      "bateu": false,
-      "media_pedidos_atual": 15,
-      "posit_atual": 12.5
-    },
-    {
-      "codigo": "357",
-      "nome": "LUCIANO",
-      "rota": "GYN RT 95 -",
-      "supervisor": "RODRIGO",
-      "categorias": {
-        "bacon": {
-          "label": "Bacon",
-          "meta": 15.0,
-          "real": 2,
-          "bateu": false
-        },
-        "bovino": {
-          "label": "Bovino",
-          "meta": 15.0,
-          "real": 2,
-          "bateu": false
-        },
-        "batata": {
-          "label": "Batata",
-          "meta": 15.0,
-          "real": 15,
-          "bateu": true
-        },
-        "suino": {
-          "label": "Suíno",
-          "meta": 15.0,
-          "real": 6,
-          "bateu": false
-        },
-        "calabresa": {
-          "label": "Calabresa",
-          "meta": 15.0,
-          "real": 7,
-          "bateu": false
-        },
-        "paes": {
-          "label": "Pães",
-          "meta": 15.0,
-          "real": 8,
-          "bateu": false
-        },
-        "frescais": {
-          "label": "Frescais",
-          "meta": 20.0,
-          "real": 6,
+          "real": 19,
           "bateu": false
         },
         "lacteos": {
@@ -5796,57 +5595,57 @@
         "thermo": {
           "label": "Thermo",
           "meta": 40.0,
-          "real": 42,
-          "bateu": true
+          "real": 25,
+          "bateu": false
         }
       },
       "categorias_atingidas": 3,
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 11.9375
+      "posit_atual": 15.04
     },
     {
-      "codigo": "405",
-      "nome": "WILLIAN",
-      "rota": "GYN RT 77 - TLMK",
+      "codigo": "47",
+      "nome": "MARCELO",
+      "rota": "GYN RT",
       "supervisor": "RODRIGO",
       "categorias": {
         "bacon": {
           "label": "Bacon",
           "meta": 15.0,
-          "real": 2,
+          "real": 6,
           "bateu": false
         },
         "bovino": {
           "label": "Bovino",
           "meta": 15.0,
-          "real": 4,
+          "real": 11,
           "bateu": false
         },
         "batata": {
           "label": "Batata",
           "meta": 15.0,
-          "real": 9,
-          "bateu": false
+          "real": 18,
+          "bateu": true
         },
         "suino": {
           "label": "Suíno",
           "meta": 15.0,
-          "real": 3,
+          "real": 4,
           "bateu": false
         },
         "calabresa": {
           "label": "Calabresa",
           "meta": 15.0,
-          "real": 4,
-          "bateu": false
+          "real": 20,
+          "bateu": true
         },
         "paes": {
           "label": "Pães",
           "meta": 15.0,
-          "real": 5,
-          "bateu": false
+          "real": 21,
+          "bateu": true
         },
         "frescais": {
           "label": "Frescais",
@@ -5857,105 +5656,38 @@
         "lacteos": {
           "label": "Lácteos",
           "meta": 15.0,
-          "real": 10,
-          "bateu": false
-        },
-        "thermo": {
-          "label": "Thermo",
-          "meta": 40.0,
-          "real": 13,
-          "bateu": false
-        }
-      },
-      "categorias_atingidas": 0,
-      "total_categorias": 9,
-      "bateu": false,
-      "media_pedidos_atual": 15,
-      "posit_atual": 13.875
-    },
-    {
-      "codigo": "660",
-      "nome": "LUCAS",
-      "rota": "GYN RT 04 - J",
-      "supervisor": "RODRIGO",
-      "categorias": {
-        "bacon": {
-          "label": "Bacon",
-          "meta": 15.0,
-          "real": 2,
-          "bateu": false
-        },
-        "bovino": {
-          "label": "Bovino",
-          "meta": 15.0,
-          "real": 3,
-          "bateu": false
-        },
-        "batata": {
-          "label": "Batata",
-          "meta": 15.0,
-          "real": 6,
-          "bateu": false
-        },
-        "suino": {
-          "label": "Suíno",
-          "meta": 15.0,
-          "real": 3,
-          "bateu": false
-        },
-        "calabresa": {
-          "label": "Calabresa",
-          "meta": 15.0,
-          "real": 16,
+          "real": 21,
           "bateu": true
         },
-        "paes": {
-          "label": "Pães",
-          "meta": 15.0,
-          "real": 6,
-          "bateu": false
-        },
-        "frescais": {
-          "label": "Frescais",
-          "meta": 20.0,
-          "real": 12,
-          "bateu": false
-        },
-        "lacteos": {
-          "label": "Lácteos",
-          "meta": 15.0,
-          "real": 13,
-          "bateu": false
-        },
         "thermo": {
           "label": "Thermo",
           "meta": 40.0,
-          "real": 20,
-          "bateu": false
+          "real": 50,
+          "bateu": true
         }
       },
-      "categorias_atingidas": 1,
+      "categorias_atingidas": 5,
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 9.4375
+      "posit_atual": 14.6
     },
     {
-      "codigo": "561",
-      "nome": "THALLES VIEIRA",
-      "rota": "GY",
+      "codigo": "347",
+      "nome": "MATIAS",
+      "rota": "GYN RT 98 - BR",
       "supervisor": "RODRIGO",
       "categorias": {
         "bacon": {
           "label": "Bacon",
           "meta": 15.0,
-          "real": 0,
+          "real": 4,
           "bateu": false
         },
         "bovino": {
           "label": "Bovino",
           "meta": 15.0,
-          "real": 0,
+          "real": 2,
           "bateu": false
         },
         "batata": {
@@ -5967,25 +5699,226 @@
         "suino": {
           "label": "Suíno",
           "meta": 15.0,
-          "real": 1,
+          "real": 3,
           "bateu": false
         },
         "calabresa": {
           "label": "Calabresa",
           "meta": 15.0,
-          "real": 16,
-          "bateu": true
+          "real": 14,
+          "bateu": false
         },
         "paes": {
           "label": "Pães",
           "meta": 15.0,
-          "real": 12,
+          "real": 11,
           "bateu": false
         },
         "frescais": {
           "label": "Frescais",
           "meta": 20.0,
+          "real": 9,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 19,
+          "bateu": true
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 41,
+          "bateu": true
+        }
+      },
+      "categorias_atingidas": 2,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 11.36
+    },
+    {
+      "codigo": "357",
+      "nome": "LUCIANO",
+      "rota": "GYN RT 95 -",
+      "supervisor": "RODRIGO",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 3,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 2,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 18,
+          "bateu": true
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
           "real": 6,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 10,
+          "bateu": false
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 11,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 8,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 28,
+          "bateu": true
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 53,
+          "bateu": true
+        }
+      },
+      "categorias_atingidas": 3,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 11.2
+    },
+    {
+      "codigo": "405",
+      "nome": "WILLIAN",
+      "rota": "GYN RT 77 - TLMK",
+      "supervisor": "RODRIGO",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 6,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 4,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 11,
+          "bateu": false
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 6,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 6,
+          "bateu": false
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 5,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 18,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 12,
+          "bateu": false
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 17,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 0,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 13.16
+    },
+    {
+      "codigo": "660",
+      "nome": "LUCAS",
+      "rota": "GYN RT 04 - J",
+      "supervisor": "RODRIGO",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 5,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 4,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 8,
+          "bateu": false
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 3,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 17,
+          "bateu": true
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 6,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 15,
           "bateu": false
         },
         "lacteos": {
@@ -5997,7 +5930,7 @@
         "thermo": {
           "label": "Thermo",
           "meta": 40.0,
-          "real": 16,
+          "real": 24,
           "bateu": false
         }
       },
@@ -6005,7 +5938,74 @@
       "total_categorias": 9,
       "bateu": false,
       "media_pedidos_atual": 15,
-      "posit_atual": 9.9375
+      "posit_atual": 8.36
+    },
+    {
+      "codigo": "561",
+      "nome": "THALLES VIEIRA",
+      "rota": "GY",
+      "supervisor": "RODRIGO",
+      "categorias": {
+        "bacon": {
+          "label": "Bacon",
+          "meta": 15.0,
+          "real": 2,
+          "bateu": false
+        },
+        "bovino": {
+          "label": "Bovino",
+          "meta": 15.0,
+          "real": 3,
+          "bateu": false
+        },
+        "batata": {
+          "label": "Batata",
+          "meta": 15.0,
+          "real": 10,
+          "bateu": false
+        },
+        "suino": {
+          "label": "Suíno",
+          "meta": 15.0,
+          "real": 1,
+          "bateu": false
+        },
+        "calabresa": {
+          "label": "Calabresa",
+          "meta": 15.0,
+          "real": 20,
+          "bateu": true
+        },
+        "paes": {
+          "label": "Pães",
+          "meta": 15.0,
+          "real": 14,
+          "bateu": false
+        },
+        "frescais": {
+          "label": "Frescais",
+          "meta": 20.0,
+          "real": 11,
+          "bateu": false
+        },
+        "lacteos": {
+          "label": "Lácteos",
+          "meta": 15.0,
+          "real": 20,
+          "bateu": true
+        },
+        "thermo": {
+          "label": "Thermo",
+          "meta": 40.0,
+          "real": 20,
+          "bateu": false
+        }
+      },
+      "categorias_atingidas": 2,
+      "total_categorias": 9,
+      "bateu": false,
+      "media_pedidos_atual": 15,
+      "posit_atual": 9.56
     }
   ],
   "evolucao_faturamento": [
@@ -6068,9 +6068,9 @@
     {
       "mes": "Setembro",
       "meta": 12000000,
-      "faturamento": 6867946.6891127,
-      "pct_meta": -0.42767110924060836,
-      "saldo_meta": -5132053.3108873
+      "faturamento": 11060951.324668948,
+      "pct_meta": -0.07825405627758775,
+      "saldo_meta": -939048.6753310524
     },
     {
       "mes": "Outubro",
@@ -6096,9 +6096,9 @@
   ],
   "evolucao_total_faturamento": {
     "meta": 130000000.0,
-    "faturamento": 112225031.93809514,
-    "pct_meta": -0.13673052355311432,
-    "saldo_meta": -17774968.061904863
+    "faturamento": 116418036.57365139,
+    "pct_meta": -0.10447664174114313,
+    "saldo_meta": -13581963.426348612
   },
   "evolucao_operacional": [
     {
@@ -6175,12 +6175,12 @@
     },
     {
       "mes": "Setembro",
-      "margem_pct": 0.12329381763448134,
-      "peso": 1006990.4656250001,
-      "preco_medio": 12.310690339238532,
-      "variacao_pct": 0.08453907978176489,
-      "cli_atendidos": 3122,
-      "cresc_mensal": -545
+      "margem_pct": 0.1352,
+      "peso": 877984.8769999999,
+      "preco_medio": 12.636740450371104,
+      "variacao_pct": 0.11326322747341555,
+      "cli_atendidos": 3569,
+      "cresc_mensal": -98
     },
     {
       "mes": "Outubro",
@@ -6211,11 +6211,11 @@
     }
   ],
   "evolucao_total_operacional": {
-    "margem_pct": 0.11982058485065067,
-    "peso": 11244697.644624999,
-    "preco_medio": 9.980262296491276,
-    "variacao_pct": -0.054003573792296256,
-    "cli_atendidos": 3550,
-    "cresc_mensal": -448
+    "margem_pct": 0.12107689348696814,
+    "peso": 11115692.056,
+    "preco_medio": 10.473305304532214,
+    "variacao_pct": -0.007269639380832804,
+    "cli_atendidos": 3600,
+    "cresc_mensal": -1
   }
 }

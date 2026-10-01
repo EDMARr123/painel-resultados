@@ -60,9 +60,9 @@
     {
       "mes": "Setembro",
       "meta": 12000000,
-      "faturamento": 6867946.6891127,
-      "pct_meta": -0.42767110924060836,
-      "saldo_meta": -5132053.3108873
+      "faturamento": 11060951.324668948,
+      "pct_meta": -0.07825405627758775,
+      "saldo_meta": -939048.6753310524
     },
     {
       "mes": "Outubro",
@@ -88,9 +88,9 @@
   ],
   "total_faturamento": {
     "meta": 130000000.0,
-    "faturamento": 112225031.93809514,
-    "pct_meta": -0.13673052355311432,
-    "saldo_meta": -17774968.061904863
+    "faturamento": 116418036.57365139,
+    "pct_meta": -0.10447664174114313,
+    "saldo_meta": -13581963.426348612
   },
   "operacional": [
     {
@@ -167,12 +167,12 @@
     },
     {
       "mes": "Setembro",
-      "margem_pct": 0.12329381763448134,
-      "peso": 1006990.4656250001,
-      "preco_medio": 12.310690339238532,
-      "variacao_pct": 0.08453907978176489,
-      "cli_atendidos": 3122,
-      "cresc_mensal": -545
+      "margem_pct": 0.1352,
+      "peso": 877984.8769999999,
+      "preco_medio": 12.636740450371104,
+      "variacao_pct": 0.11326322747341555,
+      "cli_atendidos": 3569,
+      "cresc_mensal": -98
     },
     {
       "mes": "Outubro",
@@ -203,11 +203,11 @@
     }
   ],
   "total_operacional": {
-    "margem_pct": 0.11982058485065067,
-    "peso": 11244697.644624999,
-    "preco_medio": 9.980262296491276,
-    "variacao_pct": -0.054003573792296256,
-    "cli_atendidos": 3550,
-    "cresc_mensal": -448
+    "margem_pct": 0.12107689348696814,
+    "peso": 11115692.056,
+    "preco_medio": 10.473305304532214,
+    "variacao_pct": -0.007269639380832804,
+    "cli_atendidos": 3600,
+    "cresc_mensal": -1
   }
 }
