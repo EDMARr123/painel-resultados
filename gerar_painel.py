@@ -768,7 +768,7 @@ function slideCronograma() {
     ["TREINAMENTO", "EDMAR", "PROJEÇÃO", "40 MINUTOS - 09:55 HS"],
     ["VENDEDOR DESTAQUE", "EDMAR", "PROJEÇÃO", "05 MINUTOS - 09:00 HS"],
     ["APRESENTAÇÃO PARCERIA", "IVO", "PROJEÇÃO", "10 MINUTOS - 10:10 HS"],
-    ["ENCERRAMENTO", "IVO", "PROJEÇÃO", "05 MINUTOS - 10:05 HS"],
+    ["ENCERRAMENTO", "IVO", "PROJEÇÃO", "05 MINUTOS - 10:15 HS"],
   ].map(([oque, quem, como, tempo]) => `
     <tr><td>${oque}</td><td>${quem}</td><td>${como}</td><td>${tempo}</td><td></td></tr>`).join("");
   return `
@@ -782,7 +782,7 @@ function slideCronograma() {
         </div>
         <div class="cronograma-linha2">
           <div class="data">DATA: 03/10/2026</div>
-          <div class="horario">HORÁRIO: (08:00 AS 10:00 HS)</div>
+          <div class="horario">HORÁRIO: (08:00 AS 10:15 HS)</div>
         </div>
         <div class="cronograma-linha3">
           <div class="meet">SENAI Fatesg</div>
