@@ -756,16 +756,18 @@ function slideEncerramento() {
 
 function slideCronograma() {
   const pauta = [
-    ["INICIO REUNIÃO", "SUPERVISORES", "VERBAL", "05 MINUTOS - 07:05 HS"],
-    ["APRESENTAÇÃO RESULTADOS ANUAL", "SUPERVISORES", "PROJEÇÃO", "05 MINUTOS - 07:10 HS"],
-    ["APRESENTAÇÃO RESULTADOS MENSAL", "SUPERVISORES", "PROJEÇÃO", "10 MINUTOS - 07:20 HS"],
-    ["LOGISTICA", "SUPERVISORES", "PROJEÇÃO", "05 MINUTOS - 07:25 HS"],
-    ["PREMIAÇÃO THERMO", "SUPERVISORES", "PROJEÇÃO", "05 MINUTOS - 07:30 HS"],
-    ["POSITIVAÇÃO DIA 15", "SUPERVISORES", "PROJEÇÃO", "05 MINUTOS - 07:35 HS"],
-    ["RESULTADO RECOMPRA", "SUPERVISORES", "PROJEÇÃO", "05 MINUTOS - 07:40 HS"],
-    ["VENDA DE DEPARTAMENTOS", "SUPERVISORES", "PROJEÇÃO", "10 MINUTOS - 07:50 HS"],
-    ["VENDEDOR DESTAQUE", "SUPERVISORES", "PROJEÇÃO", "05 MINUTOS - 07:55 HS"],
-    ["PREMIAÇÃO AGOSTO", "SUPERVISORES", "PROJEÇÃO", "05 MINUTOS - 08:00 HS"],
+    ["INICIO REUNIÃO", "EDMAR", "VERBAL", "05 MINUTOS - 08:05 HS"],
+    ["APRESENTAÇÃO RESULTADOS ANUAL", "EDMAR", "PROJEÇÃO", "05 MINUTOS - 08:10 HS"],
+    ["APRESENTAÇÃO RESULTADOS MENSAL", "SUPERVISORES", "PROJEÇÃO", "15 MINUTOS - 08:25 HS"],
+    ["LOGISTICA", "CELISMAR", "PROJEÇÃO", "05 MINUTOS - 08:30 HS"],
+    ["PREMIAÇÃO THERMO", "RICHARD", "PROJEÇÃO", "05 MINUTOS - 08:35 HS"],
+    ["POSITIVAÇÃO DIA 15", "RICHARD", "PROJEÇÃO", "05 MINUTOS - 08:40 HS"],
+    ["RESULTADO RECOMPRA", "RICHARD", "PROJEÇÃO", "05 MINUTOS - 08:45 HS"],
+    ["VENDA DE DEPARTAMENTOS", "RICHARD", "PROJEÇÃO", "10 MINUTOS - 08:55 HS"],
+    ["VENDEDOR DESTAQUE", "EDMAR", "PROJEÇÃO", "05 MINUTOS - 09:00 HS"],
+    ["COFFEE BREAK", "TODOS", "PROJEÇÃO", "15 MINUTOS - 09:15 HS"],
+    ["TREINAMENTO", "EDMAR", "PROJEÇÃO", "40 MINUTOS - 09:55 HS"],
+    ["ENCERRAMENTO", "EDMAR", "PROJEÇÃO", "05 MINUTOS - 10:00 HS"],
   ].map(([oque, quem, como, tempo]) => `
     <tr><td>${oque}</td><td>${quem}</td><td>${como}</td><td>${tempo}</td><td></td></tr>`).join("");
   return `
@@ -778,11 +780,11 @@ function slideCronograma() {
           <img src="__LOGO_FRIATO_URI__" alt="Friato Alimentos">
         </div>
         <div class="cronograma-linha2">
-          <div class="data">DATA: 04/09/2026</div>
-          <div class="horario">HORÁRIO: (07:00 AS 08:00 HS)</div>
+          <div class="data">DATA: 03/10/2026</div>
+          <div class="horario">HORÁRIO: (08:00 AS 10:00 HS)</div>
         </div>
         <div class="cronograma-linha3">
-          <div class="meet">GOOGLE MEET</div>
+          <div class="meet">SENAI Fatesg</div>
           <div class="coord">COORDENADOR: <span>SUPERVISORES</span></div>
         </div>
         <div class="cronograma-linha4">DIRETORIA:</div>
