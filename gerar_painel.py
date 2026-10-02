@@ -766,7 +766,7 @@ function slideCronograma() {
     ["VENDA DE DEPARTAMENTOS", "RICHARD", "PROJEÇÃO", "10 MINUTOS - 08:55 HS"],
     ["COFFEE BREAK", "TODOS", "PROJEÇÃO", "15 MINUTOS - 09:15 HS"],
     ["TREINAMENTO", "EDMAR", "PROJEÇÃO", "40 MINUTOS - 09:55 HS"],
-    ["VENDEDOR DESTAQUE", "EDMAR", "PROJEÇÃO", "05 MINUTOS - 09:00 HS"],
+    ["VENDEDOR DESTAQUE", "EDMAR", "PROJEÇÃO", "05 MINUTOS - 10:00 HS"],
     ["APRESENTAÇÃO PARCERIA", "IVO", "PROJEÇÃO", "10 MINUTOS - 10:10 HS"],
     ["ENCERRAMENTO", "IVO", "PROJEÇÃO", "05 MINUTOS - 10:15 HS"],
   ].map(([oque, quem, como, tempo]) => `
