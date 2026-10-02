@@ -764,10 +764,11 @@ function slideCronograma() {
     ["POSITIVAÇÃO DIA 15", "RICHARD", "PROJEÇÃO", "05 MINUTOS - 08:40 HS"],
     ["RESULTADO RECOMPRA", "RICHARD", "PROJEÇÃO", "05 MINUTOS - 08:45 HS"],
     ["VENDA DE DEPARTAMENTOS", "RICHARD", "PROJEÇÃO", "10 MINUTOS - 08:55 HS"],
-    ["VENDEDOR DESTAQUE", "EDMAR", "PROJEÇÃO", "05 MINUTOS - 09:00 HS"],
     ["COFFEE BREAK", "TODOS", "PROJEÇÃO", "15 MINUTOS - 09:15 HS"],
     ["TREINAMENTO", "EDMAR", "PROJEÇÃO", "40 MINUTOS - 09:55 HS"],
-    ["ENCERRAMENTO", "EDMAR", "PROJEÇÃO", "05 MINUTOS - 10:00 HS"],
+    ["VENDEDOR DESTAQUE", "EDMAR", "PROJEÇÃO", "05 MINUTOS - 09:00 HS"],
+    ["APRESENTAÇÃO PARCERIA", "IVO", "PROJEÇÃO", "10 MINUTOS - 10:10 HS"],
+    ["ENCERRAMENTO", "IVO", "PROJEÇÃO", "05 MINUTOS - 10:05 HS"],
   ].map(([oque, quem, como, tempo]) => `
     <tr><td>${oque}</td><td>${quem}</td><td>${como}</td><td>${tempo}</td><td></td></tr>`).join("");
   return `
