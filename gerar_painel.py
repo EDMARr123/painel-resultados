@@ -403,6 +403,16 @@ h1, h2, .eyebrow, .destaque-nome, .capa-linha {
 .tabela-comissao td.cod { text-align: center; font-weight: 700; color: var(--ink-soft); }
 .tabela-comissao td.valor { text-align: right; font-weight: 800; color: var(--good); font-variant-numeric: tabular-nums; }
 
+/* Comissão Extra de 1% Industrializado Friato — mesma cara do Thermo, com a
+   regra embaixo do título e as colunas que mostram que o RCA passou nela. */
+.comissao-regra { margin-top: -10px; text-align: center; font-size: clamp(11px, 1.1vw, 14px); color: var(--ink-soft); }
+.comissao-regra b { color: var(--ink); }
+.tabela-comissao.larga { max-width: 980px; }
+.tabela-comissao.larga td { padding-top: 5px; padding-bottom: 5px; }
+.tabela-comissao.larga td:nth-child(2) { text-align: left; }
+.tabela-comissao th.num, .tabela-comissao td.num { text-align: right; font-variant-numeric: tabular-nums; }
+.tabela-comissao tfoot td { border-top: 2px solid var(--good); padding: 10px 14px; font-weight: 800; background: var(--surface-2); }
+
 /* Recompra por equipe — réplica das tabelas "RECOMPRA EQUIPE X": >=30%
    grave (destaque vermelho), 20-29% atenção (texto vermelho simples),
    <20% no caminho (destaque verde) — regra do slide "RECOMPRA" do PPT. */
@@ -1361,6 +1371,45 @@ function slideComissaoThermo() {
     </div>`;
 }
 
+/* Regra da SOMA (aba SOMAR 4 PILARES, coluna BI): participação acima de
+   24,99% E margem acima de 17,99% no Industrializado Friato → prêmio de 1%
+   sobre o valor vendido de industrializado. Calculado aqui pela regra. */
+function slideComissaoIndustrializado() {
+  const ganhadores = (DADOS.rcas_pilares || [])
+    .filter(r => r.industrializado && r.industrializado.participacao_pct > 0.2499 && r.industrializado.margem_pct > 0.1799)
+    .map(r => ({ r, premio: Math.round(r.industrializado.real) / 100 }))
+    .sort((a, b) => b.premio - a.premio);
+  if (!ganhadores.length) return "";
+  const pct = v => (v * 100).toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + "%";
+  const linhas = ganhadores.map(({ r, premio }) => `
+    <tr>
+      <td class="cod">${r.codigo}</td>
+      <td>${r.nome}${r.rota ? " - " + r.rota : ""}</td>
+      <td class="num">${fmtMoedaSimples(r.industrializado.real)}</td>
+      <td class="num">${pct(r.industrializado.participacao_pct)}</td>
+      <td class="num">${pct(r.industrializado.margem_pct)}</td>
+      <td class="valor">${fmtMoedaSimples(premio)}</td>
+    </tr>`).join("");
+  const total = ganhadores.reduce((t, g) => t + g.premio, 0);
+  return `
+    <div class="slide comissao">
+      ${logosEvolucao("__LOGO_FRIATO_URI__", "__LOGO_FRIATO_URI__")}
+      <div class="comissao-corpo">
+        <div class="comissao-titulo">
+          <div>Comissão Extra de</div>
+          <div class="pct-destaque">1%</div>
+          <div>Industrializado Friato</div>
+        </div>
+        <div class="comissao-regra">Participação acima de <b>24,99%</b> e margem acima de <b>17,99%</b> · prêmio de <b>1%</b> sobre o valor vendido de industrializado</div>
+        <table class="tabela-comissao larga">
+          <thead><tr><th>Codusu</th><th>Nome</th><th class="num">Vendido Industr.</th><th class="num">Particip.</th><th class="num">Margem</th><th class="num">Prêmio 1%</th></tr></thead>
+          <tbody>${linhas}</tbody>
+          <tfoot><tr><td></td><td>${ganhadores.length} vendedores</td><td></td><td></td><td></td><td class="valor">${fmtMoedaSimples(total)}</td></tr></tfoot>
+        </table>
+      </div>
+    </div>`;
+}
+
 function slidePositivacaoDiaRegras() {
   const iconePessoas = `<svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>`;
   const iconePlay = `<svg viewBox="0 0 24 24" fill="#2E5F7A" stroke="none"><polygon points="6,3 21,12 6,21"/></svg>`;
@@ -1749,6 +1798,7 @@ function montarSlidesCompletos(chaveEscolhida) {
     ...antesDosTimes,
     ...blocosTimes,
     slideComissaoThermo(),
+    slideComissaoIndustrializado(),
     slidePositivacaoDiaRegras(),
     slideGanhadoresPositivacao("positivacao_dia15", "Ganhadores Dia 15"),
     slideGanhadoresPositivacao("positivacao_dia30", "Ganhadores Dia 30"),
