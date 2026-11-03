@@ -1199,7 +1199,7 @@ function slideRecompraEquipe(supervisorChave, supervisorNome) {
 // (nessa ordem — o resumo fecha o bloco, é o último slide da equipe).
 const SUPERVISORES = [
   { chave: "LEANDRO", nome: "Leandro", emblema: "gladiadores" },
-  { chave: "RICARDO", nome: "Ricardo", emblema: "veteranos" },
+  { chave: "LUCAS", nome: "Lucas", emblema: "veteranos" },  // desde 16/10/2026 a Equipe Veteranos é do LUCAS (era do RICARDO)
   { chave: "RICHARD", nome: "Richard", emblema: "titans" },
   { chave: "RODRIGO", nome: "Rodrigo", emblema: "imperadores" },
   { chave: "IDEGLAN", nome: "Ideglan", emblema: "aguia" },
