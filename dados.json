@@ -6711,5 +6711,407 @@
     "variacao_pct": 0.009918302964941672,
     "cli_atendidos": 3590,
     "cresc_mensal": -70
+  },
+  "excelencia": {
+    "periodo": "01/10/2026 a 31/10/2026",
+    "gerado_pdf": "03/11/2026 10:13",
+    "fechado": true,
+    "meta_kg": 24200,
+    "peso_total": 16760.809999999998,
+    "meta_sup": {
+      "LEANDRO": 4456,
+      "RICHARD": 3856,
+      "RODRIGO": 3743,
+      "IDEGLAN": 5021,
+      "LUCAS": 3412,
+      "FLAVIANE": 3712
+    },
+    "duelos": [
+      [
+        "IDEGLAN",
+        "RICHARD"
+      ],
+      [
+        "LUCAS",
+        "FLAVIANE"
+      ],
+      [
+        "LEANDRO",
+        "RODRIGO"
+      ]
+    ],
+    "equipes": {
+      "LEANDRO": [
+        {
+          "cod": "650",
+          "nome": "ANDRE WILKER",
+          "pts": 48948,
+          "pos": 50,
+          "peso": 729.7699999999999
+        },
+        {
+          "cod": "85",
+          "nome": "CARLOS HENRIQUE",
+          "pts": 34474,
+          "pos": 29,
+          "peso": 449.51
+        },
+        {
+          "cod": "83",
+          "nome": "MARCOS SILVA",
+          "pts": 24384,
+          "pos": 37,
+          "peso": 388.6
+        },
+        {
+          "cod": "649",
+          "nome": "WALLACE SOUSA",
+          "pts": 17552,
+          "pos": 11,
+          "peso": 195.52
+        },
+        {
+          "cod": "81",
+          "nome": "LOIOLA",
+          "pts": 14980,
+          "pos": 9,
+          "peso": 174.6
+        },
+        {
+          "cod": "192",
+          "nome": "LUCAS LEAL",
+          "pts": 8250,
+          "pos": 8,
+          "peso": 130.53
+        },
+        {
+          "cod": "15",
+          "nome": "WESLEY",
+          "pts": 5335,
+          "pos": 6,
+          "peso": 64.45
+        }
+      ],
+      "RICHARD": [
+        {
+          "cod": "687",
+          "nome": "EDREY MARTINS",
+          "pts": 55135,
+          "pos": 32,
+          "peso": 686.3
+        },
+        {
+          "cod": "679",
+          "nome": "RAFAEL COSTA",
+          "pts": 42890,
+          "pos": 38,
+          "peso": 628.99
+        },
+        {
+          "cod": "473",
+          "nome": "KAIKY DIAS",
+          "pts": 39626,
+          "pos": 22,
+          "peso": 447.15
+        },
+        {
+          "cod": "806",
+          "nome": "MARCIO GABRIEL",
+          "pts": 32880,
+          "pos": 11,
+          "peso": 337.0
+        },
+        {
+          "cod": "802",
+          "nome": "SUBSTITUTO",
+          "pts": 30734,
+          "pos": 9,
+          "peso": 381.68000000000006
+        },
+        {
+          "cod": "334",
+          "nome": "JOAO GABRIEL",
+          "pts": 28502,
+          "pos": 22,
+          "peso": 412.21999999999997
+        },
+        {
+          "cod": "42",
+          "nome": "PAULO RONAN",
+          "pts": 17966,
+          "pos": 10,
+          "peso": 229.32999999999998
+        },
+        {
+          "cod": "751",
+          "nome": "JULIO CESAR",
+          "pts": 12240,
+          "pos": 8,
+          "peso": 160.0
+        }
+      ],
+      "RODRIGO": [
+        {
+          "cod": "357",
+          "nome": "LUCIANO",
+          "pts": 38798,
+          "pos": 46,
+          "peso": 628.77
+        },
+        {
+          "cod": "347",
+          "nome": "MATIAS",
+          "pts": 38674,
+          "pos": 45,
+          "peso": 609.9599999999999
+        },
+        {
+          "cod": "47",
+          "nome": "MARCELO",
+          "pts": 35210,
+          "pos": 46,
+          "peso": 474.2
+        },
+        {
+          "cod": "405",
+          "nome": "WILLIAN",
+          "pts": 10596,
+          "pos": 12,
+          "peso": 157.79
+        },
+        {
+          "cod": "660",
+          "nome": "LUCAS",
+          "pts": 7204,
+          "pos": 5,
+          "peso": 121.71
+        },
+        {
+          "cod": "561",
+          "nome": "THALLES VIEIRA",
+          "pts": 6150,
+          "pos": 7,
+          "peso": 80.0
+        },
+        {
+          "cod": "807",
+          "nome": "EDGARD MARLON",
+          "pts": 5023,
+          "pos": 4,
+          "peso": 67.19
+        },
+        {
+          "cod": "800",
+          "nome": "YASMIN VIANA",
+          "pts": 1529,
+          "pos": 2,
+          "peso": 30.18
+        }
+      ],
+      "IDEGLAN": [
+        {
+          "cod": "738",
+          "nome": "MARCEL HENRIQUE",
+          "pts": 86876,
+          "pos": 27,
+          "peso": 1250.6
+        },
+        {
+          "cod": "428",
+          "nome": "TAUA F.",
+          "pts": 78033,
+          "pos": 31,
+          "peso": 875.27
+        },
+        {
+          "cod": "439",
+          "nome": "GUILHERME AUGUSTO",
+          "pts": 59263,
+          "pos": 29,
+          "peso": 681.51
+        },
+        {
+          "cod": "45",
+          "nome": "TIAGO",
+          "pts": 54164,
+          "pos": 17,
+          "peso": 662.9100000000001
+        },
+        {
+          "cod": "722",
+          "nome": "LUIZ GUSTAVO",
+          "pts": 46186,
+          "pos": 29,
+          "peso": 620.3
+        },
+        {
+          "cod": "622",
+          "nome": "HAMBER",
+          "pts": 40484,
+          "pos": 18,
+          "peso": 529.24
+        },
+        {
+          "cod": "164",
+          "nome": "JOAO VITOR",
+          "pts": 25833,
+          "pos": 21,
+          "peso": 378.98
+        }
+      ],
+      "FLAVIANE": [
+        {
+          "cod": "383",
+          "nome": "GABRIEL LOURENÇO",
+          "pts": 37976,
+          "pos": 26,
+          "peso": 445.04
+        },
+        {
+          "cod": "471",
+          "nome": "ANTONIO EDVALDO",
+          "pts": 34144,
+          "pos": 16,
+          "peso": 417.15000000000003
+        },
+        {
+          "cod": "377",
+          "nome": "CELISMAR",
+          "pts": 30262,
+          "pos": 12,
+          "peso": 346.41
+        },
+        {
+          "cod": "657",
+          "nome": "YURI ENRIQUE",
+          "pts": 18894,
+          "pos": 12,
+          "peso": 299.05
+        },
+        {
+          "cod": "797",
+          "nome": "GLEIBSON B.",
+          "pts": 16640,
+          "pos": 7,
+          "peso": 245.0
+        },
+        {
+          "cod": "810",
+          "nome": "SUBSTITUTO",
+          "pts": 15562,
+          "pos": 7,
+          "peso": 204.23
+        },
+        {
+          "cod": "796",
+          "nome": "HAMAURY SENA",
+          "pts": 1260,
+          "pos": 1,
+          "peso": 25.0
+        },
+        {
+          "cod": "12",
+          "nome": "FABIANO",
+          "pts": 1040,
+          "pos": 4,
+          "peso": 20.0
+        }
+      ],
+      "LUCAS": [
+        {
+          "cod": "644",
+          "nome": "ALBERTO SANTOS",
+          "pts": 76218,
+          "pos": 19,
+          "peso": 1109.96
+        },
+        {
+          "cod": "467",
+          "nome": "IGOR SA",
+          "pts": 23796,
+          "pos": 20,
+          "peso": 394.71999999999997
+        },
+        {
+          "cod": "698",
+          "nome": "FERNANDO OLIVEIRA",
+          "pts": 20600,
+          "pos": 12,
+          "peso": 245.82
+        },
+        {
+          "cod": "729",
+          "nome": "MARCELO ALVES",
+          "pts": 17332,
+          "pos": 9,
+          "peso": 180.02
+        },
+        {
+          "cod": "398",
+          "nome": "UCLEIBSON",
+          "pts": 10200,
+          "pos": 9,
+          "peso": 129.0
+        },
+        {
+          "cod": "723",
+          "nome": "JEAN PIERRE",
+          "pts": 5310,
+          "pos": 8,
+          "peso": 69.0
+        },
+        {
+          "cod": "16",
+          "nome": "BERALDO",
+          "pts": 2358,
+          "pos": 5,
+          "peso": 46.15
+        }
+      ]
+    },
+    "totais": [
+      {
+        "sup": "IDEGLAN",
+        "pts": 390839,
+        "pos": 172,
+        "peso": 4998.8099999999995,
+        "n": 7
+      },
+      {
+        "sup": "RICHARD",
+        "pts": 259973,
+        "pos": 152,
+        "peso": 3282.67,
+        "n": 8
+      },
+      {
+        "sup": "LUCAS",
+        "pts": 155814,
+        "pos": 82,
+        "peso": 2174.67,
+        "n": 7
+      },
+      {
+        "sup": "FLAVIANE",
+        "pts": 155778,
+        "pos": 85,
+        "peso": 2001.88,
+        "n": 8
+      },
+      {
+        "sup": "LEANDRO",
+        "pts": 153923,
+        "pos": 150,
+        "peso": 2132.98,
+        "n": 7
+      },
+      {
+        "sup": "RODRIGO",
+        "pts": 143184,
+        "pos": 167,
+        "peso": 2169.7999999999997,
+        "n": 8
+      }
+    ]
   }
 }

@@ -21,7 +21,7 @@ CAMINHO_LOGO = os.path.join(PASTA_BASE, "..", "painel_pilares", "logo_tet.png")
 
 PASTA_EMBLEMAS = os.path.join(PASTA_BASE, "emblemas")
 CAMINHO_LOGO_FRIATO = os.path.join(PASTA_EMBLEMAS, "logo_friato.png")
-NOMES_EMBLEMAS = ["gladiadores", "vencedores", "imperadores", "aguia", "invictus", "veteranos", "titans", "falcao"]
+NOMES_EMBLEMAS = ["gladiadores", "vencedores", "imperadores", "aguia", "invictus", "veteranos", "supremos", "titans", "falcao"]
 CAMINHO_PRODUTOS_FRIATO = os.path.join(PASTA_BASE, "imagens", "produtos_friato.png")
 CAMINHO_VENDEDOR_TROFEU = os.path.join(PASTA_BASE, "imagens", "vendedor_trofeu.png")
 CAMINHO_GRAMADO = os.path.join(PASTA_BASE, "imagens", "gramado_churrascaria.png")
@@ -67,6 +67,23 @@ def _fotos_json(pasta, com_subpastas):
     return json.dumps(fotos, ensure_ascii=False)
 
 
+PASTA_EXCELENCIA = os.path.join(PASTA_BASE, "imagens", "excelencia")
+
+
+def _excelencia_slides_json():
+    """Slides da apresentação da Campanha Excelência, exportados do PowerPoint como slide1.jpg, slide2.jpg…"""
+    if not os.path.isdir(PASTA_EXCELENCIA):
+        return "[]"
+    arqs = sorted((f for f in os.listdir(PASTA_EXCELENCIA) if f.lower().endswith(".jpg")),
+                  key=lambda f: int("".join(c for c in f if c.isdigit()) or 0))
+    uris = []
+    for f in arqs:
+        with open(os.path.join(PASTA_EXCELENCIA, f), "rb") as arq:
+            uris.append("data:image/jpeg;base64," + base64.b64encode(arq.read()).decode("ascii"))
+    return json.dumps(uris)
+
+
+_EXCELENCIA_SLIDES_JSON = _excelencia_slides_json()
 _FOTOS_SUPERVISORES_JSON = _fotos_json(PASTA_FOTOS_SUPERVISORES, com_subpastas=False)
 _FOTOS_RCAS_JSON = _fotos_json(PASTA_FOTOS_RCAS, com_subpastas=True)
 _LOGO_URI = _logo_data_uri()
@@ -439,6 +456,35 @@ h1, h2, .eyebrow, .destaque-nome, .capa-linha {
 .tabela-departamentos td.nao-bateu { color: var(--bad); font-weight: 800; background: #FBE1DF; }
 .tabela-departamentos tr.total td { background: var(--surface-2); font-weight: 800; }
 
+/* Campanha Excelência: slides da campanha em tela cheia, resultado por equipe e desafios entre supervisores */
+.slide.imagem-cheia { padding: 0; background: #fff; }
+.slide.imagem-cheia img { width: 100%; height: 100%; object-fit: contain; }
+.exc-sub { margin: -12px 0 18px; font-size: clamp(13px, 1.3vw, 18px); font-weight: 700; color: var(--ink-soft); }
+.exc-sub b { color: var(--accent); }
+.tabela-excelencia { width: 100%; max-width: 960px; border-collapse: collapse; font-size: clamp(13px, 1.25vw, 18px); }
+.tabela-excelencia th, .tabela-excelencia td { border: 1px solid var(--border); padding: 7px 12px; text-align: center; }
+.tabela-excelencia thead th { background: var(--accent); color: #fff; font-weight: 800; text-transform: uppercase; }
+.tabela-excelencia td.nome-col { text-align: left; font-weight: 800; }
+.tabela-excelencia td.pts { font-weight: 800; color: var(--accent); }
+.tabela-excelencia td.pouco { color: var(--bad); font-weight: 800; }
+.tabela-excelencia tr.lider td { background: var(--creme); }
+.tabela-excelencia tr.total td { background: var(--surface-2); font-weight: 800; }
+.exc-duelos { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; width: 100%; max-width: 1240px; }
+.exc-duelo { background: #fff; border: 1px solid var(--border); border-radius: 16px; padding: 14px 12px 12px; box-shadow: 0 8px 24px -14px rgba(0,0,0,.35); }
+.exc-duelo h3 { margin: 0 0 10px; font-size: 14px; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-soft); }
+.exc-lados { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 6px; }
+.exc-lado { border-radius: 12px; padding: 10px 6px; }
+.exc-lado.venceu { background: var(--creme); box-shadow: 0 0 0 2px var(--gold) inset; }
+.exc-lado img, .exc-lado .ini { width: clamp(64px, 7vw, 96px); height: clamp(64px, 7vw, 96px); border-radius: 50%; object-fit: cover; display: inline-grid; place-items: center; }
+.exc-lado .ini { background: var(--surface-2); font-weight: 800; font-size: 24px; color: var(--ink-soft); }
+.exc-lado .nome { font-weight: 800; font-size: clamp(15px, 1.5vw, 20px); margin-top: 6px; text-transform: uppercase; }
+.exc-lado .pts { font-weight: 800; font-size: clamp(20px, 2.2vw, 30px); color: var(--accent); font-variant-numeric: tabular-nums; }
+.exc-lado .lbl { font-size: 11px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-faint); }
+.exc-lado .vence { display: inline-block; margin-top: 6px; font-size: 12px; font-weight: 800; color: var(--good); text-transform: uppercase; }
+.exc-vs { font-family: "Roboto Slab", Georgia, serif; font-weight: 800; color: var(--accent); font-size: clamp(18px, 2vw, 26px); }
+.exc-dif { margin-top: 10px; font-weight: 700; color: var(--ink-soft); font-size: clamp(12px, 1.1vw, 15px); }
+@media (max-width: 900px) { .exc-duelos { grid-template-columns: 1fr; } }
+
 /* Divisor "Vendedor Destaque" — painel dividido: texto à esquerda, e à
    direita uma composição (círculo dourado + troféu) no lugar da foto de
    banco de imagens datada do PowerPoint original. */
@@ -720,6 +766,7 @@ const DADOS = __DADOS_JSON__;
 const FOTOS_SUPERVISORES = __FOTOS_SUPERVISORES_JSON__;
 const FOTOS_RCAS = __FOTOS_RCAS_JSON__;
 const EMBLEMAS = __EMBLEMAS_JSON__;
+const EXCELENCIA_SLIDES = __EXCELENCIA_SLIDES_JSON__;
 
 function normalizarNomeFoto(nome) {
   return (nome || "").replace(/\s*-\s*$/, "").trim().toUpperCase();
@@ -1131,6 +1178,74 @@ function slideEquipeDepartamentos(supervisorChave, supervisorNome) {
     </div>`;
 }
 
+/* ---------- Campanha Excelência (dados do placar: placar_excelencia/resultado.json) ---------- */
+const EXC = DADOS.excelencia;
+const MESES_EXC = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
+function fmtInt(v) { return Math.round(v || 0).toLocaleString("pt-BR"); }
+function excPeriodoTxt() {
+  if (!EXC) return "";
+  const mes = MESES_EXC[Number(EXC.periodo.slice(3, 5)) - 1] || "";
+  return "Resultado de " + mes + (EXC.fechado ? " (mês fechado)" : " (parcial até " + EXC.periodo.slice(-10, -5) + ")");
+}
+function slideExcelenciaImagem(uri) {
+  return `<div class="slide imagem-cheia"><img src="${uri}" alt="Campanha Excelência"></div>`;
+}
+function slideExcelenciaEquipe(chave, nome) {
+  if (!EXC || !EXC.equipes || !EXC.equipes[chave]) return "";
+  const rcas = EXC.equipes[chave].slice().sort((a, b) => b.pts - a.pts);
+  const tot = EXC.totais.find(t => t.sup === chave) || { pts: 0, pos: 0, peso: 0 };
+  const lugar = EXC.totais.findIndex(t => t.sup === chave) + 1;
+  const meta = (EXC.meta_sup || {})[chave];
+  return `
+    <div class="slide evolucao">
+      ${logosEvolucao()}
+      <h1 class="recompra-titulo">Excelência · Equipe ${nome}</h1>
+      <p class="exc-sub">${excPeriodoTxt()} · <b>${fmtInt(tot.pts)} pontos</b> · ${lugar}º lugar entre as equipes${meta ? ` · vendido ${fmtInt(tot.peso)} kg de ${fmtInt(meta)} kg (${fmtPct(tot.peso / meta)})` : ""}</p>
+      <table class="tabela-excelencia">
+        <thead><tr><th>RCA · Vendedor</th><th>Positivações</th><th>Peso (kg)</th><th>Pontos</th></tr></thead>
+        <tbody>
+          ${rcas.map((r, i) => `
+          <tr class="${i === 0 ? "lider" : ""}">
+            <td class="nome-col">${i === 0 ? "🏆 " : ""}${r.cod} - ${r.nome}</td>
+            <td class="${r.pos < 5 ? "pouco" : ""}">${r.pos}</td>
+            <td>${fmtNum1(r.peso)}</td>
+            <td class="pts">${fmtInt(r.pts)}</td>
+          </tr>`).join("")}
+          <tr class="total"><td class="nome-col">TOTAL</td><td>${tot.pos}</td><td>${fmtNum1(tot.peso)}</td><td class="pts">${fmtInt(tot.pts)}</td></tr>
+        </tbody>
+      </table>
+    </div>`;
+}
+function slideExcelenciaDesafios() {
+  if (!EXC || !EXC.duelos) return "";
+  const por = {}; EXC.totais.forEach(t => { por[t.sup] = t; });
+  const nomeSup = c => (SUPERVISORES.find(s => s.chave === c) || { nome: c }).nome;
+  const lado = (t, venceu) => {
+    const foto = FOTOS_SUPERVISORES[normalizarNomeFoto(t.sup)];
+    return `<div class="exc-lado${venceu ? " venceu" : ""}">
+      ${foto ? `<img src="${foto}" alt="${nomeSup(t.sup)}">` : `<span class="ini">${iniciais(nomeSup(t.sup))}</span>`}
+      <div class="nome">${venceu ? "🏆 " : ""}${nomeSup(t.sup)}</div>
+      <div class="pts">${fmtInt(t.pts)}</div><div class="lbl">pontos</div>
+      ${venceu ? `<span class="vence">Venceu o desafio</span>` : ""}
+    </div>`;
+  };
+  const cards = EXC.duelos.map(([a, b]) => {
+    const A = por[a], B = por[b];
+    if (!A || !B) return "";
+    const v = A.pts >= B.pts ? A : B, p = v === A ? B : A;
+    return `<div class="exc-duelo"><h3>Desafio ${nomeSup(a)} x ${nomeSup(b)}</h3>
+      <div class="exc-lados">${lado(v, true)}<span class="exc-vs">VS</span>${lado(p, false)}</div>
+      <div class="exc-dif">Diferença: <b>${fmtInt(v.pts - p.pts)} pontos</b></div></div>`;
+  }).join("");
+  return `
+    <div class="slide evolucao">
+      ${logosEvolucao()}
+      <h1 class="recompra-titulo">Resultado Desafio Excelência</h1>
+      <p class="exc-sub">${excPeriodoTxt()} · supervisor x supervisor, por pontos da campanha</p>
+      <div class="exc-duelos">${cards}</div>
+    </div>`;
+}
+
 function slideRecompraLegenda() {
   return `
     <div class="slide evolucao">
@@ -1199,7 +1314,7 @@ function slideRecompraEquipe(supervisorChave, supervisorNome) {
 // (nessa ordem — o resumo fecha o bloco, é o último slide da equipe).
 const SUPERVISORES = [
   { chave: "LEANDRO", nome: "Leandro", emblema: "gladiadores" },
-  { chave: "LUCAS", nome: "Lucas", emblema: "veteranos" },  // desde 16/10/2026 a Equipe Veteranos é do LUCAS (era do RICARDO)
+  { chave: "LUCAS", nome: "Lucas", emblema: "supremos" },  // equipe do LUCAS desde 16/10/2026 (era Veteranos, do RICARDO); Equipe Supremos desde 03/11
   { chave: "RICHARD", nome: "Richard", emblema: "titans" },
   { chave: "RODRIGO", nome: "Rodrigo", emblema: "imperadores" },
   { chave: "IDEGLAN", nome: "Ideglan", emblema: "aguia" },
@@ -1641,6 +1756,9 @@ function montarSlidesCompletos(chaveEscolhida) {
     ...supervisoresParaListas.map(sup => slideRecompraEquipe(sup.chave, sup.nome)),
     slideDepartamentosCapa(),
     ...supervisoresParaListas.map(sup => slideEquipeDepartamentos(sup.chave, sup.nome)),
+    ...(chaveEscolhida ? [] : EXCELENCIA_SLIDES.map(slideExcelenciaImagem)),
+    ...supervisoresParaListas.map(sup => slideExcelenciaEquipe(sup.chave, sup.nome)),
+    chaveEscolhida ? "" : slideExcelenciaDesafios(),
     slideVendedorDestaqueCapa(),
     slideJantarExclusivo(),
     slidePremioAmbiente(),
@@ -1771,6 +1889,7 @@ def gerar_html(dados):
     html = html.replace("__FOTOS_SUPERVISORES_JSON__", _FOTOS_SUPERVISORES_JSON)
     html = html.replace("__FOTOS_RCAS_JSON__", _FOTOS_RCAS_JSON)
     html = html.replace("__EMBLEMAS_JSON__", _EMBLEMAS_JSON)
+    html = html.replace("__EXCELENCIA_SLIDES_JSON__", _EXCELENCIA_SLIDES_JSON)
     html = html.replace("__LOGO_URI__", _LOGO_URI)
     html = html.replace("__LOGO_FRIATO_URI__", _LOGO_FRIATO_URI)
     html = html.replace("__PRODUTOS_FRIATO_URI__", _PRODUTOS_FRIATO_URI)

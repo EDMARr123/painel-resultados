@@ -25,6 +25,8 @@ CAMINHO_TOTAIS_GERENTE = os.path.join(PASTA_PROJETO, "painel_pilares", "totais_g
 CAMINHO_DEPARTAMENTOS = os.path.join(PASTA_PROJETO, "painel_departamentos", "dados.json")
 CAMINHO_HISTORICO = os.path.join(PASTA_BASE, "historico_evolucao.json")
 CAMINHO_HAMBURGUER = r"C:\Users\edmar\Desktop\1464-HAMBURGUER.xls"
+# Campanha Excelência: o placar (placar_excelencia/gerar.py) grava os pontos de cada RCA e equipe e os desafios
+CAMINHO_EXCELENCIA = os.path.join(PASTA_PROJETO, "placar_excelencia", "resultado.json")
 
 # Regra da "Campanha Agosto" (premiação por caixas de Hambúrguer Friato
 # vendidas): faixas fechadas, quem bate o mínimo da faixa e não chega no
@@ -427,6 +429,13 @@ def _recalcular_totais(historico):
     return total_fat_novo != total_fat_antigo or total_op_novo != total_op_antigo
 
 
+def _excelencia():
+    if not os.path.exists(CAMINHO_EXCELENCIA):
+        return None
+    with open(CAMINHO_EXCELENCIA, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
 def main():
     config = _ler_config()
     historico = _ler_historico()
@@ -448,6 +457,7 @@ def main():
         "evolucao_total_faturamento": historico.get("total_faturamento", {}),
         "evolucao_operacional": historico.get("operacional", []),
         "evolucao_total_operacional": historico.get("total_operacional", {}),
+        "excelencia": _excelencia(),
     }
     with open(CAMINHO_SAIDA, "w", encoding="utf-8") as f:
         json.dump(saida, f, ensure_ascii=False, indent=2)
