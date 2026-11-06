@@ -796,6 +796,11 @@ h1, h2, .eyebrow, .destaque-nome, .capa-linha {
 .pd-item .t b { color: var(--accent); }
 .pd-item .t small { display: block; font-weight: 500; color: var(--ink-soft); font-size: 0.82em; margin-top: 3px; }
 .pd-whats { background: #DCF8C6; border-radius: 16px 16px 4px 16px; padding: 14px 20px; font-size: clamp(13px, 1.25vw, 16px); line-height: 1.4; color: #1A1A1A; white-space: pre-line; box-shadow: 0 6px 16px rgba(26,26,26,0.14); margin-bottom: 16px; max-width: 560px; }
+.pd-acomp { grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr); }
+.pd-tela { height: min(calc(100vh - 210px), 680px); border: 8px solid #1A1A1A; border-radius: 16px; overflow: hidden; background: #F4F1EC; box-shadow: 0 18px 40px rgba(26,26,26,0.28); position: relative; }
+.pd-tela::before { content: "Carregando o painel ao vivo… (precisa de internet)"; position: absolute; inset: 0; display: grid; place-items: center; color: var(--ink-faint); font-weight: 700; font-size: 15px; }
+.pd-tela iframe { position: relative; width: 100%; height: 100%; border: 0; display: block; background: transparent; }
+.pd-abrir { display: inline-block; margin-top: 16px; color: var(--accent); font-weight: 800; font-size: clamp(14px, 1.4vw, 18px); text-decoration: none; border-bottom: 2px solid currentColor; }
 .pd-whats-rotulo { font-size: 13px; font-weight: 800; color: var(--ink-faint); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 6px; }
 @media (max-width: 800px) {
   .slide.pd { overflow-y: auto; justify-content: flex-start; padding-top: 110px; }
@@ -1271,7 +1276,7 @@ Estoque: 3 un (0,75 kg)
 Proposta: 2 cx / 6 kg / 24 un
 Preço: R$ 24,50/kg (R$ 6,13/un)`;
 
-function slidesPropostaDigital() {
+function slidesPropostaDigital(chaveEscolhida) {
   if (!Object.keys(PROPOSTA_DIGITAL_IMGS).length) return [];
   return [
     pdSlide("1_inicio", "Novidade", "Proposta Digital",
@@ -1302,7 +1307,34 @@ function slidesPropostaDigital() {
       `Use sempre o <b>seu link</b><small>Cada abertura e cada envio contam no painel de uso da equipe.</small>`,
       `Dúvida ou produto faltando? <b>Fale com o seu supervisor.</b>`,
     ])),
+    slidePropostaAcompanhamento(chaveEscolhida),
   ];
+}
+
+// Painel de uso AO VIVO (proposta-digital/uso.html) dentro do slide. O iframe só
+// carrega quando o slide aparece (data-src → src em ir()). No modo equipe, ?sup=
+// mostra só a equipe do supervisor que está apresentando.
+const PD_URL_USO = "https://edmarr123.github.io/proposta-digital/uso.html";
+
+function slidePropostaAcompanhamento(chaveEscolhida) {
+  const url = PD_URL_USO + (chaveEscolhida ? "?sup=" + encodeURIComponent(chaveEscolhida) : "");
+  return `
+    <div class="slide pd">
+      ${logosEvolucao()}
+      <div class="pd-grade pd-acomp">
+        <div class="pd-tela"><iframe data-src="${url}" title="Painel de uso da Proposta Digital"></iframe></div>
+        <div>
+          <span class="pd-passo">Acompanhamento</span>
+          <h1>Painel do supervisor</h1>
+          ${pdItens([
+            `Por vendedor: quantas vezes <b>abriu</b> e quantas propostas <b>enviou</b><small>Hoje · 7 dias · Mês</small>`,
+            `<b>Zero em vermelho</b> = ainda não usou<small>O supervisor acompanha a equipe pelo painel.</small>`,
+            `Os números são <b>ao vivo</b><small>Toque no título do painel para atualizar.</small>`,
+          ])}
+          <a class="pd-abrir" href="${url}" target="_blank" rel="noopener">Abrir o painel em outra aba ↗</a>
+        </div>
+      </div>
+    </div>`;
 }
 
 /* ---------- Campanha Excelência (dados do placar: placar_excelencia/resultado.json) ---------- */
@@ -1931,7 +1963,7 @@ function montarSlidesCompletos(chaveEscolhida) {
     ...(chaveEscolhida ? [] : EXCELENCIA_SLIDES.map(slideExcelenciaImagem)),
     ...supervisoresParaListas.map(sup => slideExcelenciaEquipe(sup.chave, sup.nome)),
     chaveEscolhida ? "" : slideExcelenciaDesafios(),
-    ...slidesPropostaDigital(),
+    ...slidesPropostaDigital(chaveEscolhida),
     slideVendedorDestaqueCapa(),
     slideJantarExclusivo(),
     slidePremioAmbiente(),
@@ -1970,6 +2002,8 @@ function ir(i) {
   slidesAtuais[atual].classList.add("active");
   dotsEl.children[atual].classList.add("active");
   counterEl.textContent = `${atual + 1} / ${slidesAtuais.length}`;
+  // iframes (painel de uso ao vivo) só carregam quando o slide aparece
+  slidesAtuais[atual].querySelectorAll("iframe[data-src]").forEach(f => { if (!f.getAttribute("src")) f.src = f.dataset.src; });
 }
 
 function renderizarSlides(partesHtml) {
