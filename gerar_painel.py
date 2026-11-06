@@ -84,6 +84,23 @@ def _excelencia_slides_json():
 
 
 _EXCELENCIA_SLIDES_JSON = _excelencia_slides_json()
+
+# Prints da Proposta Digital (tirados do app em 06/11/2026, celular 390px),
+# usados no bloco de treinamento que os supervisores apresentam.
+PASTA_PROPOSTA_DIGITAL = os.path.join(PASTA_BASE, "imagens", "proposta_digital")
+
+
+def _proposta_digital_json():
+    uris = {}
+    if os.path.isdir(PASTA_PROPOSTA_DIGITAL):
+        for f in sorted(os.listdir(PASTA_PROPOSTA_DIGITAL)):
+            if f.lower().endswith(".jpg"):
+                with open(os.path.join(PASTA_PROPOSTA_DIGITAL, f), "rb") as arq:
+                    uris[os.path.splitext(f)[0]] = "data:image/jpeg;base64," + base64.b64encode(arq.read()).decode("ascii")
+    return json.dumps(uris)
+
+
+_PROPOSTA_DIGITAL_JSON = _proposta_digital_json()
 _FOTOS_SUPERVISORES_JSON = _fotos_json(PASTA_FOTOS_SUPERVISORES, com_subpastas=False)
 _FOTOS_RCAS_JSON = _fotos_json(PASTA_FOTOS_RCAS, com_subpastas=True)
 _LOGO_URI = _logo_data_uri()
@@ -760,6 +777,31 @@ h1, h2, .eyebrow, .destaque-nome, .capa-linha {
 @media (max-width: 700px) {
   .nav-arrow { display: none; }
 }
+
+/* Proposta Digital — treinamento que o supervisor apresenta à equipe:
+   print do celular à esquerda (moldura de aparelho) e o passo a passo à direita. */
+.slide.pd { justify-content: center; padding: 150px 5vw 44px; }
+.pd-grade { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: clamp(28px, 4.5vw, 72px); align-items: center; width: 100%; max-width: 1240px; text-align: left; }
+.pd-duas { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 20px; align-items: start; }
+.pd-duas .pd-whats { margin-bottom: 0; }
+.pd-fone { height: min(calc(100vh - 210px), 640px); aspect-ratio: 585 / 1266; border-radius: 34px; border: 10px solid #1A1A1A; overflow: hidden; background: #FFFFFF; box-shadow: 0 18px 40px rgba(26,26,26,0.28); }
+.pd-fone img { width: 100%; height: 100%; object-fit: cover; object-position: top; display: block; }
+.pd-passo { display: inline-block; background: var(--accent); color: #FFFFFF; font-weight: 900; border-radius: 999px; padding: 6px 18px; font-size: clamp(13px, 1.3vw, 17px); letter-spacing: 0.08em; text-transform: uppercase; }
+.slide.pd h1 { color: var(--accent); font-size: clamp(28px, 3.5vw, 48px); line-height: 1.1; margin: 12px 0 22px; text-align: left; }
+.pd-sub { font-size: clamp(16px, 1.8vw, 23px); font-weight: 700; color: var(--ink-soft); margin: -10px 0 22px; }
+.pd-lista { display: flex; flex-direction: column; gap: 12px; }
+.pd-item { display: flex; gap: 16px; align-items: flex-start; background: var(--surface-2); border-radius: 14px; padding: 14px 20px; }
+.pd-item .n { flex: none; width: 38px; height: 38px; border-radius: 50%; background: var(--good); color: #FFFFFF; font-weight: 900; font-size: 19px; display: grid; place-items: center; }
+.pd-item .t { font-size: clamp(15px, 1.6vw, 21px); font-weight: 800; color: var(--ink); line-height: 1.3; }
+.pd-item .t b { color: var(--accent); }
+.pd-item .t small { display: block; font-weight: 500; color: var(--ink-soft); font-size: 0.82em; margin-top: 3px; }
+.pd-whats { background: #DCF8C6; border-radius: 16px 16px 4px 16px; padding: 14px 20px; font-size: clamp(13px, 1.25vw, 16px); line-height: 1.4; color: #1A1A1A; white-space: pre-line; box-shadow: 0 6px 16px rgba(26,26,26,0.14); margin-bottom: 16px; max-width: 560px; }
+.pd-whats-rotulo { font-size: 13px; font-weight: 800; color: var(--ink-faint); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 6px; }
+@media (max-width: 800px) {
+  .slide.pd { overflow-y: auto; justify-content: flex-start; padding-top: 110px; }
+  .pd-grade, .pd-duas { grid-template-columns: 1fr; }
+  .pd-fone { height: 52vh; margin: 0 auto; }
+}
 </style>
 </head>
 <body>
@@ -777,6 +819,7 @@ const FOTOS_SUPERVISORES = __FOTOS_SUPERVISORES_JSON__;
 const FOTOS_RCAS = __FOTOS_RCAS_JSON__;
 const EMBLEMAS = __EMBLEMAS_JSON__;
 const EXCELENCIA_SLIDES = __EXCELENCIA_SLIDES_JSON__;
+const PROPOSTA_DIGITAL_IMGS = __PROPOSTA_DIGITAL_JSON__;
 
 function normalizarNomeFoto(nome) {
   return (nome || "").replace(/\s*-\s*$/, "").trim().toUpperCase();
@@ -818,14 +861,15 @@ function slideCronograma() {
     ["APRESENTAÇÃO RESULTADOS MENSAL", "SUPERVISORES", "PROJEÇÃO", "15 MINUTOS - 08:23 HS"],
     ["PREMIAÇÃO THERMO", "SUPERVISORES", "PROJEÇÃO", "03 MINUTOS - 08:26 HS"],
     ["PREMIAÇÃO INDUSTRIALIZADO", "SUPERVISORES", "PROJEÇÃO", "03 MINUTOS - 08:29 HS"],
-    ["POSITIVAÇÃO DIA 15 E DIA 30", "SUPERVISORES", "PROJEÇÃO", "04 MINUTOS - 08:33 HS"],
-    ["RESULTADO RECOMPRA", "SUPERVISORES", "PROJEÇÃO", "04 MINUTOS - 08:37 HS"],
-    ["VENDA DE DEPARTAMENTOS", "SUPERVISORES", "PROJEÇÃO", "05 MINUTOS - 08:42 HS"],
-    ["LOGISTICA", "SUPERVISORES", "PROJEÇÃO", "04 MINUTOS - 08:46 HS"],
-    ["PREMIAÇÃO EXCELÊNCIA (CAMPANHA E RESULTADOS)", "SUPERVISORES", "PROJEÇÃO", "05 MINUTOS - 08:51 HS"],
-    ["VENDEDOR DESTAQUE", "SUPERVISORES", "PROJEÇÃO", "03 MINUTOS - 08:54 HS"],
-    ["SUPERVISOR DESTAQUE", "SUPERVISORES", "PROJEÇÃO", "03 MINUTOS - 08:57 HS"],
-    ["ENCERRAMENTO", "SUPERVISORES", "PROJEÇÃO", "03 MINUTOS - 09:00 HS"],
+    ["POSITIVAÇÃO DIA 15 E DIA 30", "SUPERVISORES", "PROJEÇÃO", "03 MINUTOS - 08:32 HS"],
+    ["RESULTADO RECOMPRA", "SUPERVISORES", "PROJEÇÃO", "03 MINUTOS - 08:35 HS"],
+    ["VENDA DE DEPARTAMENTOS", "SUPERVISORES", "PROJEÇÃO", "04 MINUTOS - 08:39 HS"],
+    ["LOGISTICA", "SUPERVISORES", "PROJEÇÃO", "03 MINUTOS - 08:42 HS"],
+    ["PREMIAÇÃO EXCELÊNCIA (CAMPANHA E RESULTADOS)", "SUPERVISORES", "PROJEÇÃO", "05 MINUTOS - 08:47 HS"],
+    ["PROPOSTA DIGITAL", "SUPERVISORES", "PROJEÇÃO", "05 MINUTOS - 08:52 HS"],
+    ["VENDEDOR DESTAQUE", "SUPERVISORES", "PROJEÇÃO", "03 MINUTOS - 08:55 HS"],
+    ["SUPERVISOR DESTAQUE", "SUPERVISORES", "PROJEÇÃO", "03 MINUTOS - 08:58 HS"],
+    ["ENCERRAMENTO", "SUPERVISORES", "PROJEÇÃO", "02 MINUTOS - 09:00 HS"],
   ].map(([oque, quem, como, tempo]) => `
     <tr><td>${oque}</td><td>${quem}</td><td>${como}</td><td>${tempo}</td><td></td></tr>`).join("");
   return `
@@ -838,7 +882,7 @@ function slideCronograma() {
           <img src="__LOGO_FRIATO_URI__" alt="Friato Alimentos">
         </div>
         <div class="cronograma-linha2">
-          <div class="data">DATA: 03/10/2026</div>
+          <div class="data">DATA: 07/11/2026</div>
           <div class="horario">HORÁRIO: (08:00 AS 09:00 HS)</div>
         </div>
         <div class="cronograma-linha3">
@@ -1186,6 +1230,79 @@ function slideEquipeDepartamentos(supervisorChave, supervisorNome) {
         </tbody>
       </table>
     </div>`;
+}
+
+/* ---------- Proposta Digital (treinamento apresentado pelos supervisores) ---------- */
+function pdFone(nome) {
+  const uri = PROPOSTA_DIGITAL_IMGS[nome];
+  return uri ? `<div class="pd-fone"><img src="${uri}" alt="Tela da Proposta Digital"></div>` : "";
+}
+
+function pdItens(itens) {
+  return `<div class="pd-lista">${itens.map((t, i) => `
+    <div class="pd-item"><div class="n">${i + 1}</div><div class="t">${t}</div></div>`).join("")}</div>`;
+}
+
+function pdSlide(fone, passo, titulo, corpo) {
+  return `
+    <div class="slide pd">
+      ${logosEvolucao()}
+      <div class="pd-grade">
+        ${pdFone(fone)}
+        <div>
+          ${passo ? `<span class="pd-passo">${passo}</span>` : ""}
+          <h1>${titulo}</h1>
+          ${corpo}
+        </div>
+      </div>
+    </div>`;
+}
+
+// Exemplo real do texto que o botão "Enviar texto no WhatsApp" monta (06/11/2026).
+const PD_TEXTO_WHATS = `<b>PROPOSTA FRIATO - 06/11/2026</b>
+
+<b>7664 - MORTADELA DEF. FATIADA FRIATO</b>
+Estoque: 8 un (1,6 kg)
+Proposta: 3 cx / 9,6 kg / 48 un
+Preço: R$ 21,90/kg (R$ 4,38/un)
+
+<b>21620 - BACON FATIADO PAMPLONA</b>
+Estoque: 3 un (0,75 kg)
+Proposta: 2 cx / 6 kg / 24 un
+Preço: R$ 24,50/kg (R$ 6,13/un)`;
+
+function slidesPropostaDigital() {
+  if (!Object.keys(PROPOSTA_DIGITAL_IMGS).length) return [];
+  return [
+    pdSlide("1_inicio", "Novidade", "Proposta Digital",
+      `<div class="pd-sub">Vender pelo estoque do cliente, direto no celular</div>` + pdItens([
+        `<b>Conte</b> o estoque do cliente na loja`,
+        `<b>Monte</b> a proposta em kg, com o preço`,
+        `<b>Envie</b> a proposta pronta no WhatsApp do cliente`,
+        `246 produtos com foto, separados como na loja<small>Produtos de Ilha · Geladeira · Defumados e Mortadela · Balcão</small>`,
+      ])),
+    pdSlide("2_aviso", "Passo 1", "Abra o seu link e toque no local da loja", pdItens([
+      `Cada vendedor tem o <b>seu link</b><small>O supervisor manda no WhatsApp. Salve na tela inicial do celular.</small>`,
+      `Toque no local que você está conferindo<small>Ilha, Geladeira, Defumados e Mortadela ou Balcão. Os produtos aparecem por grupo.</small>`,
+      `Na Geladeira e nos Defumados aparece o aviso<small>Verificar a <b>data de validade</b> e a <b>precificação</b> antes de seguir.</small>`,
+    ])),
+    pdSlide("3_cartao", "Passo 2", "Conte o estoque e faça a proposta", pdItens([
+      `<b>Estoque do cliente</b> (quadro verde)<small>Conte na gôndola, em unidades. No Balcão, em quilos.</small>`,
+      `<b>Proposta (KG)</b><small>O + e o − andam de caixa em caixa. O app mostra quantas caixas dá.</small>`,
+      `<b>Preço/kg</b><small>Digite o preço. Nos pacotes, o preço por unidade aparece sozinho.</small>`,
+    ])),
+    pdSlide("4_resumo", "Passo 3", "Confira o resumo e envie no WhatsApp",
+      `<div class="pd-duas"><div><div class="pd-whats-rotulo">O cliente recebe assim:</div><div class="pd-whats">${PD_TEXTO_WHATS}</div></div>` + pdItens([
+        `<b>Resumo da proposta</b> mostra tudo na ordem da loja<small>Dá para corrigir o preço ali mesmo.</small>`,
+        `<b>Enviar texto no WhatsApp</b> abre a conversa com a proposta pronta<small>É só escolher o cliente e mandar.</small>`,
+        `<b>Nova visita</b> limpa tudo<small>Estoque, proposta e preços, para o próximo cliente.</small>`,
+      ]) + `</div>`),
+    pdSlide("1_inicio", "Combinado", "Como vamos usar", pdItens([
+      `Em cada visita: <b>contar → propor → enviar</b>`,
+      `Use sempre o <b>seu link</b><small>Cada abertura e cada envio contam no painel de uso da equipe.</small>`,
+      `Dúvida ou produto faltando? <b>Fale com o seu supervisor.</b>`,
+    ])),
+  ];
 }
 
 /* ---------- Campanha Excelência (dados do placar: placar_excelencia/resultado.json) ---------- */
@@ -1814,6 +1931,7 @@ function montarSlidesCompletos(chaveEscolhida) {
     ...(chaveEscolhida ? [] : EXCELENCIA_SLIDES.map(slideExcelenciaImagem)),
     ...supervisoresParaListas.map(sup => slideExcelenciaEquipe(sup.chave, sup.nome)),
     chaveEscolhida ? "" : slideExcelenciaDesafios(),
+    ...slidesPropostaDigital(),
     slideVendedorDestaqueCapa(),
     slideJantarExclusivo(),
     slidePremioAmbiente(),
@@ -1945,6 +2063,7 @@ def gerar_html(dados):
     html = html.replace("__FOTOS_RCAS_JSON__", _FOTOS_RCAS_JSON)
     html = html.replace("__EMBLEMAS_JSON__", _EMBLEMAS_JSON)
     html = html.replace("__EXCELENCIA_SLIDES_JSON__", _EXCELENCIA_SLIDES_JSON)
+    html = html.replace("__PROPOSTA_DIGITAL_JSON__", _PROPOSTA_DIGITAL_JSON)
     html = html.replace("__LOGO_URI__", _LOGO_URI)
     html = html.replace("__LOGO_FRIATO_URI__", _LOGO_FRIATO_URI)
     html = html.replace("__PRODUTOS_FRIATO_URI__", _PRODUTOS_FRIATO_URI)
