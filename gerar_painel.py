@@ -1374,8 +1374,13 @@ function slideComissaoThermo() {
 /* Regra da SOMA (aba SOMAR 4 PILARES, coluna BI): participação acima de
    24,99% E margem acima de 17,99% no Industrializado Friato → prêmio de 1%
    sobre o valor vendido de industrializado. Calculado aqui pela regra. */
+// Codusu tirados da Comissão Extra de 1% Industrializado por decisão do Edmar,
+// mesmo batendo a regra (05/11/2026: 45 TIAGO, margem 18,00% em outubro).
+const FORA_COMISSAO_INDUSTRIALIZADO = ["45"];
+
 function slideComissaoIndustrializado() {
   const ganhadores = (DADOS.rcas_pilares || [])
+    .filter(r => !FORA_COMISSAO_INDUSTRIALIZADO.includes(String(r.codigo)))
     .filter(r => r.industrializado && r.industrializado.participacao_pct > 0.2499 && r.industrializado.margem_pct > 0.1799)
     .map(r => ({ r, premio: Math.round(r.industrializado.real) / 100 }))
     .sort((a, b) => b.premio - a.premio);
