@@ -351,34 +351,35 @@ h1, h2, .eyebrow, .destaque-nome, .capa-linha {
 /* Slide individual de cada RCA (réplica das telas "RCA: X - NOME" do
    PowerPoint) — mesmo padrão visual de barras do Painel do Gerente
    (painel_pilares), com foto do vendedor, logo Friato e brasão da equipe. */
-.slide.rca-slide { justify-content: flex-start; padding-top: 14px; }
-.rca-topo { position: relative; width: 100%; display: flex; align-items: center; justify-content: center; margin-bottom: 2px; }
-.rca-topo img { position: absolute; height: 120px; width: auto; }
+.slide.rca-slide { justify-content: flex-start; padding-top: 12px; }
+/* 07/11: logos menores e resultados maiores (pedido do Edmar durante a reunião) */
+.rca-topo { position: relative; width: 100%; display: flex; align-items: center; justify-content: center; margin-bottom: 2px; min-height: clamp(60px, 11vh, 96px); }
+.rca-topo img { position: absolute; height: clamp(50px, 9vh, 76px); width: auto; }
 .rca-topo .rca-logo-friato { left: 0; }
-.rca-topo .rca-emblema { right: 0; height: 200px; }
-.rca-titulo { color: var(--accent); font-size: clamp(16px, 2vw, 24px); font-weight: 800; text-transform: uppercase; margin: 0; }
-.rca-perfil { display: flex; flex-direction: column; align-items: center; margin: 8px 0 12px; }
+.rca-topo .rca-emblema { right: 0; height: clamp(60px, 11vh, 96px); }
+.slide h1.rca-titulo, .rca-titulo { color: var(--accent); font-size: clamp(22px, 2.6vw, 36px); font-weight: 800; text-transform: uppercase; margin: 0; line-height: 1.1; padding: 0 clamp(80px, 13vw, 190px); }
+.rca-perfil { display: flex; flex-direction: column; align-items: center; margin: 2px 0 1.4vh; }
 .rca-perfil .avatar {
-  width: 108px; height: 108px; border-radius: 50%; object-fit: cover;
+  width: clamp(68px, 13vh, 124px); height: clamp(68px, 13vh, 124px); border-radius: 50%; object-fit: cover;
   border: 4px solid var(--gold); box-shadow: 0 4px 12px rgba(26,26,26,0.2);
 }
 .rca-perfil .avatar-fallback {
-  width: 108px; height: 108px; border-radius: 50%; border: 4px solid var(--gold);
+  width: clamp(68px, 13vh, 124px); height: clamp(68px, 13vh, 124px); border-radius: 50%; border: 4px solid var(--gold);
   display: flex; align-items: center; justify-content: center;
   font-size: 36px; font-weight: 800; background: var(--surface-2); color: var(--ink-soft);
 }
-.rca-perfil .rca-nome { font-weight: 800; font-size: clamp(15px, 1.8vw, 20px); margin-top: 6px; }
-.rca-perfil .rca-sub { color: var(--ink-soft); font-size: 12px; }
-.rca-pilares { width: 100%; max-width: 600px; display: flex; flex-direction: column; gap: 8px; }
+.rca-perfil .rca-nome { font-weight: 800; font-size: clamp(19px, min(2.4vw, 4vh), 30px); margin-top: 4px; line-height: 1.15; }
+.rca-perfil .rca-sub { color: var(--ink-soft); font-size: clamp(13px, 1.2vw, 16px); }
+.rca-pilares { width: 100%; max-width: min(1000px, 94%); display: flex; flex-direction: column; gap: clamp(4px, 1.3vh, 16px); }
 .rca-stat {
-  width: 100%; max-width: 600px; display: flex; justify-content: space-between;
-  font-weight: 800; font-size: 14px; margin-top: 10px; padding-top: 8px; border-top: 1px dashed var(--border);
+  width: 100%; max-width: min(1000px, 94%); display: flex; justify-content: space-between;
+  font-weight: 800; font-size: clamp(15px, 1.6vw, 20px); margin-top: 10px; padding-top: 8px; border-top: 1px dashed var(--border);
 }
-.pilar-linha .topo { display: flex; justify-content: space-between; align-items: baseline; font-weight: 800; font-size: 13px; }
-.pilar-linha .track { height: 8px; border-radius: 999px; background: var(--surface-2); overflow: hidden; margin: 4px 0 2px; }
+.pilar-linha .topo { display: flex; justify-content: space-between; align-items: baseline; font-weight: 800; font-size: clamp(15px, min(1.8vw, 3vh), 23px); }
+.pilar-linha .track { height: clamp(8px, 1.5vh, 15px); border-radius: 999px; background: var(--surface-2); overflow: hidden; margin: 4px 0 3px; }
 .pilar-linha .fill { height: 100%; border-radius: 999px; }
-.pilar-linha .sub { font-size: 14px; font-weight: 700; color: var(--ink-soft); }
-.rca-rodape { color: var(--accent); font-weight: 800; text-transform: uppercase; margin-top: 12px; font-size: clamp(13px, 1.5vw, 17px); }
+.pilar-linha .sub { font-size: clamp(14px, min(1.6vw, 2.7vh), 21px); font-weight: 700; color: var(--ink-soft); }
+.rca-rodape { color: var(--accent); font-weight: 800; text-transform: uppercase; margin-top: 1.2vh; font-size: clamp(15px, min(1.8vw, 3vh), 22px); }
 
 /* Legenda "RECOMPRA" — regra fixa de leitura das tabelas de recompra por
    equipe (>=30% grave, 20-29% precisa baixar, <20% no caminho do ideal). */
